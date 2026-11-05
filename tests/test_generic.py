@@ -14,11 +14,51 @@ CNCAP = """<html><body><ul>
 <li><a href="/upload/2027/guanli.pdf">C-NCAP管理规则（2027年版）</a></li>
 </ul></body></html>"""
 
-TC = """<html><body>
+TC = """<html><body><main>
 <p>Motor Vehicle Safety Regulations (C.R.C., c. 1038)</p>
 <p>Current to 2026-10-21</p>
 <p>Last amended on 2026-06-17</p>
-</body></html>"""
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+<p>Regulation text line.</p>
+</main></body></html>"""
 
 
 def fake_get(body: bytes):

@@ -119,7 +119,8 @@ class GenericAdapter:
         if not date:
             raise AdapterError(f"{self.id}: 页面上找不到任何日期，无法判定版本")
         html = content_html(raw, self.cfg.get("content_selector"))
-        if len(html) < 500:
+        # 只有配了正文选择器才检查取到的量；没配就是整页，不做尺寸判断
+        if self.cfg.get("content_selector") and len(html) < 500:
             raise AdapterError(f"{self.id}: 正文选择器 {self.cfg.get('content_selector')!r} 取不到内容")
         return [Document(
             standard_id=family["id"],
