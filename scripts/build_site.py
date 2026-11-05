@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 """生成静态站。P0 阶段只产出首页与标准范围页。"""
 import json
-from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -49,7 +48,7 @@ def page(title: str, body: str) -> str:
 </div></header>
 <main class="wrap">{body}</main>
 <footer><div class="wrap">
-  生成于 {datetime.now().strftime('%Y-%m-%d %H:%M')} ·
+  M1 座椅标准变更监控 · 数据由 <code>data/</code> 生成 ·
   <a href="https://github.com/">仓库</a>
 </div></footer>
 </body></html>"""

@@ -109,18 +109,137 @@ def gate() -> tuple[bool, str]:
     return True, f"命中调度：{today} {cfg['time']}，窗口 {window} 分钟"
 
 
-def pipeline() -> int:
-    """P0：只重建站点。P1 起在这里接入 probe → fetch → normalize → diff → analyze。"""
-    steps = [
-        [sys.executable, str(ROOT / "scripts" / "build_registry.py")],
-        [sys.executable, str(ROOT / "scripts" / "build_site.py")],
-    ]
-    for cmd in steps:
-        print("+", " ".join(Path(c).name for c in cmd), flush=True)
-        rc = subprocess.call(cmd, cwd=ROOT)
-        if rc != 0:
-            print(f"  失败，退出码 {rc}", flush=True)
-            return rc
+def load_families() -> list[dict]:
+    reg = json.loads((DATA / "standards.json").read_text(encoding="utf-8-sig"))
+    return reg["families"]
+
+
+def run_probe(only: list[str] | None = None) -> dict:
+    """探测 + 抓取 + 归一化 + 落盘。返回健康表。
+
+    任何一步失败都记进健康表并继续下一个族——一个站点挂了不能拖垮其余 71 个。
+    """
+    from scripts import normalize, state
+    from scripts.adapters.base import AdapterError, get_adapter
+
+    families = load_families()
+    if only:
+        families = [f for f in families if f["id"] in only]
+        missing = set(only) - {f["id"] for f in families}
+        if missing:
+            raise SystemExit(f"找不到族：{', '.join(sorted(missing))}")
+
+    health: dict[str, dict] = {}
+    fetched = 0
+    down: dict[str, str] = {}   # 站点 id → 首次失败原因；同一站点挂了就不再逐个硬试
+
+    for fam in families:
+        sid = fam["id"]
+        site = fam["site"]
+
+        if site in down:
+            health[sid] = {"ok": False, "status": "site_down",
+                           "error": f"同站点已失败，本次跳过：{down[site]}"}
+            continue
+
+        try:
+            adapter = get_adapter(site)
+        except AdapterError as e:
+            health[sid] = {"ok": False, "status": "no_adapter", "error": str(e)}
+            down[site] = str(e)
+            continue
+
+        try:
+            docs = adapter.probe(fam)
+        except Exception as e:  # noqa: BLE001
+            err = f"{type(e).__name__}: {e}"
+            health[sid] = {"ok": False, "status": "probe_failed", "error": err}
+            down[site] = err
+            print(f"  [探测失败] {sid}: {e}（本站其余族本轮跳过）", flush=True)
+            continue
+
+        if not docs:
+            health[sid] = {"ok": False, "status": "not_found", "error": "站点上没有找到该族的文档"}
+            print(f"  [未命中] {sid}", flush=True)
+            continue
+
+        latest = docs[-1]
+        if state.load_text(sid, latest.edition):
+            health[sid] = {"ok": True, "status": "unchanged", "edition": latest.edition,
+                           "versions": len(docs)}
+            continue
+
+        try:
+            raw = adapter.fetch(latest)
+            text, form = normalize.to_text(raw, kind=latest.meta.get("format", ""))
+        except normalize.UnusableDocument as e:
+            health[sid] = {"ok": False, "status": "needs_manual", "edition": latest.edition,
+                           "error": str(e)}
+            print(f"  [需人工] {sid} {latest.edition}: {e}", flush=True)
+            continue
+        except Exception as e:  # noqa: BLE001
+            health[sid] = {"ok": False, "status": "fetch_failed", "edition": latest.edition,
+                           "error": f"{type(e).__name__}: {e}"}
+            print(f"  [抓取失败] {sid}: {e}", flush=True)
+            continue
+
+        state.save_text(sid, latest.edition, text)
+        fetched += 1
+        health[sid] = {"ok": True, "status": "new", "edition": latest.edition,
+                       "form": form, "chars": len(text), "versions": len(docs)}
+        print(f"  [新增] {sid} {latest.edition}（{form}, {len(text)} 字符）", flush=True)
+
+    summary = {
+        "checked_at": datetime.now(ZoneInfo("Asia/Shanghai")).isoformat(timespec="seconds"),
+        "checked": len(families),
+        "fetched": fetched,
+        "families": health,
+    }
+    state.save_health(summary)
+    print(
+        f"\n探测 {len(families)} 族，新增正文 {fetched} 份，"
+        f"失败 {sum(1 for v in health.values() if not v['ok'])} 族",
+        flush=True,
+    )
+    return summary
+
+
+def pipeline(only: list[str] | None = None) -> int:
+    """P1：probe → fetch → normalize → 落盘。P2 再接 diff → analyze → publish。"""
+    for cmd in ([sys.executable, str(ROOT / "scripts" / "build_registry.py")],):
+        print("+", Path(cmd[1]).name, flush=True)
+        if subprocess.call(cmd, cwd=ROOT) != 0:
+            return 1
+
+    run_probe(only)
+
+    print("+ build_site.py", flush=True)
+    return subprocess.call([sys.executable, str(ROOT / "scripts" / "build_site.py")], cwd=ROOT)
+
+
+def cmd_diff(standard_id: str, old: str, new: str) -> int:
+    from scripts import diff as diffmod
+    from scripts import state
+
+    a = state.load_text(standard_id, old)
+    b = state.load_text(standard_id, new)
+    if a is None:
+        print(f"没有正文：{standard_id} / {old}（已有 {state.list_editions(standard_id)}）")
+        return 1
+    if b is None:
+        print(f"没有正文：{standard_id} / {new}（已有 {state.list_editions(standard_id)}）")
+        return 1
+
+    changes = diffmod.diff(a, b)
+    s = diffmod.summarize(changes)
+    print(f"\n{standard_id}: {old} → {new}")
+    print(f"条款变动 {s['total']} 处：新增 {s['counts']['added']} / 删除 {s['counts']['removed']} / 修改 {s['counts']['modified']}\n")
+    for c in changes[:40]:
+        mark = {"added": "+", "removed": "-", "modified": "~"}[c["kind"]]
+        body = (c["new"] or c["old"] or "")[:160]
+        print(f"  {mark} [{c['clause']}] {body}")
+    if len(changes) > 40:
+        print(f"  … 另有 {len(changes) - 40} 处未显示")
     return 0
 
 
@@ -130,7 +249,12 @@ def main() -> int:
     g.add_argument("--scheduled", action="store_true", help="按调度配置判断是否执行")
     g.add_argument("--now", action="store_true", help="立即执行")
     g.add_argument("--force", action="store_true", help="等同 --now（workflow_dispatch 用）")
+    g.add_argument("--diff", nargs=3, metavar=("族", "旧版本", "新版本"), help="比对两个已存版本")
+    ap.add_argument("--only", action="append", help="只跑指定族，可重复")
     args = ap.parse_args()
+
+    if args.diff:
+        return cmd_diff(*args.diff)
 
     if args.scheduled:
         run, reason = gate()
@@ -142,7 +266,7 @@ def main() -> int:
         print("[调度] 手动触发，跳过调度判断", flush=True)
         set_output(True, "manual")
 
-    rc = pipeline()
+    rc = pipeline(args.only)
     if rc == 0:
         cfg = json.loads((DATA / "schedule.json").read_text(encoding="utf-8-sig"))
         today = datetime.now(ZoneInfo(cfg.get("timezone", "Asia/Shanghai"))).date().isoformat()

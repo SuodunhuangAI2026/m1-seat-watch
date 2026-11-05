@@ -9,7 +9,21 @@
 ## 当前状态
 
 **P0 完成**：仓库骨架、调度判定、注册表编译、静态站最小版。
-尚未实现的：抓取、归一化、差异比对、模型归因、报告页（P1–P2）。
+**P1 完成**：三个站点适配器（UNECE / eCFR / openstd）、PDF 抽文本、归一化、条款级 diff、落盘。
+
+**尚未联网验证**：开发机在公司代理后面，shell 出不了网（TLS 被中间人拦截、UNECE 返回 Cloudflare 403）。
+适配器是用真实页面/接口结构 + 离线 fixture 写的，联网验证要在 GitHub Actions 里做。
+
+尚未实现：模型归因、报告页、自动提交（P2）。
+
+## 常用命令
+
+```bash
+python run.py --now                      # 全量跑一次
+python run.py --only UN-R17 --now        # 只跑一个族
+python run.py --diff UN-R17 R17.06 R17.07  # 比对两个已存版本
+python tests/run_tests.py                # 测试（零第三方依赖）
+```
 
 ## 结构
 

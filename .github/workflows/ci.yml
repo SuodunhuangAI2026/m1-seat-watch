@@ -13,9 +13,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      # 可选增强：有 pypdf 时，内置解析器抽不出内容就由它兜底。
+      # 装不上也不影响：核心逻辑零第三方依赖。
+      - name: 可选依赖
+        run: pip install pypdf || echo "pypdf 未安装，使用内置解析器"
+
       - name: 编译注册表
         run: python scripts/build_registry.py
+
       - name: 生成站点
         run: python scripts/build_site.py
-      - name: 契约测试
+
+      - name: 测试
         run: python tests/run_tests.py
