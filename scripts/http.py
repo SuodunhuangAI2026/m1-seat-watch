@@ -5,6 +5,7 @@
 """
 import gzip
 import time
+from email.utils import parsedate_to_datetime
 import urllib.error
 import urllib.request
 import zlib
@@ -90,3 +91,27 @@ def head_status(url: str, *, timeout: int = 20) -> int:
         return e.code
     except Exception as e:  # noqa: BLE001
         raise FetchError(url, f"HEAD 失败: {e}")
+
+
+def head_meta(url: str, *, timeout: int = 20) -> dict[str, str]:
+    """取响应头。拿不到校验符时返回空字典（调用方退回用链接自身当版本）。"""
+    req = urllib.request.Request(url, headers=DEFAULT_HEADERS, method="HEAD")
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            return {k.lower(): v for k, v in resp.headers.items()}
+    except urllib.error.HTTPError as e:
+        if e.code in (405, 501):      # 服务器不支持 HEAD
+            return {}
+        raise FetchError(url, "HEAD 失败", e.code) from e
+    except Exception:                 # noqa: BLE001
+        return {}
+
+
+def last_modified_iso(headers: dict[str, str]) -> str | None:
+    raw = headers.get("last-modified")
+    if not raw:
+        return None
+    try:
+        return parsedate_to_datetime(raw).date().isoformat()
+    except Exception:                 # noqa: BLE001
+        return None

@@ -148,15 +148,24 @@ class GenericAdapter:
             raise AdapterError(f"{family['id']}: 索引页里没有匹配 {rule!r} 的链接")
 
         editions = (family.get("locator") or {}).get("edition_from")
+        use_head = self.cfg.get("probe_mode") == "head"
         out = {}
         for link in hits:
             ed = edition_from(link, link["href"], editions)
+            if use_head:
+                meta = http.head_meta(absolute(link["href"], base))
+                stamp = meta.get("etag") or meta.get("last-modified") or ""
+                if stamp:
+                    # 用 ETag/Last-Modified 当版本：链接不变但文件被覆盖也能发现
+                    day = http.last_modified_iso(meta) or "na"
+                    ed = f"{day}-{abs(hash(stamp)) % 100000:05d}"
             out[ed] = Document(
                 standard_id=family["id"],
                 edition=f"{family['no']}@{ed}",
                 url=absolute(link["href"], base),
                 published=find_date(link["label"] + " " + link["ctx"], self.cfg.get("date_patterns")),
-                meta={"format": self.cfg.get("doc_format", "pdf"), "shape": "list"},
+                meta={"format": self.cfg.get("doc_format", "pdf"), "shape": "list",
+                      "label": link["label"][:120]},
             )
         return sorted(out.values(), key=lambda d: d.edition)
 

@@ -83,7 +83,10 @@
           "name": "Overall Assessment",
           "ver": "10.0"
         }
-      ]
+      ],
+      "locator": {
+        "match": "Overall"
+      }
     },
     {
       "id": "ANCAP-Rear-Impact",
@@ -103,7 +106,10 @@
           "name": "Crash Protection - Rear Impact",
           "ver": "1.1"
         }
-      ]
+      ],
+      "locator": {
+        "match": "Rear Impact|Crash Protection"
+      }
     },
     {
       "id": "ASEAN-AOP-3.0",
@@ -123,7 +129,10 @@
           "name": "ASEAN-NCAP-Assessment-Protocol-Adult-Occupant-Protection-Version-3.0",
           "ver": "3.0"
         }
-      ]
+      ],
+      "locator": {
+        "match": "Adult.?Occupant|AOP"
+      }
     },
     {
       "id": "ASEAN-Overall-3.0",
@@ -143,7 +152,10 @@
           "name": "ASEAN-NCAP-Overall-Assessment-Protocol-Version-3.0",
           "ver": "3.0"
         }
-      ]
+      ],
+      "locator": {
+        "match": "Overall.{0,30}3\\.0"
+      }
     },
     {
       "id": "ASEAN-Overall-3.1",
@@ -163,7 +175,10 @@
           "name": "ASEAN-NCAP-Overall-Assessment-Protocol-Version-3.1",
           "ver": "3.1"
         }
-      ]
+      ],
+      "locator": {
+        "match": "Overall.{0,30}3\\.1"
+      }
     },
     {
       "id": "C-IASI-17",
@@ -633,7 +648,10 @@
           "name": "rear-whiplash-test-protocol-v11",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "rear.?whiplash|Rear Impact"
+      }
     },
     {
       "id": "EuroNCAP-Whiplash-Dynamic",
@@ -653,7 +671,10 @@
           "name": "Euro NCAP - Whiplash Dynamic Assessment - Testing Protocol v 3.3.1Feb 2019",
           "ver": "3.3.1"
         }
-      ]
+      ],
+      "locator": {
+        "match": "Whiplash Dynamic"
+      }
     },
     {
       "id": "GSO-1598-2002",
@@ -711,7 +732,10 @@
           "name": "LATCH protocol",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "LATCH protocol"
+      }
     },
     {
       "id": "IIHS-LATCH-Rating",
@@ -731,7 +755,10 @@
           "name": "LATCH evaluation - rating guidelines (May 2024)",
           "ver": "2024"
         }
-      ]
+      ],
+      "locator": {
+        "match": "LATCH\\s*(evaluation|rating)"
+      }
     },
     {
       "id": "IIHS-Whiplash-Protocol",
@@ -749,7 +776,10 @@
           "name": "Whiplash prevention evaluation test protocol Dec2025",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "Whiplash prevention evaluation"
+      }
     },
     {
       "id": "IIHS-Whiplash-Rating",
@@ -767,7 +797,10 @@
           "name": "Whiplash prevention rating guidelines Dec2025",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "Whiplash prevention rating"
+      }
     },
     {
       "id": "JNCAP-2023-Procedures",
@@ -787,7 +820,10 @@
           "name": "2023 en VEHICLE SAFETY PERFORMANCE EVALUATION PROCEDURES 0000",
           "ver": "2023"
         }
-      ]
+      ],
+      "locator": {
+        "match": "2023[^\\n]{0,40}(VEHICLE SAFETY|evaluation)|VEHICLE SAFETY PERFORMANCE"
+      }
     },
     {
       "id": "JNCAP-R5-05",
@@ -805,7 +841,10 @@
           "name": "R5-05 en NECK INJURY PROTECTION PERFORMANCE TEST FOR REAR-END COLLISION",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "R5-05|NECK INJURY"
+      }
     },
     {
       "id": "KNCAP-TP-CS-7",
@@ -825,7 +864,10 @@
           "name": "KNCAP whiplash protocols [TP-CS-7] En 2022.8.24",
           "ver": "TP-CS-7"
         }
-      ]
+      ],
+      "locator": {
+        "match": "TP-CS-7|whiplash"
+      }
     },
     {
       "id": "LatinNCAP-AOP",
@@ -845,7 +887,10 @@
           "name": "Latin NCAP 2025 - AOP Protocol",
           "ver": "2025"
         }
-      ]
+      ],
+      "locator": {
+        "match": "\\bAOP\\b|Adult Occupant"
+      }
     },
     {
       "id": "LatinNCAP-Overall",
@@ -865,7 +910,10 @@
           "name": "Latin NCAP Overall Rating 2025 V2.0.1",
           "ver": "2.0.1"
         }
-      ]
+      ],
+      "locator": {
+        "match": "Overall Rating"
+      }
     },
     {
       "id": "LatinNCAP-Test-2026",
@@ -885,7 +933,10 @@
           "name": "Latin NCAP Testing Protocol 2026 v 2.0.1",
           "ver": "2.0.1"
         }
-      ]
+      ],
+      "locator": {
+        "match": "Testing Protocol"
+      }
     },
     {
       "id": "GB-11552",

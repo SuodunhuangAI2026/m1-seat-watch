@@ -49,7 +49,8 @@ def _special() -> dict:
 
 
 # 通用适配器：配置驱动，站点形状由 sites.json 的 shape 字段决定
-GENERIC_SITES = {"tc", "adr", "cncap", "ciasi", "eurlex", "echa"}
+GENERIC_SITES = {"tc", "adr", "cncap", "ciasi", "eurlex", "echa",
+                 "jncap", "kncap", "ancap", "asean", "latin", "euro", "iihs"}
 
 
 def registry() -> dict[str, type]:

@@ -1,27 +1,117 @@
 {
   "_comment": "手工维护的定位规则，由 build_registry.py 并进 data/standards.json 的 locator 字段。match 是正则，作用在「链接文字 + 前后 120 字」和 href 上。",
-  "CNCAP-2027": { "match": "管理规则" },
-  "C-NCAP-2027-A": { "match": "附录\\s*A|Appendix\\s*A" },
-  "C-NCAP-2027-B": { "match": "附录\\s*B|Appendix\\s*B" },
-  "C-NCAP-2027-C": { "match": "附录\\s*C|Appendix\\s*C" },
-  "C-NCAP-2027-D": { "match": "附录\\s*D|Appendix\\s*D" },
-  "C-NCAP-2027-J": { "match": "附录\\s*J|Appendix\\s*J" },
-  "C-NCAP-2027-M": { "match": "附录\\s*M|Appendix\\s*M" },
-
-  "C-IASI-17": { "match": "头枕静态|17" },
-  "C-IASI-18": { "match": "头枕动态|18" },
-  "C-IASI-19": { "match": "头枕.{0,4}评价|19" },
-  "C-IASI-20": { "match": "ISOFIX.{0,10}试验|20" },
-  "C-IASI-21": { "match": "ISOFIX.{0,10}评价|21" },
-
-  "ADR-3-04": { "match": "ADR\\s*3[/\\-]04" },
-  "ADR-5-06": { "match": "ADR\\s*5[/\\-]06" },
-  "ADR-34-03": { "match": "ADR\\s*34[/\\-]03" },
-
-  "CMVSS-201": { "match": "201" },
-  "CMVSS-202": { "match": "202" },
-  "CMVSS-207": { "match": "207" },
-  "CMVSS-208": { "match": "208" },
-  "CMVSS-210": { "match": "210" },
-  "CMVSS-302": { "match": "302" }
+  "CNCAP-2027": {
+    "match": "管理规则"
+  },
+  "C-NCAP-2027-A": {
+    "match": "附录\\s*A|Appendix\\s*A"
+  },
+  "C-NCAP-2027-B": {
+    "match": "附录\\s*B|Appendix\\s*B"
+  },
+  "C-NCAP-2027-C": {
+    "match": "附录\\s*C|Appendix\\s*C"
+  },
+  "C-NCAP-2027-D": {
+    "match": "附录\\s*D|Appendix\\s*D"
+  },
+  "C-NCAP-2027-J": {
+    "match": "附录\\s*J|Appendix\\s*J"
+  },
+  "C-NCAP-2027-M": {
+    "match": "附录\\s*M|Appendix\\s*M"
+  },
+  "C-IASI-17": {
+    "match": "头枕静态|17"
+  },
+  "C-IASI-18": {
+    "match": "头枕动态|18"
+  },
+  "C-IASI-19": {
+    "match": "头枕.{0,4}评价|19"
+  },
+  "C-IASI-20": {
+    "match": "ISOFIX.{0,10}试验|20"
+  },
+  "C-IASI-21": {
+    "match": "ISOFIX.{0,10}评价|21"
+  },
+  "ADR-3-04": {
+    "match": "ADR\\s*3[/\\-]04"
+  },
+  "ADR-5-06": {
+    "match": "ADR\\s*5[/\\-]06"
+  },
+  "ADR-34-03": {
+    "match": "ADR\\s*34[/\\-]03"
+  },
+  "CMVSS-201": {
+    "match": "201"
+  },
+  "CMVSS-202": {
+    "match": "202"
+  },
+  "CMVSS-207": {
+    "match": "207"
+  },
+  "CMVSS-208": {
+    "match": "208"
+  },
+  "CMVSS-210": {
+    "match": "210"
+  },
+  "CMVSS-302": {
+    "match": "302"
+  },
+  "JNCAP-R5-05": {
+    "match": "R5-05|NECK INJURY"
+  },
+  "JNCAP-2023-Procedures": {
+    "match": "2023[^\\n]{0,40}(VEHICLE SAFETY|evaluation)|VEHICLE SAFETY PERFORMANCE"
+  },
+  "KNCAP-TP-CS-7": {
+    "match": "TP-CS-7|whiplash"
+  },
+  "ANCAP-Overall": {
+    "match": "Overall"
+  },
+  "ANCAP-Rear-Impact": {
+    "match": "Rear Impact|Crash Protection"
+  },
+  "ASEAN-AOP-3.0": {
+    "match": "Adult.?Occupant|AOP"
+  },
+  "ASEAN-Overall-3.0": {
+    "match": "Overall.{0,30}3\\.0"
+  },
+  "ASEAN-Overall-3.1": {
+    "match": "Overall.{0,30}3\\.1"
+  },
+  "LatinNCAP-AOP": {
+    "match": "\\bAOP\\b|Adult Occupant"
+  },
+  "LatinNCAP-Overall": {
+    "match": "Overall Rating"
+  },
+  "LatinNCAP-Test-2026": {
+    "match": "Testing Protocol"
+  },
+  "EuroNCAP-Whiplash-Dynamic": {
+    "match": "Whiplash Dynamic"
+  },
+  "EuroNCAP-Rear-Whiplash-v1.1": {
+    "match": "rear.?whiplash|Rear Impact"
+  },
+  "IIHS-LATCH-Protocol": {
+    "match": "LATCH protocol"
+  },
+  "IIHS-LATCH-Rating": {
+    "match": "LATCH\\s*(evaluation|rating)"
+  },
+  "IIHS-Whiplash-Protocol": {
+    "match": "Whiplash prevention evaluation"
+  },
+  "IIHS-Whiplash-Rating": {
+    "match": "Whiplash prevention rating"
+  }
 }

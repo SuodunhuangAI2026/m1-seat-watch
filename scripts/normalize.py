@@ -100,3 +100,22 @@ def to_text(raw: bytes, *, kind: str) -> tuple[str, str]:
     if len(text) < MIN_CHARS:
         raise UnusableDocument(f"正文只有 {len(text)} 个字符，不像标准正文")
     return text, form
+
+
+VERSION_PATTERNS = [
+    r"version\s*[:\-]?\s*v?(\d+(?:\.\d+){0,2})",
+    r"\bv(\d+\.\d+(?:\.\d+)?)\b",
+    r"revision\s*[:\-]?\s*(\d+(?:\.\d+)?)",
+    r"edition\s*[:\-]?\s*(\d{4})",
+    r"(\d{4})\s*年版",
+]
+
+
+def detect_version(text: str, limit: int = 4000) -> str | None:
+    """从正文开头猜版本号。只做标注用，不参与存储键——猜错不至于丢数据。"""
+    head = text[:limit]
+    for pat in VERSION_PATTERNS:
+        m = re.search(pat, head, re.I)
+        if m:
+            return m.group(1)
+    return None

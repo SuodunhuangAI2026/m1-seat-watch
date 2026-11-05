@@ -139,6 +139,7 @@ def report_page(view: dict) -> str:
         doc_form=esc(view.get("doc_form")),
         from_edition=esc(view.get("from_edition")),
         to_edition=esc(view.get("to_edition")),
+        to_version=esc(view.get("to_version") or "—"),
         type=TYPE_CN.get(view.get("type"), view.get("type")),
         type_note=notes,
         summary=esc(impact.get("summary") or "—"),
@@ -196,7 +197,9 @@ def event_row(view: dict, prefix: str = "../") -> str:
         f'{esc(view.get("no"))}　{esc(view.get("from_edition"))} → {esc(view.get("to_edition"))}</a></h3>'
         f'<div class="meta">{esc(view["date"])} · {TYPE_CN.get(view.get("type"), view.get("type"))} · '
         f'{esc(view.get("site"))}　{relevance_badge(impact)}</div>'
-        f'<p>{esc((impact.get("summary") or "")[:180])}</p></div>'
+        + (f'<div class="meta">文档版本：{esc(view.get("to_version"))}</div>'
+           if view.get("to_version") else "")
+        + f'<p>{esc((impact.get("summary") or "")[:180])}</p></div>'
     )
 
 

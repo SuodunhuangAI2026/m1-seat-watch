@@ -65,7 +65,12 @@
       "name": "IIHS",
       "tier": "T1",
       "entry_url": "https://www.iihs.org/ratings/about-our-tests/test-protocols-and-technical-information",
-      "note": "LATCH 与鞭打防护两类规程"
+      "note": "LATCH 与鞭打防护两类规程",
+      "shape": "list",
+      "link_pattern": "\\\\.pdf$",
+      "probe_mode": "head",
+      "doc_format": "pdf",
+      "adapter": "generic"
     },
     {
       "id": "adr",
@@ -87,42 +92,72 @@
       "name": "ASEAN NCAP",
       "tier": "T1",
       "entry_url": "http://www.aseancap.org/",
-      "note": "AOP / Overall 协议"
+      "note": "AOP / Overall 协议",
+      "shape": "list",
+      "link_pattern": "\\\\.pdf$",
+      "probe_mode": "head",
+      "doc_format": "pdf",
+      "adapter": "generic"
     },
     {
       "id": "latin",
       "name": "Latin NCAP",
       "tier": "T1",
       "entry_url": "https://www.latinncap.com/en/our-tests",
-      "note": "AOP / Overall / Testing Protocol"
+      "note": "AOP / Overall / Testing Protocol",
+      "shape": "list",
+      "link_pattern": "\\\\.pdf$",
+      "probe_mode": "head",
+      "doc_format": "pdf",
+      "adapter": "generic"
     },
     {
       "id": "jncap",
       "name": "JNCAP · NASVA",
       "tier": "T1",
       "entry_url": "https://www.nasva.go.jp/mamoru/en/download/car_download.html",
-      "note": "注意 Shift_JIS 编码"
+      "note": "注意 Shift_JIS 编码",
+      "shape": "list",
+      "link_pattern": "\\\\.pdf$",
+      "probe_mode": "head",
+      "doc_format": "pdf",
+      "adapter": "generic"
     },
     {
       "id": "ancap",
       "name": "ANCAP",
       "tier": "T1",
       "entry_url": "https://www.ancap.com.au/protocols-and-policies#current",
-      "note": "Rear Impact / Overall"
+      "note": "Rear Impact / Overall",
+      "shape": "list",
+      "link_pattern": "\\\\.pdf$",
+      "probe_mode": "head",
+      "doc_format": "pdf",
+      "adapter": "generic"
     },
     {
       "id": "euro",
       "name": "Euro NCAP",
       "tier": "T1",
       "entry_url": "https://www.euroncap.com/en/for-engineers/",
-      "note": "鞭打动态评价与后排鞭打规程"
+      "note": "鞭打动态评价与后排鞭打规程",
+      "shape": "list",
+      "link_pattern": "\\\\.pdf$",
+      "probe_mode": "head",
+      "doc_format": "pdf",
+      "adapter": "generic"
     },
     {
       "id": "kncap",
       "name": "KNCAP",
       "tier": "T1",
       "entry_url": "https://www.kncap.org/indexNew.jsp",
-      "note": "TP-CS-7 鞭打协议"
+      "note": "TP-CS-7 鞭打协议",
+      "shape": "list",
+      "link_pattern": "\\\\.(pdf|docx?)$",
+      "probe_mode": "head",
+      "doc_format": "pdf",
+      "adapter": "generic"
     },
     {
       "id": "eurlex",

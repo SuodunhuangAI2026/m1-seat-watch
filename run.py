@@ -223,7 +223,9 @@ def run_probe(only: list[str] | None = None) -> dict:
 
         event = publish.process(
             family=fam, old_ed=prev, new_ed=latest.edition, changes=changes,
-            doc={"published": latest.published, "form": form, "url": latest.url},
+            doc={"published": latest.published, "form": form, "url": latest.url,
+                 "version": normalize.detect_version(text, 6000),
+                 "label": (latest.meta or {}).get("label")},
             source_url=latest.url,
         )
         health[sid]["status"] = "changed"
