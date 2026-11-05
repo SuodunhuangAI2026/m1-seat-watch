@@ -16,6 +16,8 @@ from urllib.parse import urljoin
 from scripts import http
 from scripts.adapters.base import AdapterError, Document
 
+MAX_HEAD_PER_FAMILY = 6   # 一个族最多探几个链接，防止页面挂了几百个 PDF 时把运行拖慢
+
 DEFAULT_DATE_PATTERNS = [
     r"(?:current\s+to|last\s+updated|updated\s+on|in\s+force)[^\d]{0,20}(\d{4}-\d{2}-\d{2})",
     r"(\d{4}-\d{2}-\d{2})",
@@ -101,6 +103,11 @@ class GenericAdapter:
         self.id = cfg["id"]
 
     def _page(self) -> str:
+        if self.cfg.get("js_rendered"):
+            raise AdapterError(
+                f"{self.id}: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。"
+                f"需要无头浏览器，或改为人工上传（data/manual/）"
+            )
         url = self.cfg.get("entry_url")
         if not url:
             raise AdapterError(f"{self.id}: 站点没有配置 entry_url")
@@ -149,8 +156,9 @@ class GenericAdapter:
 
         editions = (family.get("locator") or {}).get("edition_from")
         use_head = self.cfg.get("probe_mode") == "head"
+        budget = int(self.cfg.get("max_head", MAX_HEAD_PER_FAMILY))
         out = {}
-        for link in hits:
+        for link in hits[:budget]:
             ed = edition_from(link, link["href"], editions)
             if use_head:
                 meta = http.head_meta(absolute(link["href"], base))
@@ -167,6 +175,9 @@ class GenericAdapter:
                 meta={"format": self.cfg.get("doc_format", "pdf"), "shape": "list",
                       "label": link["label"][:120]},
             )
+        if len(hits) > budget:
+            for d in out.values():
+                d.meta["truncated"] = len(hits)
         return sorted(out.values(), key=lambda d: d.edition)
 
     def fetch(self, doc: Document) -> bytes:

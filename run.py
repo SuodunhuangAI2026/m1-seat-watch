@@ -166,8 +166,14 @@ def run_probe(only: list[str] | None = None) -> dict:
             continue
 
         if not docs:
-            health[sid] = {"ok": False, "status": "not_found", "error": "站点上没有找到该族的文档"}
-            print(f"  [未命中] {sid}", flush=True)
+            if (sites.get(site) or {}).get("manual"):
+                health[sid] = {"ok": False, "status": "needs_manual",
+                               "error": f"待人工补正文：把文本放进 data/manual/{sid}/（文件名即版本号）"}
+                print(f"  [待人工] {sid}：无公开正文源，等人工上传", flush=True)
+            else:
+                health[sid] = {"ok": False, "status": "not_found",
+                               "error": "站点上没有找到该族的文档"}
+                print(f"  [未命中] {sid}", flush=True)
             continue
 
         latest = docs[-1]

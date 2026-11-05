@@ -49,6 +49,8 @@ def _special() -> dict:
 
 
 # 通用适配器：配置驱动，站点形状由 sites.json 的 shape 字段决定
+MANUAL_SITES = {"qct", "gso", "ttbz"}
+
 GENERIC_SITES = {"tc", "adr", "cncap", "ciasi", "eurlex", "echa",
                  "jncap", "kncap", "ancap", "asean", "latin", "euro", "iihs"}
 
@@ -62,6 +64,13 @@ def get_adapter(site_id: str, site_cfg: dict | None = None):
     cls = _special().get(site_id)
     if cls is not None:
         return cls()
+
+    if (site_cfg and site_cfg.get("manual")) or site_id in MANUAL_SITES:
+        from scripts.adapters import manual
+
+        if not site_cfg:
+            raise AdapterError(f"站点 {site_id} 需要配置")
+        return manual.Manual(site_cfg)
 
     if site_id in GENERIC_SITES or (site_cfg and site_cfg.get("shape")):
         if not site_cfg:

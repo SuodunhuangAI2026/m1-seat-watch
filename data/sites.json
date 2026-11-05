@@ -32,7 +32,9 @@
       "link_pattern": "\\.(pdf|docx?)$",
       "doc_format": "pdf",
       "charset": "utf-8",
-      "adapter": "generic"
+      "adapter": "generic",
+      "js_rendered": true,
+      "calibration": "入口 URL 返回 404，技术规程页路径已变（2026-11-05 实测）"
     },
     {
       "id": "tc",
@@ -58,7 +60,9 @@
       "shape": "list",
       "link_pattern": "\\.(pdf|docx?)$",
       "doc_format": "pdf",
-      "adapter": "generic"
+      "adapter": "generic",
+      "js_rendered": true,
+      "calibration": "首页无 PDF 直链，规程列表疑为 JS 渲染（2026-11-05 实测）"
     },
     {
       "id": "iihs",
@@ -67,7 +71,7 @@
       "entry_url": "https://www.iihs.org/ratings/about-our-tests/test-protocols-and-technical-information",
       "note": "LATCH 与鞭打防护两类规程",
       "shape": "list",
-      "link_pattern": "\\\\.pdf$",
+      "link_pattern": "\\.pdf$",
       "probe_mode": "head",
       "doc_format": "pdf",
       "adapter": "generic"
@@ -94,10 +98,12 @@
       "entry_url": "http://www.aseancap.org/",
       "note": "AOP / Overall 协议",
       "shape": "list",
-      "link_pattern": "\\\\.pdf$",
+      "link_pattern": "\\.pdf$",
       "probe_mode": "head",
       "doc_format": "pdf",
-      "adapter": "generic"
+      "adapter": "generic",
+      "js_rendered": true,
+      "calibration": "协议页 JS 渲染，静态 HTML 无 PDF 链接（2026-11-05 实测）"
     },
     {
       "id": "latin",
@@ -106,7 +112,7 @@
       "entry_url": "https://www.latinncap.com/en/our-tests",
       "note": "AOP / Overall / Testing Protocol",
       "shape": "list",
-      "link_pattern": "\\\\.pdf$",
+      "link_pattern": "\\.pdf$",
       "probe_mode": "head",
       "doc_format": "pdf",
       "adapter": "generic"
@@ -118,7 +124,7 @@
       "entry_url": "https://www.nasva.go.jp/mamoru/en/download/car_download.html",
       "note": "注意 Shift_JIS 编码",
       "shape": "list",
-      "link_pattern": "\\\\.pdf$",
+      "link_pattern": "\\.pdf$",
       "probe_mode": "head",
       "doc_format": "pdf",
       "adapter": "generic"
@@ -130,7 +136,7 @@
       "entry_url": "https://www.ancap.com.au/protocols-and-policies#current",
       "note": "Rear Impact / Overall",
       "shape": "list",
-      "link_pattern": "\\\\.pdf$",
+      "link_pattern": "\\.pdf$",
       "probe_mode": "head",
       "doc_format": "pdf",
       "adapter": "generic"
@@ -142,10 +148,12 @@
       "entry_url": "https://www.euroncap.com/en/for-engineers/",
       "note": "鞭打动态评价与后排鞭打规程",
       "shape": "list",
-      "link_pattern": "\\\\.pdf$",
+      "link_pattern": "\\.pdf$",
       "probe_mode": "head",
       "doc_format": "pdf",
-      "adapter": "generic"
+      "adapter": "generic",
+      "js_rendered": true,
+      "calibration": "协议页 JS 渲染，静态 HTML 无 PDF 链接（2026-11-05 实测）"
     },
     {
       "id": "kncap",
@@ -154,7 +162,7 @@
       "entry_url": "https://www.kncap.org/indexNew.jsp",
       "note": "TP-CS-7 鞭打协议",
       "shape": "list",
-      "link_pattern": "\\\\.(pdf|docx?)$",
+      "link_pattern": "\\.(pdf|docx?)$",
       "probe_mode": "head",
       "doc_format": "pdf",
       "adapter": "generic"
@@ -194,21 +202,27 @@
       "name": "QC/T 行业标准 · 全国标准信息公共服务平台",
       "tier": "T2",
       "entry_url": "https://std.samr.gov.cn/",
-      "note": "仅元数据；正文付费，人工上传"
+      "note": "仅元数据；正文付费，人工上传",
+      "manual": true,
+      "adapter": "manual"
     },
     {
       "id": "gso",
       "name": "GSO 海湾标准化组织",
       "tier": "T2",
       "entry_url": "",
-      "note": "入口待补；正文付费"
+      "note": "入口待补；正文付费",
+      "manual": true,
+      "adapter": "manual"
     },
     {
       "id": "ttbz",
       "name": "全国团体标准信息平台",
       "tier": "T3",
       "entry_url": "http://www.ttbz.org.cn/",
-      "note": "仅登记，不自动抓"
+      "note": "仅登记，不自动抓",
+      "manual": true,
+      "adapter": "manual"
     }
   ]
 }

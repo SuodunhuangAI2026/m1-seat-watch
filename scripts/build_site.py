@@ -10,6 +10,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scripts import events as ev
 from scripts import render, reviews
+from scripts.adapters import manual as manual_adapter
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -83,8 +84,13 @@ def links_block(event: dict) -> str:
     links = [u for u in (event.get("links") or []) if u]
     if not links:
         return '<p class="meta">原文链接缺失</p>'
-    items = "".join(f'<li><a href="{esc(u)}">{esc(u)}</a></li>' for u in links)
-    return f"<ul>{items}</ul>"
+    items = []
+    for u in links:
+        if str(u).startswith("http"):
+            items.append(f'<li><a href="{esc(u)}">{esc(u)}</a></li>')
+        else:  # 人工上传：给相对路径，别把本机绝对路径写进报告
+            items.append(f'<li><code>{esc(u)}</code> <span class="tag">人工上传</span></li>')
+    return f"<ul>{''.join(items)}</ul>"
 
 
 def relevance_badge(impact: dict) -> str:
@@ -175,6 +181,8 @@ def build_scope(sites: list[dict], fams: list[dict]) -> str:
         trs = []
         for f in sorted(items, key=lambda x: (x["category"] != "core", x["id"])):
             tag = '<span class="tag">核心</span>' if f["category"] == "core" else '<span class="tag rel">关联</span>'
+            if s.get("manual") and not manual_adapter.uploads(f["id"]):
+                tag += '<span class="tag warn">待人工</span>'
             editions = "、".join(f["library_editions"]) if f["library_editions"] else "—"
             trs.append(
                 f'<tr><td class="no"><a href="../standards/{esc(f["id"])}.html">{esc(f["no"])}</a></td>'
@@ -230,6 +238,38 @@ def build_standard(fam: dict, views: list[dict]) -> str:
     )
 
 
+
+def build_manual(sites: list[dict], fams: list[dict]) -> str:
+    manual_sites = {s["id"] for s in sites if s.get("manual")}
+    items = [f for f in fams if f["site"] in manual_sites]
+    if not items:
+        return '<p class="empty">没有需要人工上传的标准</p>'
+
+    rows = []
+    for f in items:
+        files = manual_adapter.uploads(f["id"])
+        if files:
+            state = f'<span class="tag ok">已上传 {len(files)} 版</span>'
+            detail = "、".join(x.stem for x in files[-3:])
+        else:
+            state = '<span class="tag warn">待人工补正文</span>'
+            detail = f'<code>data/manual/{esc(f["id"])}/</code>'
+        rows.append(
+            f'<tr><td class="no">{esc(f["no"])}</td><td>{esc(f["title_cn"])}</td>'
+            f"<td>{state}</td><td>{esc(detail)}</td></tr>"
+        )
+    return (
+        '<p class="sub">这些标准没有可自动抓取的正文（付费、登录、扫描件，或根本没有公开版），'
+        '改为人工上传。放进去之后，比对、归因、出报告与自动抓取完全一样。</p>'
+        '<table><tr><th style="width:150px">标准号</th><th>名称</th><th style="width:130px">状态</th>'
+        '<th>目录 / 已有版本</th></tr>' + "".join(rows) + "</table>"
+        '<h2>怎么放</h2>'
+        '<p>把文本存成 <code>data/manual/&lt;族 id&gt;/&lt;版本号&gt;.txt</code>，'
+        '文件名就是版本号。一个版本一个文件，UTF-8 编码，尽量保留条款号。</p>'
+        '<p class="meta">详细说明见 <code>data/manual/README.md</code>。'
+        '扫描件不做 OCR——识别错的条款会直接进 DVP，代价比漏一次高。</p>'
+    )
+
 def main() -> None:
     sites, fams = load()
     raw_events = ev.link_progress(ev.load_all())
@@ -247,10 +287,20 @@ def main() -> None:
         f'<div><b>{pending}</b>待处理</div></div>'
     )
 
+    manual_ids = {s["id"] for s in sites if s.get("manual")}
+    manual_pending = sum(1 for f in fams
+                         if f["site"] in manual_ids and not manual_adapter.uploads(f["id"]))
+    todo = (f'<div class="card"><h3><a href="manual.html">待人工补正文：{manual_pending} 个标准</a></h3>'
+            '<div class="meta">这些标准没有公开正文源，需要手工放一份文本进去</div></div>'
+            if manual_pending else "")
     (OUT / "index.html").write_text(render.page(
         "M1 座椅标准变更监控",
-        '<h2>最近变更</h2>' + build_changes(views[:8], prefix=""),
+        todo + '<h2>最近变更</h2>' + build_changes(views[:8], prefix=""),
         kpi,
+    ), encoding="utf-8")
+
+    (OUT / "manual.html").write_text(render.page(
+        "人工上传 · M1 座椅标准", build_manual(sites, fams), kpi
     ), encoding="utf-8")
 
     (OUT / "scope.html").write_text(render.page(

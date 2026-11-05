@@ -88,6 +88,13 @@ def from_pdf(raw: bytes) -> str:
 
 def to_text(raw: bytes, *, kind: str) -> tuple[str, str]:
     """返回 (正文, 形式)。kind 由适配器给的 format 决定，兜底看魔术字节。"""
+    if kind == "text":
+        text = clean(raw.decode("utf-8-sig", "replace"))
+        form = "text"
+        if len(text) < MIN_CHARS:
+            raise UnusableDocument(f"人工上传的文本只有 {len(text)} 个字符，太短")
+        return text, form
+
     if kind == "html" or raw[:5].lower().startswith(b"<!doc") or raw[:5].lower().startswith(b"<html"):
         text = from_html(raw)
         form = "html"

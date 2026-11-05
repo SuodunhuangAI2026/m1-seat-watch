@@ -45,7 +45,7 @@ def _decode_body(raw: bytes, encoding: str) -> bytes:
     return raw
 
 
-def get(url: str, *, timeout: int = 30, retries: int = 3, headers: dict | None = None, cache: bool = False) -> bytes:
+def get(url: str, *, timeout: int = 20, retries: int = 2, headers: dict | None = None, cache: bool = False) -> bytes:
     """GET 一个 URL。失败重试 retries 次（指数退避），最终仍失败则抛 FetchError。"""
     if cache and url in _CACHE:
         return _CACHE[url]
