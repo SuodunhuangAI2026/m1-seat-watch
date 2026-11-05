@@ -114,6 +114,11 @@ def load_families() -> list[dict]:
     return reg["families"]
 
 
+def load_sites() -> dict[str, dict]:
+    data = json.loads((DATA / "sites.json").read_text(encoding="utf-8-sig"))
+    return {s["id"]: s for s in data["sites"]}
+
+
 def run_probe(only: list[str] | None = None) -> dict:
     """探测 + 抓取 + 归一化 + 落盘。返回健康表。
 
@@ -122,6 +127,7 @@ def run_probe(only: list[str] | None = None) -> dict:
     from scripts import normalize, state
     from scripts.adapters.base import AdapterError, get_adapter
 
+    sites = load_sites()
     families = load_families()
     if only:
         families = [f for f in families if f["id"] in only]
@@ -132,6 +138,7 @@ def run_probe(only: list[str] | None = None) -> dict:
     health: dict[str, dict] = {}
     fetched = 0
     down: dict[str, str] = {}   # 站点 id → 首次失败原因；同一站点挂了就不再逐个硬试
+    doc_event_done: set[str] = set()  # document 形状的站点，一次变更只出一条事件
 
     for fam in families:
         sid = fam["id"]
@@ -143,7 +150,7 @@ def run_probe(only: list[str] | None = None) -> dict:
             continue
 
         try:
-            adapter = get_adapter(site)
+            adapter = get_adapter(site, sites.get(site))
         except AdapterError as e:
             health[sid] = {"ok": False, "status": "no_adapter", "error": str(e)}
             down[site] = str(e)
@@ -164,7 +171,9 @@ def run_probe(only: list[str] | None = None) -> dict:
             continue
 
         latest = docs[-1]
-        if state.load_text(sid, latest.edition):
+        text_key = latest.meta.get("text_key") or sid
+        if state.load_text(text_key, latest.edition):
+            state.record_edition(sid, latest.edition, {"url": latest.url})
             health[sid] = {"ok": True, "status": "unchanged", "edition": latest.edition,
                            "versions": len(docs)}
             continue
@@ -183,7 +192,7 @@ def run_probe(only: list[str] | None = None) -> dict:
             print(f"  [抓取失败] {sid}: {e}", flush=True)
             continue
 
-        state.save_text(sid, latest.edition, text)
+        state.save_text(text_key, latest.edition, text)
         fetched += 1
         health[sid] = {"ok": True, "status": "new", "edition": latest.edition,
                        "form": form, "chars": len(text), "versions": len(docs)}
@@ -191,10 +200,17 @@ def run_probe(only: list[str] | None = None) -> dict:
 
         # 有上一版正文就做条款比对并归因；没有（首次建库）只登记版本
         prev = state.previous_edition(sid, latest.edition)
-        old_text = state.load_text(sid, prev) if prev else None
+        old_text = state.load_text(text_key, prev) if prev else None
         if not old_text:
             state.record_edition(sid, latest.edition, {"form": form, "url": latest.url})
             continue
+
+        # 一整份法规被多个族共用时，只由第一个族出事件，避免同一处改动报六遍
+        if latest.meta.get("shape") == "document":
+            if site in doc_event_done:
+                state.record_edition(sid, latest.edition, {"form": form, "url": latest.url})
+                continue
+            doc_event_done.add(site)
 
         from scripts import diff as diffmod, publish
 
@@ -270,6 +286,52 @@ def cmd_diff(standard_id: str, old: str, new: str) -> int:
     return 0
 
 
+def cmd_calibrate(site_id: str) -> int:
+    """在真实网络上探一次站点，把「解析器看到了什么」打印出来。
+
+    本机没有外网时只能在 Actions 里跑；把输出贴回来就能校准配置。
+    """
+    from scripts import http
+    from scripts.adapters.generic import extract_links, find_date
+
+    cfg = load_sites().get(site_id)
+    if not cfg:
+        print(f"没有这个站点：{site_id}")
+        print("可选：" + ", ".join(sorted(load_sites())))
+        return 1
+
+    url = cfg.get("entry_url")
+    if not url:
+        print(f"{site_id} 没有配置 entry_url")
+        return 1
+
+    print(f"站点：{cfg['name']}")
+    print(f"入口：{url}")
+    print(f"形状：{cfg.get('shape', 'list')}\n")
+
+    try:
+        raw = http.get(url)
+    except Exception as e:  # noqa: BLE001
+        print(f"抓取失败：{type(e).__name__}: {e}")
+        return 1
+
+    text = raw.decode(cfg.get("charset", "utf-8"), "replace")
+    print(f"HTTP 成功：{len(raw)} 字节 / {len(text)} 字符")
+    print(f"识别到的日期：{find_date(text, cfg.get('date_patterns'))}")
+
+    links = extract_links(text, cfg.get("link_pattern", r"\.pdf$"))
+    print(f"\n链接匹配（pattern={cfg.get('link_pattern')!r}）：{len(links)} 条")
+    for href, ctx in links[:25]:
+        print(f"  - {href[:110]}")
+        print(f"      {ctx[:110]}")
+
+    fams = [f for f in load_families() if f["site"] == site_id]
+    print(f"\n该站点的族（{len(fams)} 个）：")
+    for f in fams:
+        print(f"  {f['id']:<18} match={(f.get('locator') or {}).get('match')!r}")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     g = ap.add_mutually_exclusive_group(required=True)
@@ -277,8 +339,12 @@ def main() -> int:
     g.add_argument("--now", action="store_true", help="立即执行")
     g.add_argument("--force", action="store_true", help="等同 --now（workflow_dispatch 用）")
     g.add_argument("--diff", nargs=3, metavar=("族", "旧版本", "新版本"), help="比对两个已存版本")
+    g.add_argument("--calibrate", metavar="站点", help="探一次站点并打印解析结果")
     ap.add_argument("--only", action="append", help="只跑指定族，可重复")
     args = ap.parse_args()
+
+    if args.calibrate:
+        return cmd_calibrate(args.calibrate)
 
     if args.diff:
         return cmd_diff(*args.diff)

@@ -1,0 +1,27 @@
+{
+  "_comment": "手工维护的定位规则，由 build_registry.py 并进 data/standards.json 的 locator 字段。match 是正则，作用在「链接文字 + 前后 120 字」和 href 上。",
+  "CNCAP-2027": { "match": "管理规则" },
+  "C-NCAP-2027-A": { "match": "附录\\s*A|Appendix\\s*A" },
+  "C-NCAP-2027-B": { "match": "附录\\s*B|Appendix\\s*B" },
+  "C-NCAP-2027-C": { "match": "附录\\s*C|Appendix\\s*C" },
+  "C-NCAP-2027-D": { "match": "附录\\s*D|Appendix\\s*D" },
+  "C-NCAP-2027-J": { "match": "附录\\s*J|Appendix\\s*J" },
+  "C-NCAP-2027-M": { "match": "附录\\s*M|Appendix\\s*M" },
+
+  "C-IASI-17": { "match": "头枕静态|17" },
+  "C-IASI-18": { "match": "头枕动态|18" },
+  "C-IASI-19": { "match": "头枕.{0,4}评价|19" },
+  "C-IASI-20": { "match": "ISOFIX.{0,10}试验|20" },
+  "C-IASI-21": { "match": "ISOFIX.{0,10}评价|21" },
+
+  "ADR-3-04": { "match": "ADR\\s*3[/\\-]04" },
+  "ADR-5-06": { "match": "ADR\\s*5[/\\-]06" },
+  "ADR-34-03": { "match": "ADR\\s*34[/\\-]03" },
+
+  "CMVSS-201": { "match": "201" },
+  "CMVSS-202": { "match": "202" },
+  "CMVSS-207": { "match": "207" },
+  "CMVSS-208": { "match": "208" },
+  "CMVSS-210": { "match": "210" },
+  "CMVSS-302": { "match": "302" }
+}

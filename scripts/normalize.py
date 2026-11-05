@@ -22,8 +22,11 @@ def sha256(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
-def from_html(raw: bytes) -> str:
-    tree = lxml_html.fromstring(raw)
+def from_html(raw: bytes | str) -> str:
+    # 先自己按 UTF-8 解码再交给 lxml：否则页面里残留的 windows-1252 声明
+    # 会让 lxml 把已经正确的 UTF-8 再解一次，出现「Â」这类乱码
+    text = raw if isinstance(raw, str) else raw.decode('utf-8-sig', 'replace')
+    tree = lxml_html.fromstring(text)
     for bad in tree.xpath("//script|//style|//noscript"):
         bad.getparent().remove(bad)
     body = tree.xpath("//body")

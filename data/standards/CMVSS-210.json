@@ -1,0 +1,29 @@
+{
+  "id": "CMVSS-210",
+  "no": "CMVSS 210",
+  "title_cn": "安全带固定点（Seat Belt Anchorages）",
+  "site": "tc",
+  "tier": "T1",
+  "category": "related",
+  "org": "CMVSS",
+  "library_editions": [],
+  "current_edition": "C.R.C._c._1038@2026-10-19",
+  "entries": [
+    {
+      "no": "CMVSS 210",
+      "name": "安全带固定点（Seat Belt Anchorages）",
+      "ver": "—"
+    }
+  ],
+  "locator": {
+    "match": "210"
+  },
+  "editions": [
+    "C.R.C._c._1038@2026-10-19"
+  ],
+  "edition_meta": {
+    "C.R.C._c._1038@2026-10-19": {
+      "url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._1038/FULLText.html"
+    }
+  }
+}

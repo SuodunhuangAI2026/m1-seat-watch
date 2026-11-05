@@ -1,0 +1,29 @@
+{
+  "id": "CMVSS-201",
+  "no": "CMVSS 201",
+  "title_cn": "乘员保护（Occupant Protection）",
+  "site": "tc",
+  "tier": "T1",
+  "category": "related",
+  "org": "CMVSS",
+  "library_editions": [],
+  "current_edition": "C.R.C._c._1038@2026-10-19",
+  "entries": [
+    {
+      "no": "CMVSS 201",
+      "name": "乘员保护（Occupant Protection）",
+      "ver": "—"
+    }
+  ],
+  "locator": {
+    "match": "201"
+  },
+  "editions": [
+    "C.R.C._c._1038@2026-10-19"
+  ],
+  "edition_meta": {
+    "C.R.C._c._1038@2026-10-19": {
+      "url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._1038/FULLText.html"
+    }
+  }
+}

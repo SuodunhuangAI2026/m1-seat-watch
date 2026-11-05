@@ -1,4 +1,4 @@
-﻿"""P0 冒烟测试：注册表与站点配置必须自洽。"""
+"""P0 冒烟测试：注册表与站点配置必须自洽。"""
 import json
 import sys
 from pathlib import Path

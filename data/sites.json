@@ -27,21 +27,38 @@
       "name": "C-NCAP",
       "tier": "T1",
       "entry_url": "http://www.c-ncap.org.cn/guicheng/cncap",
-      "note": "管理规则 + 附录 A/B/C/D/J/M"
+      "note": "管理规则 + 附录 A/B/C/D/J/M",
+      "shape": "list",
+      "link_pattern": "\\.(pdf|docx?)$",
+      "doc_format": "pdf",
+      "charset": "utf-8",
+      "adapter": "generic"
     },
     {
       "id": "tc",
       "name": "Transport Canada · CMVSS",
       "tier": "T1",
       "entry_url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._1038/FULLText.html",
-      "note": "法规全文页，按节定位"
+      "note": "法规全文页，按节定位",
+      "shape": "document",
+      "doc_key": "C.R.C._c._1038",
+      "date_patterns": [
+        "current\\s+to\\s+(\\d{4}-\\d{2}-\\d{2})",
+        "(\\d{4}-\\d{2}-\\d{2})"
+      ],
+      "adapter": "generic",
+      "content_selector": "//main | //*[@id='wb-cont']"
     },
     {
       "id": "ciasi",
       "name": "C-IASI 中国保险汽车安全指数",
       "tier": "T1",
       "entry_url": "http://www.ciasi.org.cn/",
-      "note": "规程 17–21"
+      "note": "规程 17–21",
+      "shape": "list",
+      "link_pattern": "\\.(pdf|docx?)$",
+      "doc_format": "pdf",
+      "adapter": "generic"
     },
     {
       "id": "iihs",
@@ -55,7 +72,15 @@
       "name": "ADR · legislation.gov.au",
       "tier": "T1",
       "entry_url": "https://www.infrastructure.gov.au/infrastructure-transport-vehicles/vehicles/vehicle-design-regulation",
-      "note": "澳大利亚设计规则"
+      "note": "澳大利亚设计规则",
+      "shape": "list",
+      "link_pattern": "\\.(pdf|html?)$|legislation\\.gov\\.au",
+      "doc_format": "pdf",
+      "date_patterns": [
+        "(\\d{4}-\\d{2}-\\d{2})",
+        "(\\d{1,2}\\s+\\w+\\s+\\d{4})"
+      ],
+      "adapter": "generic"
     },
     {
       "id": "asean",
@@ -104,14 +129,30 @@
       "name": "EUR-Lex",
       "tier": "T1",
       "entry_url": "https://eur-lex.europa.eu/",
-      "note": "EU 2000/53/EC 及其附件 II 修订"
+      "note": "EU 2000/53/EC 及其附件 II 修订",
+      "shape": "document",
+      "doc_key": "2000/53/EC",
+      "date_patterns": [
+        "consolidated\\s+text[^\\d]{0,40}(\\d{4}-\\d{2}-\\d{2})",
+        "(\\d{4}-\\d{2}-\\d{2})"
+      ],
+      "adapter": "generic",
+      "content_selector": "//main | //*[@id='main-content']"
     },
     {
       "id": "echa",
       "name": "ECHA",
       "tier": "T1",
       "entry_url": "https://echa.europa.eu/",
-      "note": "REACH SVHC 候选清单，半年更新，可降频为每月"
+      "note": "REACH SVHC 候选清单，半年更新，可降频为每月",
+      "shape": "document",
+      "doc_key": "SVHC",
+      "date_patterns": [
+        "last\\s+updated[^\\d]{0,40}(\\d{4}-\\d{2}-\\d{2})",
+        "(\\d{4}-\\d{2}-\\d{2})"
+      ],
+      "adapter": "generic",
+      "content_selector": "//main | //*[@id='main-content']"
     },
     {
       "id": "qct",

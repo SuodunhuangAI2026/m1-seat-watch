@@ -18,7 +18,10 @@
           "name": "Seats and Seat Anchorages",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "ADR\\s*3[/\\-]04"
+      }
     },
     {
       "id": "ADR-34-03",
@@ -36,7 +39,10 @@
           "name": "Child Restraint Anchorages and Child Restraint Anchor Fittings",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "ADR\\s*34[/\\-]03"
+      }
     },
     {
       "id": "ADR-5-06",
@@ -54,7 +60,10 @@
           "name": "Anchorages for Seatbelts",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "ADR\\s*5[/\\-]06"
+      }
     },
     {
       "id": "ANCAP-Overall",
@@ -172,7 +181,10 @@
           "name": "车内乘员安全指数-前排座椅头枕静态试验规程",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "头枕静态|17"
+      }
     },
     {
       "id": "C-IASI-18",
@@ -190,7 +202,10 @@
           "name": "车内乘员安全指数-座椅头枕动态试验规程",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "头枕动态|18"
+      }
     },
     {
       "id": "C-IASI-19",
@@ -208,7 +223,10 @@
           "name": "车内乘员安全指数-座椅头枕试验评价规程",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "头枕.{0,4}评价|19"
+      }
     },
     {
       "id": "C-IASI-20",
@@ -226,7 +244,10 @@
           "name": "车内乘员安全指数-车用 ISOFIX 下固定点和上拉带固定点试验规程",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "ISOFIX.{0,10}试验|20"
+      }
     },
     {
       "id": "C-IASI-21",
@@ -244,7 +265,10 @@
           "name": "车内乘员安全指数-车用 ISOFIX 下固定点和上拉带固定点评价规程",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "ISOFIX.{0,10}评价|21"
+      }
     },
     {
       "id": "C-NCAP-2027-A",
@@ -262,7 +286,10 @@
           "name": "附录A 正面100%重叠刚性壁障碰撞测试评价规程",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "附录\\s*A|Appendix\\s*A"
+      }
     },
     {
       "id": "C-NCAP-2027-B",
@@ -280,7 +307,10 @@
           "name": "附录B 正面50%重叠移动渐进变形壁障碰撞试验规程",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "附录\\s*B|Appendix\\s*B"
+      }
     },
     {
       "id": "C-NCAP-2027-C",
@@ -298,7 +328,10 @@
           "name": "附录C 正面碰撞乘员多样性保护测试评价规程",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "附录\\s*C|Appendix\\s*C"
+      }
     },
     {
       "id": "C-NCAP-2027-D",
@@ -316,7 +349,10 @@
           "name": "附录D 大角度坐姿正面碰撞测试评价规程",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "附录\\s*D|Appendix\\s*D"
+      }
     },
     {
       "id": "C-NCAP-2027-J",
@@ -334,7 +370,10 @@
           "name": "附录J 低速后碰撞颈部保护测试评价规程",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "附录\\s*J|Appendix\\s*J"
+      }
     },
     {
       "id": "C-NCAP-2027-M",
@@ -352,7 +391,10 @@
           "name": "附录M 乘员约束系统性能测试评价规程",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "附录\\s*M|Appendix\\s*M"
+      }
     },
     {
       "id": "CNCAP-2027",
@@ -372,7 +414,10 @@
           "name": "C-NCAP管理规则（2027年版）",
           "ver": "2027 年版"
         }
-      ]
+      ],
+      "locator": {
+        "match": "管理规则"
+      }
     },
     {
       "id": "FMVSS-No-10",
@@ -1116,7 +1161,10 @@
           "name": "乘员保护（Occupant Protection）",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "201"
+      }
     },
     {
       "id": "CMVSS-202",
@@ -1136,7 +1184,10 @@
           "name": "头枕（Head Restraints）",
           "ver": "Rev.1"
         }
-      ]
+      ],
+      "locator": {
+        "match": "202"
+      }
     },
     {
       "id": "CMVSS-207",
@@ -1156,7 +1207,10 @@
           "name": "座椅及座椅固定点系统（Seating and Seat Anchorages）",
           "ver": "Rev.0"
         }
-      ]
+      ],
+      "locator": {
+        "match": "207"
+      }
     },
     {
       "id": "CMVSS-208",
@@ -1176,7 +1230,10 @@
           "name": "乘员碰撞保护（Occupant Collision Protection）",
           "ver": "Rev.2"
         }
-      ]
+      ],
+      "locator": {
+        "match": "208"
+      }
     },
     {
       "id": "CMVSS-210",
@@ -1194,7 +1251,10 @@
           "name": "安全带固定点（Seat Belt Anchorages）",
           "ver": "—"
         }
-      ]
+      ],
+      "locator": {
+        "match": "210"
+      }
     },
     {
       "id": "CMVSS-302",
@@ -1214,7 +1274,10 @@
           "name": "内饰材料燃烧特性（Flammability of Interior Materials）",
           "ver": "Rev.0"
         }
-      ]
+      ],
+      "locator": {
+        "match": "302"
+      }
     },
     {
       "id": "T-CAAMTB-284-2025",

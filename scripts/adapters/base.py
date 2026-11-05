@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""适配器协议。
+"""适配器协议与注册表。
 
 一个适配器 = 一个站点。它只回答两个问题：
   1. 这个站点上，某个标准族现在有哪些版本？（probe）
@@ -15,18 +15,18 @@ from typing import Protocol
 class Document:
     """站点上的一个版本载体。"""
 
-    standard_id: str          # 对应 data/standards.json 的族 id
-    edition: str              # 版本标识，如 R17.07、571.207、GB 15083-2019
-    url: str                  # 正文地址
-    published: str | None = None   # 发布日期 YYYY-MM-DD（拿不到就 None，不猜）
-    meta: dict = field(default_factory=dict)  # 适配器私有信息，如 amd 号
+    standard_id: str
+    edition: str                    # 版本标识，如 R17.07a2、571.207@2026-11-03
+    url: str
+    published: str | None = None    # 发布日 YYYY-MM-DD；拿不到就 None，不猜
+    meta: dict = field(default_factory=dict)
 
 
 class Adapter(Protocol):
     id: str
 
     def probe(self, family: dict) -> list[Document]:
-        """返回该族在站点上可见的版本，按需自行排序。失败必须抛异常。"""
+        """返回该族在站点上可见的版本。失败必须抛异常。"""
         ...
 
     def fetch(self, doc: Document) -> bytes:
@@ -38,20 +38,35 @@ class AdapterError(RuntimeError):
     """站点结构变了、认不出、或者页面里找不到该族。"""
 
 
-def registry() -> dict[str, type]:
-    """站点 id → 适配器类。新增站点只需在这里登记。"""
+# 专用适配器：有明确判定逻辑，值得单独写
+SPECIAL = {}
+
+
+def _special() -> dict:
     from scripts.adapters import ecfr, openstd, unece
 
-    return {
-        "unece": unece.UNECE,
-        "ecfr": ecfr.ECFR,
-        "openstd": openstd.OpenStd,
-    }
+    return {"unece": unece.UNECE, "ecfr": ecfr.ECFR, "openstd": openstd.OpenStd}
 
 
-def get_adapter(site_id: str):
-    try:
-        cls = registry()[site_id]
-    except KeyError:
-        raise AdapterError(f"站点 {site_id} 还没有适配器") from None
-    return cls()
+# 通用适配器：配置驱动，站点形状由 sites.json 的 shape 字段决定
+GENERIC_SITES = {"tc", "adr", "cncap", "ciasi", "eurlex", "echa"}
+
+
+def registry() -> dict[str, type]:
+    """站点 id → 适配器类（仅专用适配器）。"""
+    return _special()
+
+
+def get_adapter(site_id: str, site_cfg: dict | None = None):
+    cls = _special().get(site_id)
+    if cls is not None:
+        return cls()
+
+    if site_id in GENERIC_SITES or (site_cfg and site_cfg.get("shape")):
+        if not site_cfg:
+            raise AdapterError(f"站点 {site_id} 需要配置，但没有提供 sites.json 条目")
+        from scripts.adapters import generic
+
+        return generic.GenericAdapter(site_cfg)
+
+    raise AdapterError(f"站点 {site_id} 还没有适配器")

@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """eCFR（49 CFR Part 571，FMVSS）。
 
 探测策略：官方 API 给出 title 49 的「更新至」日期；正文按 section 页取。

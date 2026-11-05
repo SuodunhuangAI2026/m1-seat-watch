@@ -1,0 +1,31 @@
+{
+  "id": "CMVSS-208",
+  "no": "CMVSS 208",
+  "title_cn": "乘员碰撞保护（Occupant Collision Protection）",
+  "site": "tc",
+  "tier": "T1",
+  "category": "related",
+  "org": "CMVSS",
+  "library_editions": [
+    "Rev.2"
+  ],
+  "current_edition": "C.R.C._c._1038@2026-10-19",
+  "entries": [
+    {
+      "no": "CMVSS 208",
+      "name": "乘员碰撞保护（Occupant Collision Protection）",
+      "ver": "Rev.2"
+    }
+  ],
+  "locator": {
+    "match": "208"
+  },
+  "editions": [
+    "C.R.C._c._1038@2026-10-19"
+  ],
+  "edition_meta": {
+    "C.R.C._c._1038@2026-10-19": {
+      "url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._1038/FULLText.html"
+    }
+  }
+}

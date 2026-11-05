@@ -60,6 +60,9 @@ NAME_ID = [
     ("VEHICLE SAFETY PERFORMANCE EVALUATION", "JNCAP-2023-Procedures"),
 ]
 
+# 手工维护的定位规则（data/locators.json），会并进每个族的 locator 字段
+LOCATORS = ROOT / "data" / "locators.json"
+
 # 明确不是标准原文的条目
 NOT_A_STANDARD = ("更新内容介绍",)
 
@@ -110,6 +113,14 @@ def main() -> None:
         if r["ver"] and r["ver"] != "—":
             fam["library_editions"].append(r["ver"])
         fam["entries"].append({"no": r["no"], "name": r["name"], "ver": r["ver"]})
+
+    locators = {}
+    if LOCATORS.exists():
+        locators = json.loads(LOCATORS.read_text(encoding="utf-8-sig"))
+    for fam in families.values():
+        rule = locators.get(fam["id"])
+        if rule:
+            fam["locator"] = rule
 
     out = {
         "_comment": "由 scripts/build_registry.py 从 data/registry.source.csv 生成，勿手改。",

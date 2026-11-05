@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """UNECE WP.29 —— 1958 年协定书附件（R 系列法规）+ GTR。
 
 探测策略：抓「Addenda to the 1958 Agreement」索引页，页面里每个 PDF 链接的

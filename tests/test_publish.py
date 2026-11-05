@@ -1,4 +1,4 @@
-﻿"""P2 测试：事件落盘、去重、人工覆盖、报告页。"""
+"""P2 测试：事件落盘、去重、人工覆盖、报告页。"""
 import json
 import sys
 import uuid

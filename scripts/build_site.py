@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """生成静态站。全部页面都在这里产出，不依赖任何前端框架。"""
 import json
