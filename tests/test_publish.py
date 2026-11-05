@@ -84,6 +84,15 @@ def test_process_degrades_on_bad_output():
         assert "不合规" in ev["impact"]["error"]
 
 
+def test_process_degrades_on_budget_exhausted():
+    with env():
+        def broker(system, user, temperature=0.2):
+            raise llm.BudgetExceeded("本月额度已用尽")
+        ev = publish.process(family=FAM, old_ed="R17.06", new_ed="R17.07",
+                             changes=CHANGES, date="2026-11-05", client=broker)
+        assert ev["impact"]["analyzed"] is False
+        assert "额度" in ev["impact"]["error"]
+
 def test_classify_types():
     assert events.classify("R17.06", "R17.07")[0] == "NEW_EDITION"
     assert events.classify("R17.07", "R17.07a2")[0] == "AMENDMENT"
