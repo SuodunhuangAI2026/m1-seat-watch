@@ -1,0 +1,11 @@
+{
+    "enabled":  true,
+    "days":  [
+                 "Mon",
+                 "Wed",
+                 "Fri"
+             ],
+    "time":  "08:30",
+    "timezone":  "Asia/Shanghai",
+    "window_minutes":  30
+}

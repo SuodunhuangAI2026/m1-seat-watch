@@ -1,0 +1,110 @@
+﻿no,name,ver,org,keep,cat,tier,site,why
+ADR 3/04,Seats and Seat Anchorages,—,其他标准,保留,core,T1,legislation.gov.au,
+ADR 5/06,Anchorages for Seatbelts,—,其他标准,保留,related,T1,legislation.gov.au,
+ADR 34/03,Child Restraint Anchorages and Child Restraint Anchor Fittings,—,其他标准,保留,related,T1,legislation.gov.au,
+C-IASI 17,车内乘员安全指数-前排座椅头枕静态试验规程,—,其他标准,保留,core,T1,ciasi.org.cn,
+C-IASI 18,车内乘员安全指数-座椅头枕动态试验规程,—,其他标准,保留,core,T1,ciasi.org.cn,
+C-IASI 19,车内乘员安全指数-座椅头枕试验评价规程,—,其他标准,保留,core,T1,ciasi.org.cn,
+C-IASI 20,车内乘员安全指数-车用 ISOFIX 下固定点和上拉带固定点试验规程,—,其他标准,保留,core,T1,ciasi.org.cn,
+C-IASI 21,车内乘员安全指数-车用 ISOFIX 下固定点和上拉带固定点评价规程,—,其他标准,保留,core,T1,ciasi.org.cn,
+C-NCAP 2027 附录A,附录A 正面100%重叠刚性壁障碰撞测试评价规程,—,行业标准,保留,related,T1,c-ncap.org.cn,
+C-NCAP 2027 附录B,附录B 正面50%重叠移动渐进变形壁障碰撞试验规程,—,行业标准,保留,related,T1,c-ncap.org.cn,
+C-NCAP 2027 附录C,附录C 正面碰撞乘员多样性保护测试评价规程,—,行业标准,保留,related,T1,c-ncap.org.cn,
+C-NCAP 2027 附录D,附录D 大角度坐姿正面碰撞测试评价规程,—,行业标准,保留,related,T1,c-ncap.org.cn,
+C-NCAP 2027 附录J,附录J 低速后碰撞颈部保护测试评价规程,—,行业标准,保留,core,T1,c-ncap.org.cn,
+C-NCAP 2027 附录M,附录M 乘员约束系统性能测试评价规程,—,行业标准,保留,related,T1,c-ncap.org.cn,
+CMVSS 201,乘员保护（Occupant Protection）,—,CMVSS,保留,related,T1,Transport Canada,
+CMVSS 202,头枕（Head Restraints）,Rev.1,CMVSS,保留,core,T1,Transport Canada,
+CMVSS 207,座椅及座椅固定点系统（Seating and Seat Anchorages）,Rev.0,CMVSS,保留,core,T1,Transport Canada,
+CMVSS 208,乘员碰撞保护（Occupant Collision Protection）,Rev.2,CMVSS,保留,related,T1,Transport Canada,
+CMVSS 210,安全带固定点（Seat Belt Anchorages）,—,CMVSS,保留,related,T1,Transport Canada,
+CMVSS 301,燃油系统完整性（Fuel System Integrity）,Rev.2,CMVSS,剔除,-,-,-,整车燃油系统，与座椅无关
+CMVSS 302,内饰材料燃烧特性（Flammability of Interior Materials）,Rev.0,CMVSS,保留,related,T1,Transport Canada,
+ECE-TRANS-WP.29-78,1958 年协定书（车辆构造决议）,Rev.7,ECE,剔除,-,-,-,框架性法律文件，不含技术条款
+ECE-TRANS-WP.29-2025-46,UN R17 第 12 系列修订草案（非正式文件）,草案,ECE,保留,core,T1,UNECE,
+FMVSS,FMVSS 版本号解读（继峰整理）,—,FMVSS,剔除,-,-,-,内部整理文档，非标准原文
+FMVSS No.3,定义（Definitions）,2024,FMVSS,剔除,-,-,-,定义条款，无独立要求
+FMVSS No.10,乘员座椅位置数确定（Designation of seating positions）,2024,FMVSS,保留,related,T1,eCFR,
+FMVSS No.201,乘员保护（Occupant protection）,2024,FMVSS,保留,related,T1,eCFR,
+FMVSS No.202a,头枕（Head restraints）,2024,FMVSS,保留,core,T1,eCFR,
+FMVSS No.207,座椅系统（Seating systems）,2024,FMVSS,保留,core,T1,eCFR,
+FMVSS No.208,乘员碰撞保护（Occupant crash protection）,2024,FMVSS,保留,related,T1,eCFR,
+FMVSS No.210,安全带固定点系统（Seat belt assembly anchorages）,2024 / 截至 2025-02-05,FMVSS,保留,related,T1,eCFR,
+FMVSS No.213,儿童约束系统（Child restraint systems）,2024,FMVSS,剔除,-,-,-,儿童座椅本体，已排除
+FMVSS No.214,侧面碰撞保护（Side impact protection）,2024,FMVSS,剔除,-,-,-,整车侧碰工况，座椅仅作载体
+FMVSS No.225,儿童约束固定点系统（Child restraint anchorage systems）,2024,FMVSS,保留,core,T1,eCFR,
+FMVSS No.301,燃油系统完整性（Fuel system integrity）,2024,FMVSS,剔除,-,-,-,整车燃油系统，与座椅无关
+FMVSS No.302,内饰材料燃烧特性（Flammability of interior materials）,2024,FMVSS,保留,related,T1,eCFR,
+GB 7258-2017,机动车运行安全技术条件,2017,GB,保留,related,T1/T2,openstd,
+GB 8410-2006,汽车内饰材料的燃烧特性,2006,GB,保留,related,T1/T2,openstd,
+GB 11551-2014,汽车正面碰撞的乘员保护,2014,GB,剔除,-,-,-,整车正面碰撞工况，座椅仅作载体
+GB 11552-2009,乘用车内部凸出物,2009,GB,保留,related,T1/T2,openstd,
+GB 14166-2013,机动车乘员用安全带 约束系统 儿童约束系统和ISOFIX儿童约束系统,2013,GB,保留,related,T1/T2,openstd,
+GB 14166-2024,机动车乘员用安全带和约束系统,2024,GB,保留,related,T1/T2,openstd,
+GB 14166-2024 / GB 14167-2024,GB 14166/14167-2024 更新内容介绍,2024,GB,保留,related,T1/T2,openstd,
+GB 14167-2013,汽车安全带安装固定点 ISOFIX固定点系统及上拉带固定点,2013,GB,保留,core,T1/T2,openstd,
+GB 14167-2024,机动车乘员用安全带和约束系统固定点,2024,GB,保留,core,T1/T2,openstd,
+GB 15083-202X（征求意见稿）,汽车座椅、座椅固定装置及头枕强度要求和试验方法,202X 征求意见稿,GB,保留,core,T1/T2,openstd,
+GB 15083-2019,汽车座椅 座椅固定装置及头枕强度要求和试验方法,2019,GB,保留,core,T1/T2,openstd,
+GB 20071-2006,汽车侧面碰撞的乘员保护,2006,GB,剔除,-,-,-,整车侧碰工况，座椅仅作载体
+GB 27887-2011,机动车儿童乘员用约束系统,2011,GB,剔除,-,-,-,儿童座椅本体，已排除
+GB 27887-2024,机动车儿童乘员用约束系统,2024,GB,剔除,-,-,-,儿童座椅本体，已排除
+GB/T 19515-2023,道路车辆 可再利用率和可回收利用率,2023,GB,保留,related,T1/T2,openstd,
+GB/T 29120-2012,H 点和 R 点确定程序,2012,GB,保留,related,T1/T2,openstd,
+GB/T 30512-2014,汽车禁用物质要求,2014,GB,保留,core,T1/T2,openstd,
+GSO 42:2015,机动车 一般要求（Motor Vehicles - General Requirements）,2015,其他标准,剔除,-,-,-,通用框架，座椅条款由 GSO 1598 承载
+GSO 98:1988,机动车 内饰材料燃烧特性及其试验方法（Flammability of Interior Materials）,1988,其他标准,保留,related,T2,GSO,
+GSO 1598:2002,机动车 头枕及其试验方法（Head Restraints and Their Methods of Test）,2002,其他标准,保留,core,T2,GSO,
+ISO 27955,道路车辆 轿车、旅行车和多用途车货物固定 要求和试验方法,—,其他标准,剔除,-,-,-,行李固定，与乘员座椅无关
+JNCAP H30-16,"H30-16 en Child Seat, Safety from Frontal Collision Performance Test Procedure",—,行业标准,剔除,-,-,-,儿童座椅本体，已排除
+JNCAP R3-17,R3-17 en Child Seat Usability Test Procedure,—,行业标准,剔除,-,-,-,儿童座椅本体，已排除
+JNCAP R5-01,R5-01 en FRONTAL COLLISION SAFETY PERFORMANCE TEST METHOD,—,行业标准,剔除,-,-,-,整车工况，座椅仅作载体
+JNCAP R5-02,R5-02 en OFFSET FRONTAL COLLISION SAFETY PERFORMANCE TEST PROCEDURE,—,行业标准,剔除,-,-,-,整车工况，座椅仅作载体
+JNCAP R5-03,R5-03 en SIDE COLLISION SAFETY PERFORMANCE TEST PROCEDURE,—,行业标准,剔除,-,-,-,整车工况，座椅仅作载体
+JNCAP R5-05,R5-05 en NECK INJURY PROTECTION PERFORMANCE TEST FOR REAR-END COLLISION,—,行业标准,保留,related,T1,nasva.go.jp,
+JNCAP R5-08,R5-08 en SEATBELT REMINDER EVALUATION TEST PROCEDURE,—,行业标准,剔除,-,-,-,提醒装置，非座椅本体
+KNCAP TP-CS-7,KNCAP whiplash protocols [TP-CS-7] En 2022.8.24,TP-CS-7,行业标准,保留,core,T1,kncap.org,
+QC/T 740-2017,乘用车座椅总成,2017,行业标准,保留,core,T2,工信部/标准网,
+QC/T 805-2008,乘用车座椅用滑轨技术条件,2008,行业标准,保留,core,T2,工信部/标准网,
+QC/T 831-2010,乘用车座椅用电动滑轨技术条件,2010,行业标准,保留,core,T2,工信部/标准网,
+T/CAAMTB 284-2025,汽车座椅舒适和健康性能要求和试验方法,2025,其他标准,保留,core,T3,团体标准平台,
+UN GTR No.7,头枕（Head restraints）,Amd.1 / Amd.1（附录1 工作文件） / Amd.2（附录1 工作文件）,ECE、其他标准,保留,core,T1,UNECE,
+UN R10,电磁兼容性（Electromagnetic compatibility）,Rev.6,ECE,剔除,-,-,-,EMC，与座椅结构/试验无关
+UN R14,安全带固定点（Safety-belt anchorages）,Rev.7 / Rev.7 / Amd.1 / Rev.7 / Amd.2 / Rev.7 / Amd.3 / Rev.7 / Amd.4,ECE,保留,related,T1,UNECE,
+UN R16,"安全带、约束系统及儿童约束系统（Safety-belts, restraint systems）",Rev.10 / Rev.10 / Amd.1 / Rev.10 / Amd.2 / Rev.10 / Amd.3 / Rev.10 / Amd.4 / Rev.10 / Amd.5 / Rev.10 / Amd.6 / Rev.10 / Corr.1 / Rev.11 / Amd.1 / Rev.11 / Amd.2,ECE,保留,related,T1,UNECE,
+UN R17,座椅、座椅固定装置及头枕（Seats and head restraints）,R17.11 / Rev.6 / Rev.6 / Amd.1 / Rev.7 / Rev.7 / Amd.1 / Rev.7 / Amd.2,ECE,保留,core,T1,UNECE,
+UN R21,车内内饰件（Interior fittings）,Rev.2 / Rev.2 / Amd.1 / Rev.2 / Amd.2 / Rev.2 / Amd.3 / Rev.2 / Amd.4 / Rev.2 / Corr.1 / —,ECE,保留,related,T1,UNECE,
+UN R118,内饰材料燃烧特性（Burning behaviour of interior materials）,Rev.3 / —,ECE,保留,related,T1,UNECE,
+UN R145,ISOFIX 固定点系统、上拉带固定点及 i-Size 座椅位置,Amd.1 / Amd.2 / Amd.3 / Amd.4 / R145.01 / Rev.3,ECE,保留,core,T1,UNECE,
+UN R173,前向座椅安全带及儿童约束系统安装,—,ECE,保留,core,T1,UNECE,
+UN R174,安全带提醒系统（Safety-belt reminder）,—,ECE,剔除,-,-,-,提醒装置，非座椅本体
+（无编号）2023 en VEHICLE SAFETY PERFORMANCE EVALUATION PROCEDURES 0000,2023 en VEHICLE SAFETY PERFORMANCE EVALUATION PROCEDURES 0000,2023,行业标准,保留,related,T1,nasva.go.jp,
+（无编号）APPLICATION OF STAR RATING,APPLICATION OF STAR RATING,2.1,行业标准,剔除,-,-,-,星级评定的行政应用规则
+（无编号）ASEAN-NCAP-Assessment-Protocol-Adult-Occupant-Protection-Version-3.0,ASEAN-NCAP-Assessment-Protocol-Adult-Occupant-Protection-Version-3.0,3.0,行业标准,保留,related,T1,aseancap.org,
+（无编号）ASEAN-NCAP-Assessment-Protocol-Child-Occupant-Protection-Version-3.0,ASEAN-NCAP-Assessment-Protocol-Child-Occupant-Protection-Version-3.0,3.0,行业标准,剔除,-,-,-,儿童约束
+（无编号）ASEAN-NCAP-Assessment-Protocol-Child-Occupant-Protection-Version-3.1,ASEAN-NCAP-Assessment-Protocol-Child-Occupant-Protection-Version-3.1,3.1,行业标准,剔除,-,-,-,儿童约束
+（无编号）ASEAN-NCAP-Overall-Assessment-Protocol-Version-3.0,ASEAN-NCAP-Overall-Assessment-Protocol-Version-3.0,3.0,行业标准,保留,related,T1,aseancap.org,
+（无编号）ASEAN-NCAP-Overall-Assessment-Protocol-Version-3.1,ASEAN-NCAP-Overall-Assessment-Protocol-Version-3.1,3.1,行业标准,保留,related,T1,aseancap.org,
+（无编号）ASEAN-NCAP-Star-Rating-Validity-Version-1.0,ASEAN-NCAP-Star-Rating-Validity-Version-1.0,1.0,行业标准,剔除,-,-,-,星级有效期规则
+（无编号）ASEAN-NCAP-Test-Protocol-Offset-Frontal-Impact-Version-4.0,ASEAN-NCAP-Test-Protocol-Offset-Frontal-Impact-Version-4.0,4.0,行业标准,剔除,-,-,-,整车偏置碰撞
+（无编号）ASEAN-NCAP-Test-Protocol-Side-Impact-Version-3.0,ASEAN-NCAP-Test-Protocol-Side-Impact-Version-3.0,3.0,行业标准,剔除,-,-,-,整车侧碰
+（无编号）ASEAN-NCAP-Vehicle-Selection-Specification-Testing-and-Retesting-Version-1.0,ASEAN-NCAP-Vehicle-Selection-Specification-Testing-and-Retesting-Version-1.0,1.0,行业标准,剔除,-,-,-,车辆选取规则
+（无编号）C-NCAP管理规则（2027年版）,C-NCAP管理规则（2027年版）,2027 年版,行业标准,保留,related,T1,c-ncap.org.cn,
+（无编号）Child Occupant Protection Prerequisites,Child Occupant Protection Prerequisites,—,行业标准,剔除,-,-,-,儿童约束前提条件
+（无编号）Crash Avoidance - Frontal Collisions,Crash Avoidance - Frontal Collisions,1.1,行业标准,剔除,-,-,-,主动安全，与座椅无关
+（无编号）Crash Protection - Rear Impact,Crash Protection - Rear Impact,1.1,行业标准,保留,related,T1,ancap.com.au,
+（无编号）Euro NCAP - Whiplash Dynamic Assessment - Testing Protocol v 3.3.1Feb 2019,Euro NCAP - Whiplash Dynamic Assessment - Testing Protocol v 3.3.1Feb 2019,3.3.1,行业标准,保留,core,T1,euroncap.com,
+（无编号）IIHS LATCH tools drawing set,IIHS LATCH tools drawing set,—,行业标准,剔除,-,-,-,LATCH 工装图纸，非规程
+（无编号）LATCH evaluation - rating guidelines (May 2024),LATCH evaluation - rating guidelines (May 2024),2024,行业标准,保留,related,T1,iihs.org,
+（无编号）LATCH protocol,LATCH protocol,—,行业标准,保留,related,T1,iihs.org,
+（无编号）Latin NCAP 2025 - AOP Protocol,Latin NCAP 2025 - AOP Protocol,2025,行业标准,保留,related,T1,latinncap.com,
+（无编号）Latin NCAP 2025 - COP Protocol V2.0.1,Latin NCAP 2025 - COP Protocol V2.0.1,2.0.1,行业标准,剔除,-,-,-,儿童约束协议
+（无编号）Latin NCAP Overall Rating 2025 V2.0.1,Latin NCAP Overall Rating 2025 V2.0.1,2.0.1,行业标准,保留,related,T1,latinncap.com,
+（无编号）Latin NCAP Testing Protocol 2026 v 2.0.1,Latin NCAP Testing Protocol 2026 v 2.0.1,2.0.1,行业标准,保留,related,T1,latinncap.com,
+（无编号）Overall Assessment,Overall Assessment,10.0,行业标准,保留,related,T1,ancap.com.au,
+（无编号）rear-whiplash-test-protocol-v11,rear-whiplash-test-protocol-v11,—,行业标准,保留,core,T1,euroncap.com,
+"（无编号）VEHICLE SELECTION,SPECIFICATION,TESTING & RETESTING","VEHICLE SELECTION,SPECIFICATION,TESTING & RETESTING",8.1,行业标准,剔除,-,-,-,车辆选取规则
+（无编号）Whiplash prevention evaluation test protocol Dec2025,Whiplash prevention evaluation test protocol Dec2025,—,行业标准,保留,core,T1,iihs.org,
+（无编号）Whiplash prevention rating guidelines Dec2025,Whiplash prevention rating guidelines Dec2025,—,行业标准,保留,core,T1,iihs.org,
+EU 2000/53/EC (ELV),报废车辆指令 — 附件II 限用物质,—,欧盟,保留,core,T1,EUR-Lex,座椅材料强制合规（原清单未收录）
+REACH SVHC,REACH 高关注物质候选清单,半年更新,欧盟,保留,related,T1,ECHA,SVHC 通报义务（原清单未收录）

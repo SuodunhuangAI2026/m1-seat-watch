@@ -1,0 +1,54 @@
+name: watch
+
+on:
+  schedule:
+    # 每 15 分钟唤醒一次，是否真的执行由 data/schedule.json 决定
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 上次运行日期存缓存，避免每天产生一条「今天没变化」的空提交
+      - uses: actions/cache@v4
+        with:
+          path: data/.state
+          key: last-run-${{ github.run_id }}
+          restore-keys: |
+            last-run-
+
+      - name: 调度判定
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python run.py --now
+          else
+            python run.py --scheduled
+          fi
+
+      - name: 提交变更
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "无文件变化，不提交"
+            exit 0
+          fi
+          git add -A
+          git commit -m "chore(auto): $(date -u +%F) 更新"
+          git push

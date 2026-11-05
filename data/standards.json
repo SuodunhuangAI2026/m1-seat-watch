@@ -1,0 +1,1418 @@
+{
+  "_comment": "由 scripts/build_registry.py 从 data/registry.source.csv 生成，勿手改。",
+  "count": 72,
+  "families": [
+    {
+      "id": "ADR-3-04",
+      "no": "ADR 3/04",
+      "title_cn": "Seats and Seat Anchorages",
+      "site": "adr",
+      "tier": "T1",
+      "category": "core",
+      "org": "其他标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "ADR 3/04",
+          "name": "Seats and Seat Anchorages",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "ADR-34-03",
+      "no": "ADR 34/03",
+      "title_cn": "Child Restraint Anchorages and Child Restraint Anchor Fittings",
+      "site": "adr",
+      "tier": "T1",
+      "category": "related",
+      "org": "其他标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "ADR 34/03",
+          "name": "Child Restraint Anchorages and Child Restraint Anchor Fittings",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "ADR-5-06",
+      "no": "ADR 5/06",
+      "title_cn": "Anchorages for Seatbelts",
+      "site": "adr",
+      "tier": "T1",
+      "category": "related",
+      "org": "其他标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "ADR 5/06",
+          "name": "Anchorages for Seatbelts",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "ANCAP-Overall",
+      "no": "（无编号）Overall Assessment",
+      "title_cn": "Overall Assessment",
+      "site": "ancap",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [
+        "10.0"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "（无编号）Overall Assessment",
+          "name": "Overall Assessment",
+          "ver": "10.0"
+        }
+      ]
+    },
+    {
+      "id": "ANCAP-Rear-Impact",
+      "no": "（无编号）Crash Protection - Rear Impact",
+      "title_cn": "Crash Protection - Rear Impact",
+      "site": "ancap",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [
+        "1.1"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "（无编号）Crash Protection - Rear Impact",
+          "name": "Crash Protection - Rear Impact",
+          "ver": "1.1"
+        }
+      ]
+    },
+    {
+      "id": "ASEAN-AOP-3.0",
+      "no": "（无编号）ASEAN-NCAP-Assessment-Protocol-Adult-Occupant-Protection-Version-3.0",
+      "title_cn": "ASEAN-NCAP-Assessment-Protocol-Adult-Occupant-Protection-Version-3.0",
+      "site": "asean",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [
+        "3.0"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "（无编号）ASEAN-NCAP-Assessment-Protocol-Adult-Occupant-Protection-Version-3.0",
+          "name": "ASEAN-NCAP-Assessment-Protocol-Adult-Occupant-Protection-Version-3.0",
+          "ver": "3.0"
+        }
+      ]
+    },
+    {
+      "id": "ASEAN-Overall-3.0",
+      "no": "（无编号）ASEAN-NCAP-Overall-Assessment-Protocol-Version-3.0",
+      "title_cn": "ASEAN-NCAP-Overall-Assessment-Protocol-Version-3.0",
+      "site": "asean",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [
+        "3.0"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "（无编号）ASEAN-NCAP-Overall-Assessment-Protocol-Version-3.0",
+          "name": "ASEAN-NCAP-Overall-Assessment-Protocol-Version-3.0",
+          "ver": "3.0"
+        }
+      ]
+    },
+    {
+      "id": "ASEAN-Overall-3.1",
+      "no": "（无编号）ASEAN-NCAP-Overall-Assessment-Protocol-Version-3.1",
+      "title_cn": "ASEAN-NCAP-Overall-Assessment-Protocol-Version-3.1",
+      "site": "asean",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [
+        "3.1"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "（无编号）ASEAN-NCAP-Overall-Assessment-Protocol-Version-3.1",
+          "name": "ASEAN-NCAP-Overall-Assessment-Protocol-Version-3.1",
+          "ver": "3.1"
+        }
+      ]
+    },
+    {
+      "id": "C-IASI-17",
+      "no": "C-IASI 17",
+      "title_cn": "车内乘员安全指数-前排座椅头枕静态试验规程",
+      "site": "ciasi",
+      "tier": "T1",
+      "category": "core",
+      "org": "其他标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "C-IASI 17",
+          "name": "车内乘员安全指数-前排座椅头枕静态试验规程",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "C-IASI-18",
+      "no": "C-IASI 18",
+      "title_cn": "车内乘员安全指数-座椅头枕动态试验规程",
+      "site": "ciasi",
+      "tier": "T1",
+      "category": "core",
+      "org": "其他标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "C-IASI 18",
+          "name": "车内乘员安全指数-座椅头枕动态试验规程",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "C-IASI-19",
+      "no": "C-IASI 19",
+      "title_cn": "车内乘员安全指数-座椅头枕试验评价规程",
+      "site": "ciasi",
+      "tier": "T1",
+      "category": "core",
+      "org": "其他标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "C-IASI 19",
+          "name": "车内乘员安全指数-座椅头枕试验评价规程",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "C-IASI-20",
+      "no": "C-IASI 20",
+      "title_cn": "车内乘员安全指数-车用 ISOFIX 下固定点和上拉带固定点试验规程",
+      "site": "ciasi",
+      "tier": "T1",
+      "category": "core",
+      "org": "其他标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "C-IASI 20",
+          "name": "车内乘员安全指数-车用 ISOFIX 下固定点和上拉带固定点试验规程",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "C-IASI-21",
+      "no": "C-IASI 21",
+      "title_cn": "车内乘员安全指数-车用 ISOFIX 下固定点和上拉带固定点评价规程",
+      "site": "ciasi",
+      "tier": "T1",
+      "category": "core",
+      "org": "其他标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "C-IASI 21",
+          "name": "车内乘员安全指数-车用 ISOFIX 下固定点和上拉带固定点评价规程",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "C-NCAP-2027-A",
+      "no": "C-NCAP 2027 附录A",
+      "title_cn": "附录A 正面100%重叠刚性壁障碰撞测试评价规程",
+      "site": "cncap",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "C-NCAP 2027 附录A",
+          "name": "附录A 正面100%重叠刚性壁障碰撞测试评价规程",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "C-NCAP-2027-B",
+      "no": "C-NCAP 2027 附录B",
+      "title_cn": "附录B 正面50%重叠移动渐进变形壁障碰撞试验规程",
+      "site": "cncap",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "C-NCAP 2027 附录B",
+          "name": "附录B 正面50%重叠移动渐进变形壁障碰撞试验规程",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "C-NCAP-2027-C",
+      "no": "C-NCAP 2027 附录C",
+      "title_cn": "附录C 正面碰撞乘员多样性保护测试评价规程",
+      "site": "cncap",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "C-NCAP 2027 附录C",
+          "name": "附录C 正面碰撞乘员多样性保护测试评价规程",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "C-NCAP-2027-D",
+      "no": "C-NCAP 2027 附录D",
+      "title_cn": "附录D 大角度坐姿正面碰撞测试评价规程",
+      "site": "cncap",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "C-NCAP 2027 附录D",
+          "name": "附录D 大角度坐姿正面碰撞测试评价规程",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "C-NCAP-2027-J",
+      "no": "C-NCAP 2027 附录J",
+      "title_cn": "附录J 低速后碰撞颈部保护测试评价规程",
+      "site": "cncap",
+      "tier": "T1",
+      "category": "core",
+      "org": "行业标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "C-NCAP 2027 附录J",
+          "name": "附录J 低速后碰撞颈部保护测试评价规程",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "C-NCAP-2027-M",
+      "no": "C-NCAP 2027 附录M",
+      "title_cn": "附录M 乘员约束系统性能测试评价规程",
+      "site": "cncap",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "C-NCAP 2027 附录M",
+          "name": "附录M 乘员约束系统性能测试评价规程",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "CNCAP-2027",
+      "no": "（无编号）C-NCAP管理规则（2027年版）",
+      "title_cn": "C-NCAP管理规则（2027年版）",
+      "site": "cncap",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [
+        "2027 年版"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "（无编号）C-NCAP管理规则（2027年版）",
+          "name": "C-NCAP管理规则（2027年版）",
+          "ver": "2027 年版"
+        }
+      ]
+    },
+    {
+      "id": "FMVSS-No-10",
+      "no": "FMVSS No.10",
+      "title_cn": "乘员座椅位置数确定（Designation of seating positions）",
+      "site": "ecfr",
+      "tier": "T1",
+      "category": "related",
+      "org": "FMVSS",
+      "library_editions": [
+        "2024"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "FMVSS No.10",
+          "name": "乘员座椅位置数确定（Designation of seating positions）",
+          "ver": "2024"
+        }
+      ]
+    },
+    {
+      "id": "FMVSS-No-201",
+      "no": "FMVSS No.201",
+      "title_cn": "乘员保护（Occupant protection）",
+      "site": "ecfr",
+      "tier": "T1",
+      "category": "related",
+      "org": "FMVSS",
+      "library_editions": [
+        "2024"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "FMVSS No.201",
+          "name": "乘员保护（Occupant protection）",
+          "ver": "2024"
+        }
+      ]
+    },
+    {
+      "id": "FMVSS-No-202a",
+      "no": "FMVSS No.202a",
+      "title_cn": "头枕（Head restraints）",
+      "site": "ecfr",
+      "tier": "T1",
+      "category": "core",
+      "org": "FMVSS",
+      "library_editions": [
+        "2024"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "FMVSS No.202a",
+          "name": "头枕（Head restraints）",
+          "ver": "2024"
+        }
+      ]
+    },
+    {
+      "id": "FMVSS-No-207",
+      "no": "FMVSS No.207",
+      "title_cn": "座椅系统（Seating systems）",
+      "site": "ecfr",
+      "tier": "T1",
+      "category": "core",
+      "org": "FMVSS",
+      "library_editions": [
+        "2024"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "FMVSS No.207",
+          "name": "座椅系统（Seating systems）",
+          "ver": "2024"
+        }
+      ]
+    },
+    {
+      "id": "FMVSS-No-208",
+      "no": "FMVSS No.208",
+      "title_cn": "乘员碰撞保护（Occupant crash protection）",
+      "site": "ecfr",
+      "tier": "T1",
+      "category": "related",
+      "org": "FMVSS",
+      "library_editions": [
+        "2024"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "FMVSS No.208",
+          "name": "乘员碰撞保护（Occupant crash protection）",
+          "ver": "2024"
+        }
+      ]
+    },
+    {
+      "id": "FMVSS-No-210",
+      "no": "FMVSS No.210",
+      "title_cn": "安全带固定点系统（Seat belt assembly anchorages）",
+      "site": "ecfr",
+      "tier": "T1",
+      "category": "related",
+      "org": "FMVSS",
+      "library_editions": [
+        "2024 / 截至 2025-02-05"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "FMVSS No.210",
+          "name": "安全带固定点系统（Seat belt assembly anchorages）",
+          "ver": "2024 / 截至 2025-02-05"
+        }
+      ]
+    },
+    {
+      "id": "FMVSS-No-225",
+      "no": "FMVSS No.225",
+      "title_cn": "儿童约束固定点系统（Child restraint anchorage systems）",
+      "site": "ecfr",
+      "tier": "T1",
+      "category": "core",
+      "org": "FMVSS",
+      "library_editions": [
+        "2024"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "FMVSS No.225",
+          "name": "儿童约束固定点系统（Child restraint anchorage systems）",
+          "ver": "2024"
+        }
+      ]
+    },
+    {
+      "id": "FMVSS-No-302",
+      "no": "FMVSS No.302",
+      "title_cn": "内饰材料燃烧特性（Flammability of interior materials）",
+      "site": "ecfr",
+      "tier": "T1",
+      "category": "related",
+      "org": "FMVSS",
+      "library_editions": [
+        "2024"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "FMVSS No.302",
+          "name": "内饰材料燃烧特性（Flammability of interior materials）",
+          "ver": "2024"
+        }
+      ]
+    },
+    {
+      "id": "REACH-SVHC",
+      "no": "REACH SVHC",
+      "title_cn": "REACH 高关注物质候选清单",
+      "site": "echa",
+      "tier": "T1",
+      "category": "related",
+      "org": "欧盟",
+      "library_editions": [
+        "半年更新"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "REACH SVHC",
+          "name": "REACH 高关注物质候选清单",
+          "ver": "半年更新"
+        }
+      ]
+    },
+    {
+      "id": "EU-2000-53-EC-ELV",
+      "no": "EU 2000/53/EC (ELV)",
+      "title_cn": "报废车辆指令 — 附件II 限用物质",
+      "site": "eurlex",
+      "tier": "T1",
+      "category": "core",
+      "org": "欧盟",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "EU 2000/53/EC (ELV)",
+          "name": "报废车辆指令 — 附件II 限用物质",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "EuroNCAP-Rear-Whiplash-v1.1",
+      "no": "（无编号）rear-whiplash-test-protocol-v11",
+      "title_cn": "rear-whiplash-test-protocol-v11",
+      "site": "euro",
+      "tier": "T1",
+      "category": "core",
+      "org": "行业标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "（无编号）rear-whiplash-test-protocol-v11",
+          "name": "rear-whiplash-test-protocol-v11",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "EuroNCAP-Whiplash-Dynamic",
+      "no": "（无编号）Euro NCAP - Whiplash Dynamic Assessment - Testing Protocol v 3.3.1Feb 2019",
+      "title_cn": "Euro NCAP - Whiplash Dynamic Assessment - Testing Protocol v 3.3.1Feb 2019",
+      "site": "euro",
+      "tier": "T1",
+      "category": "core",
+      "org": "行业标准",
+      "library_editions": [
+        "3.3.1"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "（无编号）Euro NCAP - Whiplash Dynamic Assessment - Testing Protocol v 3.3.1Feb 2019",
+          "name": "Euro NCAP - Whiplash Dynamic Assessment - Testing Protocol v 3.3.1Feb 2019",
+          "ver": "3.3.1"
+        }
+      ]
+    },
+    {
+      "id": "GSO-1598-2002",
+      "no": "GSO 1598:2002",
+      "title_cn": "机动车 头枕及其试验方法（Head Restraints and Their Methods of Test）",
+      "site": "gso",
+      "tier": "T2",
+      "category": "core",
+      "org": "其他标准",
+      "library_editions": [
+        "2002"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "GSO 1598:2002",
+          "name": "机动车 头枕及其试验方法（Head Restraints and Their Methods of Test）",
+          "ver": "2002"
+        }
+      ]
+    },
+    {
+      "id": "GSO-98-1988",
+      "no": "GSO 98:1988",
+      "title_cn": "机动车 内饰材料燃烧特性及其试验方法（Flammability of Interior Materials）",
+      "site": "gso",
+      "tier": "T2",
+      "category": "related",
+      "org": "其他标准",
+      "library_editions": [
+        "1988"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "GSO 98:1988",
+          "name": "机动车 内饰材料燃烧特性及其试验方法（Flammability of Interior Materials）",
+          "ver": "1988"
+        }
+      ]
+    },
+    {
+      "id": "IIHS-LATCH-Protocol",
+      "no": "（无编号）LATCH protocol",
+      "title_cn": "LATCH protocol",
+      "site": "iihs",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "（无编号）LATCH protocol",
+          "name": "LATCH protocol",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "IIHS-LATCH-Rating",
+      "no": "（无编号）LATCH evaluation - rating guidelines (May 2024)",
+      "title_cn": "LATCH evaluation - rating guidelines (May 2024)",
+      "site": "iihs",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [
+        "2024"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "（无编号）LATCH evaluation - rating guidelines (May 2024)",
+          "name": "LATCH evaluation - rating guidelines (May 2024)",
+          "ver": "2024"
+        }
+      ]
+    },
+    {
+      "id": "IIHS-Whiplash-Protocol",
+      "no": "（无编号）Whiplash prevention evaluation test protocol Dec2025",
+      "title_cn": "Whiplash prevention evaluation test protocol Dec2025",
+      "site": "iihs",
+      "tier": "T1",
+      "category": "core",
+      "org": "行业标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "（无编号）Whiplash prevention evaluation test protocol Dec2025",
+          "name": "Whiplash prevention evaluation test protocol Dec2025",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "IIHS-Whiplash-Rating",
+      "no": "（无编号）Whiplash prevention rating guidelines Dec2025",
+      "title_cn": "Whiplash prevention rating guidelines Dec2025",
+      "site": "iihs",
+      "tier": "T1",
+      "category": "core",
+      "org": "行业标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "（无编号）Whiplash prevention rating guidelines Dec2025",
+          "name": "Whiplash prevention rating guidelines Dec2025",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "JNCAP-2023-Procedures",
+      "no": "（无编号）2023 en VEHICLE SAFETY PERFORMANCE EVALUATION PROCEDURES 0000",
+      "title_cn": "2023 en VEHICLE SAFETY PERFORMANCE EVALUATION PROCEDURES 0000",
+      "site": "jncap",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [
+        "2023"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "（无编号）2023 en VEHICLE SAFETY PERFORMANCE EVALUATION PROCEDURES 0000",
+          "name": "2023 en VEHICLE SAFETY PERFORMANCE EVALUATION PROCEDURES 0000",
+          "ver": "2023"
+        }
+      ]
+    },
+    {
+      "id": "JNCAP-R5-05",
+      "no": "JNCAP R5-05",
+      "title_cn": "R5-05 en NECK INJURY PROTECTION PERFORMANCE TEST FOR REAR-END COLLISION",
+      "site": "jncap",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "JNCAP R5-05",
+          "name": "R5-05 en NECK INJURY PROTECTION PERFORMANCE TEST FOR REAR-END COLLISION",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "KNCAP-TP-CS-7",
+      "no": "KNCAP TP-CS-7",
+      "title_cn": "KNCAP whiplash protocols [TP-CS-7] En 2022.8.24",
+      "site": "kncap",
+      "tier": "T1",
+      "category": "core",
+      "org": "行业标准",
+      "library_editions": [
+        "TP-CS-7"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "KNCAP TP-CS-7",
+          "name": "KNCAP whiplash protocols [TP-CS-7] En 2022.8.24",
+          "ver": "TP-CS-7"
+        }
+      ]
+    },
+    {
+      "id": "LatinNCAP-AOP",
+      "no": "（无编号）Latin NCAP 2025 - AOP Protocol",
+      "title_cn": "Latin NCAP 2025 - AOP Protocol",
+      "site": "latin",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [
+        "2025"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "（无编号）Latin NCAP 2025 - AOP Protocol",
+          "name": "Latin NCAP 2025 - AOP Protocol",
+          "ver": "2025"
+        }
+      ]
+    },
+    {
+      "id": "LatinNCAP-Overall",
+      "no": "（无编号）Latin NCAP Overall Rating 2025 V2.0.1",
+      "title_cn": "Latin NCAP Overall Rating 2025 V2.0.1",
+      "site": "latin",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [
+        "2.0.1"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "（无编号）Latin NCAP Overall Rating 2025 V2.0.1",
+          "name": "Latin NCAP Overall Rating 2025 V2.0.1",
+          "ver": "2.0.1"
+        }
+      ]
+    },
+    {
+      "id": "LatinNCAP-Test-2026",
+      "no": "（无编号）Latin NCAP Testing Protocol 2026 v 2.0.1",
+      "title_cn": "Latin NCAP Testing Protocol 2026 v 2.0.1",
+      "site": "latin",
+      "tier": "T1",
+      "category": "related",
+      "org": "行业标准",
+      "library_editions": [
+        "2.0.1"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "（无编号）Latin NCAP Testing Protocol 2026 v 2.0.1",
+          "name": "Latin NCAP Testing Protocol 2026 v 2.0.1",
+          "ver": "2.0.1"
+        }
+      ]
+    },
+    {
+      "id": "GB-11552",
+      "no": "GB 11552",
+      "title_cn": "乘用车内部凸出物",
+      "site": "openstd",
+      "tier": "T1/T2",
+      "category": "related",
+      "org": "GB",
+      "library_editions": [
+        "2009"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "GB 11552-2009",
+          "name": "乘用车内部凸出物",
+          "ver": "2009"
+        }
+      ]
+    },
+    {
+      "id": "GB-14166",
+      "no": "GB 14166",
+      "title_cn": "机动车乘员用安全带 约束系统 儿童约束系统和ISOFIX儿童约束系统",
+      "site": "openstd",
+      "tier": "T1/T2",
+      "category": "related",
+      "org": "GB",
+      "library_editions": [
+        "2013",
+        "2024"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "GB 14166-2013",
+          "name": "机动车乘员用安全带 约束系统 儿童约束系统和ISOFIX儿童约束系统",
+          "ver": "2013"
+        },
+        {
+          "no": "GB 14166-2024",
+          "name": "机动车乘员用安全带和约束系统",
+          "ver": "2024"
+        }
+      ]
+    },
+    {
+      "id": "GB-14167",
+      "no": "GB 14167",
+      "title_cn": "汽车安全带安装固定点 ISOFIX固定点系统及上拉带固定点",
+      "site": "openstd",
+      "tier": "T1/T2",
+      "category": "core",
+      "org": "GB",
+      "library_editions": [
+        "2013",
+        "2024"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "GB 14167-2013",
+          "name": "汽车安全带安装固定点 ISOFIX固定点系统及上拉带固定点",
+          "ver": "2013"
+        },
+        {
+          "no": "GB 14167-2024",
+          "name": "机动车乘员用安全带和约束系统固定点",
+          "ver": "2024"
+        }
+      ]
+    },
+    {
+      "id": "GB-15083",
+      "no": "GB 15083",
+      "title_cn": "汽车座椅、座椅固定装置及头枕强度要求和试验方法",
+      "site": "openstd",
+      "tier": "T1/T2",
+      "category": "core",
+      "org": "GB",
+      "library_editions": [
+        "202X 征求意见稿",
+        "2019"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "GB 15083-202X（征求意见稿）",
+          "name": "汽车座椅、座椅固定装置及头枕强度要求和试验方法",
+          "ver": "202X 征求意见稿"
+        },
+        {
+          "no": "GB 15083-2019",
+          "name": "汽车座椅 座椅固定装置及头枕强度要求和试验方法",
+          "ver": "2019"
+        }
+      ]
+    },
+    {
+      "id": "GB-7258",
+      "no": "GB 7258",
+      "title_cn": "机动车运行安全技术条件",
+      "site": "openstd",
+      "tier": "T1/T2",
+      "category": "related",
+      "org": "GB",
+      "library_editions": [
+        "2017"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "GB 7258-2017",
+          "name": "机动车运行安全技术条件",
+          "ver": "2017"
+        }
+      ]
+    },
+    {
+      "id": "GB-8410",
+      "no": "GB 8410",
+      "title_cn": "汽车内饰材料的燃烧特性",
+      "site": "openstd",
+      "tier": "T1/T2",
+      "category": "related",
+      "org": "GB",
+      "library_editions": [
+        "2006"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "GB 8410-2006",
+          "name": "汽车内饰材料的燃烧特性",
+          "ver": "2006"
+        }
+      ]
+    },
+    {
+      "id": "GB-T-19515",
+      "no": "GB/T 19515",
+      "title_cn": "道路车辆 可再利用率和可回收利用率",
+      "site": "openstd",
+      "tier": "T1/T2",
+      "category": "related",
+      "org": "GB",
+      "library_editions": [
+        "2023"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "GB/T 19515-2023",
+          "name": "道路车辆 可再利用率和可回收利用率",
+          "ver": "2023"
+        }
+      ]
+    },
+    {
+      "id": "GB-T-29120",
+      "no": "GB/T 29120",
+      "title_cn": "H 点和 R 点确定程序",
+      "site": "openstd",
+      "tier": "T1/T2",
+      "category": "related",
+      "org": "GB",
+      "library_editions": [
+        "2012"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "GB/T 29120-2012",
+          "name": "H 点和 R 点确定程序",
+          "ver": "2012"
+        }
+      ]
+    },
+    {
+      "id": "GB-T-30512",
+      "no": "GB/T 30512",
+      "title_cn": "汽车禁用物质要求",
+      "site": "openstd",
+      "tier": "T1/T2",
+      "category": "core",
+      "org": "GB",
+      "library_editions": [
+        "2014"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "GB/T 30512-2014",
+          "name": "汽车禁用物质要求",
+          "ver": "2014"
+        }
+      ]
+    },
+    {
+      "id": "QC-T-740-2017",
+      "no": "QC/T 740-2017",
+      "title_cn": "乘用车座椅总成",
+      "site": "qct",
+      "tier": "T2",
+      "category": "core",
+      "org": "行业标准",
+      "library_editions": [
+        "2017"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "QC/T 740-2017",
+          "name": "乘用车座椅总成",
+          "ver": "2017"
+        }
+      ]
+    },
+    {
+      "id": "QC-T-805-2008",
+      "no": "QC/T 805-2008",
+      "title_cn": "乘用车座椅用滑轨技术条件",
+      "site": "qct",
+      "tier": "T2",
+      "category": "core",
+      "org": "行业标准",
+      "library_editions": [
+        "2008"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "QC/T 805-2008",
+          "name": "乘用车座椅用滑轨技术条件",
+          "ver": "2008"
+        }
+      ]
+    },
+    {
+      "id": "QC-T-831-2010",
+      "no": "QC/T 831-2010",
+      "title_cn": "乘用车座椅用电动滑轨技术条件",
+      "site": "qct",
+      "tier": "T2",
+      "category": "core",
+      "org": "行业标准",
+      "library_editions": [
+        "2010"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "QC/T 831-2010",
+          "name": "乘用车座椅用电动滑轨技术条件",
+          "ver": "2010"
+        }
+      ]
+    },
+    {
+      "id": "CMVSS-201",
+      "no": "CMVSS 201",
+      "title_cn": "乘员保护（Occupant Protection）",
+      "site": "tc",
+      "tier": "T1",
+      "category": "related",
+      "org": "CMVSS",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "CMVSS 201",
+          "name": "乘员保护（Occupant Protection）",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "CMVSS-202",
+      "no": "CMVSS 202",
+      "title_cn": "头枕（Head Restraints）",
+      "site": "tc",
+      "tier": "T1",
+      "category": "core",
+      "org": "CMVSS",
+      "library_editions": [
+        "Rev.1"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "CMVSS 202",
+          "name": "头枕（Head Restraints）",
+          "ver": "Rev.1"
+        }
+      ]
+    },
+    {
+      "id": "CMVSS-207",
+      "no": "CMVSS 207",
+      "title_cn": "座椅及座椅固定点系统（Seating and Seat Anchorages）",
+      "site": "tc",
+      "tier": "T1",
+      "category": "core",
+      "org": "CMVSS",
+      "library_editions": [
+        "Rev.0"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "CMVSS 207",
+          "name": "座椅及座椅固定点系统（Seating and Seat Anchorages）",
+          "ver": "Rev.0"
+        }
+      ]
+    },
+    {
+      "id": "CMVSS-208",
+      "no": "CMVSS 208",
+      "title_cn": "乘员碰撞保护（Occupant Collision Protection）",
+      "site": "tc",
+      "tier": "T1",
+      "category": "related",
+      "org": "CMVSS",
+      "library_editions": [
+        "Rev.2"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "CMVSS 208",
+          "name": "乘员碰撞保护（Occupant Collision Protection）",
+          "ver": "Rev.2"
+        }
+      ]
+    },
+    {
+      "id": "CMVSS-210",
+      "no": "CMVSS 210",
+      "title_cn": "安全带固定点（Seat Belt Anchorages）",
+      "site": "tc",
+      "tier": "T1",
+      "category": "related",
+      "org": "CMVSS",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "CMVSS 210",
+          "name": "安全带固定点（Seat Belt Anchorages）",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "CMVSS-302",
+      "no": "CMVSS 302",
+      "title_cn": "内饰材料燃烧特性（Flammability of Interior Materials）",
+      "site": "tc",
+      "tier": "T1",
+      "category": "related",
+      "org": "CMVSS",
+      "library_editions": [
+        "Rev.0"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "CMVSS 302",
+          "name": "内饰材料燃烧特性（Flammability of Interior Materials）",
+          "ver": "Rev.0"
+        }
+      ]
+    },
+    {
+      "id": "T-CAAMTB-284-2025",
+      "no": "T/CAAMTB 284-2025",
+      "title_cn": "汽车座椅舒适和健康性能要求和试验方法",
+      "site": "ttbz",
+      "tier": "T3",
+      "category": "core",
+      "org": "其他标准",
+      "library_editions": [
+        "2025"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "T/CAAMTB 284-2025",
+          "name": "汽车座椅舒适和健康性能要求和试验方法",
+          "ver": "2025"
+        }
+      ]
+    },
+    {
+      "id": "ECE-TRANS-WP-29-2025-46",
+      "no": "ECE-TRANS-WP.29-2025-46",
+      "title_cn": "UN R17 第 12 系列修订草案（非正式文件）",
+      "site": "unece",
+      "tier": "T1",
+      "category": "core",
+      "org": "ECE",
+      "library_editions": [
+        "草案"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "ECE-TRANS-WP.29-2025-46",
+          "name": "UN R17 第 12 系列修订草案（非正式文件）",
+          "ver": "草案"
+        }
+      ]
+    },
+    {
+      "id": "UN-GTR-No-7",
+      "no": "UN GTR No.7",
+      "title_cn": "头枕（Head restraints）",
+      "site": "unece",
+      "tier": "T1",
+      "category": "core",
+      "org": "ECE、其他标准",
+      "library_editions": [
+        "Amd.1 / Amd.1（附录1 工作文件） / Amd.2（附录1 工作文件）"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "UN GTR No.7",
+          "name": "头枕（Head restraints）",
+          "ver": "Amd.1 / Amd.1（附录1 工作文件） / Amd.2（附录1 工作文件）"
+        }
+      ]
+    },
+    {
+      "id": "UN-R118",
+      "no": "UN R118",
+      "title_cn": "内饰材料燃烧特性（Burning behaviour of interior materials）",
+      "site": "unece",
+      "tier": "T1",
+      "category": "related",
+      "org": "ECE",
+      "library_editions": [
+        "Rev.3 / —"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "UN R118",
+          "name": "内饰材料燃烧特性（Burning behaviour of interior materials）",
+          "ver": "Rev.3 / —"
+        }
+      ]
+    },
+    {
+      "id": "UN-R14",
+      "no": "UN R14",
+      "title_cn": "安全带固定点（Safety-belt anchorages）",
+      "site": "unece",
+      "tier": "T1",
+      "category": "related",
+      "org": "ECE",
+      "library_editions": [
+        "Rev.7 / Rev.7 / Amd.1 / Rev.7 / Amd.2 / Rev.7 / Amd.3 / Rev.7 / Amd.4"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "UN R14",
+          "name": "安全带固定点（Safety-belt anchorages）",
+          "ver": "Rev.7 / Rev.7 / Amd.1 / Rev.7 / Amd.2 / Rev.7 / Amd.3 / Rev.7 / Amd.4"
+        }
+      ]
+    },
+    {
+      "id": "UN-R145",
+      "no": "UN R145",
+      "title_cn": "ISOFIX 固定点系统、上拉带固定点及 i-Size 座椅位置",
+      "site": "unece",
+      "tier": "T1",
+      "category": "core",
+      "org": "ECE",
+      "library_editions": [
+        "Amd.1 / Amd.2 / Amd.3 / Amd.4 / R145.01 / Rev.3"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "UN R145",
+          "name": "ISOFIX 固定点系统、上拉带固定点及 i-Size 座椅位置",
+          "ver": "Amd.1 / Amd.2 / Amd.3 / Amd.4 / R145.01 / Rev.3"
+        }
+      ]
+    },
+    {
+      "id": "UN-R16",
+      "no": "UN R16",
+      "title_cn": "安全带、约束系统及儿童约束系统（Safety-belts, restraint systems）",
+      "site": "unece",
+      "tier": "T1",
+      "category": "related",
+      "org": "ECE",
+      "library_editions": [
+        "Rev.10 / Rev.10 / Amd.1 / Rev.10 / Amd.2 / Rev.10 / Amd.3 / Rev.10 / Amd.4 / Rev.10 / Amd.5 / Rev.10 / Amd.6 / Rev.10 / Corr.1 / Rev.11 / Amd.1 / Rev.11 / Amd.2"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "UN R16",
+          "name": "安全带、约束系统及儿童约束系统（Safety-belts, restraint systems）",
+          "ver": "Rev.10 / Rev.10 / Amd.1 / Rev.10 / Amd.2 / Rev.10 / Amd.3 / Rev.10 / Amd.4 / Rev.10 / Amd.5 / Rev.10 / Amd.6 / Rev.10 / Corr.1 / Rev.11 / Amd.1 / Rev.11 / Amd.2"
+        }
+      ]
+    },
+    {
+      "id": "UN-R17",
+      "no": "UN R17",
+      "title_cn": "座椅、座椅固定装置及头枕（Seats and head restraints）",
+      "site": "unece",
+      "tier": "T1",
+      "category": "core",
+      "org": "ECE",
+      "library_editions": [
+        "R17.11 / Rev.6 / Rev.6 / Amd.1 / Rev.7 / Rev.7 / Amd.1 / Rev.7 / Amd.2"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "UN R17",
+          "name": "座椅、座椅固定装置及头枕（Seats and head restraints）",
+          "ver": "R17.11 / Rev.6 / Rev.6 / Amd.1 / Rev.7 / Rev.7 / Amd.1 / Rev.7 / Amd.2"
+        }
+      ]
+    },
+    {
+      "id": "UN-R173",
+      "no": "UN R173",
+      "title_cn": "前向座椅安全带及儿童约束系统安装",
+      "site": "unece",
+      "tier": "T1",
+      "category": "core",
+      "org": "ECE",
+      "library_editions": [],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "UN R173",
+          "name": "前向座椅安全带及儿童约束系统安装",
+          "ver": "—"
+        }
+      ]
+    },
+    {
+      "id": "UN-R21",
+      "no": "UN R21",
+      "title_cn": "车内内饰件（Interior fittings）",
+      "site": "unece",
+      "tier": "T1",
+      "category": "related",
+      "org": "ECE",
+      "library_editions": [
+        "Rev.2 / Rev.2 / Amd.1 / Rev.2 / Amd.2 / Rev.2 / Amd.3 / Rev.2 / Amd.4 / Rev.2 / Corr.1 / —"
+      ],
+      "current_edition": null,
+      "entries": [
+        {
+          "no": "UN R21",
+          "name": "车内内饰件（Interior fittings）",
+          "ver": "Rev.2 / Rev.2 / Amd.1 / Rev.2 / Amd.2 / Rev.2 / Amd.3 / Rev.2 / Amd.4 / Rev.2 / Corr.1 / —"
+        }
+      ]
+    }
+  ]
+}

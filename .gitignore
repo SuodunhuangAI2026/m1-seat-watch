@@ -1,0 +1,14 @@
+# 原始 PDF / HTML，不进仓库
+cache/
+
+# 运行状态（GitHub Actions 用 cache 持久化，本地用这个文件）
+data/.state/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+.DS_Store
+Thumbs.db

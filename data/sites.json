@@ -1,0 +1,138 @@
+{
+  "_comment": "19 个站点。适配器按站点写，标准族只是站点上的条目。tier: T1 官方可自动探测 / T2 需登录或扫描件 / T3 无公开源。",
+  "sites": [
+    {
+      "id": "unece",
+      "name": "UNECE WP.29",
+      "tier": "T1",
+      "entry_url": "https://unece.org/un-regulations-addenda-1958-agreement",
+      "note": "addenda 列表页；编号规则 RnRrrr am N / c N"
+    },
+    {
+      "id": "ecfr",
+      "name": "eCFR · 49 CFR 571",
+      "tier": "T1",
+      "entry_url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-571",
+      "note": "每条 FMVSS 一个 571.x 小节"
+    },
+    {
+      "id": "openstd",
+      "name": "国家标准全文公开系统（GB 688）",
+      "tier": "T1/T2",
+      "entry_url": "https://openstd.samr.gov.cn/bzgk/gb/std_list_type",
+      "note": "元数据可探测；部分正文为扫描图片，需人工补文本"
+    },
+    {
+      "id": "cncap",
+      "name": "C-NCAP",
+      "tier": "T1",
+      "entry_url": "http://www.c-ncap.org.cn/guicheng/cncap",
+      "note": "管理规则 + 附录 A/B/C/D/J/M"
+    },
+    {
+      "id": "tc",
+      "name": "Transport Canada · CMVSS",
+      "tier": "T1",
+      "entry_url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._1038/FULLText.html",
+      "note": "法规全文页，按节定位"
+    },
+    {
+      "id": "ciasi",
+      "name": "C-IASI 中国保险汽车安全指数",
+      "tier": "T1",
+      "entry_url": "http://www.ciasi.org.cn/",
+      "note": "规程 17–21"
+    },
+    {
+      "id": "iihs",
+      "name": "IIHS",
+      "tier": "T1",
+      "entry_url": "https://www.iihs.org/ratings/about-our-tests/test-protocols-and-technical-information",
+      "note": "LATCH 与鞭打防护两类规程"
+    },
+    {
+      "id": "adr",
+      "name": "ADR · legislation.gov.au",
+      "tier": "T1",
+      "entry_url": "https://www.infrastructure.gov.au/infrastructure-transport-vehicles/vehicles/vehicle-design-regulation",
+      "note": "澳大利亚设计规则"
+    },
+    {
+      "id": "asean",
+      "name": "ASEAN NCAP",
+      "tier": "T1",
+      "entry_url": "http://www.aseancap.org/",
+      "note": "AOP / Overall 协议"
+    },
+    {
+      "id": "latin",
+      "name": "Latin NCAP",
+      "tier": "T1",
+      "entry_url": "https://www.latinncap.com/en/our-tests",
+      "note": "AOP / Overall / Testing Protocol"
+    },
+    {
+      "id": "jncap",
+      "name": "JNCAP · NASVA",
+      "tier": "T1",
+      "entry_url": "https://www.nasva.go.jp/mamoru/en/download/car_download.html",
+      "note": "注意 Shift_JIS 编码"
+    },
+    {
+      "id": "ancap",
+      "name": "ANCAP",
+      "tier": "T1",
+      "entry_url": "https://www.ancap.com.au/protocols-and-policies#current",
+      "note": "Rear Impact / Overall"
+    },
+    {
+      "id": "euro",
+      "name": "Euro NCAP",
+      "tier": "T1",
+      "entry_url": "https://www.euroncap.com/en/for-engineers/",
+      "note": "鞭打动态评价与后排鞭打规程"
+    },
+    {
+      "id": "kncap",
+      "name": "KNCAP",
+      "tier": "T1",
+      "entry_url": "https://www.kncap.org/indexNew.jsp",
+      "note": "TP-CS-7 鞭打协议"
+    },
+    {
+      "id": "eurlex",
+      "name": "EUR-Lex",
+      "tier": "T1",
+      "entry_url": "https://eur-lex.europa.eu/",
+      "note": "EU 2000/53/EC 及其附件 II 修订"
+    },
+    {
+      "id": "echa",
+      "name": "ECHA",
+      "tier": "T1",
+      "entry_url": "https://echa.europa.eu/",
+      "note": "REACH SVHC 候选清单，半年更新，可降频为每月"
+    },
+    {
+      "id": "qct",
+      "name": "QC/T 行业标准 · 全国标准信息公共服务平台",
+      "tier": "T2",
+      "entry_url": "https://std.samr.gov.cn/",
+      "note": "仅元数据；正文付费，人工上传"
+    },
+    {
+      "id": "gso",
+      "name": "GSO 海湾标准化组织",
+      "tier": "T2",
+      "entry_url": "",
+      "note": "入口待补；正文付费"
+    },
+    {
+      "id": "ttbz",
+      "name": "全国团体标准信息平台",
+      "tier": "T3",
+      "entry_url": "http://www.ttbz.org.cn/",
+      "note": "仅登记，不自动抓"
+    }
+  ]
+}
