@@ -1,0 +1,89 @@
+# -*- coding: utf-8 -*-
+"""页面渲染：样式、外壳、极简模板替换。
+
+刻意不引入模板引擎——两个占位符规则（{{var}}）够用，少一个依赖少一处故障。
+"""
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+TEMPLATES = ROOT / "templates"
+
+CSS = """
+:root{--ink:#1f2937;--sub:#6b7280;--line:#e5e7eb;--bg:#fff;--blu:#083e82;--blu2:#e8eef6;
+--red:#d03923;--amber:#b45309;--green:#15803d;--soft:#f9fafb}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.7 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg)}
+header{border-bottom:1px solid var(--line);padding:26px 20px 18px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+h1{font-size:25px;margin:0 0 6px;letter-spacing:.5px}
+h1 .bar{display:inline-block;width:4px;height:21px;background:var(--blu);vertical-align:-3px;margin-right:10px}
+h1 a{color:inherit;text-decoration:none}
+.sub{color:var(--sub);font-size:14px}
+nav.top{margin-top:12px}
+nav.top a{color:var(--blu);text-decoration:none;margin-right:18px;font-size:14px}
+h2{font-size:18px;margin:32px 0 10px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+h2 .site{color:var(--blu)}
+h2 .tier{font-size:12px;font-weight:400;color:var(--sub);border:1px solid var(--line);border-radius:10px;padding:1px 8px;margin-left:8px;vertical-align:2px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;font-weight:600;color:var(--sub);border-bottom:1px solid var(--line);padding:6px 8px;font-size:13px}
+td{border-bottom:1px solid var(--line);padding:7px 8px;vertical-align:top}
+td.no{white-space:nowrap;color:var(--blu);font-weight:600;width:150px}
+.tag{display:inline-block;font-size:11px;padding:1px 7px;border-radius:9px;background:var(--blu2);color:var(--blu);margin-left:6px;vertical-align:2px}
+.tag.rel{background:#f3f4f6;color:var(--sub)}
+.tag.warn{background:#fef3c7;color:var(--amber)}
+.tag.bad{background:#fee2e2;color:var(--red)}
+.tag.ok{background:#dcfce7;color:var(--green)}
+.kpi{display:flex;gap:30px;margin:16px 0 0;flex-wrap:wrap}
+.kpi div{font-size:13px;color:var(--sub)}
+.kpi b{display:block;font-size:25px;color:var(--ink);line-height:1.25}
+.card{border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:10px 0;background:var(--soft)}
+.card h3{margin:0 0 6px;font-size:15px}
+.card h3 a{color:var(--blu);text-decoration:none}
+.meta{color:var(--sub);font-size:13px}
+pre.diff{background:#fff;border:1px solid var(--line);border-radius:6px;padding:10px;overflow:auto;
+font:13px/1.6 ui-monospace,Consolas,monospace;white-space:pre-wrap;word-break:break-word}
+.add{color:var(--green)} .del{color:var(--red)} .mod{color:var(--amber)}
+.empty{color:var(--sub);padding:26px 0;text-align:center}
+footer{color:var(--sub);font-size:13px;padding:36px 0 60px;border-top:1px solid var(--line);margin-top:48px}
+.op{white-space:pre-wrap;background:#fffbeb;border-left:3px solid var(--amber);padding:10px 14px;border-radius:4px}
+@media print{header,footer,nav.top{display:none}.wrap{max-width:100%}}
+"""
+
+NAV = (
+    '<nav class="top">'
+    '<a href="index.html">首页</a>'
+    '<a href="scope.html">监控范围</a>'
+    '<a href="changes/index.html">变更流</a>'
+    '</nav>'
+)
+
+
+def page(title: str, body: str, kpi: str = "", *, root: str = "") -> str:
+    """root 是相对站点根的路径前缀，报告页在 reports/ 下要传 '../'。"""
+    nav = NAV.replace('href="', f'href="{root}')
+    return f"""<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{title}</title><style>{CSS}</style></head>
+<body>
+<header><div class="wrap">
+  <h1><span class="bar"></span><a href="{root}index.html">M1 座椅标准变更监控</a></h1>
+  <div class="sub">UNECE · FMVSS · GB · ADR · GSO · NCAP 体系 · 限用物质</div>
+  {kpi}{nav}
+</div></header>
+<main class="wrap">{body}</main>
+<footer><div class="wrap">数据由 <code>data/</code> 生成 · 报告页可直接整页复制</div></footer>
+</body></html>"""
+
+
+def fill(text: str, **ctx) -> str:
+    for key, value in ctx.items():
+        text = text.replace("{{" + key + "}}", str(value))
+    return text
+
+
+def template(name: str) -> str:
+    p = TEMPLATES / name
+    if not p.exists():
+        raise FileNotFoundError(f"缺少模板：{p}")
+    return p.read_text(encoding="utf-8")

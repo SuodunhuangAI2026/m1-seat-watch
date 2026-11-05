@@ -189,6 +189,33 @@ def run_probe(only: list[str] | None = None) -> dict:
                        "form": form, "chars": len(text), "versions": len(docs)}
         print(f"  [新增] {sid} {latest.edition}（{form}, {len(text)} 字符）", flush=True)
 
+        # 有上一版正文就做条款比对并归因；没有（首次建库）只登记版本
+        prev = state.previous_edition(sid, latest.edition)
+        old_text = state.load_text(sid, prev) if prev else None
+        if not old_text:
+            state.record_edition(sid, latest.edition, {"form": form, "url": latest.url})
+            continue
+
+        from scripts import diff as diffmod, publish
+
+        changes = diffmod.diff(old_text, text)
+        if not changes:
+            health[sid]["status"] = "unchanged_content"
+            state.record_edition(sid, latest.edition, {"form": form, "url": latest.url})
+            print(f"  [同文] {sid} {latest.edition}：版本号变了但正文一致", flush=True)
+            continue
+
+        event = publish.process(
+            family=fam, old_ed=prev, new_ed=latest.edition, changes=changes,
+            doc={"published": latest.published, "form": form, "url": latest.url},
+            source_url=latest.url,
+        )
+        health[sid]["status"] = "changed"
+        health[sid]["diff_total"] = len(changes)
+        health[sid]["analyzed"] = event["impact"].get("analyzed", True)
+        print(f"  [变更] {sid} {prev} → {latest.edition}：{len(changes)} 处"
+              f"{'' if event['impact'].get('analyzed', True) else '（未归因）'}", flush=True)
+
     summary = {
         "checked_at": datetime.now(ZoneInfo("Asia/Shanghai")).isoformat(timespec="seconds"),
         "checked": len(families),
