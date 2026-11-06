@@ -170,6 +170,17 @@ def run_probe(only: list[str] | None = None) -> dict:
     down: dict[str, str] = {}   # 站点 id → 首次失败原因；同一站点挂了就不再逐个硬试
     doc_event_done: set[str] = set()  # document 形状的站点，一次变更只出一条事件
 
+    summary = {
+        "checked_at": datetime.now(ZoneInfo("Asia/Shanghai")).isoformat(timespec="seconds"),
+        "checked": len(families),
+        "fetched": 0,
+        "families": health,
+    }
+
+    def flush_health() -> None:
+        summary["fetched"] = fetched
+        state.save_health(summary)
+
     # 整轮墙钟预算：到点就把剩余族标成 deferred，继续出健康表和站点，
     # 保证工作流一定能跑完（而不是被一个慢站点挂死到超时被杀）。
     budget_s = float(os.environ.get("PROBE_BUDGET_SECONDS", "900"))
@@ -177,6 +188,7 @@ def run_probe(only: list[str] | None = None) -> dict:
     per_family_s = float(os.environ.get("PROBE_FAMILY_SECONDS", "75"))
 
     for fam in families:
+        flush_health()            # 先把已完成的族落盘，再处理下一个
         sid = fam["id"]
         site = fam["site"]
 
@@ -281,13 +293,7 @@ def run_probe(only: list[str] | None = None) -> dict:
         print(f"  [变更] {sid} {prev} → {latest.edition}：{len(changes)} 处"
               f"{'' if event['impact'].get('analyzed', True) else '（未归因）'}", flush=True)
 
-    summary = {
-        "checked_at": datetime.now(ZoneInfo("Asia/Shanghai")).isoformat(timespec="seconds"),
-        "checked": len(families),
-        "fetched": fetched,
-        "families": health,
-    }
-    state.save_health(summary)
+    flush_health()
     print(
         f"\n探测 {len(families)} 族，新增正文 {fetched} 份，"
         f"失败 {sum(1 for v in health.values() if not v['ok'])} 族",
@@ -296,14 +302,22 @@ def run_probe(only: list[str] | None = None) -> dict:
     return summary
 
 
-def pipeline(only: list[str] | None = None) -> int:
-    """P1：probe → fetch → normalize → 落盘。P2 再接 diff → analyze → publish。"""
+def pipeline(only: list[str] | None = None, probe_only: bool = False) -> int:
+    """P1：probe → fetch → normalize → 落盘。P2 再接 diff → analyze → publish。
+
+    probe_only=True 时只探测不建站（工作流把构建拆成独立步骤，避免探测被
+    timeout 强杀后连站点都出不来）。
+    """
     for cmd in ([sys.executable, str(ROOT / "scripts" / "build_registry.py")],):
         print("+", Path(cmd[1]).name, flush=True)
         if subprocess.call(cmd, cwd=ROOT) != 0:
             return 1
 
     run_probe(only)
+
+    if probe_only:
+        print("+ 跳过 build_site（--probe-only）", flush=True)
+        return 0
 
     print("+ build_site.py", flush=True)
     return subprocess.call([sys.executable, str(ROOT / "scripts" / "build_site.py")], cwd=ROOT)
@@ -390,6 +404,9 @@ def main() -> int:
     g.add_argument("--diff", nargs=3, metavar=("族", "旧版本", "新版本"), help="比对两个已存版本")
     g.add_argument("--calibrate", metavar="站点", help="探一次站点并打印解析结果")
     ap.add_argument("--only", action="append", help="只跑指定族，可重复")
+    # 与 --now 组合使用：只探测不建站。工作流用 timeout 强杀它，再单独 build_site。
+    ap.add_argument("--probe-only", action="store_true",
+                    help="配合 --now：只探测，不 build_site（供工作流分离构建用）")
     args = ap.parse_args()
 
     if args.calibrate:
@@ -408,7 +425,7 @@ def main() -> int:
         print("[调度] 手动触发，跳过调度判断", flush=True)
         set_output(True, "manual")
 
-    rc = pipeline(args.only)
+    rc = pipeline(args.only, probe_only=getattr(args, "probe_only", False))
     if rc == 0:
         cfg = json.loads((DATA / "schedule.json").read_text(encoding="utf-8-sig"))
         today = datetime.now(ZoneInfo(cfg.get("timezone", "Asia/Shanghai"))).date().isoformat()

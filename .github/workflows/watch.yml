@@ -16,6 +16,7 @@ concurrency:
 jobs:
   watch:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -35,17 +36,40 @@ jobs:
           restore-keys: |
             last-run-
 
-      - name: 调度判定
-        id: gate
+      # 探测单独一步：用操作系统级 timeout 强杀，避免慢速站点把整条流水线挂死。
+      # --probe-only 只探测不建站；即使被强杀，health.json 已逐族增量落盘。
+      # 退出码 124 = 被 timeout 杀掉，属于预期，不算失败，继续往下建站。
+      - name: 探测
+        id: probe
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            python run.py --now
+            timeout --signal=KILL 780 python run.py --now --probe-only || {
+              rc=$?
+              if [ "$rc" = "124" ] || [ "$rc" = "137" ]; then
+                echo "::warning::探测超过 13 分钟被强制结束，按已抓到的部分继续建站"
+              else
+                echo "::error::探测异常退出（$rc）"
+                exit $rc
+              fi
+            }
           else
-            python run.py --scheduled
+            timeout --signal=KILL 780 python run.py --scheduled --probe-only || {
+              rc=$?
+              if [ "$rc" = "124" ] || [ "$rc" = "137" ]; then
+                echo "::warning::探测超过 13 分钟被强制结束，按已抓到的部分继续建站"
+              else
+                echo "::error::探测异常退出（$rc）"
+                exit $rc
+              fi
+            }
           fi
 
+      # 无论如何都重建站点：用已落盘的 health.json 和正文生成静态页
+      - name: 生成站点
+        run: python scripts/build_site.py
+
       - name: 提交变更
-        if: steps.gate.outputs.run == 'true'
+        if: steps.probe.outputs.run == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
