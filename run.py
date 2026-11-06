@@ -10,6 +10,7 @@ import json
 import os
 import subprocess
 import sys
+import threading
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -119,6 +120,35 @@ def load_sites() -> dict[str, dict]:
     return {s["id"]: s for s in data["sites"]}
 
 
+class _Timeout(Exception):
+    pass
+
+
+def _with_timeout(fn, seconds: float):
+    """在后台线程里跑 fn，超过 seconds 秒就抛 _Timeout。
+
+    用线程而不是 signal：signal.alarm 只在主线程可用，且 Windows 不支持。
+    超时后线程会泄漏（daemon，不会阻止进程退出），但我们立刻放弃该族继续下一个，
+    这正是我们要的——一个坏站点不能拖住其余 71 个族。
+    """
+    box: dict = {}
+
+    def target() -> None:
+        try:
+            box["value"] = fn()
+        except BaseException as e:  # noqa: BLE001
+            box["error"] = e
+
+    th = threading.Thread(target=target, daemon=True)
+    th.start()
+    th.join(seconds)
+    if th.is_alive():
+        raise _Timeout(f"超过 {int(seconds)}s 未完成")
+    if "error" in box:
+        raise box["error"]
+    return box.get("value")
+
+
 def run_probe(only: list[str] | None = None) -> dict:
     """探测 + 抓取 + 归一化 + 落盘。返回健康表。
 
@@ -140,9 +170,20 @@ def run_probe(only: list[str] | None = None) -> dict:
     down: dict[str, str] = {}   # 站点 id → 首次失败原因；同一站点挂了就不再逐个硬试
     doc_event_done: set[str] = set()  # document 形状的站点，一次变更只出一条事件
 
+    # 整轮墙钟预算：到点就把剩余族标成 deferred，继续出健康表和站点，
+    # 保证工作流一定能跑完（而不是被一个慢站点挂死到超时被杀）。
+    budget_s = float(os.environ.get("PROBE_BUDGET_SECONDS", "900"))
+    deadline = datetime.now() + timedelta(seconds=budget_s)
+    per_family_s = float(os.environ.get("PROBE_FAMILY_SECONDS", "75"))
+
     for fam in families:
         sid = fam["id"]
         site = fam["site"]
+
+        if datetime.now() >= deadline:
+            health[sid] = {"ok": False, "status": "deferred",
+                           "error": f"超出本轮 {int(budget_s)}s 预算，下轮再试"}
+            continue
 
         if site in down:
             health[sid] = {"ok": False, "status": "site_down",
@@ -157,7 +198,7 @@ def run_probe(only: list[str] | None = None) -> dict:
             continue
 
         try:
-            docs = adapter.probe(fam)
+            docs = _with_timeout(lambda: adapter.probe(fam), per_family_s)
         except Exception as e:  # noqa: BLE001
             err = f"{type(e).__name__}: {e}"
             health[sid] = {"ok": False, "status": "probe_failed", "error": err}
@@ -185,7 +226,7 @@ def run_probe(only: list[str] | None = None) -> dict:
             continue
 
         try:
-            raw = adapter.fetch(latest)
+            raw = _with_timeout(lambda: adapter.fetch(latest), per_family_s)
             text, form = normalize.to_text(raw, kind=latest.meta.get("format", ""))
         except normalize.UnusableDocument as e:
             health[sid] = {"ok": False, "status": "needs_manual", "edition": latest.edition,
