@@ -23,6 +23,10 @@ jobs:
         with:
           python-version: "3.12"
 
+      # lxml 是 HTML 解析硬依赖（normalize.py / adapters/generic.py），pypdf 是 PDF 兜底
+      - name: 依赖
+        run: pip install lxml pypdf
+
       # 上次运行日期存缓存，避免每天产生一条「今天没变化」的空提交
       - uses: actions/cache@v4
         with:
