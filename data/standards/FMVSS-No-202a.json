@@ -1,0 +1,29 @@
+{
+  "id": "FMVSS-No-202a",
+  "no": "FMVSS No.202a",
+  "title_cn": "头枕（Head restraints）",
+  "site": "ecfr",
+  "tier": "T1",
+  "category": "core",
+  "org": "FMVSS",
+  "library_editions": [
+    "2024"
+  ],
+  "current_edition": "571.202a@2026-11-04",
+  "entries": [
+    {
+      "no": "FMVSS No.202a",
+      "name": "头枕（Head restraints）",
+      "ver": "2024"
+    }
+  ],
+  "editions": [
+    "571.202a@2026-11-04"
+  ],
+  "edition_meta": {
+    "571.202a@2026-11-04": {
+      "form": "html",
+      "url": "https://www.ecfr.gov/current/title-49/section-571.202a"
+    }
+  }
+}

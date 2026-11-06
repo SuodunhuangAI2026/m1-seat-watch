@@ -1,0 +1,1048 @@
+PROTOCOL
+CRASH PROTECTION
+SIDE IMPACT
+v1.2
+August 2026
+2026 - 2028
+PREFACE
+During test preparation, vehicle manufacturers are encouraged to liaise with ANCAP and to observe the way the vehicle is set up for
+testing. Where a vehicle manufacturer feels that a particular aspect should be altered, they should raise this with the ANCAP assessor
+present at the test, or in writing to the ANCAP Chief Executive Officer if no assessor is present. ANCAP will consider the matter and at
+their sole discretion give direction to the test facility.
+Vehicle manufacturers warrant not to, whether directly or indirectly, interfere with testing and are forbidden from making changes to any
+aspect that may influence the test, including but not limited to dummy positioning, vehicle setting, laboratory environment etc.
+Illustrations in this protocol are reproduced from Euro NCAP publications, and therefore show Euro NCAP markings on left-hand-drive
+vehicles. Where relevant, the layouts depicted should be adapted to right-hand-drive application.
+VERSION
+VERSION PUBLISHED DETAILS
+1.0 May 2025 First ANCAP version of protocol
+1.1 November 2025
+S1.5 - Added reference for filming and photography
+S2.3.2 - Revised torso angle specification
+S3.1 - Revised Figure 1, added impact location description
+S3.2 - Removed reference to Single Occupant test, revised Figures 2&3. Added impact
+location description
+S3.4 - Added scoring detail
+S3.5 - Clarified load case selection. Added new Figure 4. Sled pulse and Active Restraint
+detail moved to new section 3.5.2.3 and 3.5.2.4
+S3.5.1 - Added detail on load case scoring
+S3.5.2.2 - Clarified setup specification
+S3.5.3.1 - Revised table and added description
+S3.5.4 - Clarified text
+S3.5.4.1 - Revised table and added description and text clarification
+S4.1.3.5 - Updated Figure 9
+S4.2.2 & 4.2.3 - Clarified modifier application
+1.2 August 2026
+S2.4.1 - Corrected ‘booster cushion’ to ‘booster seat’
+S3.2 - Deleted optional additional pole side impact test
+S3.4 - Clarified body region colour zones
+S3.5.2.3 - Revised Figure 7 (sled pulse scaling)
+S3.5.4.1 - Clarified table heading
+S4.1.3 - Corrected reference to section 4.2.2
+DISCLAIMER
+ANCAP has taken all reasonable care to ensure that the information published in this protocol is accurate and reflects the current technical
+decisions taken by the organisation. In the event this protocol contains an error or inaccuracy, ANCAP reserves the right to make
+corrections and determine the assessment and subsequent result of the affected requirement(s).
+COPYRIGHT
+Copyright 2026. This work is the intellectual property of ANCAP with certain content reproduced with the permission of Euro NCAP. A
+license is granted for this material to be shared for non-commercial, educational purposes, provided this copyright statement appears on
+the reproduced materials and notice is given that the copying is by permission of ANCAP. To disseminate otherwise or to republish will be
+considered a breach of intellectual property rights.
+CONTENTS
+SCORING 2
+1 MEASURING EQUIPMENT 3
+Reference system 3
+Dummies 3
+Collision partners 3
+Measurement and variables 4
+2 TEST CONDITIONS 6
+VUT preparation 6
+Occupant compartment adjustments 6
+Adult dummy positioning 8
+CRS installation and child dummy placement 10
+Determining limited rear space for child occupants 13
+3 TEST PROCEDURES 14
+AE-MDB 14
+Pole 15
+Colour band scheme 16
+Injury criteria and limits 17
+Far side protection 19
+4 POSTTEST ASSESSMENT & INSPECTION 28
+After test 28
+Inspection 35
+Version 1.2 – August 2026 2
+SCORING
+Crash Protection – Side Impact assessments Total points 35
+AE-MDB test 15
+Driver - WorldSID 50 th 10
+Rear passenger - Q10 2.5
+Rear passenger - Q6 2.5
+Pole test 10
+Driver - WorldSID 50 th 10
+Far side 10
+Occupant to Occupant - Full scale pole test 2
+Driver - Main load case - AE-MDB 2
+Driver - Main load case - Pole 2
+Driver - Robustness - AE-MDB 2
+Driver - Robustness - Pole 2
+Definitions used in this protocol can be found in Euro NCAP Technical Bulletin CP 001.
+Any of the following post-test conditions identified in either the full-scale AE-MDB or Pole tests
+will disqualify the vehicle from any rewards in far side occupant protection.
+- Structural failure of the door; its attachments to the body, the roof/cant rail and sill.
+- Detachment of door latches, hinges, fully opened doors or structural failures of the
+roof/cant rail and sill.
+- Failure of restraint system failures that are intended for far side occupant protection. For
+example, incorrect deployment of centre (occupant to occupant) airbags.
+- Where the total score for the driver occupants in the AE-MDB and pole impacts is below
+17.0 points out of 20.
+Version 1.2 – August 2026 3
+1 MEASURING EQUIPMENT
+Data processing and reporting shall be in accordance with Euro NCAP Technical Bulletin CP 005.
+All film and photography requirements are detailed in the Euro NCAP Film and Photo protocol.
+Reference system
+The sign convention used for configuring the transducers is stated in SAE J211 (2022).
+Dummies
+All Anthropometric Test Devices (ATD) shall conform to the specifications detailed in the
+respective Euro NCAP Technical Bulletins below:
+Test ATD
+AE-MDB WorldSID 50th percentile - CP 202 Q6 and Q10 child - CP 009
+Pole WorldSID 50 th percentile - CP 202
+Far side sled and VTC WorldSID 50 th percentile - CP 202
+Collision partners
+1.3.1 Side impact MDB
+The Mobile Deformable Barrier (MDB) used in the side impact includes both a barrier face and
+trolley. The trolley and Advanced European Mobile Deformable Barrier face (AE-MDB), including
+ventilation frame, shall conform to the specifications of Euro NCAP Technical Bulletin CP 201.
+1.3.2 Pole impact vehicle carrier and pole
+The rigid pole is defined in UN Regulation No. 135, Annex 3, February 2016. It shall be set away
+from any mounting surface, such as a barrier, block or other structure, so that the vehicle will not
+contact such a mount or support at any time within 100ms of the initiation of the vehicle to pole
+contact.
+A line must be marked along the vertical centreline of the pole which may be used to check the
+alignment of the test vehicle on the carrier.
+A vehicle carrier must be used which has a horizontal flat surface with a sufficiently large area to
+allow unobstructed longitudinal displacement of the vehicle of about 1000mm and rotation of the
+vehicle during the deformation phase of the impact. To minimise effects of friction between the
+tyres of the test vehicle and the surface of the carrier this friction is reduced to a minimum by
+placing the vehicle with each tyre on two sheets of PTFE.
+To avoid vehicle movement prior to the impact, the vehicle may be fixed to the carrier until 5m
+before the point of impact. The impact speed should be reached 10m before the point of impact.
+Crumple tubes or a comparable device will decelerate the carrier not earlier than 80ms after the
+moment / point of impact. Where floor deceleration occurs before head to head contact or any
+peak injury criteria it must be shown that there has not been an influence on the dummy
+kinematics.
+Version 1.2 – August 2026 4
+The carrier may be fitted with an emergency abort system. This is optional; the test facility may
+elect to test without an abort system.
+Measurement and variables
+1.4.1 Instrumentation general
+All instrumentation used in the test shall be (re-)calibrated within at least one year before each
+test and should be re-calibrated if it reaches its Channel Amplitude Class (CAC) during any test.
+The measurement data shall be recorded according to ISO 6487 or SAE J211/1 (2022) at a
+minimum sample frequency of 20kHz. For sled and virtual testing, data shall be provided to
+ANCAP with a sample frequency of 10kHz.
+1.4.2 VUT instrumentation
+Location Parameter CAC
+B-pillar - unstruck side Acceleration, A y 350g
+Low voltage battery - including any secondary
+batteries Supply voltage, Vlow 60V
+High voltage battery Propulsion voltage, V high 1000V
+The B-pillar accelerometer is to be fitted to a tolerance of ±1 degree and parallel to the Y-axis of
+the vehicle.
+1.4.3 AE-MDB trolley instrumentation
+Location Parameter CAC
+Trolley C of G Acceleration, A x 150g
+1.4.4 Pole test vehicle carrier instrumentation
+Location Parameter CAC
+Carrier C of G Acceleration, A x 350g
+1.4.5 Far side sled instrumentation
+Location Parameter CAC
+B-pillar, non-struck side Acceleration, A x, Ay 150g
+Sled Acceleration, A x 150g
+Driver seatbelt shoulder and lap* sections Force, F diagonal, Flap 16kN
+* Care must be taken to position the lap belt transducer outboard of the dummy so that it does
+not interfere with the dummy/interior during the impact.
+Version 1.2 – August 2026 5
+Filming and photography
+Filming and photography requirements are detailed in Euro NCAPTechnical Bulletin CP 003.
+Version 1.2 – August 2026 6
+2 TEST CONDITIONS
+VUT preparation
+In advance of test preparation, the OEM shall provide ANCAP and the test laboratory with the
+information detailed in Euro NCAP Technical Bulletin CP 002. Prepare the vehicle as defined in
+Euro NCAP Technical Bulletin CP 004.
+Occupant compartment adjustments
+Position the seats as detailed below. Adjustments not listed shall be set to mid positions or the
+nearest position rearward, lowest or outboard. Adjustments are to be made following the order in
+each table.
+Where specific settings are NOT indicated for either the driver or passenger, the same MDP and
+setting must be used for all occupants. For seat movement definitions, see CP 001.
+2.2.1 50 t h percentile occupants
+Adjustment Required setting - WorldSID
+Fore/aft As per UN Regulation No. 135.
+Driver - Must not be further rearward than 95th percentile position.
+Passenger – As driver.
+Pole impact passenger - seat in rearmost, the head CoG must be
+no further rearward than the impact line.
+Front seat cushion tilt As per UN Regulation No. 135.
+Front seat height As per UN Regulation No. 135.
+Front seat torso angle MDP otherwise 25° torso angle
+Front seat lumbar support As per UN Regulation No. 135.
+Front seat cushion length Fully retracted
+Front head restraint
+Fore/aft or tilt - Mid position.
+Height - Mid position.
+Front seat belt anchorage MDP or mid
+Arm-rests
+Adjustable arm-rests on the seat back will have them positioned in
+the ‘not in use’ position
+Adjustable arm rests as part of the centre console will have them
+positioned fully down and fully retracted. The lid of any arm
+rest/storage compartment shall be closed.
+Version 1.2 – August 2026 7
+2.2.2 Rear seats
+The rear seat settings must be the same for MPDB, FWDB and AE-MDB tests.
+Adjustments Required setting
+Rear seat facing Forwards
+Rear seat lateral position Most outboard
+Rear seat fore/aft Rearmost
+Rear seat cushion tilt MDP up to mid position, otherwise mid
+Rear seat height MDP up to mid position, otherwise lowest
+Rear seat back angle MDP, otherwise 25° torso angle
+Rear seat lumbar support Fully retracted
+Rear seat cushion length Fully retracted
+Rear head restraint
+Fore/aft or tilt - MDP, otherwise mid
+Height - Lowest in use
+Remove if the vehicle handbook allows for CRS use.
+Rear seat belt anchorage MDP per stature, otherwise mid
+Arm-rests (rear seats) Not in use position
+2.2.3 Other settings
+Other settings Required setting
+Steering wheel Highest position and closest to driver
+Side window glazing Front & rear - All raised
+Gear change lever In the neutral position
+Parking brake
+Engaged.
+If the vehicle transmission automatically engages park when the
+parking brake is engaged, return the transmission to the neutral
+position. If the vehicle does not allow the transmission to be in neutral
+with the parking brake engaged, the transmission may remain in
+park. Where a powertrain or energy management prevents the
+restraint system firing when the parking brake is engaged, perform
+the test with the parking brake disengaged.
+Pedals Normal position of rest or fully forward for adjustable pedals
+Doors
+Closed, not locked. Rear child locks disengaged.
+See Post Crash protocol for ADL requirements.
+Version 1.2 – August 2026 8
+Other settings Required setting
+Roof Raised
+Sunroof Closed
+Sun visors Stowed
+Rear view mirror Normal position of use
+Front passenger airbag
+Pole O2O only – Vehicles equipped with automatic restraint system
+(e.g. airbag/pretensioner) disabling and default OFF may require
+specific actions enable the airbag.
+Adult dummy positioning
+It is the intention that the dummy is not left to sit directly on the seat for more than 2 hours prior
+to the test. It is acceptable for the dummy to be left in the vehicle for a longer period, provided
+that the dummy position is checked no more than one hour prior to test.
+Measure the location of the H-point manikin 50 th percentile using the procedure defined in
+Addendum 6 of M.R.1.
+Once the WorldSID has been correctly positioned record the measurements defined in CP 202.
+2.3.1 Dummy Placement
+If, after dummy positioning, the vehicle is moved or a test run is aborted ensure that the dummy
+has not moved from the intended pretest position. If there are difficulties with positioning of any
+dummy, the H-point location shall be prioritised.
+The seat settings shall not be adjusted for dummy positioning with the exception of the fore/aft
+travel to establish the knee gap where required. If the dummy cannot be positioned within the
+specified tolerances after three attempts, then it is to be placed as close to the tolerance limits as
+possible. Record all settings detailed in the table below and those which were not within tolerance.
+2.3.2 WorldSID positioning
+Dummy part Required setting
+H-point Within a square of ±10mm in X and Z of a point 20mm forward of that of the manikin
+H-point. The X position shall be prioritised over the Z position.
+Torso angle Thorax tilt sensor should coincide with the angle specified by the manufacturer or
+0° (spine flexion) ±1° when the torso angle is 25° ±1°. Otherwise no further
+adjustment of rib angle is required. Dummy’s back in contact with the seat back and
+the dummy centreline aligned with that of the seatback.
+Head Adjust the neck bracket to level the head at the closest position to 0° ±1°. No other
+seat adjustments shall be made to achieve this.
+Arms At the first detent downward of the most upward detent corresponding to a
+differential angle of 32° between rib angle sensor and the arm angle.
+Version 1.2 – August 2026 9
+Dummy part Required setting
+Legs Driver - Place the right foot on the undepressed accelerator pedal, with the heel as
+far forwards as allowable. Place left foot flat on the footwell at an equal distance
+from the seat centreline.
+Where a lack of ankle articulation prevents the foot from sitting flat on the
+accelerator pedal/floor, keep the foot at a 90 degree angle to the tibia and ensure
+that the heel is as far forward as possible and in contact with the floor.
+- No distance is specified for the knee spacing. However, priority should be
+given to ensure the following:
+- There is 5 mm clearance between the knees/legs and the steering shroud,
+instrument panel and centre console.
+- There is a stable foot and ankle position.
+The legs are as parallel as possible to the sagittal plane.
+Passenger - The feet shall be placed with the heel as far forwards as possible with
+the feet as flat on the floor as possible. Both legs and feet shall be as parallel as
+possible to the sagittal plane.
+2.3.3 Seat belt – all dummies
+Adjust the seatbelt D-loop for the relevant occupant as detailed in the tables above, carefully
+place the seat belt across the dummy and lock as normal. It will be necessary to re-position the
+arm as described above.
+Remove the slack from the lap section of the webbing until it is resting gently around the pelvis
+of the dummy. Only minimal force shall be applied to the webbing when removing the slack. The
+route of the lap belt should be as natural as possible.
+Place one finger behind the diagonal section of the webbing at the height of the dummy sternum.
+Pull the webbing away from the chest horizontally forward and allow it to retract in the direction
+of the D-loop using only the force provided by the retractor mechanism. Repeat this step three
+times, only.
+After following the above steps, the seatbelt should lie in a natural position across the dummy
+sternum assembly and shoulder clavicle. Where this is not the case, and the D-loop is adjustable,
+the anchorage shall be adjusted and steps above repeated.
+The upper anchorage should be adjusted by a sufficient amount to ensure a natural belt position,
+this may require multiple attempts. For example, where the belt touches the neck the upper
+anchorage shall be lowered. Where the belt position requires adjustment, pictures must be taken
+showing the pre and post adjustment position.
+Once the belt is positioned the location of the belt should be marked across the dummy chest to
+ensure that no further adjustments are made. Mark also the belt at the level of the D-loop to be
+sure that the initial tension is maintained during test preparation.
+Version 1.2 – August 2026 10
+CRS installation and child dummy placement
+The use of additional belt guides, clips or other components that are not an integral part of the
+CRS is prohibited. Belt guides that are fitted to the vehicle must be permanently attached and
+information on their use must be contained in the vehicle handbook, where this is not the case
+they MUST NOT be used for testing.
+2.4.1 Q10 dummy installation
+Dummy part Required setting
+Booster seat Place the booster seat on the relevant seating position and mark the fore/aft position
+on the side of the CRS and vehicle. Align the CRS with the vehicle seat centreline
+and check that there is no interaction between the CRS and side door when it is
+closed. If there is interaction, the CRS may be moved inboard by up to 50mm.
+Q10 placement Place the dummy on the CRS with both aligned to the seat centreline. Ensure that
+the suit has not moved in the gap between femur and hip by pulling the suit towards
+the knees.
+Buckle the seatbelt. If the buckle is not accessible because of interaction with the
+CRS, move the CRS and dummy outboards a little as possible (max 50mm) to get
+free access to the buckle. Remove the slack from the webbing but do not tighten
+the webbing.
+Realign the CRS with the marks on the vehicle seat. If the CRS cannot easily be
+aligned with the original marks due to the shape of the vehicle seat or position of
+the seat belt buckle, then re-mark the new lateral position of CRS relative to vehicle
+seat.
+Ensure that the rear of the CRS is in contact with the seat back by pressing the CRS
+backwards against the seat and making sure that the fore/aft markings are still
+aligned.
+Where applicable, place the hip shields on the Q10 dummy. Ensure that the
+distance between the hip shields is no less than 154mm. If needed, a larger gap
+should be used to establish the best fit.
+Where the rear head restraints interfere with the CRS, they should be repositioned
+as necessary to avoid this. They may only be removed if instructed to do so in the
+vehicle handbook.
+Torso Ensure that the dummy’s upper back is in contact with back of the CRS. This is
+done by bending the dummy’s back into an upright position and then rocking the
+dummy sideways while at the same time pushing the pelvis backwards.
+Ensure that the booster seat is aligned with the new reference marks and that the
+dummy is on the centreline of the CRS and not rotated about the vertical axis.
+Push the dummy’s shoulders toward the seat back until either the shoulders contact
+the seat back or the head is in contact with the head restraint.
+Ensure that the dummy is sitting in an upright position and is aligned with the
+centreline marks on the head restraint (if applicable) or is parallel to the marks of
+the centreline.
+Ensure that the CRS position did not change relative to the marked position
+Head If the head is pushed forwards by the head restraint, firstly move the head restraint
+rearwards in X, then in Z if required. If there is still interference and no further
+adjustment of the head restraint is possible continue with the test.
+Version 1.2 – August 2026 11
+Dummy part Required setting
+Arms The upper arm shall be positioned parallel to the chest. The measurements shall be
+taken on the neoprene suit along the front surface of the arm (bicep) and between
+the two IR-TRACCs on the chest.
+Position the lower arms parallel to the upper legs resting on the booster seat or
+armrest as close as possible to the side of the femur. The elbows shall be kept as
+close as possible to the torso. Where possible, the tip of fingers should be in line
+with the screws of the knee joint in the x-direction.
+Legs Position the femurs straight forward with a distance of 130mm ±5mm between the
+centres of the knees. If the CRS prevents this gap from being achieved, position the
+knees as close to the target values as possible.
+Where possible, allow the lower legs to rest naturally. The tibias shall be parallel to
+the vehicle centreline and the feet shall be separated by the same distance as the
+knees.
+Seatbelt Follow the CRS installation instructions when routing the seat belt and ensure that
+the belt is routed correctly through any necessary belt guides.
+Remove the slack of the lap belt by pulling on the diagonal belt near the buckle with
+a force of 150N. Ensure that the belt is not twisted in the guidance of the booster
+seat.
+The belt shall initially be positioned over the IR-TRACC (upper for Q10) if possible,
+a load of 50N shall be applied to the diagonal section of the belt in towards the D-
+loop to achieve a natural and flat position across the chest. The belt may have
+moved away from the initial position, there is no need for further adjustment.
+The use of any non-permanent belt guides or clips on either the vehicle or CRS is
+prohibited.
+The laboratory must ensure that any markings, tape or stickers applied to the
+diagonal section of the belt do not interfere with the movement of the belt through
+any belt guides.
+Once the Q10 dummy has been correctly positioned, the two IR-TRACC holes shall be clearly
+marked on the suit of the dummy. Measure the Q10 dummy position as detailed in CP 009.
+See Section 2.5 for details on establishing if the vehicle qualifies as limited rear space.
+Version 1.2 – August 2026 12
+2.4.2 Q6 dummy installation
+Dummy part Required setting
+Booster seat Follow the procedure for Q10 detailed above.
+Q6 placement Follow the procedure for Q10 detailed above.
+Torso Ensure that the dummy’s upper back is in contact with the back of the CRS. This is
+done by bending the dummy’s back into an upright position and then rocking the
+dummy sideways while at the same time pushing the pelvis backwards.
+Ensure that the CRS is aligned with the new reference marks and that the dummy
+is on the centreline of the CRS and not rotated about the vertical axis.
+Push the dummy’s shoulders toward the CRS until the shoulders contact the
+booster seat back. Ensure that the dummy is sitting in an upright position and is
+aligned with the centreline marks on the head restraint (if applicable) or is parallel
+to the marks of the centreline.
+Ensure that the CRS position did not change relative to the marked position.
+Arms The upper arm shall be positioned parallel to the chest. The measurements shall be
+taken on the neoprene suit along the front surface of the arm (bicep) and along the
+IR-TRACC on the chest.
+Position the lower arms parallel to the upper legs resting on the booster or armrest
+as close as possible to the side of the femur. The elbows shall be kept as close as
+possible to the torso.
+Legs Position the femurs straight forward with a distance of 150mm ±5mm between the
+centres of the knees. If the CRS prevents this gap from being achieved, position the
+knees as close to the target values as possible.
+Where possible, allow the lower legs to rest naturally. The tibias shall be parallel to
+the vehicle centreline and the feet shall be separated by the same distance as the
+knees.
+Seatbelt Ensure that the lap belt is routed through the belt guidance of the booster seat.
+Remove the slack of the lap belt by pulling on the diagonal belt near the buckle with
+a force of 150N.
+Route the diagonal belt through the belt guidance of the booster for boosters with
+high back. Ensure that the belt is not twisted in the guidance of the booster.
+The belt shall lie naturally across the chest and be allowed to sit as it falls. A load
+of 50N shall be applied to the diagonal section of the belt towards the D-loop to
+achieve a natural and flat belt position across the chest.
+The use of any non-permanent belt guides or clips on either the vehicle or CRS is
+prohibited.
+The laboratory must ensure that any markings, tape or stickers applied to the
+diagonal section of the belt do not interfere with the movement of the belt through
+any belt guides.
+No dummy positioning measurements are taken for the Q6.
+Version 1.2 – August 2026 13
+Determining limited rear space for child occupants
+In advance of test preparation, the OEM shall inform ANCAP and the test laboratory if they
+anticipate the vehicle qualifying for limited rear space assessment by completing CP 002. Where
+a vehicle is deemed as limited rear space, by following the procedure below, the assessment
+shall be conducted as detailed in CP 008-1.
+Reposition the front seat track 30mm forward of its test position. If there is no notch at this
+position, set the seat in the nearest notch forwards of 30mm. During repositioning, check for
+interaction between the Q dummy lower legs, feet and the front seat.
+If there is no contact between the front of the dummy toes and the front seat when it is 30mm
+forward, reposition the front seats in their test positions. Interaction between the Q dummy lower
+legs, feet and the front seat is acceptable in this case. It is also acceptable for the top of the
+foot/toes to contact the underside of the front seat when it is 30mm forward. Record the pelvic
+angle.
+If there is contact between the dummy and the front seats when they are 30mm forward of their
+test position, follow the steps below to limit contact between dummy and front seat. This is not
+relevant if there is only contact between the top of the foot/toes and the underside of the front
+seat.
+Try to reposition the feet and tibias by pushing them beneath the front seat or rotating the tibias
+about the Z axis. If this is not sufficient then move the pelvis of the dummy forwards while keeping
+the CRS in place until there is no contact with the seat in front. It is permitted to change the pelvic
+angle up to 5 degrees relative to the initial pelvic angle. This should be done in incremental steps
+until the contact between the toes and front seat is removed. It is acceptable for the top of the
+foot/toes to contact the underside of the front seat. Record the final pelvic angle.
+When the dummy toes remain in contact with the front seat after repositioning the dummy as
+mentioned above, the vehicle will be treated as limited rear space for that particular test. It is
+acceptable for the top of the foot to contact the underside of the front seat.
+The front seat must be returned to the test position.
+Version 1.2 – August 2026 14
+3 TEST PROCEDURES
+AE-MDB
+Front Occupant Head Chest Abdomen Pelvis Total points
+Driver 2.50 2.50 2.50 2.50 10
+Rear Occupants Head Neck Chest Total points
+Q6 (behind front passenger) 1.25 0.625 0.625 2.5
+Q10 (behind driver) 1.25 0.625 0.625 2.5
+Figure 1: AE-MDB test
+The impact location shall be 250mm rearward of the R-point ±25mm. The laboratory shall include
+on the vehicle or AE-MDB face a physical means of identifying the impact alignment between the
+barrier face and vehicle at T0.
+Version 1.2 – August 2026 15
+Pole
+Front Occupant Head Chest Abdomen Pelvis Total points
+Driver 2.50 2.50 2.50 2.50 10
+Occupant to
+occupant
+interaction*
+2.00 See Section 3.5
+*The occupant to occupant interaction score is part of the far side assessment
+Where no near side head protection system(s) is present, the pole test will not be performed and
+the points for that test set to zero.
+Where no far side countermeasure is present, the pole test will be performed with a driver only.
+Figure 2: Pole impact reference line (IRL)
+Version 1.2 – August 2026 16
+Figure 3: Pole impact location
+The impact location shall be coincidental with the impact reference line (IRL) ±25mm. The
+laboratory shall include on the vehicle or pole a physical means of identifying the impact alignment
+between the pole and vehicle at T0.
+During the acceleration phase of the test, the acceleration of the carrier shall not exceed 1.5m/s2.
+Colour band scheme
+WorldSID Criterion Green Yellow Orange Brown Red
+Body region Limit value points < HPL 100% 80% 40% 20% ≥ LPL 0%
+Head
+HIC15 -
+Ares-3ms g
+Chest Dchest compression mm
+Abdomen Dabdomen compression mm
+Pelvis Fpubic symphysis kN
+Version 1.2 – August 2026 17
+Q dummy Criterion Green Yellow Orange Brown Red
+Body region Limit value points < HPL 100% 80% 40% 20% ≥ LPL 0%
+Head
+HIC15 -
+Ares-3ms g
+Neck FZ,tension kN
+Chest Ares-3ms g
+3.3.1 Prediction by OEM
+The vehicle manufacturer may provide the ANCAP Secretariat with colour predictions detailing
+the protection offered by the vehicle based on CAE or in-house test data, which may then be
+used in the vehicle rating. Predictions must be provided to the ANCAP Secretariat before any test
+preparation begins. In order for ANY predicted data to be used in the rating, all of the following
+requirements must be met:
+Prediction is provided for ALL full-scale tests – MPDB, FWDB, AE-MDB, Pole.
+Prediction is provided for all dummies and applicable dummy assessment criteria detailed
+in Section 3.3 & 3.4.
+Prediction is provided based on dummy performance without modifiers applied.
+The predicted level of protection offered by the vehicle is verified by ANCAP with the use of the
+full scale tests. The difference between the predicted data and that recorded in the official test
+must be within 25% of the colour band width for each assessment criterion (LPL-HPL)/3.
+When a measured dummy parameter performs better or worse than predicted, but within the
+tolerance, the predicted result is used in the rating. When a measured dummy parameter
+performs better or worse than predicted and is outside the tolerance, the measured value shall
+be used in the rating. After the results comparison has been made, any modifiers identified will
+then be applied to the relevant body regions and test scores.
+An example of the prediction and scoring method is detailed in Euro NCAP Technical Bulletin CP
+006.
+Where the OEM provides no predicted data or the data provided does not meet the requirements
+detailed above in this section, the vehicle rating shall be based on the measured results obtained
+in the official tests for ALL areas of the assessment.
+Injury criteria and limits
+Where multiple criteria exist for an individual body region, the lowest scoring parameter is used
+to determine the performance of that region. Each body region colour is based on the assessment
+criteria with modifiers applied, a percentage is calculated and assigned a colour for website
+publication based on that percentage and coloured as detailed below.
+Version 1.2 – August 2026 18
+Body region colour Score range in %
+Green Score % = 100.00%
+Yellow 66.67% <= Score % < 100.00%
+Orange 33.33% <= Score % < 66.67%
+Brown 0.00% <= Score % < 33.33%
+Red Score % = 0.00%
+3.4.1 Head & neck
+Criterion WorldSID 50th
+HPL - LPL Capping
+HIC15 - 500 - 700 700
+Ares-3ms g 72 - 80 80
+Ares
+- Direct contact with pole
+- O2O Head contact
+g - 80
+3.4.2 Chest
+Criterion WorldSID 50th
+HPL - LPL Capping
+Dchest compression mm 28 - 50 50 - AE-MDB 55 - Pole
+3.4.3 Abdomen
+Criterion WorldSID 50th
+HPL - LPL Capping
+Dabdomen compression mm 47 - 65 65
+3.4.4 Pelvis
+Criterion WorldSID 50th
+HPL - LPL Capping
+Fpubic symphysis kN 1.7 - 2.8 2.8
+Version 1.2 – August 2026 19
+3.4.5 Child occupants
+Body region Criteria
+Q6
+HPL - LPL
+Q10
+HPL - LPL
+Capping
+Head
+HIC15 - 500 - 700 500 - 700 700
+Ares-3ms g 60 - 80 60 - 80 80
+Neck FZ,tension kN 2.4 2.2 -
+Chest Ares-3ms g 67 67 -
+Injury parameter assessments will not be evaluated during the rebound phase of the dummy.
+If no hard contact between the head and vehicle is observed on the high speed film, the head
+assessment is based on the Resultant 3ms acceleration only.
+Chest acceleration peaks caused by the firing of seatbelt pretensioners early in the loading event
+will be ignored.
+Far side protection
+Load case Head Excursion Total points
+Far side
+Main load cases
+AE-MDB 2.0
+Pole 2.0
+Robustness
+AE-MDB 2.0
+Pole 2.0
+Front Occupant Head Total points
+Occupant to occupant interaction* 2.00 2
+*tested in the full scale pole test
+Far side protection will be assessed based on the virtual test data provided by the OEM for both
+the main and robustness load cases. ANCAP will randomly select two load cases of differing
+pulses, one AE-MDB and the other pole impact; to be physically tested and used for validation of
+the virtual setup.
+Version 1.2 – August 2026 20
+Figure 4: Far side impact
+3.5.1 Virtual test data
+The far side simulation data for both main and robustness load cases must be supplied in advance
+of the physical validation far side sled testing. When the virtual test data is not provided or does
+not meet both the VTC validation criteria and Euro NCAP Technical Bulletins CP 500 & 520, only
+the main load cases will be assessed. This assessment will be scored based on the results of
+physical sled test data for both main load cases provided by the OEM.
+3.5.2 Validation tests
+Two physical validation sled tests are required for the validation of the provided simulation data.
+ANCAP will randomly select a main load case and a robustness load case for validation. It will be
+ensured that one of the load cases is an AE-MDB load case and the other one a Pole load case.
+When the simulation data has been approved, a unique far side test reference number will be
+provided to the vehicle manufacturer by ANCAP. This number must be placed physically on the
+sled/BIW and visible in all videos, photos and referenced in the .mme file.
+3.5.2.1 Excursion line marking
+A chequered or similar grid measuring 50x50mm shall be rigidly mounted to the BIW directly
+behind, but not attached to the front seats in a way that does not result in interference during the
+test.
+Four vertical and parallel excursion lines will be marked in the BIW for both sled test scenarios.
+The most inboard edge of each line shall be used as the excursion limit. All markings must be
+Version 1.2 – August 2026 21
+extended onto the chequered grid board positioned behind the front seats, the vehicle roof beam
+and facia.
+Excursion line Description
+Red - Maximum intrusion
+This line is marking the maximum post-test intruding point of the interior
+door panel from AE-MDB (60km/h) and 75º pole impacts respectively. The
+method to determine the maximum deformation is detailed in CP 004.
+Peak intrusion values will be compared to those observed in the official
+tests. The OEM shall provide details of the measurement point used for
+establishing the intrusion lines. Where the red line is further inboard than
+any of the other excursion lines, those lines will not be marked on the BIW.
+Orange – Excursion limit Struck side seat centreline, pre-test, without intrusion.
+Yellow – Excursion limit 125mm inboard of the struck side seat centreline.
+Green – Occupant
+interaction limit 250mm inboard from the struck side seat centreline
+Blue – Vehicle centreline Y=0
+Figure 5: Excursion lines to be attached to sled
+3.5.2.2 Test setup
+The far side test set up should be of the same specification as the full scale AE-MDB and Pole
+tests, unless detailed otherwise (e.g. passenger’s seat position). This includes, but is not limited
+to, the transmission, front seats, restraints and interior trim/centre console. The seats of the
+bestselling variant (as per AE-MDB and pole impacts) will be used in the ‘body in white’ BIW. In
+house test vehicle variants may differ slightly from the official model tested by ANCAP e.g. engine
+etc. This is so that testing can be performed in advance of the official ANCAP tests. All features
+which may influence occupant kinematics and protection must be installed in the BIW.
+The BIW may be either a right or left-hand drive vehicle and shall be mounted with the centreline
+at 75º ±3º towards the direction of travel. A BIW that is of a pre-production state will be accepted
+if it is shown to be representative of series production and that any differences have no influence
+on the far side assessment.
+Version 1.2 – August 2026 22
+The bodyshell shall be mounted on the sled such that there will be no permanent deformation of
+the body or its mounts during the tests. Struck side intrusion will not be replicated on the BIW and
+neither driver nor passenger doors are required.
+Structures that are forward of the A-pillar and windscreen cowl and rearward of the B-pillar may
+be removed from the BIW as long as the stability is not compromised. Reinforcement of the BIW
+is recommended but not required provided the BIW is sufficiently stable.
+To ensure a clear view of dummy kinematics, fixed roofs above the front row seats shall be cut
+away between the cant rails and rearwards of the windscreen surround. Reinforcement shall
+subsequently be applied laterally across the BIW. Vehicles with removable roofs, panels or
+movable sunshine roofs shall be tested without the roof or with them in the open position. The
+windscreen shall be removed and sufficient reinforcement around the frame/periphery shall be
+provided.
+Sufficient spacers shall be fitted in the gaps between the struck side (B-pillar or other structure)
+and passenger seat frame, the passenger seat frame and centre console to stabilise the front
+passenger seat. This represents the behaviour of the struck side seat and centre console due to
+crash induced intrusion and deformation. The spacer shall support the full height of the centre
+console but does not need to be made from a single piece of foam. It will be necessary to cut the
+seat cover and foam to access the frame, an example how this can be done is shown in the
+picture below. The spacers shall have the stiffness characteristics from expanded polypropylene
+(EPP60) or stiffer with compression properties of about 340KPa for 25% of compression
+(determined according to ISO 844).
+Figure 6: Example of seat spacers viewed from rear
+Interior components required for testing will include, but are not limited to:
+- Driver and passenger front seats.
+- Full tunnel/centre console components consisting of the full tunnel trim, hand brake
+assembly, gear lever assembly and storage compartments.
+- Full facia assembly consisting of the facia, steering column and steering wheel.
+Infotainment systems may be omitted if appropriate.
+- Seat belt/pretensioner and anchorage attachments.
+- Struck side internal door trim assembly (if doors installed).
+Version 1.2 – August 2026 23
+If fitted, the struck side door trim shall be painted white (or similar) to contrast with the passenger’s
+seat. The head restraint on the unoccupied seat may be removed to provide a better view of the
+grid board and excursion lines.
+3.5.2.3 Far side sled pulse
+Pulse Impact angle Scaled sled pulse
+AE-MDB – Main 75˚ A X,SLED = AY,VEHICLE(AE-MDB) x 1.035
+Pole – Main 75˚ A X,SLED = AY,VEHICLE(POLE) x 1.035
+AE-MDB – Robustness 60˚/75˚/90˚ A X,SLED = AY,VEHICLE(AE-MDB) x 1.035
+Pole – Robustness 75˚/90˚ A X,SLED = AY,VEHICLE(POLE) x 1.035
+It is important to note that for robustness cases selected for physical sled tests, the BIW shall be
+rotated (e.g. 60˚/75˚/90˚) with NO further change to pulse defined for 75˚ tests. See Section
+3.5.3.1 and 3.5.4.1 for details of all far side load cases.
+The suitability of the correlation between the vehicle and sled pulses will be checked according
+to the method detailed in Technical Bulletin CP 500. See Figure 7. Where an in-house test pulse
+has been used, the sled pulses will also be checked against the pulses obtained in the official full
+scale tests.
+Figure 7: Sled pulse scaling
+3.5.2.4 Active restraints
+Active restraint systems shall be standard equipment and identical to those used in the Euro
+NCAP full scale tests and shall be consistent between simulations and tests and shall be used
+for all load cases.
+Pretensioners must be triggered if the firing strategy is such that they are triggered in the side
+and pole impact tests. Triggering of pretensioners will be accepted on the sled if the difference in
+Version 1.2 – August 2026 24
+deployment time from the official tests is no greater than +/-2ms. Where the difference is greater
+than 2ms, data must be supplied showing that this did not affect the result. Where there is a
+different firing strategy between near side and far side occupants, the OEM will have to provide
+justification in the far side dossier.
+Triggering of other active restraints, such as the side curtain and seat mounted airbags, will not
+be permitted unless it can be shown that these systems have been designed as a
+countermeasure intended to lower the risk of far side occupant injury. For example, a head curtain
+airbag that extends beneath the door level, or a seat mounted airbag that can remain sufficiently
+inflated for the required length of time to limit occupant excursion.
+Version 1.2 – August 2026 25
+3.5.3 Main load cases
+Head excursion zones Capping
+Red
+≤125mm >125mm
+Orange Yellow Green
+With countermeasure
+0.5 1 1.5 2 2
+Without countermeasure 0 0 0.5 1 2
+In case of head excursion in the capping zone, both far side load cases are capped.
+Where any of the limits below are exceeded, the test in which it occurred will be capped.
+Criterion WorldSID 50th capping limits
+Head
+HIC15 (with direct contact) - 700
+Resultant 3ms acceleration g 80g
+Upper neck
+Ftension kN 3.74
+Mflexion Mx MxOC Nm 248
+Mextension negative MyOC Nm 50
+Lower neck
+Ftension kN 3.74
+Mflexion Mx base of neck Nm 248
+Mextension negative My base of
+neck Nm 100
+Chest Lateral compression mm 50
+Abdomen Lateral compression mm 65
+Version 1.2 – August 2026 26
+3.5.3.1 Main load case details
+Pulse Angle Driver’s seat setting
+AE-MDB 75˚ As defined in Section 2.2.1
+Pole 75˚ As defined in Section 2.2.1
+The passenger’s seat shall be positioned as detailed for AE-MDB testing in all load cases.
+Each load case required for virtual testing must have a specific reference ID, these are detailed
+in Euro NCAP Technical Bulletin CP 005.
+3.5.4 Robustness load cases
+Pulse Robustness Excursion criteria Total points
+AE-MDB ALL AE-MDB robustness load cases Equal or not increased by more
+than one colour zone compared
+to the main load case of the
+corresponding pulse and cannot
+be red
+Pole ALL Pole robustness load cases 2
+In addition to the far side main load cases, the countermeasure robustness will be evaluated
+using different seating positions. Where the head excursion in the main load case is in the red
+zone, no rewards will be given for robustness in that load case. No capping limits or modifiers are
+applied.
+Vehicles without a far side countermeasure will only qualify for robustness rewards when the
+head excursion in the corresponding main load case scenario remains within the green zone.
+3.5.4.1 Robustness load case details
+Pulse Angle Driver’s Seat setting
+AE-MDB 60˚ As defined in Section 2.2.1
+75˚ Position as defined in Section 2.2.1 then put in highest
+90˚ As defined in Section 2.2.1
+90˚ Position as defined in Section 2.2.1 then put in highest
+Pole 75˚ Position as defined in Section 2.2.1 then put in highest
+90˚ As defined in Section 2.2.1
+The passenger’s seat shall be positioned as detailed for AE-MDB testing in all load cases.
+Version 1.2 – August 2026 27
+Each load case required for virtual testing must have a specific reference ID, these are detailed
+in Euro NCAP Technical Bulletin CP 005.
+Where the angle of the selected robustness load case is different than 75˚, the buck has to be
+rotated accordingly.
+To put the seat in the highest position where required, use the following procedure:
+- Put the driver’s seat as into the seat position as per Section 2.2.1
+- Adjust the seat height to the highest position by applying the seat control that primarily
+moves the seat vertically. (Remark: it is accepted that H-point x position changes).
+If setting the seat to the highest position causes contact between the WorldSID head and
+roof/liner etc, the seat position should be lowered as little as possible to avoid initial contact
+between the head and the roof.
+If the vertical adjustment causes implausible seatback angles (e.g. outside of the design limits of
+the dummy, in a position where the head level requirements cannot be met), the seatback angle
+shall be adjusted to the seatback angle in the reference position or the closest notch. This can
+be done by readjusting the backrest to the original backrest angle.
+If initial contact occurs between the steering wheel (column) and the WorldSID, the steering wheel
+column shall be slightly adjusted, just to avoid the initial contact with the dummy. When needed,
+the seat can be adjusted fore/aft (x-position) as little as possible to avoid initial contact between
+steering wheel (column) and dummy.
+3.5.5 Occupant to occupant protection
+Where a vehicle is equipped with a countermeasure against occupant to occupant contact, its
+efficacy will need to be demonstrated in the official ANCAP pole impact test with the use of two
+50th percentile WorldSIDs. The requirements are detailed see Section 4.1.4.
+Where a vehicle is NOT equipped with a countermeasure against occupant to occupant contact,
+no points shall be awarded.
+Version 1.2 – August 2026 28
+4 POSTTEST ASSESSMENT & INSPECTION
+After test
+Immediately after the test, check that none of the doors, boot lids and any movable roofs have
+opened or partially opened during the test. Where this is the case photographic evidence shall
+be obtained and provided in the test report.
+Struck side doors handles shall be immediately covered with tape to prevent inadvertent opening.
+Reference measurements shall be taken between the door skin and aperture to ensure that the
+door has not move or been disturbed between the test and inspection.
+Refer to the ANCAP Post Crash protocol for further details of all posttest assessments and
+provide all required information in a Post crash report.
+4.1.1 Dummy removal
+Before dummy removal, refer to the Post Crash protocol for seat belt buckle unlatching.
+Do not move the driver or passenger seats, try to remove the dummies. If the dummies cannot
+be removed with the seats in their original positions, recline the seat back and try again. Note any
+entrapment of the dummies. If the dummies can still not be removed, try to slide the seats
+rearwards on their runners. If the dummies can still not be moved, the seats may be cut out of
+the car. Record the method used to remove the dummies.
+4.1.2 Rollover
+Rollover requirements
+Triggering of
+HPD
+The vehicle manufacturer must provide evidence showing that the vehicle can both
+sense rollover and that the side curtain HPD is deployed as a result. Functionality of
+rollover triggering shall be demonstrated with a full scale rollover dynamic test which
+may be selected by the OEM.
+HPD inflation During the HPD measurements, after airbag deployment, detailed in Section 4.1.3,
+the laboratory will check that the deployed curtain airbag remains inflated and
+maintains sufficient pressure for at least 6 seconds to provide head impact protection.
+Where the laboratory check cannot be performed or there are doubts regarding
+inflation, functionality of rollover countermeasures shall be demonstrated with one of
+the following:
+HPD internal pressure retention of 50% for a minimum of 6 seconds – C-
+NCAP 2024. Data must include pressure vs time output.
+Compliance with FMVSS 226.
+Both of the above requirements must be met in order to receive rewards for rollover protection,
+no partial rewards will be given. Where the HPD attracts the incorrect airbag deployment modifier
+in either the AE-MDB or pole impact tests, no rewards will be given for rollover protection.
+Vehicles with asymmetric curtain HPDs will be required to demonstrate protection on both side
+of the vehicle in order to gain rollover rewards.
+Version 1.2 – August 2026 29
+4.1.3 Side head protection airbag evaluation (HPD)
+HPD requirements
+Coverage area Vehicles equipped with side impact head protection devices (HPD) curtain, seat
+mounted or any other, will have the inflated energy absorbing areas evaluated by
+means of a geometric assessment. The HPD must provide protection for a range of
+occupant sizes in both the front and the rear seat rows on both sides of the vehicle.
+If the vehicle is equipped with movable rear seats the seat shall be set to the most
+rearward position. If there is a third row of fixed seats, these will be included in the
+assessment unless they are per manufacturers’ recommendation not suitable for
+adult occupancy (handbook).
+The coverage area is detailed in Section 4.1.3.1.
+Symmetrical
+protection
+Where the airbags differ between the left and right hand sides of the vehicle, the
+airbags on both sides of the vehicle will be evaluated and the assessment will be
+based upon worst performing side. All areas of the airbag, both front and rear, will be
+evaluated and the assessment will be based upon the worst performing part of any
+of the airbags.
+Exclusions The head protecting airbags should cover all glazed areas within the defined zone up
+to the edge of door daylight opening (FMVSS201) where it meets the roofline, B-pillar,
+C-pillar and door waistline. Seams in the airbag will not be penalised provided that
+the un-inflated area is no wider than 15mm. Any other areas where the airbag layers
+are connected will not be penalised provided that the surrounding areas are inflated,
+and any un-inflated areas are no larger than 50mm in diameter or equivalent area or
+the sum of the major and minor axes of individual areas does not exceed 100mm. In
+the case that the un-inflated area would be larger than described above, the OEM
+shall provide data to demonstrate sufficient energy absorption is guaranteed.
+Where a vehicle is fitted with a third row of seats where the full seat assembly can be
+moved/stowed into the floor, the third row (only) will be excluded from the
+assessment. Seats with only folding seatbacks are NOT exempt.
+All of the above requirements must be met in order to gain any rewards for HPD protection, no
+partial rewards are given.
+Where a vehicle does not offer sufficient protection, a penalty shall be applied to the overall pole
+impact score as defined in Section 4.2.2. Any vehicle that does not provide a head protection
+device covering the front and rear seat positions on both sides of the vehicle will also attract this
+modifier.
+4.1.3.1 Side head protection device evaluation
+Using the location of the H-point as measured in Section 2.3 for the front seating position,
+calculate and record the corresponding 5th female and 95th male head centre of gravity positions
+for the front seat to determine the corners of the head CoG box:
+4.1.3.2 5th female Head CoG:
+X CoG,5th = H-point(X) + 126 - seat travel 5th-50th
+Z CoG,5th = H-point(Z) + 594
+Version 1.2 – August 2026 30
+4.1.3.3 95th male Head CoG:
+X CoG,95th = H-point(X) + 147 + seat travel 50th-95th
+Z CoG,95th = H-point(Z) + 693
+Figure 8: HPD zone front seat row
+The four corners of the Head CoG box are:
+X-position Z-position
+A XCoG,5th ZCoG,95th
+B XCoG,95th ZCoG,95th
+C XCoG,95th ZCoG,5th
+D XCoG,5th ZCoG,5th
+The seat travel for the 5th and 95th positions will be required from the vehicle manufacturer in
+Euro NCAP Technical Bulletin CP 002 but verified by the laboratory. Where differences exist, the
+worst case seat positions shall be used.
+Using the location of the H-point for the rear seating position as measured for the Rear Whiplash
+protocol, calculate and record the corresponding head centre of gravity positions in the most
+forward and rearward seating positions, see Figure 9:
+4.1.3.4 5th female Head CoG in most forward seating position:
+X CoG,5th = H-point(X) + 126 – remaining seat travel (if applicable)
+Z CoG,5th = H-point(Z) + 594
+4.1.3.5 95th male Head CoG in most rearward seating position:
+X CoG,95th = H-point(X) + 147 + remaining seat travel (if applicable)
+Z CoG,95th = H-point(Z) + 693
+Version 1.2 – August 2026 31
+Fixed rear bench Movable rear bench
+Figure 9: HPD zone rear seat row(s)
+The side curtain evaluation zone is defined as a rounded rectangle around the head CoG box at
+a distance of 82mm from the upper and fore/aft edges and 52mm below the bottom edge. It is
+acceptable for the 82mm radius in the lower corners of the airbag to be cut-off at 52mm below
+the CoG box. The zone shall be constructed parallel and perpendicular to the ground reference
+level, see Figure 10.
+Figure 10: HPD assessment zone
+After the pole test, deploy the head protection device on the non-struck side of the vehicle. Make
+sure that the airbags are identical on both sides of the vehicle. Where this is not the case, the
+assessment must be performed on both sides.
+Inflate the airbag to the pressure recommended by the OEM.
+Project the assessment zone onto the inflated airbag for front and rear seating positions using
+the measurements marked/recorded above.
+4.1.3.6 Seat mounted head protection devices
+Based on the head CoG paint mark on the airbag, mark the HPD assessment zone defined as a
+rounded rectangle extending 95mm forward, 90mm rearward, 120mm upward and 115mm
+downward on the flattened airbag.
+When the paint mark cannot be used, the OEM needs to supply ANCAP in-house data for the
+Side Airbag Head Protection Evaluation.
+Version 1.2 – August 2026 32
+Evaluate coverage area of the airbag(s), record and check the dimensions of any joined, stitched
+or seamed areas, see Figure 11.
+Figure 11: HPD assessment zones
+Version 1.2 – August 2026 33
+4.1.4 Occupant to occupant protection
+Dual occupancy test requirements
+No occupant
+to occupant
+interaction
+The heads of both the driver and passenger dummies will be evaluated. Upper neck
+and shoulder forces for both dummies must be reported. Interaction will be determined
+from the high-speed film with either evidence of direct contact or where the head lower
+performance limits (HIC or 3ms) are exceeded.
+Any direct contact between the far side occupant’s head and any part of the nearside
+occupant will be assessed regardless of whether the limits in Section 3.4 have been
+exceeded or not. For example, if an inflatable countermeasure allows the far side
+occupant’s head to contact the driver, the peak resultant acceleration trace and/or the
+high-speed film will be used to identify head contact.
+Symmetrical
+protection
+Countermeasures must offer equivalent levels of protection in dual occupancy
+scenarios regardless of which side of the vehicle is impacted. Where a countermeasure
+is asymmetric, the OEM must provide evidence to show that it provides protection when
+impacted on both sides. The following methods are permitted:
+A full scale, dual occupancy test impacting the passenger side of the
+vehicle
+Numerical simulations.
+In both cases, the front row of seat shall be positioned to that of the AE-MDB test. The
+HCz assessment window is not applied in this case.
+Robustness
+head
+coverage
+zone (HCZ)
+A countermeasure against occupant interaction must be able to protect a range of
+occupant sizes in different seating positions.
+Protection must be provided in a rounded rectangular area between the passenger
+head CoG in the dual occupancy pole test position and forwards up to the driver pole
+impact test position plus an additional 82mm border front and rear (half head diameter).
+In the vertical direction, the zone is 120mm upwards and downwards of the CoG. See
+Figure 12.
+The following shall be noted:
+a) Where countermeasures utilise inflatable systems, the protection zone is
+measured on a flattened countermeasure using the passenger’s head paint mark on
+the countermeasure from the dual occupancy pole impact test. This will be evaluated
+during the vehicle inspection.
+b) It may be necessary to measure the coverage area using an inflated airbag.
+For example, using a flattened airbag may not be suitable if the shape/orientation of
+the inflated area cannot be flattened. This will be evaluated during the vehicle
+inspection.
+c) In some cases, the countermeasure may offer protection in the requested zone
+without fully or partially covering the protection zone. In this case, the robustness of
+occupant to occupant interaction avoidance in the requested protection zone must be
+clearly demonstrated to ANCAP by the manufacturer.
+This must be done with in house, full scale test data from an equivalent occupant to
+occupant pole test where the passenger seat is in the position presenting the highest
+risk of head contact. A different test set-up may be necessary to show that the systems
+works for different statures within the protection zone, e.g. a different seat position.
+All of the above requirements must be met in order to gain any rewards for O2O protection, no
+partial rewards are given.
+Version 1.2 – August 2026 34
+Figure 12: Far side protection zone
+120mm
+120mm
+82mm
+82mm
+CoG marking from passenger
+in pole test position
+CoG locations between seat track
+positions from mid+20mm to
+rearmost (passenger test position)
+Version 1.2 – August 2026 35
+Inspection
+After testing has been completed ANCAP will perform a vehicle inspection where scoring
+modifiers can be applied.
+4.2.1 AE-MDB & Pole occupant modifiers
+The modifier penalties mentioned in the table below are defined as a percentage of the maximum
+body region score for each dummy, in each load case and are applied to that body region. Further
+details regarding the modifiers and how they are applied to the rating can be found in Euro NCAP
+Technical Bulletin CP 007.
+Front Occupant Modifiers Criterion Modifier score
+Head & neck
+Direct contact with pole Inspection capping
+DAMAGE DAMAGE ≥ 0.47 monitoring
+Incorrect airbag
+deployment Inspection -20%
+Chest
+Shoulder load ≥ 3.0kN -100%
+Viscous Criterion ≥ 1.0m/s -100%
+Incorrect airbag
+deployment Inspection -20%
+Abdomen
+Viscous Criterion ≥ 1.0m/s -100%
+Incorrect airbag
+deployment Inspection -20%
+Pelvis Incorrect airbag deployment Inspection -20%
+Rear child occupants Modifiers Criterion Modifier score
+Head Restraint Inspection -100%
+Q dummy test score CRS to vehicle attachment Inspection -50%
+Version 1.2 – August 2026 36
+4.2.2 Test modifiers
+The modifier penalties mentioned in the table below are defined as a percentage of the maximum
+number of points awarded to the adult dummies in each load case. For AE-MDB and pole, this
+equates to 10 points per load case.
+Test penalties Modifiers Criterion Modifier score
+HPD – applied to pole
+impact test score only Curtain airbag measurement Zone measurement -10% per row
+Rollover – applied to pole
+impact test score only
+Curtain airbag inflation or no
+rollover sensing Inspection -20%
+Door opening – per door Inspection -5%
+Door detachment Structural detachment Inspection -100%
+Restraint failure Inspection -100%
+4.2.3 Far side occupant modifiers
+The modifier penalties in the table below are defined as a percentage of the maximum adult
+occupant test score for the sled test far side load cases.
+Front Occupant Modifiers Criterion Modifier score
+Pelvis
+Fpubic symphysis 2.8kN
+-25%
+Fy lumbar 2.0kN
+Fz lumbar 3.5kN
+Mx lumbar 120Nm

@@ -1,0 +1,397 @@
+Site Feedback
+You are using an unsupported browser
+×
+You are using an unsupported browser. This web site is designed for the current versions of
+Microsoft Edge, Google Chrome, Mozilla Firefox, or Safari.
+×
+Site Feedback
+The Office of the Federal Register publishes documents on behalf of Federal agencies but does not have any authority over their programs. We recommend you directly contact the agency associated with the content in question.
+If you have comments or suggestions on how to improve the www.ecfr.gov website or have questions about using www.ecfr.gov, please choose the 'Website Feedback' button below.
+Website Feedback
+If you would like to comment on the current content, please use the 'Content Feedback' button below for instructions on contacting the issuing agency
+Content Feedback
+If you have questions for the Agency that issued the current document please contact the agency directly.
+×
+Website Feedback
+* Your Name
+* Email
+Attachment
+* How can we help you?
+* I am requesting technical help or providing website feedback
+This contact form is only for website help or website suggestions. If you have questions or comments regarding a published document please
+contact the publishing agency. Comments or questions about document content can not be answered by OFR staff. Please do not provide confidential
+information or personal data.
+☰
+Home
+Browse
+Titles
+Agencies
+CFR Updates
+Recent Changes
+Issue Summaries
+Corrections
+Finding Aids
+Parallel Table of Authorities
+Subject Index
+Agency-prepared Indexes
+Reader Aids
+Reader Aids Home
+Using the eCFR Point-in-Time System
+Understanding the eCFR
+Government Policy and OFR Procedures
+Developer Resources
+Recent Site Updates
+My eCFR
+My Subscriptions
+Sign Out
+Sign In / Sign Up
+eCFR
+The Electronic Code of Federal Regulations
+Enhanced Content :: FR ReferenceEnhanced content is provided to the user to provide additional context.
+Enhanced Content :: FR Reference
+Title 49
+This content is from the eCFR and is authoritative but unofficial.
+Displaying title 49, up to date as of 11/04/2026. Title 49 was last amended 10/28/2026.
+view historical versions
+A drafting site is available for use when drafting amendatory language
+switch to drafting site
+Navigate by entering citations or phrases
+(eg:
+1 CFR 1.1
+49 CFR 172.101
+Organization and Purpose
+1/1.1
+Regulation Y
+FAR).
+Choosing an item from
+citations and headings
+will bring you directly to the content. Choosing an item from
+full text search results
+will bring you to those results. Pressing enter in the search box
+will also bring you to search results.
+Background and more details are available in the
+Search & Navigation
+guide.
+Title 49 —Transportation
+Subtitle B —Other Regulations Relating to Transportation
+Chapter V —National Highway Traffic Safety Administration, Department of Transportation
+Part 571 —Federal Motor Vehicle Safety Standards
+Subpart B —Federal Motor Vehicle Safety Standards
+§ 571.225
+Previous
+Next
+Top
+Table of ContentsEnhanced Content - Table of Contents
+The in-page Table of Contents is available only when multiple sections are being viewed.
+Use the navigation links in the gray bar above to view the table of contents that this content belongs to.
+Enhanced Content - Table of Contents
+DetailsEnhanced Content - Details
+URL
+https://www.ecfr.gov/current/title-49/part-571/section-571.225
+Citation
+49 CFR 571.225
+Agency
+National Highway Traffic Safety Administration, Department of Transportation
+Part 571
+Authority:
+49 U.S.C. 322, 30111, 30115, 30117, and 30166; delegation of authority at 49 CFR 1.95.
+Subpart B of Part 571
+Source:
+36 FR 22902, Dec. 2, 1971, unless otherwise noted.
+Enhanced Content - Details
+Print/PDFEnhanced Content - Print
+Generate PDF (approximately 10+ pages)
+This content is from the eCFR and may include recent changes applied to the CFR.
+The official, published CFR, is updated annually and available below under
+"Published Edition". You can learn more about the process
+here.
+Enhanced Content - Print
+Display OptionsEnhanced Content - Display Options
+Enhanced Content - Display Options
+SubscribeEnhanced Content - Subscribe Subscribe to: 49 CFR 571.225
+Via Email:
+Enhanced Content - Subscribe
+TimelineEnhanced Content - Timeline
+Show only dates with regulatory amendments ()
+3/20/2025
+view on this date
+view change introduced
+2/14/2025
+view on this date
+view change introduced
+compare to most recent
+1/07/2025
+view on this date
+view change introduced
+compare to most recent
+9/26/2022
+view on this date
+view change introduced
+compare to most recent
+3/30/2022
+view on this date
+view change introduced
+compare to most recent
+Enhanced Content - Timeline
+Go to DateEnhanced Content - Go to Date
+Date
+Enhanced Content - Go to Date
+Compare DatesEnhanced Content - Compare Dates
+Compare
+to
+Show changes as:red/greenpurple/orange
+Show strike-through for removed contentyesno
+Enhanced Content - Compare Dates
+Published EditionEnhanced Content - Published Edition
+View the most recent official publication:
+View Title 49 on govinfo.gov
+View the PDF for 49 CFR 571.225
+These links go to the official, published CFR, which is updated annually. As a
+result, it may not include the most recent changes applied to the CFR.
+Learn more.
+Enhanced Content - Published Edition
+Developer ToolsEnhanced Content - Developer Tools
+Information and documentation can be found in our
+developer resources.
+Enhanced Content - Developer Tools
+eCFR ContentThe Code of Federal Regulations (CFR) is the official legal print publication containing the codification of the general and permanent rules published in the Federal Register by the departments and agencies of the Federal Government. The Electronic Code of Federal Regulations (eCFR) is a continuously updated online version of the CFR. It is not an official legal edition of the CFR. Learn more about the eCFR, its status, and the editorial process.
+Editorial Note on Part 571Editorial Note:
+Nomenclature changes to part 571 appear at 69 FR 18803, Apr. 9, 2004.
+§ 571.225 Standard No. 225; Child restraint anchorage systems.
+S1. Purpose and scope. This standard establishes requirements for child restraint anchorage systems to ensure their proper location and strength for the effective securing of child restraints, to reduce the likelihood of the anchorage systems' failure, and to increase the likelihood that child restraints are properly secured and thus more fully achieve their potential effectiveness in motor vehicles.
+S2. Application. This standard applies to passenger cars; to trucks and multipurpose passenger vehicles with a gross vehicle weight rating (GVWR) of 3,855 kilograms (8,500 pounds) or less; and to buses (including school buses) with a GVWR of 4,536 kg (10,000 lb) or less. This standard does not apply to walk-in van-type vehicles, vehicles manufactured to be sold exclusively to the U.S. Postal Service, shuttle buses, and funeral coaches.
+S3. Definitions.
+Child restraint anchorage means any vehicle component, other than Type I or Type II seat belts, that is involved in transferring loads generated by a child restraint system to the vehicle structure.
+Child restraint anchorage system means a vehicle system that is designed for attaching a child restraint system to a vehicle at a particular designated seating position, consisting of:
+(a) Two lower anchorages meeting the requirements of S9; and
+(b) A tether anchorage meeting the requirements of S6.
+Child restraint fixture (CRF) means the fixture depicted in Figures 1 and 2 of this standard that simulates the dimensions of a child restraint system, and that is used to determine the space required by the child restraint system and the location and accessibility of the lower anchorages.
+Funeral coach means a vehicle that contains only a front row of occupant seats, is designed exclusively for transporting a body and casket and that is equipped with features to secure a casket in place during operation of the vehicle.
+Rear designated seating position means any designated seating position (as that term is defined at § 571.3) that is rearward of the front seats(s).
+Seat bight means the area close to and including the intersection of the surfaces of the vehicle seat cushion and the seat back.
+SFAD 1 means Static Force Application Device 1 shown in Figures 12 to 16 of this standard.
+SFAD 2 means Static Force Application Device 2 shown in Figures 17 and 18 of this standard.
+Shuttle bus means a bus with only one row of forward-facing seating positions rearward of the driver's seat or, for a vehicle without manually operated controls, means a bus with only one row of forward-facing seating positions rearward of all front row passenger seats.
+Tether anchorage means a user-ready, permanently installed vehicle system that transfers loads from a tether strap through the tether hook to the vehicle structure and that accepts a tether hook.
+Tether strap means a strap that is secured to the rigid structure of the seat back of a child restraint system, and is connected to a tether hook that transfers the load from that system to the tether anchorage.
+Tether hook means a device, illustrated in Figure 11 of Standard No. 213 (§ 571.213), used to attach a tether strap to a tether anchorage.
+S4. General vehicle requirements.
+S4.1 Each tether anchorage and each child restraint anchorage system installed, either voluntarily or pursuant to this standard, in any new vehicle manufactured on or after September 1, 1999, shall comply with the configuration, location, marking and strength requirements of this standard. The vehicle shall be delivered with written information, in English, on how to appropriately use those anchorages and systems.
+S4.2 Vehicles shall be equipped as specified in paragraphs S4.2(a) through (c), except as provided in S5 of this standard.
+(a) Each vehicle with three or more forward-facing rear designated seating positions shall be equipped as specified in S4.2(a)(1) and (2).
+(1) Each vehicle shall be equipped with a child restraint anchorage system conforming to the requirements of S6 and S9 of this standard at not fewer than two forward-facing rear designated seating positions. At least one of the child restraint anchorage systems shall be installed at a forward-facing seating position in the second row in each vehicle that has three or more rows, if such a forward-facing seating position is available in that row.
+(2) Each vehicle shall be equipped with a tether anchorage conforming to the requirements of S6 of this standard at a third forward-facing rear designated seating position. The tether anchorage of a child restraint anchorage system may count towards the third required tether anchorage. In each vehicle with a forward-facing rear designated seating position other than an outboard designated seating position, at least one tether anchorage (with or without the lower anchorages of a child restraint anchorage system) shall be at such a designated seating position.
+(b) Each vehicle with not more than two forward-facing rear designated seating positions shall be equipped with a child restraint anchorage system conforming to the requirements of S6 and S9 of this standard at each forward-facing rear designated seating position.
+(c) Each vehicle without any forward-facing rear designated seating position shall be equipped with a tether anchorage conforming to the requirements of S6 of this standard at each forward-facing front passenger designated seating position.
+S4.3 Movable seats.
+(a) A vehicle that is equipped with a forward-facing rear designated seating position that can be moved such that it is capable of being used at either an outboard or non-outboard forward-facing designated seating position shall be considered as having a forward-facing non-outboard designated seating position. Such a movable seat must be equipped with a tether anchorage that meets the requirements of S6 of this standard or a child restraint anchorage system that meets the requirements of S6 and S9 of this standard, if the vehicle does not have another forward-facing non-outboard designated seating position that is so equipped.
+(b) Tether and lower anchorages shall be available for use at all times, except when the seating position for which it is installed is not available for use because the vehicle seat has been removed or converted to an alternate use such as allowing for the carrying of cargo.
+S5 General exceptions. Vehicles manufactured before September 1, 2031, must meet the requirements of S5.1. Vehicles manufactured on or after September 1, 2031, must meet the requirements of S5.2.
+S5.1 Vehicles manufactured before September 1, 2031.
+(a) Convertibles and school buses are excluded from the requirements to be equipped with tether anchorages.
+(b) A vehicle may be equipped with a built-in child restraint system conforming to the requirements of Standard No. 213 (§ 571.213) or Standard No. 213b (§ 571.213b) as applicable, instead of one of the required tether anchorages or child restraint anchorage systems.
+(c) Vehicles with no air bag in front passenger designated position:
+(1) Each vehicle that does not have a rear designated seating position and does not have an air bag installed at front passenger designated seating positions pursuant to a temporary exemption granted by NHTSA under 49 CFR part 555, must have a child restraint anchorage system installed at a front passenger designated seating position. In the case of convertibles, the front designated passenger seating position need have only the two lower anchorages meeting the requirements of S9 of this standard.
+(2) Each vehicle that has a rear designated seating position and meets the conditions in S4.5.4.1(b) of Standard No. 208 (§ 571.208), and does not have an air bag installed at front passenger designated seating positions pursuant to a temporary exemption granted by NHTSA under 49 CFR part 555, must have a child restraint anchorage system installed at a front passenger designated seating position in place of one of the child restraint anchorage systems that is required for the rear seat. In the case of convertibles, the front designated passenger seating position need have only the two lower anchorages meeting the requirements of S9 of this standard.
+(d) A vehicle that does not have an air bag on-off switch meeting the requirements of S4.5.4 of Standard No. 208 (§ 571.208) shall not have any child restraint anchorage system installed at a front designated seating position.
+(e) A vehicle with a rear designated seating position for which interference with transmission and/or suspension components prevents the location of the lower bars of a child restraint anchorage system anywhere within the zone described by S9.2 of this standard is excluded from the requirement to provide a child restraint anchorage system at that position. However, except as provided elsewhere in this S5, such a vehicle must have a tether anchorage at a front passenger designated seating position.
+S5.2 Vehicles manufactured on or after September 1, 2031.
+(a) School buses are excluded from the requirements to be equipped with tether anchorages.
+(b) A vehicle may be equipped with a built-in child restraint system conforming to the requirements of Standard No. 213b (§ 571.213b) instead of one of the required tether anchorages or child restraint anchorage systems.
+(c) Vehicles with no air bag in front passenger designated position:
+(1) Each vehicle that does not have a rear designated seating position and does not have an air bag installed at front passenger designated seating positions pursuant to a temporary exemption granted by NHTSA under 49 CFR part 555 must have a child restraint anchorage system installed at a front passenger designated seating position.
+(2) Each vehicle that has a rear designated seating position and meets the conditions in S4.5.4.1(b) of Standard No. 208 (§ 571.208), and does not have an air bag installed at front passenger designated seating positions pursuant to a temporary exemption granted by NHTSA under 49 CFR part 555, must have a child restraint anchorage system installed at a front passenger designated seating position in place of one of the child restraint anchorage systems that is required for the rear seat.
+(d) A vehicle that does not have an air bag on-off switch meeting the requirements of S4.5.4 of Standard No. 208 (§ 571.208), shall not have any child restraint anchorage system installed at a front designated seating position.
+S6. Requirements for tether anchorages. Vehicles subject to Standard No. 225 (this section) shall meet the tether anchorage requirements specified in S6.1, S6.2, and S6.4 according to the phase-in schedule specified in S13 of this standard.
+S6.1 Configuration of the tether anchorage.
+S6.1.1 Each tether anchorage shall:
+(a) Permit the attachment of a tether hook of a child restraint system meeting the configuration and geometry specified in figure 11 of Standard No. 213 (figure 11 to § 571.213);
+(b) Be accessible without the need for any tools other than a screwdriver or coin;
+(c) Once accessed, be ready for use without the need for any tools; and
+(d) Be sealed to prevent the entry of exhaust fumes into the passenger compartment.
+S6.1.2 Each tether anchorage shall:
+(a) Consist of a rigid bar of any cross-section shape that permits the attachment of a tether hook (of a child restraint system) meeting the configuration and geometry specified in figure 11 of Standard No. 213 (figure 11 to § 571.213), except in buses with a GVWR less than or equal to 10,000 pounds and vehicles that use a routing device per S6.2.1.2;
+(b) Be accessible without the need for any tools and without folding the seat back (other than the head restraint) or removing carpet or other vehicle components (other than cargo covers) to access the anchorages. Individual tether anchorages may be covered with a cap, flap, or cover, provided that any cap, flap, or, cover is specifically designed to be opened, moved aside, or to otherwise give unobstructed access to the anchorage and is labeled with the symbol shown in figure 25 to this section;
+(c) Once accessed, be ready for use without the need for any tools; and
+(d) Be sealed to prevent the entry of exhaust fumes into the passenger compartment.
+S6.2 Location of the tether anchorage.
+S6.2.1 Subject to S6.2.1.2, the part of each tether anchorage that attaches to a tether hook must be located within the shaded zone shown in figures 3 through 7 to this section of the designated seating position for which it is installed. The zone is defined with reference to the seating reference point (see § 571.3). (For purposes of the figures, “H Point” is defined to mean seating reference point.) A tether anchorage may be recessed in the seat back, provided that it is not in the strap wrap-around area at the top of the vehicle seat back. For the area under the vehicle seat, the forwardmost edge of the shaded zone is defined by the torso line reference plane.
+S6.2.1.1 [Reserved]
+S6.2.1.2 In the case of a vehicle that—
+(a) Has a user-ready tether anchorage for which no part of the shaded zone shown in Figures 3 to 7 of this standard of the designated seating position for which the anchorage is installed is accessible without removing a seating component of the vehicle; and
+(b) Has a tether strap routing device that is—
+(1) Not less than 65 mm behind the torso line for that seating position, in the case of a flexible routing device or a deployable routing device, measured horizontally and in a vertical longitudinal plane; or
+(2) Not less than 100 mm behind the torso line for that seating position, in the case of a fixed rigid routing device, measured horizontally and in a vertical longitudinal plane, the part of that anchorage that attaches to a tether hook may, at the manufacturer's option (with said option selected prior to, or at the time of, certification of the vehicle) be located outside that zone.
+(c) The measurement of the location of the flexible or deployable routing device described in S6.2.1.2(b)(1) is made with SFAD 2 properly attached to the lower anchorages. A 40 mm wide nylon tether strap is routed through the routing device and attached to the tether anchorage in accordance with the written instructions required by S12 of this standard. The forwardmost contact point between the strap and the routing device must be within the stated limit when the tether strap is flat against the top surface of the SFAD and tensioned to 55 to 65 N. In seating positions without lower anchorages of a child restraint anchorage system, the SFAD 2 is held with its central lateral plane in the central vertical longitudinal plane of the seating position. The adjustable anchor attaching bars of the SFAD 2 are replaced by spacers that end flush with the back surface of the SFAD.
+S6.2.2 Subject to S6.2.2.2, the part of each tether anchorage to which a tether hook attaches must be located within the shaded zone shown in figures 3 through 7 to this section of the designated seating position for which it is installed. The zone is defined with reference to the seating reference point (see § 571.3). (For purposes of the figures, “H Point” means seating reference point.) A tether anchorage may be recessed in the seat back, provided that it is not in the strap wrap-around area at the top of the vehicle seat back. For the area under the vehicle seat, the forwardmost edge of the shaded zone is defined by a vertical plane 120 mm rearward of the “H Point,” as shown in figure 3 to this section.
+S6.2.2.1 Subject to S6.2.2.2, for vehicles with adjustable or removable head restraints or no head restraints, the tether anchorage to which a tether hook attaches must be located outside the zone created by a 325 mm radius sphere with its center on the R-point and truncated horizontally at 230 mm below the sphere's center as shown in figures 8 and 9 to this section.
+S6.2.2.2 In the case of a vehicle that—
+(a) Has a user-ready tether anchorage for which no part of the shaded zone shown in figures 4 through 7 and 10 to this section of the designated seating position for which the anchorage is installed is accessible without the need for folding the seatback (other than the head restraint) or removing a seating component of the vehicle; and
+(b) Has a tether strap routing device that is—
+(1) Not less than 65 mm behind the torso line for that seating position, in the case of a flexible routing device or a deployable routing device, measured horizontally and in a vertical longitudinal plane; or
+(2) Not less than 100 mm behind the torso line for that seating position, in the case of a fixed rigid routing device, measured horizontally and in a vertical longitudinal plane, the part of that anchorage that attaches to a tether hook may, at the manufacturer's option (with said option selected prior to, or at the time of, certification of the vehicle) be located outside that zone.
+(c) The measurement of the location of the flexible or deployable routing device described in S6.2.2.2(b)(1) is made with SFAD 2 properly attached to the lower anchorages. A 40 mm wide nylon tether strap is routed through the routing device and attached to the tether anchorage in accordance with the written instructions required by S12 of this standard. The forwardmost contact point between the strap and the routing device must be within the stated limit when the tether strap is flat against the top surface of the SFAD and tensioned to 55 to 65 N. In seating positions without lower anchorages of a child restraint anchorage system, the SFAD 2 is held with its central lateral plane in the central vertical longitudinal plane of the seating position. The adjustable anchorage attaching bars of the SFAD 2 are replaced by spacers that end flush with the back surface of the SFAD 2.
+S6.3 Strength requirements for tether anchorages.
+(a) When tested in accordance with S8, the tether anchorage must not separate completely from the vehicle seat or seat anchorage or the structure of the vehicle.
+(b) Provisions for simultaneous and sequential testing:
+(1) In the case of vehicle seat assemblies equipped with more than one tether anchorage, the force referred to in this S6.3 may, at the agency's option, be applied simultaneously to each of those tether anchorages. However, that force may not be applied simultaneously to tether anchorages for any two adjacent seating positions whose midpoints are less than 400 mm apart, as measured in accordance with S6.3(b)(i) and (ii) and figure 20 to this section.
+(i) The midpoint of the seating position lies in the vertical longitudinal plane that is equidistant from vertical longitudinal planes through the geometric center of each of the two lower anchorages at the seating position. For those seating positions that do not provide lower anchorages, the midpoint of the seating position lies in the vertical longitudinal plane that passes through the SgRP of the seating position.
+(ii) Measure the distance between the vertical longitudinal planes passing through the midpoints of the adjacent seating positions, as measured along a line perpendicular to the planes.
+(2) A tether anchorage of a particular child restraint anchorage system will not be tested with the lower anchorages of that anchorage system if one or both of those lower anchorages have been previously tested under this standard.
+S6.4 Marking and conspicuity requirements for tether anchorages. Vehicles subject to Standard No. 225 (this section) shall meet S6.4 according to the phase-in schedule specified in S13 of this standard.
+(a) For each tether anchorage installed pursuant to S4 of this standard, there shall be a permanent marking that:
+(1) Consists of one of the pictograms shown in figure 25 to this section that is not less than 20 mm in height;
+(2) Except for vehicles that use a routing device per S6.2.2.2, the center of the pictogram in the longitudinal direction must be in the vertical longitudinal plane that passes through the center of the tether anchorage bar (± half of the tether anchorage length), as shown in figure 26 (Left) to this section; or the center of the pictogram in the lateral direction must be in the horizontal lateral plane that passes through the center of the tether anchorage bar (± half of the pictogram height), as shown in figure 26 (right) to this section.
+(3) The nearest edge of the marking shall be located not more than 100 mm away from the tether anchorage bar as shown in figure 27 to this section. No other attachment feature to secure occupant items (i.e., cargo hooks or similar) shall be nearer to the marking than the distance from the marking to the tether anchorage. Vehicles with routing devices per S6.2.2.2 may use tags attached to the routing device.
+(b) The tether anchorage bar may be covered by a cap or cover that is removable without the use of any tool, provided that the cap or cover is permanently labeled with a marking meeting the requirements of S6.4(a)(1). If the cap or cover is permanently attached to the vehicle, the tether anchorage is not required to be separately marked. If the cap or cover is not permanently attached to the vehicle, the tether anchorage must also be marked with the symbol meeting S6.4(a)(1) through (3).
+(c) For vehicles that have a cargo cover that needs to be moved or removed to access the tether anchorages, the cargo cover must be permanently marked with the symbol meeting S6.4.1(a)(1) of this standard for each tether anchorage that is accessible under the cargo cover. Tether anchorages under the cargo cover must also be marked per S6.4(a).
+S7. Test conditions for testing tether anchorages.
+The test conditions described in paragraphs (a) and (b) of S7 apply to the test procedures in S8.
+(a) Vehicle seats are adjusted to their full rearward and full downward position and the seat back is placed in its most upright position. When SFAD 2 is used in testing and cannot be attached to the lower anchorages with the seat back in this position, adjust the seat back as recommended by the manufacturer in its instructions for attaching child restraints. If no instructions are provided, adjust the seat back to the position that enables SFAD 2 to attach to the lower anchorages that is the closest to the most upright position.
+(b) Head restraints are adjusted in accordance with the manufacturer's instructions, provided pursuant to S12, as to how the head restraints should be adjusted when using the child restraint anchorage system. If instructions with regard to head restraint adjustment are not provided pursuant to S12, the head restraints are adjusted to any position.
+S8 Test procedures. Each vehicle shall meet the requirements of S6.3 when tested according to the following procedures. Where a range of values is specified, the vehicle shall be able to meet the requirements at all points within the range. For the testing specified in these procedures, the SFAD used in the test has a tether strap consisting of webbing material with an elongation limit of 4 percent at a tensile load of 65,000 N (14,612 lb). Pretension the tether strap with 53.5 N to 67 N of preload prior to the test. The strap is fitted at one end with a high strength steel tether hook for attachment to the tether anchorage. The tether hook meets the specifications in Standard No. 213 (49 CFR § 571.213) as to the configuration and geometry of tether hooks required by the standard. A steel cable is connected to the X point through which the test force is applied.
+S8.1 Apply the force specified in S6.3 as follows—
+(a) Use the following specified test device, as appropriate:
+(1) SFAD 1, to test a tether anchorage at a designated seating position that does not have a child restraint anchorage system; or,
+(2) SFAD 2, to test a tether anchorage at a designated seating position that has a child restraint anchorage system.
+(b) Attach the SFAD 1 to the vehicle seat using the vehicle belts or the SFAD 2 to the lower anchorages of the child restraint anchorage system, as appropriate, and attach the test device to the tether anchorage, in accordance with the manufacturer's instructions provided pursuant to S12 of this standard. For the testing specified in this procedure, if SFAD 1 cannot be attached using the vehicle belts because of the location of the vehicle belt buckle, the test device is attached by material whose breaking strength is equal to or greater than the breaking strength of the webbing for the seat belt assembly installed as original equipment at that seating position. The geometry of the attachment duplicates the geometry, at the pre-load point, of the attachment of the originally installed seat belt assembly. All belt systems (including the tether) used to attach the test device are tightened to a tension of not less than 53.5 N and not more than 67 N on the webbing portion of the belt. For SFAD 1, apply a rearward force of 135 N ±15 N, in a horizontal plane through point “X” of SFAD 1. While maintaining the force, tighten the vehicle seat belt to a tension of not less than 53.5 N and not more than 67 N measured at the lap portion of the seat belt and maintain the tension during the preload, lock the seat belt retractor, and tighten the tether belt strap to remove all slack. A rearward force of 135 N ±15 N is applied to the center of the lower front crossmember of SFAD 2 to press the device against the seat back as the fore-aft position of the rearward extensions of the SFAD is adjusted to remove any slack or tension.
+(c) Apply the force—
+(1) Initially, in a forward direction in a vertical longitudinal plane and through the Point X on the test device; and
+(2) Initially, along a line through the X point and at an angle of 10 ±5 degrees above the horizontal. Apply a preload force of 500 N to measure the angle; and then
+(3) Increase the pull force as linearly as practicable to a full force application of 15,000 N in not less than 24 seconds and not more than 30 seconds, and maintain at a 15,000 N level for 1 second.
+S8.2 [Reserved]
+S9. Requirements for the lower anchorages of the child restraint anchorage system. Vehicles subject to Standard No. 225 (this section) shall meet the lower anchorage requirements specified in S9.2 and S9.5 according to the phase-in schedule specified in S13 of this standard.
+S9.1 Configuration of the lower anchorages
+S9.1.1 The lower anchorages shall consist of two bars that—
+(a) Are 6 mm ±.1 mm in diameter;
+(b) Are straight, horizontal and transverse;
+(c) As shown in Figure 21, are:
+(i) Not less than 25 mm in length, and
+(ii) Are not more than 60 mm in length between the anchor bar supports or other structural members of the vehicle that restrict lateral movement of the components of a child restraint that are designed to attach to the bars, measured in a vertical plane 7 mm rearward of the vertical plane that is tangent of the rearward face of the anchor bar.
+(d) The bars must not be capable of being stowable or foldable.
+(e) [Reserved]
+(f) Are part of the vehicle, such that they can only be removed by use of a tool, such as a screwdriver or wrench; and
+(g) Are rigidly attached to the vehicle such that they will not deform more than 5 mm when subjected to a 100 N force in any direction.
+S9.2 Location of the lower anchorages.
+S9.2.1 The anchorage bars are located at the vehicle seating position by using the CRF rearward extensions, with the CRF placed against or near the vehicle seat back. With the CRF attached to the anchorages and resting on the seat cushion, the bottom surface shall have attitude angles within the limits in the following table, angles measured relative to the vehicle horizontal, longitudinal and transverse reference planes.
+Table to S9.2.1
+Pitch
+15° ±10°
+Roll
+0° ±5°
+Yaw
+0° ±10°
+Note: An explanation of the above angles is given in Figure 1.
+S9.2.2 With adjustable seats adjusted as described in S9.2.3, each lower anchorage bar shall be located so that a vertical transverse plane tangent to the front surface of the bar is:
+(a) Not more than 70 mm behind the corresponding point Z of the CRF, measured parallel to the bottom surface of the CRF and in a vertical longitudinal plane, while the CRF is pressed against the seat back by the rearward application of a horizontal force of 100 N at point A on the CRF; and
+(b) Not less than 120 mm behind the vehicle seating reference point, measured horizontally and in a vertical longitudinal plane.
+S9.2.3 Adjustable seats are adjusted as follows:
+(a) Place adjustable seat backs in the manufacturer's nominal design riding position in the manner specified by the manufacturer; and
+(b) Place adjustable seats in the full rearward and full downward position.
+S9.2.4 The lower anchorages shall be located such that the lower anchorage depth tool depicted in Drawing Package, Anchorage Depth Tool, dated April 2020 (incorporated by reference; see § 571.5), measures an anchorage depth of 25 mm or less using the procedure in S11(c) of this standard.
+S9.2.5 The lower anchorages shall be located such that the tool depicted in Drawing Package, Clearance Angle Tool, dated April 2020 (incorporated by reference; see § 571.5), measures a clearance angle of at least 54 degrees using the procedure in S11(b) of this standard.
+S9.3 Adequate fit of the lower anchorages. Each vehicle and each child restraint anchorage system in that vehicle shall be designed such that the CRF can be placed inside the vehicle and attached to the lower anchorages of each child restraint anchorage system, with adjustable seats adjusted as described in S9.3(a) and (b).
+(a) Place adjustable seat backs in the manufacturer's nominal design riding position in the manner specified by the manufacturer; and
+(b) Place adjustable seats in the full rearward and full downward position.
+(c) To facilitate installation of the CRF in a vehicle seat, the side, back and top frames of the CRF may be removed for installation in the vehicle, as indicated in Figure 1A of this standard. If necessary, the height of the CRF may be 560 mm.
+S9.4 Strength of the lower anchorages.
+S9.4.1 When tested in accordance with S11, the lower anchorages shall not allow point X on SFAD 2 to be displaced horizontally more than the distances specified below, after preloading the device—
+(a) 175 mm, when a force of 11,000 N is applied in a forward direction in a vertical longitudinal plane; and
+(b) 150 mm, for lower anchorages when a force of 5,000 N is applied in a lateral direction in a vertical longitudinal plane that is 75 ±5 degrees to either side of a vertical longitudinal plane.
+S9.4.1.1 Forces described in S9.4.1(a), forward direction, shall be applied with an initial force application angle of 10 ±5 degrees above the horizontal. Forces described in S9.4.1(b), lateral direction, shall be applied horizontally (0 ±5 degrees).
+S9.4.1.2 The amount of displacement is measured relative to an undisturbed point on the vehicle body.
+S9.4.2 Provisions for simultaneous and sequential testing.
+(a) In the case of vehicle seat assemblies equipped with more than one child restraint anchorage system, the lower anchorages may, at the agency's option, be tested simultaneously. However, forces may not be applied simultaneously for any two adjacent seating positions whose midpoints are less than 400 mm apart, as measured in accordance with S9.4.2(a)(1) and (2) and Figure 20.
+(1) The midpoint of the seating position lies in the vertical longitudinal plane that is equidistant from vertical longitudinal planes through the geometric center of each of the two lower anchorages at the seating position.
+(2) Measure the distance between the vertical longitudinal planes passing through the midpoints of the adjacent seating positions, as measured along a line perpendicular to the planes.
+(b) The lower anchorages of a particular child restraint anchorage system will not be tested if one or both of the anchorages have been previously tested under this standard.
+S9.5 Marking and conspicuity requirements.
+S9.5.1 Requirements for lower anchors. Lower anchorages must meet the requirements in S9.5.1(a) or (b).
+(a) For each bar installed pursuant to S4, the vehicle shall be permanently marked with a circle:
+(1) That is not less than 13 mm in diameter;
+(2) That is either solid or open, with or without words, symbols, or pictograms, provided that if words, symbols or pictograms are used, their meaning is explained to the consumer in writing, such as in the vehicle's owner's manual; and
+(3) That is located such that its center is on each seat back between 50 and 100 mm above or on the seat cushion 100 ±25 mm forward of the intersection of the vertical transverse and horizontal longitudinal planes intersecting at the horizontal centerline of each lower anchorage, as illustrated in figure 22 to this section. The center of the circle must be in the vertical longitudinal plane that passes through the center of the bar (±25 mm).
+(4) The circle may be on a tag.
+(b) The vehicle shall be configured such that the following is visible: Each of the bars installed pursuant to S4, or a permanently attached guide device for each bar. The bar or guide device must be visible without the compression of the seat cushion or seat back, when the bar or device is viewed, in a vertical longitudinal plane passing through the center of the bar or guide device, along a line making an upward 30-degree angle with a horizontal plane. Seat backs are in the nominal design riding position. The bars may be covered by a removable cap or cover, provided that the cap or cover is permanently marked with words, symbols or pictograms whose meaning is explained to the consumer in written form as part of the owner's manual.
+S9.5.2 Requirements for lower anchors. Lower anchorages must meet the requirements in S9.5.2(a) and (b), as applicable.
+(a) For each bar installed pursuant to S4, the vehicle shall be permanently marked with a symbol that:
+(1) Is not less than 13 mm in diameter;
+(2) Contains the pictogram shown in figure 24 to this section; and
+(3) Is located such that its center is on each seat back between 50 and 100 mm above or on the seat cushion between 100 to −50 mm forward of the intersection of the vertical transverse and horizontal longitudinal planes intersecting at the horizontal centerline of each lower anchorage, as illustrated in figure 19 to this section. The center of the symbol must be in the vertical longitudinal plane that passes through the center of the bar (±25 mm).
+(4) The symbol may be on a tag.
+(b) The bars may be covered by a removable cap or cover, provided that the cap or cover is permanently marked with the pictogram shown in figure 24 to this section. If the cap or cover is permanently attached to the vehicle, the lower anchorage bars are not required to be separately marked with the pictogram. If the cap or cover is not permanently attached to the vehicle, the lower anchorage bars must also be marked with the symbol meeting S9.5.2(a)(1) through (4).
+S10. Test conditions for testing the lower anchorages. The test conditions described in this paragraph apply to the test procedures in S11.
+(a) Adjust vehicle seats to their full rearward and full downward position and place the seat backs in their most upright position. When SFAD 2 is used in testing and cannot be attached to the lower anchorages with the seat back in this position, adjust the seat back as recommended by the manufacturer in its instructions for attaching child restraints. If no instructions are provided, adjust the seat back to the position closest to the upright position that enables SFAD 2 to attach to the lower anchorages.
+(b) Head restraints are adjusted in accordance with the manufacturer's instructions, provided pursuant to S12, as to how the head restraints should be adjusted when using the child restraint anchorage system. If instructions with regard to head restraint adjustment are not provided pursuant to S12, the head restraints are adjusted to any position.
+S11. Test procedures. Each vehicle shall meet the requirements of this standard when tested according to the following procedures. Where a range of values is specified, the vehicle shall be able to meet the requirements at all points within the range.
+(a) Strength requirements —
+(1) Forward force direction. Place SFAD 2 in the vehicle seating position and attach it to the two lower anchorages of the child restraint anchorage system. Do not attach the tether anchorage. A rearward horizontal force of 135 ±15 N is applied to the center of the lower front crossbar of SFAD 2 to press the device against the seat back as the fore-aft position of the rearward extensions of the SFAD is adjusted to remove any slack or tension. Apply a preload force of 500 N horizontally and in the vertical centerline of the SFAD 2 at point X. Increase the pull force as linearly as practicable to a full force application of 11,000 N in not less than 24 seconds and not more than 30 seconds and maintain at an 11,000 N level for 1 second.
+(2) Lateral force direction. Place SFAD 2 in the vehicle seating position and attach it to the two lower anchorages of the child restraint anchorage system. Do not attach the tether anchorage. A rearward force of 135 ±15 N is applied to the center of the lower front crossbar of SFAD 2 to press the device against the seat back as the fore-aft position of the rearward extensions of the SFAD is adjusted to remove any slack or tension. Apply a preload force of 500 N horizontal and perpendicular to the longitudinal centerline of the SFAD 2 at point X of the test device. Increase the pull force as linearly as practicable to a full force application of 5,000 N in not less than 24 seconds and not more than 30 seconds and maintain at a 5,000 N level for 1 second.
+(b) Clearance angle. The seat back angle, if adjustable, is set at the manufacturer's nominal design seat back angle. If the position is not specified, set the seat back at the first detent rearward of 25° from the vertical. Remove or open any lower anchorage cover, if present, to expose the lower anchorage. To measure clearance angle, attach the clearance angle tool to the lower anchorage and apply a vertical force of 67 N (15 lbf) to the tool. Measure the angle (with respect to the horizontal) of the tool while the force is being applied.
+(c) Anchorage depth. The seat back angle, if adjustable, is set at the manufacturer's nominal design seat back angle. If the position is not specified, set the seat back at the first detent rearward of 25° from the vertical. To measure the anchorage depth, subtract 30 degrees from the measured seat pan angle to calculate the view angle. With the anchorage depth tool (see figure 28 to this section) on a flat surface, adjust the view bar to read the view angle. Slide the zeroing strip along the view bar so that it is barely touching the top of the depth tool hook. Move the view bar forward, so the end of the zeroing strip is aligned with the zero-scribe line. For hidden anchorages, slide the anchorage depth tool so that it reads 0 mm at the rear edge of the slider. For visible anchorages, align the depth gauge to 25 mm so that negative values can be read. Attach the depth tool centered to the lower anchorage. Adjust the depth tool base to be within ±2 degrees of the view angle (30 degrees minus seat pan angle) to set the tool-parallel to the seat pan angle. Move the entire slider bar forward until the zeroing strip contacts the vehicle seat back or any other vehicle part.
+S12. Written instructions. Vehicles subject to Standard No. 225 (this section) shall meet the written instruction requirements specified in either S12.1 or S12.2 according to the phase-in schedule specified in S13.
+S12.1 Written instructions shall:
+(a) Indicate which seating positions in the vehicle are equipped with tether anchorages and child restraint anchorage systems;
+(b) In the case of vehicles required to be marked as specified in paragraphs S4.1 and S9.5 of this standard, explain the meaning of markings provided to locate the lower anchorages of child restraint anchorage systems; and
+(c) Include instructions that provide a step-by-step procedure, including diagrams, for properly attaching a child restraint system's tether strap to the tether anchorages.
+S12.2 Written instructions shall:
+(a) Indicate which seating positions in the vehicle are equipped with tether anchorages and child restraint anchorage systems;
+(b) In the case of vehicles required to be marked as specified in paragraphs S4.1 and S9.5 of this standard, explain the meaning of markings provided to locate the lower anchorages of child restraint anchorage systems and the top tether anchorages;
+(c) Include instructions that provide a step-by-step procedure, including diagrams, for properly attaching a child restraint system's tether strap to the tether anchorages;
+(d) Include instructions on how to locate and access the tether anchorage and the lower anchorages; and
+(e) Use the following terms when referring to the different components of the child restraint anchorage system that are used to connect the child restraint system to the vehicle: “lower anchor” means the lower anchorage of the child restraint anchorage system in the vehicle, “tether anchor” means the top tether anchorage of the child restraint anchorage system in the vehicle, “lower anchor attachment” means the child restraint system or the detachable base's (in the case of a rear-facing child restraint with a detachable base) lower anchorage connector and the lower anchorage strap (for flexible lower anchorage attachments), “rigid lower anchor attachment” means the child restraint system or the detachable base's (in the case of a rear-facing child restraint with a detachable base) lower anchorage connector that is rigidly attached to the CRS or detachable base, respectively, and does not have a lower anchorage strap, and “tether” means the child restraints system's tether hook and tether strap.
+S13 Phase-in schedule. The S13 phase in schedule details when listed requirements become inactive and are replaced by newer requirements. Requirements in Standard No. 225 (this section) not listed in S13 shall be in effect before, during, and after the S13 phase-in.
+S13.1 Vehicle certification information. At any time during the production years ending August 31, 2029, and August 31, 2030, each manufacturer shall, upon request from the Office of Vehicle Safety Compliance, provide information identifying the vehicles (by make, model and vehicle identification number) that have been certified as complying with the child restraint anchorage usability requirements of this standard. Manufacturers shall specify the number of vehicles meeting each phase-in percentage. The manufacturer's designation of a vehicle as a certified vehicle is irrevocable.
+S13.1.1 Pre phase-in. Vehicles manufactured before September 1, 2028, are subject to S6.1.1, S6.2.1, S9.2.1, S9.2.2, S9.2.3, S9.5.1, and S12.1 of this standard.
+S13.1.2 Phase-in year 1. Vehicles manufactured on or after September 1, 2028, and before September 1, 2029. The total number of individual vehicles complying with S6.1.2, S6.2.2, S6.4, S9.2 (except for S9.2.2(a)), S9.5.2, and S12.2 of this standard shall be not less than 20 percent of a vehicle manufacturer's total production for this time period. The remaining 80 percent of a vehicle manufacturer's total production are subject to S6.1.1, S6.2.1, S9.2.1, S9.2.2, S9.2.3, S9.5.1, and S12.1 of this standard.
+S13.1.3 Phase-in year 2. Vehicles manufactured on or after September 1, 2029, and before September 1, 2030. The total number of individual vehicles complying with S6.1.2, S6.2.2, S6.4, S9.2 (except for S9.2.2(a)), S9.5.2, and S12.2 of this standard shall be not less than 50 percent of a vehicle manufacturer's total production for this time period. The remaining 50 percent of a vehicle manufacturer's total production are subject to S6.1.1, S6.2.1, S9.2.1, S9.2.2, S9.2.3, S9.5.1, and S12.1 of this standard.
+S13.1.4 Phase-in year 3 and beyond. Vehicles manufactured on or after September 1, 2030. The total number of vehicles complying with S6.1.2, S6.2.2, S6.4, S9.2 (except for S9.2.2(a)), S9.5.2, and S12.2 shall be not less than 100 percent of a vehicle manufacturer's total production.
+S13.2 Vehicles produced by more than one manufacturer.
+S13.2.1 For the purpose of calculating average annual production of vehicles for each manufacturer and the number of vehicles manufactured by each manufacturer under S13.1.1 through S13.1.4, a vehicle produced by more than one manufacturer shall be attributed to a single manufacturer as follows:
+(a) A vehicle which is imported shall be attributed to the importer.
+(b) A vehicle manufactured in the United States by more than one manufacturer, one of which also markets the vehicle, shall be attributed to the manufacturer which markets the vehicle.
+S13.2.2 A vehicle produced by more than one manufacturer shall be attributed to any one of the vehicle's manufacturers specified by an express written contract, reported to the National Highway Traffic Safety Administration under 49 CFR part 585, between the manufacturers so specified and the manufacturer to which the vehicle would otherwise be attributed under S13.2.1.
+Figures to § 571.225
+Figure 8 to § 571.225. Side View of 325 mm Radius Sphere Zone From R-Point, Truncated at 230 mm Below the Center
+Figure 9 to § 571.225. Three-Dimensional 325 mm Radius Sphere Zone From R-Point, Truncated Along the Lower Edge at 230 mm Below Its Center
+Figure 10 to § 571.225—Side View. User Ready Tether Anchorage Location
+Figure 11 to § 571.225 [Reserved]
+Figure 19 to § 571.225. Placement of Symbol on the Seat Back and Seat Cushion of Vehicle
+Figure 23 to § 571.225. Clearance Angle Tool
+Figure 24 to § 571.225—Lower Anchorage Symbol
+Note 1 to Figure 24 to § 571.225: Drawing not to scale.
+Note 2 to Figure 24 to § 71.225: Symbol may be shown in mirror image.
+Note 3 to Figure 24 to § 571.225: Color of the symbol at the option of the manufacturer.
+Figure 25 to § 571.225. Tether Anchorage Symbols
+Note 1 to Figure 25 to § 571.225: Drawing not to scale.
+Note 2 to Figure 25 to § 571.225: Symbol may be shown in mirror image.
+Note 3 to Figure 25 to § 571.225: Color of the symbol at the option of the manufacturer.
+Figure 26 to § 571.225. Tether Anchorage Marking Location—Alignment (No Cover)
+Note 1 to Figure 26 to § 571.225: (Tolerance of ± half of the anchorage length)/(Tolerance of ± half of the pictogram height).
+Figure 27 to § 571.225. Tether Anchorage Marking Location—Distance (No Cover)
+Figure 28 to § 571.225. Anchorage Depth Tool
+[64 FR 10823, Mar. 5, 1999, as amended at 64 FR 47587, Aug. 31, 1999; 65 FR 46640, July 31, 2000; 68 FR 24667, May 8, 2003; 68 FR 38226, June 27, 2003; 69 FR 48823, Aug. 11, 2004; 69 FR 60565, Oct. 12, 2004; 69 FR 70915, Dec. 8, 2004; 77 FR 768, Jan. 6, 2012; 87 FR 18599, Mar. 30, 2022; 90 FR 1342, Jan. 7, 2025]
+eCFR Content
+Pages
+Home
+Titles
+Search
+Recent Changes
+Corrections
+Reader Aids
+Using the eCFR Point-in-Time System
+Understanding the eCFR
+Government Policy and OFR Procedures
+Developer Resources
+Recent Site Updates
+Information
+About This Site
+Legal Status
+Privacy
+Accessibility
+FOIA
+No Fear Act
+Continuity Information
+My eCFR
+My Subscriptions
+Sign In / Sign Up

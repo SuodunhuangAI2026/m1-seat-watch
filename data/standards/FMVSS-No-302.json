@@ -1,0 +1,29 @@
+{
+  "id": "FMVSS-No-302",
+  "no": "FMVSS No.302",
+  "title_cn": "内饰材料燃烧特性（Flammability of interior materials）",
+  "site": "ecfr",
+  "tier": "T1",
+  "category": "related",
+  "org": "FMVSS",
+  "library_editions": [
+    "2024"
+  ],
+  "current_edition": "571.302@2026-11-04",
+  "entries": [
+    {
+      "no": "FMVSS No.302",
+      "name": "内饰材料燃烧特性（Flammability of interior materials）",
+      "ver": "2024"
+    }
+  ],
+  "editions": [
+    "571.302@2026-11-04"
+  ],
+  "edition_meta": {
+    "571.302@2026-11-04": {
+      "form": "html",
+      "url": "https://www.ecfr.gov/current/title-49/section-571.302"
+    }
+  }
+}

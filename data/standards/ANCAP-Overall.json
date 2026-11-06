@@ -1,0 +1,32 @@
+{
+  "id": "ANCAP-Overall",
+  "no": "（无编号）Overall Assessment",
+  "title_cn": "Overall Assessment",
+  "site": "ancap",
+  "tier": "T1",
+  "category": "related",
+  "org": "行业标准",
+  "library_editions": [
+    "10.0"
+  ],
+  "current_edition": "（无编号）Overall Assessment@2026-07-03-94895",
+  "entries": [
+    {
+      "no": "（无编号）Overall Assessment",
+      "name": "Overall Assessment",
+      "ver": "10.0"
+    }
+  ],
+  "locator": {
+    "match": "Overall"
+  },
+  "editions": [
+    "（无编号）Overall Assessment@2026-07-03-94895"
+  ],
+  "edition_meta": {
+    "（无编号）Overall Assessment@2026-07-03-94895": {
+      "form": "pdf",
+      "url": "https://ctms.ancap.com.au/publications/ancap-assessment-protocol-overall-rating-v7-0-1.pdf"
+    }
+  }
+}

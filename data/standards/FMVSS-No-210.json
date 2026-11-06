@@ -1,0 +1,29 @@
+{
+  "id": "FMVSS-No-210",
+  "no": "FMVSS No.210",
+  "title_cn": "安全带固定点系统（Seat belt assembly anchorages）",
+  "site": "ecfr",
+  "tier": "T1",
+  "category": "related",
+  "org": "FMVSS",
+  "library_editions": [
+    "2024 / 截至 2025-02-05"
+  ],
+  "current_edition": "571.210@2026-11-04",
+  "entries": [
+    {
+      "no": "FMVSS No.210",
+      "name": "安全带固定点系统（Seat belt assembly anchorages）",
+      "ver": "2024 / 截至 2025-02-05"
+    }
+  ],
+  "editions": [
+    "571.210@2026-11-04"
+  ],
+  "edition_meta": {
+    "571.210@2026-11-04": {
+      "form": "html",
+      "url": "https://www.ecfr.gov/current/title-49/section-571.210"
+    }
+  }
+}

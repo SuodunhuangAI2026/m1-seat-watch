@@ -1,0 +1,29 @@
+{
+  "id": "FMVSS-No-208",
+  "no": "FMVSS No.208",
+  "title_cn": "乘员碰撞保护（Occupant crash protection）",
+  "site": "ecfr",
+  "tier": "T1",
+  "category": "related",
+  "org": "FMVSS",
+  "library_editions": [
+    "2024"
+  ],
+  "current_edition": "571.208@2026-11-04",
+  "entries": [
+    {
+      "no": "FMVSS No.208",
+      "name": "乘员碰撞保护（Occupant crash protection）",
+      "ver": "2024"
+    }
+  ],
+  "editions": [
+    "571.208@2026-11-04"
+  ],
+  "edition_meta": {
+    "571.208@2026-11-04": {
+      "form": "html",
+      "url": "https://www.ecfr.gov/current/title-49/section-571.208"
+    }
+  }
+}

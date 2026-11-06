@@ -1,0 +1,29 @@
+{
+  "id": "FMVSS-No-201",
+  "no": "FMVSS No.201",
+  "title_cn": "乘员保护（Occupant protection）",
+  "site": "ecfr",
+  "tier": "T1",
+  "category": "related",
+  "org": "FMVSS",
+  "library_editions": [
+    "2024"
+  ],
+  "current_edition": "571.201@2026-11-04",
+  "entries": [
+    {
+      "no": "FMVSS No.201",
+      "name": "乘员保护（Occupant protection）",
+      "ver": "2024"
+    }
+  ],
+  "editions": [
+    "571.201@2026-11-04"
+  ],
+  "edition_meta": {
+    "571.201@2026-11-04": {
+      "form": "html",
+      "url": "https://www.ecfr.gov/current/title-49/section-571.201"
+    }
+  }
+}

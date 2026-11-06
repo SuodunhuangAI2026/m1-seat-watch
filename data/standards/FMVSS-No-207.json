@@ -1,0 +1,29 @@
+{
+  "id": "FMVSS-No-207",
+  "no": "FMVSS No.207",
+  "title_cn": "座椅系统（Seating systems）",
+  "site": "ecfr",
+  "tier": "T1",
+  "category": "core",
+  "org": "FMVSS",
+  "library_editions": [
+    "2024"
+  ],
+  "current_edition": "571.207@2026-11-04",
+  "entries": [
+    {
+      "no": "FMVSS No.207",
+      "name": "座椅系统（Seating systems）",
+      "ver": "2024"
+    }
+  ],
+  "editions": [
+    "571.207@2026-11-04"
+  ],
+  "edition_meta": {
+    "571.207@2026-11-04": {
+      "form": "html",
+      "url": "https://www.ecfr.gov/current/title-49/section-571.207"
+    }
+  }
+}

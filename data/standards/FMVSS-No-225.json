@@ -1,0 +1,29 @@
+{
+  "id": "FMVSS-No-225",
+  "no": "FMVSS No.225",
+  "title_cn": "儿童约束固定点系统（Child restraint anchorage systems）",
+  "site": "ecfr",
+  "tier": "T1",
+  "category": "core",
+  "org": "FMVSS",
+  "library_editions": [
+    "2024"
+  ],
+  "current_edition": "571.225@2026-11-04",
+  "entries": [
+    {
+      "no": "FMVSS No.225",
+      "name": "儿童约束固定点系统（Child restraint anchorage systems）",
+      "ver": "2024"
+    }
+  ],
+  "editions": [
+    "571.225@2026-11-04"
+  ],
+  "edition_meta": {
+    "571.225@2026-11-04": {
+      "form": "html",
+      "url": "https://www.ecfr.gov/current/title-49/section-571.225"
+    }
+  }
+}
