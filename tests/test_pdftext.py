@@ -70,14 +70,37 @@ def test_printable_ratio():
 
 
 def test_scanned_pdf_flagged():
-    """文字极少的 PDF 必须判为扫描件，而不是返回空正文。"""
+    """文字极少的 PDF 必须判为扫描件，而不是返回空正文。
+
+    注意：不能依赖「环境里没装 pypdf」——CI 会装 pypdf，兜底路径可能抽出更多内容。
+    所以这里显式关掉 pypdf 兜底，只验内置解析器这条路径。
+    """
     pdf = make_pdf("BT /F1 12 Tf 72 720 Td (a) Tj ET")
+    saved = pdftext._extract_pypdf
+    pdftext._extract_pypdf = lambda raw: None
     try:
         normalize.from_pdf(pdf)
     except normalize.UnusableDocument as e:
         assert "扫描件" in str(e) or "字符" in str(e)
     else:
         raise AssertionError("应当抛 UnusableDocument")
+    finally:
+        pdftext._extract_pypdf = saved
+
+
+def test_pypdf_rescue_does_not_bypass_min_chars():
+    """即使装了 pypdf，兜底结果太短也必须判为不可用。"""
+    pdf = make_pdf("BT /F1 12 Tf 72 720 Td (a) Tj ET")
+    saved = pdftext._extract_pypdf
+    pdftext._extract_pypdf = lambda raw: "x" * 10      # 仍然太短
+    try:
+        normalize.from_pdf(pdf)
+    except normalize.UnusableDocument:
+        pass
+    else:
+        raise AssertionError("应当抛 UnusableDocument")
+    finally:
+        pdftext._extract_pypdf = saved
 
 
 def test_clean_drops_page_numbers():

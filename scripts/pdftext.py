@@ -128,8 +128,10 @@ def extract(raw: bytes) -> str:
     weak = len(text) < RESCUE_MIN_CHARS or printable_ratio(text) < 0.9
     if weak:
         alt = _extract_pypdf(raw)
-        if alt and len(alt) > len(text):
-            return alt
+        # 兜底也必须够长且可读，否则等于绕过扫描件判定
+        if alt and len(alt) >= RESCUE_MIN_CHARS and printable_ratio(alt) >= 0.75:
+            if len(alt) > len(text):
+                return alt
     return text
 
 
