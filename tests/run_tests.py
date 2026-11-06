@@ -22,9 +22,17 @@ for stream in (sys.stdout, sys.stderr):
 def main() -> int:
     passed = failed = 0
     for path in sorted(HERE.glob("test_*.py")):
-        spec = importlib.util.spec_from_file_location(path.stem, path)
-        mod = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(mod)
+        try:
+            spec = importlib.util.spec_from_file_location(path.stem, path)
+            mod = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(mod)
+        except Exception as e:
+            # 模块级 import 失败：用 GitHub Actions 注解，这样 annotations API 能读到
+            tb = traceback.format_exc()
+            print(f"::error file={path.name},title=import failed::{type(e).__name__}: {e}")
+            print(tb)
+            failed += 1
+            continue
         for name in sorted(n for n in dir(mod) if n.startswith("test_")):
             fn = getattr(mod, name)
             if not callable(fn):
@@ -35,6 +43,7 @@ def main() -> int:
                 print(f"  PASS  {path.stem}::{name}")
             except Exception as e:
                 failed += 1
+                print(f"::error file={path.name},title={name}::{type(e).__name__}: {e}")
                 print(f"  FAIL  {path.stem}::{name}: {type(e).__name__}: {e}")
                 traceback.print_exc()
     if failed:

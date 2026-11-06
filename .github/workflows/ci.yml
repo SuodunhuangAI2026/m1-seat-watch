@@ -29,21 +29,12 @@ jobs:
         run: |
           set +e
           python tests/run_tests.py 2>&1 | tee test-output.txt
-          echo "exit_code=${PIPESTATUS[0]}" >> test-output.txt
+          EXIT_CODE=${PIPESTATUS[0]}
           set -e
-          # 把输出留在仓库里，方便诊断（不需要 admin 权限就能看）
-          if ! git diff --quiet; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add test-output.txt
-            git commit -m "chore(ci): 测试输出" || true
-            git push || true
-          fi
-          # 失败时把内容也打到 job summary
           {
             echo '### 测试输出'
             echo '```'
             cat test-output.txt
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
-          exit $(grep -oP 'exit_code=\K\d+' test-output.txt | tail -1)
+          exit $EXIT_CODE
