@@ -1,4 +1,4 @@
-# 原始 PDF / HTML，不进仓库
+﻿# 原始 PDF / HTML，不进仓库
 cache/
 
 # 运行状态（GitHub Actions 用 cache 持久化，本地用这个文件）
