@@ -14,10 +14,10 @@ jobs:
         with:
           python-version: "3.12"
 
-      # 可选增强：有 pypdf 时，内置解析器抽不出内容就由它兜底。
-      # 装不上也不影响：核心逻辑零第三方依赖。
-      - name: 可选依赖
-        run: pip install pypdf || echo "pypdf 未安装，使用内置解析器"
+      # lxml 是 HTML 解析的硬依赖（scripts/normalize.py、scripts/adapters/generic.py 都 import）
+      # pypdf 是兜底 PDF 解析器，装不上也不影响
+      - name: 依赖
+        run: pip install lxml pypdf
 
       - name: 编译注册表
         run: python scripts/build_registry.py
