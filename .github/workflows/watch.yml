@@ -16,7 +16,7 @@ concurrency:
 jobs:
   watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
 
@@ -43,20 +43,20 @@ jobs:
         id: probe
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            timeout --signal=KILL 780 python run.py --now --probe-only || {
+            timeout --signal=KILL 1600 python run.py --now --probe-only || {
               rc=$?
               if [ "$rc" = "124" ] || [ "$rc" = "137" ]; then
-                echo "::warning::探测超过 13 分钟被强制结束，按已抓到的部分继续建站"
+                echo "::warning::探测超过 26 分钟被强制结束，按已抓到的部分继续建站"
               else
                 echo "::error::探测异常退出（$rc）"
                 exit $rc
               fi
             }
           else
-            timeout --signal=KILL 780 python run.py --scheduled --probe-only || {
+            timeout --signal=KILL 1600 python run.py --scheduled --probe-only || {
               rc=$?
               if [ "$rc" = "124" ] || [ "$rc" = "137" ]; then
-                echo "::warning::探测超过 13 分钟被强制结束，按已抓到的部分继续建站"
+                echo "::warning::探测超过 26 分钟被强制结束，按已抓到的部分继续建站"
               else
                 echo "::error::探测异常退出（$rc）"
                 exit $rc

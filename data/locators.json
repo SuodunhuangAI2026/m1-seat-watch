@@ -103,15 +103,16 @@
     "match": "rear.?whiplash|Rear Impact"
   },
   "IIHS-LATCH-Protocol": {
-    "match": "LATCH protocol"
+    "match": "LATCH hardware evaluation protocol|/current/LATCH_protocol\\.pdf$"
   },
   "IIHS-LATCH-Rating": {
-    "match": "LATCH\\s*(evaluation|rating)"
+    "match": "LATCH hardware evaluation rating guidelines|/current/LATCH%20evaluation%20-%20rating%20guidelines"
   },
   "IIHS-Whiplash-Protocol": {
-    "match": "Whiplash prevention evaluation"
+    "match": "Whiplash prevention evaluation test protocol|Whiplash_prevention_test_protocol"
   },
   "IIHS-Whiplash-Rating": {
-    "match": "Whiplash prevention rating"
-  }
+    "match": "Whiplash prevention evaluation rating guidelines|Whiplash_prevention_rating_guidelines"
+  },
+  "_calibrated": "IIHS 四条 match 已按 2026-11-09 页面实测标签修正"
 }

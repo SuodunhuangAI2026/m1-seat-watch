@@ -734,7 +734,7 @@
         }
       ],
       "locator": {
-        "match": "LATCH protocol"
+        "match": "LATCH hardware evaluation protocol|/current/LATCH_protocol\\.pdf$"
       }
     },
     {
@@ -757,7 +757,7 @@
         }
       ],
       "locator": {
-        "match": "LATCH\\s*(evaluation|rating)"
+        "match": "LATCH hardware evaluation rating guidelines|/current/LATCH%20evaluation%20-%20rating%20guidelines"
       }
     },
     {
@@ -778,7 +778,7 @@
         }
       ],
       "locator": {
-        "match": "Whiplash prevention evaluation"
+        "match": "Whiplash prevention evaluation test protocol|Whiplash_prevention_test_protocol"
       }
     },
     {
@@ -799,7 +799,7 @@
         }
       ],
       "locator": {
-        "match": "Whiplash prevention rating"
+        "match": "Whiplash prevention evaluation rating guidelines|Whiplash_prevention_rating_guidelines"
       }
     },
     {

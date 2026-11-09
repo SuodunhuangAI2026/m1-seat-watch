@@ -120,33 +120,60 @@ def load_sites() -> dict[str, dict]:
     return {s["id"]: s for s in data["sites"]}
 
 
-class _Timeout(Exception):
-    pass
+def _family_job(family_id: str) -> dict:
+    """在子进程里探测+抓取+归一化+落盘单个族，返回该族的健康结果。
 
-
-def _with_timeout(fn, seconds: float):
-    """在后台线程里跑 fn，超过 seconds 秒就抛 _Timeout。
-
-    用线程而不是 signal：signal.alarm 只在主线程可用，且 Windows 不支持。
-    超时后线程会泄漏（daemon，不会阻止进程退出），但我们立刻放弃该族继续下一个，
-    这正是我们要的——一个坏站点不能拖住其余 71 个族。
+    这里只做有网络风险的工作；条款比对和归因留在父进程（快、且依赖已有状态）。
+    任何异常都被转换成这个 dict 里的一项——子进程不能崩。
     """
-    box: dict = {}
+    from scripts import normalize, state
+    from scripts.adapters.base import AdapterError, get_adapter
 
-    def target() -> None:
-        try:
-            box["value"] = fn()
-        except BaseException as e:  # noqa: BLE001
-            box["error"] = e
+    fam = next((f for f in load_families() if f["id"] == family_id), None)
+    if not fam:
+        return {"id": family_id, "stage": "no_adapter", "error": "找不到族"}
 
-    th = threading.Thread(target=target, daemon=True)
-    th.start()
-    th.join(seconds)
-    if th.is_alive():
-        raise _Timeout(f"超过 {int(seconds)}s 未完成")
-    if "error" in box:
-        raise box["error"]
-    return box.get("value")
+    try:
+        adapter = get_adapter(fam["site"], load_sites().get(fam["site"]))
+    except AdapterError as e:
+        return {"id": family_id, "stage": "no_adapter", "error": str(e)}
+
+    try:
+        docs = adapter.probe(fam)
+    except Exception as e:  # noqa: BLE001
+        err = f"{type(e).__name__}: {e}"
+        return {"id": family_id, "stage": "probe_failed", "error": err}
+
+    if not docs:
+        if (load_sites().get(fam["site"]) or {}).get("manual"):
+            return {"id": family_id, "stage": "needs_manual",
+                    "error": f"待人工补正文：把文本放进 data/manual/{family_id}/（文件名即版本号）"}
+        return {"id": family_id, "stage": "not_found", "error": "站点上没有找到该族的文档"}
+
+    latest = docs[-1]
+    text_key = latest.meta.get("text_key") or family_id
+    if state.load_text(text_key, latest.edition):
+        state.record_edition(family_id, latest.edition, {"url": latest.url})
+        return {"id": family_id, "stage": "unchanged", "edition": latest.edition,
+                "versions": len(docs)}
+
+    try:
+        raw = adapter.fetch(latest)
+        text, form = normalize.to_text(raw, kind=latest.meta.get("format", ""))
+    except normalize.UnusableDocument as e:
+        return {"id": family_id, "stage": "needs_manual", "edition": latest.edition,
+                "error": str(e)}
+    except Exception as e:  # noqa: BLE001
+        err = f"{type(e).__name__}: {e}"
+        return {"id": family_id, "stage": "fetch_failed", "edition": latest.edition,
+                "error": err}
+
+    state.save_text(text_key, latest.edition, text)
+    return {"id": family_id, "stage": "new", "edition": latest.edition,
+            "form": form, "chars": len(text), "versions": len(docs),
+            "text_key": text_key, "url": latest.url,
+            "published": latest.published, "label": (latest.meta or {}).get("label"),
+            "shape": latest.meta.get("shape", "")}
 
 
 def run_probe(only: list[str] | None = None) -> dict:
@@ -183,9 +210,22 @@ def run_probe(only: list[str] | None = None) -> dict:
 
     # 整轮墙钟预算：到点就把剩余族标成 deferred，继续出健康表和站点，
     # 保证工作流一定能跑完（而不是被一个慢站点挂死到超时被杀）。
-    budget_s = float(os.environ.get("PROBE_BUDGET_SECONDS", "900"))
+    budget_s = float(os.environ.get("PROBE_BUDGET_SECONDS", "1500"))
     deadline = datetime.now() + timedelta(seconds=budget_s)
-    per_family_s = float(os.environ.get("PROBE_FAMILY_SECONDS", "75"))
+    per_family_s = float(os.environ.get("PROBE_FAMILY_SECONDS", "45"))
+
+    # 核心族优先（稳定排序，组内保持原顺序）。预算有限时优先覆盖核心 T1 体系。
+    families = sorted(families, key=lambda f: 0 if f.get("category") == "core" else 1)
+    summary["checked"] = len(families)
+
+    # 子进程结果的落盘目录（.state 不进仓库、不进提交）
+    child_dir = ROOT / "data" / ".state" / "children"
+    child_dir.mkdir(parents=True, exist_ok=True)
+    for stale in child_dir.glob("*.json"):
+        try:
+            stale.unlink()
+        except OSError:
+            pass
 
     for fam in families:
         flush_health()            # 先把已完成的族落盘，再处理下一个
@@ -202,95 +242,134 @@ def run_probe(only: list[str] | None = None) -> dict:
                            "error": f"同站点已失败，本次跳过：{down[site]}"}
             continue
 
+        # 每个族一个子进程：网络相关的探测/抓取全在里面。卡死的 DNS 或慢滴流
+        # socket 用线程等不到返回，用进程 kill + wait(timeout=) 一定杀得掉。
+        out_path = child_dir / f"{sid}.json"
         try:
-            adapter = get_adapter(site, sites.get(site))
-        except AdapterError as e:
-            health[sid] = {"ok": False, "status": "no_adapter", "error": str(e)}
-            down[site] = str(e)
+            out_path.unlink()
+        except OSError:
+            pass
+        proc = subprocess.Popen(
+            [sys.executable, str(ROOT / "run.py"), "--one", sid, "--out", str(out_path)],
+            cwd=ROOT,
+        )
+        timed_out = False
+        try:
+            proc.wait(timeout=per_family_s)
+        except subprocess.TimeoutExpired:
+            timed_out = True
+            proc.kill()
+            try:
+                proc.wait(10)
+            except subprocess.TimeoutExpired:
+                pass
+
+        if timed_out:
+            health[sid] = {"ok": False, "status": "timeout",
+                           "error": f"超过 {int(per_family_s)}s 未返回，已强杀子进程"}
+            down[site] = f"超过 {int(per_family_s)}s 未返回"
+            print(f"  [超时] {sid}: 超过 {int(per_family_s)}s 未返回（已强杀）", flush=True)
             continue
 
-        try:
-            docs = _with_timeout(lambda: adapter.probe(fam), per_family_s)
-        except Exception as e:  # noqa: BLE001
-            err = f"{type(e).__name__}: {e}"
+        if not out_path.exists():
+            health[sid] = {"ok": False, "status": "probe_failed",
+                           "error": "子进程退出但没有写出结果（内部崩溃）"}
+            print(f"  [探测失败] {sid}: 子进程没有写出结果", flush=True)
+            continue
+
+        res = json.loads(out_path.read_text(encoding="utf-8-sig"))
+        stage = res.get("stage")
+
+        if stage == "no_adapter":
+            health[sid] = {"ok": False, "status": "no_adapter", "error": res.get("error")}
+            down[site] = res.get("error", "")
+            continue
+
+        if stage == "probe_failed":
+            err = res.get("error") or "未知"
             health[sid] = {"ok": False, "status": "probe_failed", "error": err}
             down[site] = err
-            print(f"  [探测失败] {sid}: {e}（本站其余族本轮跳过）", flush=True)
+            print(f"  [探测失败] {sid}: {err}", flush=True)
             continue
 
-        if not docs:
-            if (sites.get(site) or {}).get("manual"):
-                health[sid] = {"ok": False, "status": "needs_manual",
-                               "error": f"待人工补正文：把文本放进 data/manual/{sid}/（文件名即版本号）"}
-                print(f"  [待人工] {sid}：无公开正文源，等人工上传", flush=True)
-            else:
-                health[sid] = {"ok": False, "status": "not_found",
-                               "error": "站点上没有找到该族的文档"}
-                print(f"  [未命中] {sid}", flush=True)
+        if stage == "not_found":
+            health[sid] = {"ok": False, "status": "not_found",
+                           "error": res.get("error", "站点上没有找到该族的文档")}
+            print(f"  [未命中] {sid}", flush=True)
             continue
 
-        latest = docs[-1]
-        text_key = latest.meta.get("text_key") or sid
-        if state.load_text(text_key, latest.edition):
-            state.record_edition(sid, latest.edition, {"url": latest.url})
-            health[sid] = {"ok": True, "status": "unchanged", "edition": latest.edition,
-                           "versions": len(docs)}
+        if stage == "needs_manual":
+            err = res.get("error") or "无公开正文源，等人工上传"
+            health[sid] = {"ok": False, "status": "needs_manual",
+                           "edition": res.get("edition"),
+                           "error": err}
+            print(f"  [需人工] {sid}{(' ' + str(res.get('edition'))) if res.get('edition') else ''}: {err}", flush=True)
             continue
 
-        try:
-            raw = _with_timeout(lambda: adapter.fetch(latest), per_family_s)
-            text, form = normalize.to_text(raw, kind=latest.meta.get("format", ""))
-        except normalize.UnusableDocument as e:
-            health[sid] = {"ok": False, "status": "needs_manual", "edition": latest.edition,
-                           "error": str(e)}
-            print(f"  [需人工] {sid} {latest.edition}: {e}", flush=True)
-            continue
-        except Exception as e:  # noqa: BLE001
-            health[sid] = {"ok": False, "status": "fetch_failed", "edition": latest.edition,
-                           "error": f"{type(e).__name__}: {e}"}
-            print(f"  [抓取失败] {sid}: {e}", flush=True)
+        if stage == "fetch_failed":
+            health[sid] = {"ok": False, "status": "fetch_failed",
+                           "edition": res.get("edition"),
+                           "error": res.get("error")}
+            print(f"  [抓取失败] {sid}: {res.get('error')}", flush=True)
             continue
 
-        state.save_text(text_key, latest.edition, text)
+        if stage == "unchanged":
+            state.record_edition(sid, res["edition"], {})
+            health[sid] = {"ok": True, "status": "unchanged",
+                           "edition": res["edition"], "versions": res.get("versions")}
+            continue
+
+        if stage != "new":
+            # 子进程返回了未知 stage，按失败处理
+            health[sid] = {"ok": False, "status": "unknown",
+                           "error": f"子进程返回未知 stage：{stage}"}
+            continue
+
         fetched += 1
-        health[sid] = {"ok": True, "status": "new", "edition": latest.edition,
-                       "form": form, "chars": len(text), "versions": len(docs)}
-        print(f"  [新增] {sid} {latest.edition}（{form}, {len(text)} 字符）", flush=True)
+        health[sid] = {"ok": True, "status": "new", "edition": res["edition"],
+                       "form": res["form"], "chars": res["chars"],
+                       "versions": res.get("versions")}
+        print(f"  [新增] {sid} {res['edition']}（{res['form']}, {res['chars']} 字符）", flush=True)
 
-        # 有上一版正文就做条款比对并归因；没有（首次建库）只登记版本
-        prev = state.previous_edition(sid, latest.edition)
-        old_text = state.load_text(text_key, prev) if prev else None
+        text_key = res.get("text_key") or sid
+        new_text = state.load_text(text_key, str(res["edition"]))
+
+        prev = state.previous_edition(sid, str(res["edition"]))
+        old_text = state.load_text(res.get("text_key") or sid, prev) if prev else None
         if not old_text:
-            state.record_edition(sid, latest.edition, {"form": form, "url": latest.url})
+            state.record_edition(sid, res["edition"],
+                                 {"form": res["form"], "url": res.get("url")})
             continue
 
-        # 一整份法规被多个族共用时，只由第一个族出事件，避免同一处改动报六遍
-        if latest.meta.get("shape") == "document":
+        if res.get("shape") == "document":
             if site in doc_event_done:
-                state.record_edition(sid, latest.edition, {"form": form, "url": latest.url})
+                state.record_edition(sid, res["edition"],
+                                     {"form": res["form"], "url": res.get("url")})
                 continue
             doc_event_done.add(site)
 
         from scripts import diff as diffmod, publish
 
-        changes = diffmod.diff(old_text, text)
+        changes = diffmod.diff(old_text, new_text)
         if not changes:
             health[sid]["status"] = "unchanged_content"
-            state.record_edition(sid, latest.edition, {"form": form, "url": latest.url})
-            print(f"  [同文] {sid} {latest.edition}：版本号变了但正文一致", flush=True)
+            state.record_edition(sid, res["edition"],
+                                 {"form": res["form"], "url": res.get("url")})
+            print(f"  [同文] {sid} {res['edition']}：版本号变了但正文一致", flush=True)
             continue
 
         event = publish.process(
-            family=fam, old_ed=prev, new_ed=latest.edition, changes=changes,
-            doc={"published": latest.published, "form": form, "url": latest.url,
-                 "version": normalize.detect_version(text, 6000),
-                 "label": (latest.meta or {}).get("label")},
-            source_url=latest.url,
+            family=fam, old_ed=prev, new_ed=res["edition"], changes=changes,
+            doc={"published": res.get("published"), "form": res["form"],
+                 "url": res.get("url"),
+                 "version": normalize.detect_version(res.get("text") or "", 6000),
+                 "label": res.get("label")},
+            source_url=res.get("url"),
         )
         health[sid]["status"] = "changed"
         health[sid]["diff_total"] = len(changes)
         health[sid]["analyzed"] = event["impact"].get("analyzed", True)
-        print(f"  [变更] {sid} {prev} → {latest.edition}：{len(changes)} 处"
+        print(f"  [变更] {sid} {prev} → {res['edition']}：{len(changes)} 处"
               f"{'' if event['impact'].get('analyzed', True) else '（未归因）'}", flush=True)
 
     flush_health()
@@ -401,13 +480,25 @@ def main() -> int:
     g.add_argument("--scheduled", action="store_true", help="按调度配置判断是否执行")
     g.add_argument("--now", action="store_true", help="立即执行")
     g.add_argument("--force", action="store_true", help="等同 --now（workflow_dispatch 用）")
+    # 单族子进程入口：独立进程里做 probe+fetch，把结果写进 --out。
+    # 放进互斥组是为了让子进程的 "run.py --one X" 能通过 argparse 必填校验。
+    g.add_argument("--one", metavar="族", help=argparse.SUPPRESS)
     g.add_argument("--diff", nargs=3, metavar=("族", "旧版本", "新版本"), help="比对两个已存版本")
     g.add_argument("--calibrate", metavar="站点", help="探一次站点并打印解析结果")
     ap.add_argument("--only", action="append", help="只跑指定族，可重复")
     # 与 --now 组合使用：只探测不建站。工作流用 timeout 强杀它，再单独 build_site。
+    ap.add_argument("--out", metavar="路径", help=argparse.SUPPRESS)
     ap.add_argument("--probe-only", action="store_true",
                     help="配合 --now：只探测，不 build_site（供工作流分离构建用）")
     args = ap.parse_args()
+
+    # --one：单族子进程入口。probe/fetch 在子进程里做，结果写 --out 指定文件。
+    if getattr(args, "one", None):
+        res = _family_job(args.one)
+        out = getattr(args, "out", None) or os.devnull
+        Path(out).write_text(json.dumps(res, ensure_ascii=False), encoding="utf-8")
+        print(f"[child] {args.one} → {res.get('stage')}", flush=True)
+        return 0
 
     if args.calibrate:
         return cmd_calibrate(args.calibrate)
