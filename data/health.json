@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-06T18:47:07+08:00",
+  "checked_at": "2026-11-09T08:58:12+08:00",
   "checked": 72,
   "fetched": 10,
   "families": {
@@ -20,19 +20,21 @@
     },
     "ANCAP-Overall": {
       "ok": true,
-      "status": "new",
-      "edition": "（无编号）Overall Assessment@2026-07-03-94895",
+      "status": "unchanged_content",
+      "edition": "（无编号）Overall Assessment@2026-07-03-99775",
       "form": "pdf",
       "chars": 6928,
       "versions": 4
     },
     "ANCAP-Rear-Impact": {
       "ok": true,
-      "status": "new",
-      "edition": "（无编号）Crash Protection - Rear Impact@2026-08-12-57867",
+      "status": "changed",
+      "edition": "（无编号）Crash Protection - Rear Impact@2026-08-12-94571",
       "form": "pdf",
-      "chars": 59322,
-      "versions": 5
+      "chars": 86722,
+      "versions": 5,
+      "diff_total": 167,
+      "analyzed": false
     },
     "ASEAN-AOP-3.0": {
       "ok": false,
@@ -111,67 +113,83 @@
     },
     "FMVSS-No-10": {
       "ok": true,
-      "status": "new",
-      "edition": "571.10@2026-11-04",
+      "status": "changed",
+      "edition": "571.10@2026-11-05",
       "form": "html",
       "chars": 10646,
-      "versions": 1
+      "versions": 1,
+      "diff_total": 1,
+      "analyzed": false
     },
     "FMVSS-No-201": {
       "ok": true,
-      "status": "new",
-      "edition": "571.201@2026-11-04",
+      "status": "changed",
+      "edition": "571.201@2026-11-05",
       "form": "html",
       "chars": 84929,
-      "versions": 1
+      "versions": 1,
+      "diff_total": 1,
+      "analyzed": false
     },
     "FMVSS-No-202a": {
       "ok": true,
-      "status": "new",
-      "edition": "571.202a@2026-11-04",
+      "status": "changed",
+      "edition": "571.202a@2026-11-05",
       "form": "html",
       "chars": 51246,
-      "versions": 1
+      "versions": 1,
+      "diff_total": 1,
+      "analyzed": false
     },
     "FMVSS-No-207": {
       "ok": true,
-      "status": "new",
-      "edition": "571.207@2026-11-04",
+      "status": "changed",
+      "edition": "571.207@2026-11-05",
       "form": "html",
       "chars": 14491,
-      "versions": 1
+      "versions": 1,
+      "diff_total": 1,
+      "analyzed": false
     },
     "FMVSS-No-208": {
       "ok": true,
-      "status": "new",
-      "edition": "571.208@2026-11-04",
+      "status": "changed",
+      "edition": "571.208@2026-11-05",
       "form": "html",
       "chars": 357764,
-      "versions": 1
+      "versions": 1,
+      "diff_total": 1,
+      "analyzed": false
     },
     "FMVSS-No-210": {
       "ok": true,
-      "status": "new",
-      "edition": "571.210@2026-11-04",
+      "status": "changed",
+      "edition": "571.210@2026-11-05",
       "form": "html",
       "chars": 34674,
-      "versions": 1
+      "versions": 1,
+      "diff_total": 1,
+      "analyzed": false
     },
     "FMVSS-No-225": {
       "ok": true,
-      "status": "new",
-      "edition": "571.225@2026-11-04",
+      "status": "changed",
+      "edition": "571.225@2026-11-05",
       "form": "html",
       "chars": 53271,
-      "versions": 1
+      "versions": 1,
+      "diff_total": 1,
+      "analyzed": false
     },
     "FMVSS-No-302": {
       "ok": true,
-      "status": "new",
-      "edition": "571.302@2026-11-04",
+      "status": "changed",
+      "edition": "571.302@2026-11-05",
       "form": "html",
       "chars": 13157,
-      "versions": 1
+      "versions": 1,
+      "diff_total": 1,
+      "analyzed": false
     },
     "REACH-SVHC": {
       "ok": false,

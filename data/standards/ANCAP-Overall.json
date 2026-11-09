@@ -9,7 +9,7 @@
   "library_editions": [
     "10.0"
   ],
-  "current_edition": "（无编号）Overall Assessment@2026-07-03-94895",
+  "current_edition": "（无编号）Overall Assessment@2026-07-03-99775",
   "entries": [
     {
       "no": "（无编号）Overall Assessment",
@@ -21,10 +21,15 @@
     "match": "Overall"
   },
   "editions": [
-    "（无编号）Overall Assessment@2026-07-03-94895"
+    "（无编号）Overall Assessment@2026-07-03-94895",
+    "（无编号）Overall Assessment@2026-07-03-99775"
   ],
   "edition_meta": {
     "（无编号）Overall Assessment@2026-07-03-94895": {
+      "form": "pdf",
+      "url": "https://ctms.ancap.com.au/publications/ancap-assessment-protocol-overall-rating-v7-0-1.pdf"
+    },
+    "（无编号）Overall Assessment@2026-07-03-99775": {
       "form": "pdf",
       "url": "https://ctms.ancap.com.au/publications/ancap-assessment-protocol-overall-rating-v7-0-1.pdf"
     }
