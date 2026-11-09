@@ -1,18 +1,433 @@
 {
-  "checked_at": "2026-11-09T09:29:49+08:00",
-  "checked": 2,
-  "fetched": 0,
+  "checked_at": "2026-11-09T10:51:00+08:00",
+  "checked": 72,
+  "fetched": 12,
   "families": {
-    "IIHS-LATCH-Protocol": {
+    "ADR-3-04": {
+      "ok": false,
+      "status": "probe_failed",
+      "error": "FetchError: 网络异常: The read operation timed out https://www.infrastructure.gov.au/infrastructure-transport-vehicles/vehicles/vehicle-design-regulation"
+    },
+    "C-IASI-17": {
+      "ok": false,
+      "status": "probe_failed",
+      "error": "AdapterError: ciasi: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。需要无头浏览器，或改为人工上传（data/manual/）"
+    },
+    "C-IASI-18": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: ciasi: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。需要无头浏览器，或改为人工上传（data/manual/）"
+    },
+    "C-IASI-19": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: ciasi: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。需要无头浏览器，或改为人工上传（data/manual/）"
+    },
+    "C-IASI-20": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: ciasi: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。需要无头浏览器，或改为人工上传（data/manual/）"
+    },
+    "C-IASI-21": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: ciasi: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。需要无头浏览器，或改为人工上传（data/manual/）"
+    },
+    "C-NCAP-2027-J": {
+      "ok": false,
+      "status": "probe_failed",
+      "error": "AdapterError: cncap: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。需要无头浏览器，或改为人工上传（data/manual/）"
+    },
+    "FMVSS-No-202a": {
+      "ok": true,
+      "status": "changed",
+      "edition": "571.202a@current",
+      "form": "html",
+      "chars": 51158,
+      "versions": 1,
+      "diff_total": 1,
+      "analyzed": false
+    },
+    "FMVSS-No-207": {
+      "ok": true,
+      "status": "changed",
+      "edition": "571.207@current",
+      "form": "html",
+      "chars": 14403,
+      "versions": 1,
+      "diff_total": 1,
+      "analyzed": false
+    },
+    "FMVSS-No-225": {
+      "ok": true,
+      "status": "changed",
+      "edition": "571.225@current",
+      "form": "html",
+      "chars": 53183,
+      "versions": 1,
+      "diff_total": 1,
+      "analyzed": false
+    },
+    "EU-2000-53-EC-ELV": {
+      "ok": false,
+      "status": "probe_failed",
+      "error": "AdapterError: eurlex: 页面上找不到任何日期，无法判定版本"
+    },
+    "EuroNCAP-Rear-Whiplash-v1.1": {
+      "ok": false,
+      "status": "probe_failed",
+      "error": "AdapterError: euro: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。需要无头浏览器，或改为人工上传（data/manual/）"
+    },
+    "EuroNCAP-Whiplash-Dynamic": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: euro: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。需要无头浏览器，或改为人工上传（data/manual/）"
+    },
+    "GSO-1598-2002": {
       "ok": false,
       "status": "needs_manual",
-      "edition": "（无编号）LATCH protocol@2016-08-16-64055",
-      "error": "PDF 文本可读率 52%（多为 CJK 字体未映射），不做 OCR"
+      "edition": null,
+      "error": "待人工补正文：把文本放进 data/manual/GSO-1598-2002/（文件名即版本号）"
     },
-    "IIHS-LATCH-Rating": {
+    "IIHS-Whiplash-Protocol": {
+      "ok": true,
+      "status": "new",
+      "edition": "（无编号）Whiplash prevention evaluation test protocol Dec2025@2026-08-31-03674",
+      "form": "pdf",
+      "chars": 107976,
+      "versions": 1
+    },
+    "IIHS-Whiplash-Rating": {
       "ok": false,
       "status": "timeout",
       "error": "超过 45s 未返回，已强杀子进程"
+    },
+    "KNCAP-TP-CS-7": {
+      "ok": false,
+      "status": "probe_failed",
+      "error": "AdapterError: kncap: 索引页上一个链接都没解析到（页面可能已改版）"
+    },
+    "GB-14167": {
+      "ok": false,
+      "status": "probe_failed",
+      "error": "AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+    },
+    "GB-15083": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+    },
+    "GB-T-30512": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+    },
+    "QC-T-740-2017": {
+      "ok": false,
+      "status": "needs_manual",
+      "edition": null,
+      "error": "待人工补正文：把文本放进 data/manual/QC-T-740-2017/（文件名即版本号）"
+    },
+    "QC-T-805-2008": {
+      "ok": false,
+      "status": "needs_manual",
+      "edition": null,
+      "error": "待人工补正文：把文本放进 data/manual/QC-T-805-2008/（文件名即版本号）"
+    },
+    "QC-T-831-2010": {
+      "ok": false,
+      "status": "needs_manual",
+      "edition": null,
+      "error": "待人工补正文：把文本放进 data/manual/QC-T-831-2010/（文件名即版本号）"
+    },
+    "CMVSS-202": {
+      "ok": true,
+      "status": "unchanged",
+      "edition": "C.R.C._c._1038@2026-10-19",
+      "versions": 1
+    },
+    "CMVSS-207": {
+      "ok": true,
+      "status": "unchanged",
+      "edition": "C.R.C._c._1038@2026-10-19",
+      "versions": 1
+    },
+    "T-CAAMTB-284-2025": {
+      "ok": false,
+      "status": "needs_manual",
+      "edition": null,
+      "error": "待人工补正文：把文本放进 data/manual/T-CAAMTB-284-2025/（文件名即版本号）"
+    },
+    "ECE-TRANS-WP-29-2025-46": {
+      "ok": false,
+      "status": "probe_failed",
+      "error": "FetchError: HTTP 错误 (403) https://unece.org/un-regulations-addenda-1958-agreement"
+    },
+    "UN-GTR-No-7": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：FetchError: HTTP 错误 (403) https://unece.org/un-regulations-addenda-1958-agreement"
+    },
+    "UN-R145": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：FetchError: HTTP 错误 (403) https://unece.org/un-regulations-addenda-1958-agreement"
+    },
+    "UN-R17": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：FetchError: HTTP 错误 (403) https://unece.org/un-regulations-addenda-1958-agreement"
+    },
+    "UN-R173": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：FetchError: HTTP 错误 (403) https://unece.org/un-regulations-addenda-1958-agreement"
+    },
+    "ADR-34-03": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：FetchError: 网络异常: The read operation timed out https://www.infrastructure.gov.au/infrastructure-transport-vehicles/vehicles/vehicle-design-regulation"
+    },
+    "ADR-5-06": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：FetchError: 网络异常: The read operation timed out https://www.infrastructure.gov.au/infrastructure-transport-vehicles/vehicles/vehicle-design-regulation"
+    },
+    "ANCAP-Overall": {
+      "ok": true,
+      "status": "unchanged_content",
+      "edition": "（无编号）Overall Assessment@2026-07-03-80892",
+      "form": "pdf",
+      "chars": 6928,
+      "versions": 4
+    },
+    "ANCAP-Rear-Impact": {
+      "ok": true,
+      "status": "unchanged_content",
+      "edition": "（无编号）Crash Protection - Rear Impact@2026-08-12-81964",
+      "form": "pdf",
+      "chars": 86722,
+      "versions": 5
+    },
+    "ASEAN-AOP-3.0": {
+      "ok": false,
+      "status": "probe_failed",
+      "error": "AdapterError: asean: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。需要无头浏览器，或改为人工上传（data/manual/）"
+    },
+    "ASEAN-Overall-3.0": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: asean: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。需要无头浏览器，或改为人工上传（data/manual/）"
+    },
+    "ASEAN-Overall-3.1": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: asean: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。需要无头浏览器，或改为人工上传（data/manual/）"
+    },
+    "C-NCAP-2027-A": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: cncap: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。需要无头浏览器，或改为人工上传（data/manual/）"
+    },
+    "C-NCAP-2027-B": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: cncap: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。需要无头浏览器，或改为人工上传（data/manual/）"
+    },
+    "C-NCAP-2027-C": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: cncap: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。需要无头浏览器，或改为人工上传（data/manual/）"
+    },
+    "C-NCAP-2027-D": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: cncap: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。需要无头浏览器，或改为人工上传（data/manual/）"
+    },
+    "C-NCAP-2027-M": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: cncap: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。需要无头浏览器，或改为人工上传（data/manual/）"
+    },
+    "CNCAP-2027": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: cncap: 该站协议页由 JavaScript 渲染，静态抓取拿不到文档列表。需要无头浏览器，或改为人工上传（data/manual/）"
+    },
+    "FMVSS-No-10": {
+      "ok": true,
+      "status": "changed",
+      "edition": "571.10@current",
+      "form": "html",
+      "chars": 10558,
+      "versions": 1,
+      "diff_total": 1,
+      "analyzed": false
+    },
+    "FMVSS-No-201": {
+      "ok": true,
+      "status": "changed",
+      "edition": "571.201@current",
+      "form": "html",
+      "chars": 84841,
+      "versions": 1,
+      "diff_total": 1,
+      "analyzed": false
+    },
+    "FMVSS-No-208": {
+      "ok": true,
+      "status": "changed",
+      "edition": "571.208@current",
+      "form": "html",
+      "chars": 357676,
+      "versions": 1,
+      "diff_total": 1,
+      "analyzed": false
+    },
+    "FMVSS-No-210": {
+      "ok": true,
+      "status": "changed",
+      "edition": "571.210@current",
+      "form": "html",
+      "chars": 34586,
+      "versions": 1,
+      "diff_total": 1,
+      "analyzed": false
+    },
+    "FMVSS-No-302": {
+      "ok": true,
+      "status": "changed",
+      "edition": "571.302@current",
+      "form": "html",
+      "chars": 13069,
+      "versions": 1,
+      "diff_total": 1,
+      "analyzed": false
+    },
+    "REACH-SVHC": {
+      "ok": false,
+      "status": "probe_failed",
+      "error": "FetchError: HTTP 错误 (403) https://echa.europa.eu/"
+    },
+    "GSO-98-1988": {
+      "ok": false,
+      "status": "needs_manual",
+      "edition": null,
+      "error": "待人工补正文：把文本放进 data/manual/GSO-98-1988/（文件名即版本号）"
+    },
+    "IIHS-LATCH-Protocol": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：超过 45s 未返回"
+    },
+    "IIHS-LATCH-Rating": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：超过 45s 未返回"
+    },
+    "JNCAP-2023-Procedures": {
+      "ok": false,
+      "status": "timeout",
+      "error": "超过 45s 未返回，已强杀子进程"
+    },
+    "JNCAP-R5-05": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：超过 45s 未返回"
+    },
+    "LatinNCAP-AOP": {
+      "ok": false,
+      "status": "fetch_failed",
+      "edition": "（无编号）Latin NCAP 2025 - AOP Protocol@3.2",
+      "error": "InvalidURL: URL can't contain control characters. '/data/descargas/Latin NCAP Adult Assessment Protocol v3_2 Nov 2016 front and side.pdf' (found at least ' ')"
+    },
+    "LatinNCAP-Overall": {
+      "ok": true,
+      "status": "new",
+      "edition": "（无编号）Latin NCAP Overall Rating 2025 V2.0.1@2025-04-29-36838",
+      "form": "pdf",
+      "chars": 13059,
+      "versions": 4
+    },
+    "LatinNCAP-Test-2026": {
+      "ok": false,
+      "status": "fetch_failed",
+      "edition": "（无编号）Latin NCAP Testing Protocol 2026 v 2.0.1@8.3",
+      "error": "InvalidURL: URL can't contain control characters. '/data/protocolos/2026/testing_potocols/Euro NCAP – AE-MDB Side Impact Testing Protocol v8.3 Dec 2023.pdf' (found at least ' ')"
+    },
+    "GB-11552": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+    },
+    "GB-14166": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+    },
+    "GB-7258": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+    },
+    "GB-8410": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+    },
+    "GB-T-19515": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+    },
+    "GB-T-29120": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+    },
+    "CMVSS-201": {
+      "ok": true,
+      "status": "unchanged",
+      "edition": "C.R.C._c._1038@2026-10-19",
+      "versions": 1
+    },
+    "CMVSS-208": {
+      "ok": true,
+      "status": "unchanged",
+      "edition": "C.R.C._c._1038@2026-10-19",
+      "versions": 1
+    },
+    "CMVSS-210": {
+      "ok": true,
+      "status": "unchanged",
+      "edition": "C.R.C._c._1038@2026-10-19",
+      "versions": 1
+    },
+    "CMVSS-302": {
+      "ok": true,
+      "status": "unchanged",
+      "edition": "C.R.C._c._1038@2026-10-19",
+      "versions": 1
+    },
+    "UN-R118": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：FetchError: HTTP 错误 (403) https://unece.org/un-regulations-addenda-1958-agreement"
+    },
+    "UN-R14": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：FetchError: HTTP 错误 (403) https://unece.org/un-regulations-addenda-1958-agreement"
+    },
+    "UN-R16": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：FetchError: HTTP 错误 (403) https://unece.org/un-regulations-addenda-1958-agreement"
+    },
+    "UN-R21": {
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：FetchError: HTTP 错误 (403) https://unece.org/un-regulations-addenda-1958-agreement"
     }
   }
 }

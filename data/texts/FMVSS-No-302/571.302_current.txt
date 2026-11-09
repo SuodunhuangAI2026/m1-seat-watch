@@ -1,0 +1,201 @@
+Site Feedback
+You are using an unsupported browser
+×
+You are using an unsupported browser. This web site is designed for the current versions of
+Microsoft Edge, Google Chrome, Mozilla Firefox, or Safari.
+×
+Site Feedback
+The Office of the Federal Register publishes documents on behalf of Federal agencies but does not have any authority over their programs. We recommend you directly contact the agency associated with the content in question.
+If you have comments or suggestions on how to improve the www.ecfr.gov website or have questions about using www.ecfr.gov, please choose the 'Website Feedback' button below.
+Website Feedback
+If you would like to comment on the current content, please use the 'Content Feedback' button below for instructions on contacting the issuing agency
+Content Feedback
+If you have questions for the Agency that issued the current document please contact the agency directly.
+×
+Website Feedback
+* Your Name
+* Email
+Attachment
+* How can we help you?
+* I am requesting technical help or providing website feedback
+This contact form is only for website help or website suggestions. If you have questions or comments regarding a published document please
+contact the publishing agency. Comments or questions about document content can not be answered by OFR staff. Please do not provide confidential
+information or personal data.
+☰
+Home
+Browse
+Titles
+Agencies
+CFR Updates
+Recent Changes
+Issue Summaries
+Corrections
+Finding Aids
+Parallel Table of Authorities
+Subject Index
+Agency-prepared Indexes
+Reader Aids
+Reader Aids Home
+Using the eCFR Point-in-Time System
+Understanding the eCFR
+Government Policy and OFR Procedures
+Developer Resources
+Recent Site Updates
+My eCFR
+My Subscriptions
+Sign Out
+Sign In / Sign Up
+eCFR
+The Electronic Code of Federal Regulations
+Enhanced Content :: FR ReferenceEnhanced content is provided to the user to provide additional context.
+Enhanced Content :: FR Reference
+Title 49
+This content is from the eCFR and is authoritative but unofficial.
+view historical versions
+A drafting site is available for use when drafting amendatory language
+switch to drafting site
+Navigate by entering citations or phrases
+(eg:
+1 CFR 1.1
+49 CFR 172.101
+Organization and Purpose
+1/1.1
+Regulation Y
+FAR).
+Choosing an item from
+citations and headings
+will bring you directly to the content. Choosing an item from
+full text search results
+will bring you to those results. Pressing enter in the search box
+will also bring you to search results.
+Background and more details are available in the
+Search & Navigation
+guide.
+Title 49 —Transportation
+Subtitle B —Other Regulations Relating to Transportation
+Chapter V —National Highway Traffic Safety Administration, Department of Transportation
+Part 571 —Federal Motor Vehicle Safety Standards
+Subpart B —Federal Motor Vehicle Safety Standards
+§ 571.302
+Previous
+Next
+Top
+Table of ContentsEnhanced Content - Table of Contents
+The in-page Table of Contents is available only when multiple sections are being viewed.
+Use the navigation links in the gray bar above to view the table of contents that this content belongs to.
+Enhanced Content - Table of Contents
+DetailsEnhanced Content - Details
+URL
+https://www.ecfr.gov/current/title-49/part-571/section-571.302
+Citation
+49 CFR 571.302
+Agency
+National Highway Traffic Safety Administration, Department of Transportation
+Part 571
+Authority:
+49 U.S.C. 322, 30111, 30115, 30117, and 30166; delegation of authority at 49 CFR 1.95.
+Subpart B of Part 571
+Source:
+36 FR 22902, Dec. 2, 1971, unless otherwise noted.
+Enhanced Content - Details
+Print/PDFEnhanced Content - Print
+Generate PDF
+This content is from the eCFR and may include recent changes applied to the CFR.
+The official, published CFR, is updated annually and available below under
+"Published Edition". You can learn more about the process
+here.
+Enhanced Content - Print
+Display OptionsEnhanced Content - Display Options
+Enhanced Content - Display Options
+SubscribeEnhanced Content - Subscribe Subscribe to: 49 CFR 571.302
+Via Email:
+Enhanced Content - Subscribe
+TimelineEnhanced Content - Timeline
+No changes found for this content after 1/03/2017.
+Enhanced Content - Timeline
+Go to DateEnhanced Content - Go to Date
+Date
+Enhanced Content - Go to Date
+Compare DatesEnhanced Content - Compare Dates
+Compare
+to
+Show changes as:red/greenpurple/orange
+Show strike-through for removed contentyesno
+Enhanced Content - Compare Dates
+Published EditionEnhanced Content - Published Edition
+View the most recent official publication:
+View Title 49 on govinfo.gov
+View the PDF for 49 CFR 571.302
+These links go to the official, published CFR, which is updated annually. As a
+result, it may not include the most recent changes applied to the CFR.
+Learn more.
+Enhanced Content - Published Edition
+Developer ToolsEnhanced Content - Developer Tools
+Information and documentation can be found in our
+developer resources.
+Enhanced Content - Developer Tools
+eCFR ContentThe Code of Federal Regulations (CFR) is the official legal print publication containing the codification of the general and permanent rules published in the Federal Register by the departments and agencies of the Federal Government. The Electronic Code of Federal Regulations (eCFR) is a continuously updated online version of the CFR. It is not an official legal edition of the CFR. Learn more about the eCFR, its status, and the editorial process.
+Editorial Note on Part 571Editorial Note:
+Nomenclature changes to part 571 appear at 69 FR 18803, Apr. 9, 2004.
+§ 571.302 Standard No. 302; Flammability of interior materials.
+S1. Scope. This standard specifies burn resistance requirements for materials used in the occupant compartments of motor vehicles.
+S2. Purpose. The purpose of this standard is to reduce the deaths and injuries to motor vehicle occupants caused by vehicle fires, especially those originating in the interior of the vehicle from sources such as matches or cigarettes.
+S3. Application. This standard applies to passenger cars, multipurpose passenger vehicles, trucks, and buses.
+S3A. Definitions. Occupant compartment air space means the space within the occupant compartment that normally contains refreshable air.
+S4. Requirements.
+S4.1 The portions described in S4.2 of the following components of vehicle occupant compartments shall meet the requirements of S4.3: Seat cushions, seat backs, seat belts, headlining, convertible tops, arm rests, all trim panels including door, front, rear, and side panels, compartment shelves, head restraints, floor coverings, sun visors, curtains, shades, wheel housing covers, engine compartment covers, mattress covers, and any other interior materials, including padding and crash-deployed elements, that are designed to absorb energy on contact by occupants in the event of a crash.
+S4.1.1 [Reserved]
+S4.2 Any portion of a single or composite material which is within 13 mm of the occupant compartment air space shall meet the requirements of S4.3.
+S4.2.1 Any material that does not adhere to other material(s) at every point of contact shall meet the requirements of S4.3 when tested separately.
+S4.2.2 Any material that adheres to other materials at every point of contact shall meet the requirements of S4.3 when tested as a composite with the other material(s).
+Material A has a non-adhering interface with material B and is tested separately. Part of material B is within 13 mm of the occupant compartment air space, and materials B and C adhere at every point of contact; therefore, B and C are tested as a composite. The cut is in material C as shown, to make a specimen 13 mm thick.
+S4.3 (a) When tested in accordance with S5, material described in S4.1 and S4.2 shall not burn, nor transmit a flame front across its surface, at a rate of more than 102 mm per minute. The requirement concerning transmission of a flame front shall not apply to a surface created by cutting a test specimen for purposes of testing pursuant to S5.
+(b) If a material stops burning before it has burned for 60 seconds from the start of timing, and has not burned more than 51 mm from the point where the timing was started, it shall be considered to meet the burn-rate requirement of S4.3(a).
+S5.1 Conditions.
+S5.1.1 The test is conducted in a metal cabinet for protecting the test specimens from drafts. The interior of the cabinet is 381 mm long, 203 mm deep, and 356 mm high. It has a glass observation window in the front, a closable opening to permit insertion of the specimen holder, and a hole to accommodate tubing for a gas burner. For ventilation, it has a 13 mm clearance space around the top of the cabinet, ten holes in the base of the cabinet, each hole 19 mm in diameter and legs to elevate the bottom of the cabinet by 10 mm, all located as shown in Figure 1.
+S5.1.2 Prior to testing, each specimen is conditioned for 24 hours at a temperature of 21 °C, and a relative humidity of 50 percent, and the test is conducted under those ambient conditions.
+S5.1.3 The test specimen is inserted between two matching U-shaped frames of metal stock 25 mm wide and 10 mm high. The interior dimensions of the U-shaped frames are 51 mm wide by 330 mm long. A specimen that softens and bends at the flaming end so as to cause erratic burning is kept horizontal by supports consisting of thin, heat-resistant wires, spanning the width of the U-shaped frame under the specimen at 25 mm intervals. A device that may be used for supporting this type of material is an additional U-shaped frame, wider than the U-shaped frame containing the specimen, spanned by 10-mil wires of heat-resistant composition at 25 mm intervals, inserted over the bottom U-shaped frame.
+S5.1.4 A bunsen burner with a tube of 10 mm inside diameter is used. The gas adjusting valve is set to provide a flame, with the tube vertical, of 38 mm in height. The air inlet to the burner is closed.
+S5.1.5 The gas supplied to the burner has a flame temperature equivalent to that of natural gas.
+S5.2 Preparation of specimens.
+S5.2.1 Each specimen of material to be tested shall be a rectangle 102 mm wide by 356 mm long, wherever possible. The thickness of the specimen is that of the single or composite material used in the vehicle, except that if the material's thickness exceeds 13 mm, the specimen is cut down to that thickness measured from the surface of the specimen closest to the occupant compartment air space. Where it is not possible to obtain a flat specimen because of surface curvature, the specimen is cut to not more than 13 mm in thickness at any point. The maximum available length or width of a specimen is used where either dimension is less than 356 mm or 102 mm, respectively, unless surrogate testing is required under S4.1.1.
+S5.2.2 The specimen is produced by cutting the material in the direction that provides the most adverse test results. The specimen is oriented so that the surface closest to the occupant compartment air space faces downward on the test frame.
+S5.2.3 Material with a napped or tufted surface is placed on a flat surface and combed twice against the nap with a comb having seven to eight smooth, rounded teeth per 25 mm.
+S5.3 Procedure.
+(a) Mount the specimen so that both sides and one end are held by the U-shaped frame, and one end is even with the open end of the frame. Where the maximum available width of a specimen is not more than 51 mm, so that the sides of the specimen cannot be held in the U-shaped frame, place the specimen in position on wire supports as described in S5.1.3, with one end held by the closed end of the U-shaped frame.
+(b) Place the mounted specimen in a horizontal position, in the center of the cabinet.
+(c) With the flame adjusted according to S5.1.4, position the bunsen burner and specimen so that the center of the burner tip is 19 mm below the center of the bottom edge of the open end of the specimen.
+(d) Expose the specimen to the flame for 15 seconds.
+(e) Begin timing (without reference to the period of application of the burner flame) when the flame from the burning specimen reaches a point 38 mm from the open end of the specimen.
+(f) Measure the time that it takes the flame to progress to a point 38 mm from the clamped end of the specimen. If the flame does not reach the specified end point, time its progress to the point where flaming stops.
+(g) Calculate the burn rate from the formula:
+B = 60 × (D/T)
+Where:
+B = Burn rate in millimeters per minute
+D = Length the flame travels in millimeters, and
+T = Time in seconds for the flame to travel D millimeters.
+[36 FR 22902, Dec. 2, 1971, as amended at 40 FR 14319, Mar. 31, 1975; 40 FR 42747, Sept. 16, 1975; 40 FR 56667, Dec. 4, 1975; 63 FR 28954, 28956, May 27, 1998; 63 FR 51003, Sept. 24, 1998]
+eCFR Content
+Pages
+Home
+Titles
+Search
+Recent Changes
+Corrections
+Reader Aids
+Using the eCFR Point-in-Time System
+Understanding the eCFR
+Government Policy and OFR Procedures
+Developer Resources
+Recent Site Updates
+Information
+About This Site
+Legal Status
+Privacy
+Accessibility
+FOIA
+No Fear Act
+Continuity Information
+My eCFR
+My Subscriptions
+Sign In / Sign Up

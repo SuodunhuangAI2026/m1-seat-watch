@@ -9,7 +9,7 @@
   "library_editions": [
     "2024"
   ],
-  "current_edition": "571.207@2026-11-05",
+  "current_edition": "571.207@current",
   "entries": [
     {
       "no": "FMVSS No.207",
@@ -19,7 +19,8 @@
   ],
   "editions": [
     "571.207@2026-11-04",
-    "571.207@2026-11-05"
+    "571.207@2026-11-05",
+    "571.207@current"
   ],
   "edition_meta": {
     "571.207@2026-11-04": {
@@ -27,6 +28,13 @@
       "url": "https://www.ecfr.gov/current/title-49/section-571.207"
     },
     "571.207@2026-11-05": {
+      "published": "2026-11-05",
+      "form": "html",
+      "url": "https://www.ecfr.gov/current/title-49/section-571.207",
+      "version": null,
+      "label": null
+    },
+    "571.207@current": {
       "published": "2026-11-05",
       "form": "html",
       "url": "https://www.ecfr.gov/current/title-49/section-571.207",

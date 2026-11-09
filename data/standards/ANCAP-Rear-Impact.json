@@ -9,7 +9,7 @@
   "library_editions": [
     "1.1"
   ],
-  "current_edition": "（无编号）Crash Protection - Rear Impact@2026-08-12-94571",
+  "current_edition": "（无编号）Crash Protection - Rear Impact@2026-08-12-81964",
   "entries": [
     {
       "no": "（无编号）Crash Protection - Rear Impact",
@@ -22,7 +22,8 @@
   },
   "editions": [
     "（无编号）Crash Protection - Rear Impact@2026-08-12-57867",
-    "（无编号）Crash Protection - Rear Impact@2026-08-12-94571"
+    "（无编号）Crash Protection - Rear Impact@2026-08-12-94571",
+    "（无编号）Crash Protection - Rear Impact@2026-08-12-81964"
   ],
   "edition_meta": {
     "（无编号）Crash Protection - Rear Impact@2026-08-12-57867": {
@@ -35,6 +36,10 @@
       "url": "https://ctms.ancap.com.au/publications/ancap-protocol-crash-protection-rear-impact-v1-2.pdf",
       "version": "1.2",
       "label": "ANCAP PROTOCOL - Crash Protection - Rear Impact v1.2"
+    },
+    "（无编号）Crash Protection - Rear Impact@2026-08-12-81964": {
+      "form": "pdf",
+      "url": "https://ctms.ancap.com.au/publications/ancap-protocol-crash-protection-rear-impact-v1-2.pdf"
     }
   }
 }
