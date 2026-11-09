@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-09T10:51:00+08:00",
+  "checked_at": "2026-11-09T11:10:07+08:00",
   "checked": 72,
-  "fetched": 12,
+  "fetched": 1,
   "families": {
     "ADR-3-04": {
       "ok": false,
@@ -40,33 +40,21 @@
     },
     "FMVSS-No-202a": {
       "ok": true,
-      "status": "changed",
+      "status": "unchanged",
       "edition": "571.202a@current",
-      "form": "html",
-      "chars": 51158,
-      "versions": 1,
-      "diff_total": 1,
-      "analyzed": false
+      "versions": 1
     },
     "FMVSS-No-207": {
       "ok": true,
-      "status": "changed",
+      "status": "unchanged",
       "edition": "571.207@current",
-      "form": "html",
-      "chars": 14403,
-      "versions": 1,
-      "diff_total": 1,
-      "analyzed": false
+      "versions": 1
     },
     "FMVSS-No-225": {
       "ok": true,
-      "status": "changed",
+      "status": "unchanged",
       "edition": "571.225@current",
-      "form": "html",
-      "chars": 53183,
-      "versions": 1,
-      "diff_total": 1,
-      "analyzed": false
+      "versions": 1
     },
     "EU-2000-53-EC-ELV": {
       "ok": false,
@@ -91,8 +79,8 @@
     },
     "IIHS-Whiplash-Protocol": {
       "ok": true,
-      "status": "new",
-      "edition": "（无编号）Whiplash prevention evaluation test protocol Dec2025@2026-08-31-03674",
+      "status": "unchanged_content",
+      "edition": "（无编号）Whiplash prevention evaluation test protocol Dec2025@2026-08-31-03298",
       "form": "pdf",
       "chars": 107976,
       "versions": 1
@@ -100,7 +88,7 @@
     "IIHS-Whiplash-Rating": {
       "ok": false,
       "status": "timeout",
-      "error": "超过 45s 未返回，已强杀子进程"
+      "error": "超过 120s 未返回，已强杀子进程"
     },
     "KNCAP-TP-CS-7": {
       "ok": false,
@@ -109,18 +97,21 @@
     },
     "GB-14167": {
       "ok": false,
-      "status": "probe_failed",
-      "error": "AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+      "status": "needs_manual",
+      "edition": "GB 14167-2024",
+      "error": "GB-14167: openstd 正文为扫描件或需登录，P1 不自动下载；请人工放进 data/texts/（页面会标「待人工补正文」）"
     },
     "GB-15083": {
       "ok": false,
-      "status": "site_down",
-      "error": "同站点已失败，本次跳过：AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+      "status": "needs_manual",
+      "edition": "GB 15083-2019",
+      "error": "GB-15083: openstd 正文为扫描件或需登录，P1 不自动下载；请人工放进 data/texts/（页面会标「待人工补正文」）"
     },
     "GB-T-30512": {
       "ok": false,
-      "status": "site_down",
-      "error": "同站点已失败，本次跳过：AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+      "status": "needs_manual",
+      "edition": "GB/T 30512-2014",
+      "error": "GB-T-30512: openstd 正文为扫描件或需登录，P1 不自动下载；请人工放进 data/texts/（页面会标「待人工补正文」）"
     },
     "QC-T-740-2017": {
       "ok": false,
@@ -194,20 +185,14 @@
       "error": "同站点已失败，本次跳过：FetchError: 网络异常: The read operation timed out https://www.infrastructure.gov.au/infrastructure-transport-vehicles/vehicles/vehicle-design-regulation"
     },
     "ANCAP-Overall": {
-      "ok": true,
-      "status": "unchanged_content",
-      "edition": "（无编号）Overall Assessment@2026-07-03-80892",
-      "form": "pdf",
-      "chars": 6928,
-      "versions": 4
+      "ok": false,
+      "status": "timeout",
+      "error": "超过 45s 未返回，已强杀子进程"
     },
     "ANCAP-Rear-Impact": {
-      "ok": true,
-      "status": "unchanged_content",
-      "edition": "（无编号）Crash Protection - Rear Impact@2026-08-12-81964",
-      "form": "pdf",
-      "chars": 86722,
-      "versions": 5
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：超过 45s 未返回"
     },
     "ASEAN-AOP-3.0": {
       "ok": false,
@@ -256,53 +241,33 @@
     },
     "FMVSS-No-10": {
       "ok": true,
-      "status": "changed",
+      "status": "unchanged",
       "edition": "571.10@current",
-      "form": "html",
-      "chars": 10558,
-      "versions": 1,
-      "diff_total": 1,
-      "analyzed": false
+      "versions": 1
     },
     "FMVSS-No-201": {
       "ok": true,
-      "status": "changed",
+      "status": "unchanged",
       "edition": "571.201@current",
-      "form": "html",
-      "chars": 84841,
-      "versions": 1,
-      "diff_total": 1,
-      "analyzed": false
+      "versions": 1
     },
     "FMVSS-No-208": {
       "ok": true,
-      "status": "changed",
+      "status": "unchanged",
       "edition": "571.208@current",
-      "form": "html",
-      "chars": 357676,
-      "versions": 1,
-      "diff_total": 1,
-      "analyzed": false
+      "versions": 1
     },
     "FMVSS-No-210": {
       "ok": true,
-      "status": "changed",
+      "status": "unchanged",
       "edition": "571.210@current",
-      "form": "html",
-      "chars": 34586,
-      "versions": 1,
-      "diff_total": 1,
-      "analyzed": false
+      "versions": 1
     },
     "FMVSS-No-302": {
       "ok": true,
-      "status": "changed",
+      "status": "unchanged",
       "edition": "571.302@current",
-      "form": "html",
-      "chars": 13069,
-      "versions": 1,
-      "diff_total": 1,
-      "analyzed": false
+      "versions": 1
     },
     "REACH-SVHC": {
       "ok": false,
@@ -318,72 +283,73 @@
     "IIHS-LATCH-Protocol": {
       "ok": false,
       "status": "site_down",
-      "error": "同站点已失败，本次跳过：超过 45s 未返回"
+      "error": "同站点已失败，本次跳过：超过 120s 未返回"
     },
     "IIHS-LATCH-Rating": {
       "ok": false,
       "status": "site_down",
-      "error": "同站点已失败，本次跳过：超过 45s 未返回"
+      "error": "同站点已失败，本次跳过：超过 120s 未返回"
     },
     "JNCAP-2023-Procedures": {
       "ok": false,
       "status": "timeout",
-      "error": "超过 45s 未返回，已强杀子进程"
+      "error": "超过 120s 未返回，已强杀子进程"
     },
     "JNCAP-R5-05": {
       "ok": false,
       "status": "site_down",
-      "error": "同站点已失败，本次跳过：超过 45s 未返回"
+      "error": "同站点已失败，本次跳过：超过 120s 未返回"
     },
     "LatinNCAP-AOP": {
       "ok": false,
-      "status": "fetch_failed",
-      "edition": "（无编号）Latin NCAP 2025 - AOP Protocol@3.2",
-      "error": "InvalidURL: URL can't contain control characters. '/data/descargas/Latin NCAP Adult Assessment Protocol v3_2 Nov 2016 front and side.pdf' (found at least ' ')"
+      "status": "timeout",
+      "error": "超过 120s 未返回，已强杀子进程"
     },
     "LatinNCAP-Overall": {
-      "ok": true,
-      "status": "new",
-      "edition": "（无编号）Latin NCAP Overall Rating 2025 V2.0.1@2025-04-29-36838",
-      "form": "pdf",
-      "chars": 13059,
-      "versions": 4
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：超过 120s 未返回"
     },
     "LatinNCAP-Test-2026": {
       "ok": false,
-      "status": "fetch_failed",
-      "edition": "（无编号）Latin NCAP Testing Protocol 2026 v 2.0.1@8.3",
-      "error": "InvalidURL: URL can't contain control characters. '/data/protocolos/2026/testing_potocols/Euro NCAP – AE-MDB Side Impact Testing Protocol v8.3 Dec 2023.pdf' (found at least ' ')"
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：超过 120s 未返回"
     },
     "GB-11552": {
       "ok": false,
-      "status": "site_down",
-      "error": "同站点已失败，本次跳过：AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+      "status": "needs_manual",
+      "edition": "GB 11552-2009",
+      "error": "GB-11552: openstd 正文为扫描件或需登录，P1 不自动下载；请人工放进 data/texts/（页面会标「待人工补正文」）"
     },
     "GB-14166": {
       "ok": false,
-      "status": "site_down",
-      "error": "同站点已失败，本次跳过：AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+      "status": "needs_manual",
+      "edition": "GB 14166-2024",
+      "error": "GB-14166: openstd 正文为扫描件或需登录，P1 不自动下载；请人工放进 data/texts/（页面会标「待人工补正文」）"
     },
     "GB-7258": {
       "ok": false,
-      "status": "site_down",
-      "error": "同站点已失败，本次跳过：AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+      "status": "needs_manual",
+      "edition": "GB 7258-2026",
+      "error": "GB-7258: openstd 正文为扫描件或需登录，P1 不自动下载；请人工放进 data/texts/（页面会标「待人工补正文」）"
     },
     "GB-8410": {
       "ok": false,
-      "status": "site_down",
-      "error": "同站点已失败，本次跳过：AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+      "status": "needs_manual",
+      "edition": "GB 8410-2006",
+      "error": "GB-8410: openstd 正文为扫描件或需登录，P1 不自动下载；请人工放进 data/texts/（页面会标「待人工补正文」）"
     },
     "GB-T-19515": {
       "ok": false,
-      "status": "site_down",
-      "error": "同站点已失败，本次跳过：AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+      "status": "needs_manual",
+      "edition": "GB/T 19515-2023",
+      "error": "GB-T-19515: openstd 正文为扫描件或需登录，P1 不自动下载；请人工放进 data/texts/（页面会标「待人工补正文」）"
     },
     "GB-T-29120": {
       "ok": false,
-      "status": "site_down",
-      "error": "同站点已失败，本次跳过：AdapterError: GB-14167: 列表页首页没有找到 GB 14167，可能需要翻页"
+      "status": "needs_manual",
+      "edition": "GB/T 29120-2012",
+      "error": "GB-T-29120: openstd 正文为扫描件或需登录，P1 不自动下载；请人工放进 data/texts/（页面会标「待人工补正文」）"
     },
     "CMVSS-201": {
       "ok": true,

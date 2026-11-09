@@ -1,0 +1,6197 @@
+Whiplash Prevention
+Evaluation
+Test Protocol
+Version
+II
+August
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Contents
+DOCUMENT REVISION HISTORY
+................................
+................................
+............................
+OVERVIEW
+................................
+................................
+................................
+................................
+...
+Purpose
+................................
+................................
+................................
+................................
+........
+Workflow
+................................
+................................
+................................
+................................
+....
+Definitions
+................................
+................................
+................................
+................................
+...
+Seat selection
+................................
+................................
+................................
+.............................
+TEST METHODS
+................................
+................................
+................................
+.........................
+IIHS physical test procedure
+................................
+................................
+................................
+..
+1.1
+General test requirements
+................................
+................................
+.............................
+1.1.1
+Coordinate system
+................................
+................................
+................................
+.....
+1.1.2
+Videography
+................................
+................................
+................................
+..............
+1.2
+Sled and vehicle environment
+................................
+................................
+.......................
+1.2.1
+Acceleration sled
+................................
+................................
+................................
+.......
+1.2.2
+Laboratory environment
+................................
+................................
+............................
+1.2.3
+Attachment of seat/head restraint to sled
+................................
+................................
+..
+1.2.4
+Determine heel rest point location
+................................
+................................
+............
+1.2.5
+Restraints
+................................
+................................
+................................
+...................
+1.2.6
+Set seat adjustments
+................................
+................................
+................................
+..
+1.3
+Dummy and seating procedures
+................................
+................................
+....................
+1.3.1
+BioRID
+................................
+................................
+................................
+......................
+1.3.2
+H
+-
+point manikin installation
+................................
+................................
+.....................
+1.3.3
+Calculation of BioRID targets from manikin position
+................................
+..............
+1.3.4
+BioRID Positioning
+................................
+................................
+................................
+...
+1.3.5
+Instrumentation, data acquisition, and processing
+................................
+....................
+1.4
+Crash pulse
+................................
+................................
+................................
+....................
+1.4.1
+Test time indexing (16 km/h)
+................................
+................................
+....................
+1.4.2
+Test time indexing (24 km/h)
+................................
+................................
+....................
+Physical test procedure for verification data submission
+................................
+......................
+2.1
+General test requirements
+................................
+................................
+.............................
+2.2
+Sled and vehicle environment
+................................
+................................
+.......................
+2.3
+Dummy and seating procedure
+................................
+................................
+.....................
+2.4
+Crash pulse
+................................
+................................
+................................
+....................
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Simulation procedure for verification data submission
+................................
+.........................
+3.1
+General simulation requirements
+................................
+................................
+..................
+3.1.1
+Solver requirements
+................................
+................................
+................................
+..
+3.1.2
+Simulation setup
+................................
+................................
+................................
+........
+3.1.3
+Dummy sensor coordinate systems
+................................
+................................
+...........
+3.1.4
+Reporting
+................................
+................................
+................................
+...................
+3.1.5
+Hourglass energy
+................................
+................................
+................................
+......
+3.1.6
+Added mass
+................................
+................................
+................................
+...............
+3.2
+Dummy model
+................................
+................................
+................................
+..............
+3.2.1
+Qualification
+................................
+................................
+................................
+.............
+3.2.2
+Seating procedure
+................................
+................................
+................................
+......
+3.3
+Sled and vehicle environment
+................................
+................................
+.......................
+3.3.1
+Model details and modifications
+................................
+................................
+...............
+3.3.2
+Seat belt model
+................................
+................................
+................................
+..........
+3.3.3
+Seat and seat belt position
+................................
+................................
+.........................
+3.3.4
+Sled model
+................................
+................................
+................................
+................
+3.4
+Crash pulse
+................................
+................................
+................................
+....................
+DATA SUBMISSION
+................................
+................................
+................................
+..................
+General data submission
+................................
+................................
+................................
+........
+Physical test
+-
+specific data submission
+................................
+................................
+...................
+5.1
+Test data
+................................
+................................
+................................
+........................
+5.2
+Video
+................................
+................................
+................................
+.............................
+Simulation
+-
+specific data submission
+................................
+................................
+.....................
+6.1
+General data
+................................
+................................
+................................
+..................
+6.2
+Video
+................................
+................................
+................................
+.............................
+AUDITING METHODS
+................................
+................................
+................................
+...............
+Load case audit
+................................
+................................
+................................
+......................
+Data processing at IIHS
+................................
+................................
+................................
+.........
+8.1
+Process overview
+................................
+................................
+................................
+..........
+8.2
+Process details
+................................
+................................
+................................
+...............
+8.2.1
+Variable head contact adjustment (16 km/h and 24 km/h)
+................................
+.......
+8.2.2
+Equations and filters
+................................
+................................
+................................
+.
+Pulse selection
+................................
+................................
+................................
+.......................
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Test and simulation acceptance
+................................
+................................
+........................
+10.1
+Acceptance criteria
+................................
+................................
+................................
+........
+10.1.1
+Time
+-
+history data
+................................
+................................
+................................
+..
+10.1.2
+Peak metric data
+................................
+................................
+................................
+....
+REFERENCES
+................................
+................................
+................................
+.............................
+Appendix A: Seat adjustment definitions
+................................
+................................
+..................
+Appendix B: Example head contact adjustment (16 km/h)
+................................
+.......................
+Appendix C: Crash pulses
+................................
+................................
+................................
+.........
+Appendix D: List of approved dummy models
+................................
+................................
+.........
+Appendix E: List of templates and their use
+................................
+................................
+.............
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+DOCUMENT REVISION HISTORY
+Revisions to
+Version
+II
+ x
+Provided more detail on the seat selection process
+.
+ x
+Section 1
+o
+Added specification for torque on BioRID joints.
+o
+Added specification
+on tolerance between
+BioRID left and right
+H
+-
+point
+s
+.
+o
+Added debiasing requirement to Section
+1.3.5
+.
+ x
+Section 2
+o
+Emphasized that
+measurements in 2.2 are taken with an unweighted seat for physical
+tests
+.
+ x
+Section 3
+o
+Moved
+the
+sections on
+hourglass energy and added mass after
+the R
+eporting section
+(3.1.4).
+o
+Clarified that added mass and hourglass energy
+are calculated
+by system (dummy,
+seat), not by part
+.
+o
+Modified the simulation setup to provide a methodology for IIHS to
+debias simulation
+data for the BioRID neck load cell (as recommended by D
+YNA
+more) and
+for
+situations where sensors that include the acceleration of gravity
+a
+re used.
+o
+Modified the i
+nitial position
+duration
+requirements
+so that
+initial
+positions only need
+to be met at T
+=
+0 since
+T
+offset
+is now included.
+o
+Emphasized that
+measurements
+in
+S
+ection 3.3.3 are done with a weighted seat for
+simulation.
+o
+The measurement of the CoRP to the
+CHRP has been changed for simulation to be
+measured in x and y delta
+coordinates rather than angle to align with physical tests.
+o
+Added criteria for measuring the highest point of the head restraint
+and the
+Head
+Restraint Point (HRP) @ Test Position
+and
+as a proxy for measuring head restraint
+location in simulation
+.
+ x
+Section 5
+o
+Clarified that physical data submission should be
+unprocessed data
+.
+ x
+Section 6
+o
+Reorganized submission requirements and included T
+offset
+.
+ x
+Section 8
+o
+Changed debiasing
+methods and requirements
+.
+o
+Added details on the process for
+integ
+r
+ating and calculating delta V for physical tests
+and simulation
+.
+o
+Added
+integration limits to metric equations in
+Table
+.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+ x
+Section 9
+o
+Changed the pulse selectio
+n method for auditing
+.
+ x
+Appendix
+C
+o
+Updated
+the
+-
+km/h and 24
+-
+km/h sample pulse charts
+.
+o
+Updated
+the
+-
+km
+/
+h and 24
+-
+km/h simulation pulses
+.
+ x
+Appendix D
+o
+Updated
+the
+list of
+approved dummy models
+used in simulation submissions
+.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+OVERVIEW
+Purpose
+This
+protocol
+outlines the methods for the Insurance Institute for Highway Safety (IIHS)
+evaluation of seats, head restraints
+,
+and occupant restraint systems in rear
+-
+impact crashes. In this
+evaluation, vehicle seats and relevant restraint systems are replicated in a sled environment to
+simulate a rear
+-
+impact crash with
+a
+BioRID
+-
+II anthropomorphic test device (ATD) as the human
+surrogate.
+The test isolates
+each restraint system (seat, head restraint
+,
+and seat belt) from the
+vehicle and
+expos
+es
+it
+to the same acceleration pulse,
+facilitating a
+comparative assessment of
+the effectiveness of vehicle restraint systems in rear
+-
+impact crashes.
+This is the first IIHS vehicle ratings program to include computer simulations in the assessment.
+The computer simulations will replicate the seat, restraints
+,
+and BioRID dummy and calculate
+their motion
+and corresponding loads
+to predict the same outputs as the physical test.
+Automaker simulations will help IIHS address safety for more occupants and more impact
+scenarios without increasing
+the
+testing burden.
+Following th
+is
+IIHS protocol
+, automakers will
+provide either simulation results or physical test results for
+two
+load cases (16
+-
+km/h and 24
+-
+km/h
+delta V pulses, initially). IIHS will audit one of the two tests and ensure that the results align
+with IIHS physical tests. If the results do align, both automaker tests will be accepted as part of
+the evaluation.
+This
+successor protocol to our
+Vehicle
+Seat/Head Restraint Evaluation Protocol
+, Dynamic
+Criteria
+adds one evaluation
+pulse
+(24 km/h) to the original
+(16 km/h)
+crash pulse
+introduced in
+(
+IIHS,
+)
+. With
+future updates
+,
+we plan to
+increase
+the value of our physical audit tests
+by
+adding
+more occupant sizes and impact scenarios
+using
+computational model simulations.
+These tools will help us build assessments to encourage robust seat
+and
+restraint designs that can
+protect more occupants
+.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Workflow
+1.
+IIHS notifies
+the
+automaker of
+its
+intent to test
+a specific
+vehicle
+make/model
+.
+2.
+(
+Within 3 months of
+notification) IIHS receives seat and target seat points (bolt locations,
+center
+-
+recliner and
+head
+-
+restraint
+post point
+s
+, etc.
+,
+in
+the
+IIHS Rear Impact Seat
+Information
+__
+.xlsx
+template
+)
+from
+the
+automaker
+. IIHS measures the
+seat
+with
+the H
+-
+point
+manikin
+according to
+S
+ection
+1.3.2
+in this protocol
+,
+using the center
+-
+recliner
+and
+head
+-
+restraint
+-
+post point
+s
+provided by the automaker
+to set the seatback
+.
+If the torso angle is
+within 24°
+to
+26°
+, the
+H
+-
+point, torso angle
+,
+head
+point
+s
+,
+and head
+-
+restraint point
+are
+collected.
+3.
+From
+S
+tep 2
+above
+,
+IIHS provides
+the
+automaker with:
+ x
+Manikin points (H
+-
+point, back of head
+, torso angle
+)
+ x
+Seat
+setup
+points (center recliner,
+head restraint
+post, backset measurement point on
+head restraint
+,
+highest point on
+head restraint
+, heel point
+)
+ x
+Head restraint
+horizontal and vertical
+adjustment position
+(i.e., notch location)
+ x
+BioRID (physical) certification report for
+the
+scheduled test
+ x
+Audit test date
+4.
+Automaker prepares
+verification
+data for submission
+using
+one of the following methods:
+ x
+Physical test data (both 16
+-
+km/h and 24
+-
+km/h results)
+ x
+Simulation test data (both 16
+-
+km/h and 24
+-
+km/h results)
+ x
+Both simulation and physical test data (must have both pulses for each).
+Only one
+pair
+(simulation
+s
+or physical tests) must pass the audit
+to be used for
+the
+assessment
+(e.g., if the
+24 km/h gets audited and the physical test results from the automaker pass
+the audit but the simulations do not, then the physical tests
+from the automaker can
+still
+be
+used as part of the assessment).
+When both simulation and physical test data
+are
+submitted, s
+imulation data is prioritized
+and checked first for compliance with the
+audit. See
+the
+Appendix
+of
+the
+IIHS Whiplash Prevention Evaluation Rating
+Guidelines
+(IIHS, 202
+)
+for details.
+5.
+(
+Within 5 months of
+notification) Automaker submits results for the 16
+-
+km/h and 24
+-
+km/h
+tests. For simulation, since pulse variability can affect test outcomes, IIHS recommend
+s
+that
+automakers submit multiple simulations for each load case that span that range of variability
+observed for the IIHS sled. IIHS will provide these pulses.
+IIHS will use the
+methods in
+S
+ection
+to
+choose
+which test
+results are compared
+with
+the
+audit test for the audit approval.
+6.
+Audit testing
+ x
+IIHS randomly selects
+an
+audit test (16 km/h or 24 km/h)
+.
+ x
+IIHS conducts
+the
+physical test using seat and manikin targets from
+S
+tep
+3 of th
+is
+workflow
+.
+ x
+IIHS compares
+the
+automaker
+'s
+physical or simulation verification test data against
+the
+IIHS physical test data using
+the
+methods outlined in the
+Auditing Methods
+section of this
+protocol
+.
+ x
+The workflow
+optimizes the automakers ability to pass the audit test
+b
+y
+providing
+the automaker
+with
+the targets
+used by IIHS
+before
+the automaker runs
+simulations
+or
+physical tests
+and
+by
+allowing the submission of multiple pulses
+.
+Resubmission of
+verification
+data
+after
+IIHS conducts the
+audit
+will not be allowed.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Definitions
+For the purpose of this procedure, the following definitions shall apply
+.
+Head restraint
+means a device designed to reduce the risk of injury to the cervical vertebrae in
+the event of a rear impact
+by
+supporting an occupants neck and head so they can be accelerated
+together with the torso as the seat and head restraint are driven forward
+.
+Integrated head restraint
+or
+fixed head restraint
+means a head restraint formed by the upper
+part of the
+seatback
+, or a head restraint that is not height
+-
+adjustable and cannot be detached from
+the seat or the vehicle structure except
+using
+tools or
+by
+partial
+ly
+or total
+ly
+remov
+ing
+the seat
+furnishings.
+Adjustable head restraint
+means a head restraint that is capable of being positioned to fit the
+morphology of the seated occupant. The device may permit horizontal displacement, known as
+tilt adjustment, and/or vertical displacement, known as height adjustment.
+Active head restraint
+means a device designed to improve head restraint geometry during an
+impact.
+Automatically adjusting head restraint
+means a head restraint that automatically adjusts the
+position of the head restraint when the seat position is adjusted.
+Locking
+refers to
+the process of fitting
+an adjustable head restraint with a device
+that
+prevent
+s
+users from
+inadvertent
+ly
+mov
+ing it
+from its adjusted position
+, such as
+when a rear
+-
+seat occupant
+uses a front
+-
+seat head restraint
+as a handhold
+when getting in or out of
+the vehicle.
+A locking device may be fitted to both the horizontal and vertical adjustments of the head
+restraint. A locking device
+must
+incorporate a mechanism that requires intervention to allow
+head restraint adjustment, after which the mechanism
+should
+reset automatically.
+H
+-
+point manikin
+means the device used for the determination of
+"
+H
+"
+points and actual torso
+angles.
+(SA
+E
+International
+, 202
+).
+HRMD
+(Head Restraint Measuring Device) means a separate head
+-
+shaped device used with the
+H
+-
+point manikin to measure the static geometry of a vehicle head restraint. It was developed
+under the sponsorship of the Insurance Corporation of British Columbia
+(
+Gane, 1999
+).
+The
+HRMD is equipped with two probes to measure head
+-
+restraint height and backset. The height
+probe projects horizontally, level with the top of the head, to provide a reference line for the
+vertical measurement to the top of the restraint. The backset probe simulates the rear profile of
+the head and neck an
+d projects horizontally to provide the horizontal measurement to the
+restraint
+.
+Head Restraint
+Height
+is defined as the measurement between the top of the head restraint and
+the calculated top of the head point or the height probe of the HRMD.
+Head Restraint
+Backset
+is defined as the measurement between the
+rearmost
+surface of the
+HRMD head and the front surface of the head restraint
+.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Head Restraint Measurement Positions
+Down
+is defined as the lowest
+possible
+position of an adjustable head restraint.
+Up
+is defined as the highest
+possible
+position of an adjustable head restraint.
+Back
+is defined as the
+rearmost
+possible
+position of an adjustable head restraint.
+Forward
+is defined as the
+forwardmost possible
+position of an adjustable head restraint.
+Verification data
+is test data
+from either
+simulation or physical tests
+that an automaker provides
+to IIHS to be used for a safety assessment.
+Certification
+is the
+process for approving a
+physical entity (e
+.
+g., BioRID
+-
+II) for use in a safety
+assessment
+.
+Computer Aided Engineering (CAE) model
+is
+a
+virtual representation
+of a physical
+system or
+component
+(e.g., BioRID, vehicle seat)
+that
+computationally
+approximates the
+static geometry
+and dynamic behaviors of the physical entity
+,
+using equations for
+the physics of motion,
+mat
+erials and contacts.
+Qualification
+is the
+process
+for approving a
+(CAE) model for use
+in a safety assessment
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Seat selection
+IIHS will test only driver seats.
+Testing a front passenger seat
+in place of a driver seat can be
+considered if the seats and functions are identical and there is a
+compelling reason for doing so.
+The seat
+content
+selection for physical testing will be defined by the
+driver
+seat with the highest
+volume take rate
+across all the trims of a
+make/model. If a make/model is new and does not have
+historical volume take rates, either the previous generation or the automaker
+'
+s prediction can be
+used.
+For considering volume,
+differences in the
+following
+seat
+attributes/
+function
+s
+should be
+considered
+distinct seats
+:
+ x
+Seat cover material (cloth
+, leather,
+synthetic)
+ x
+Power or manual adjustment of the
+seat functions
+ x
+Seat track
+(slide)
+adjustment
+ x
+Seat height adjustment
+ x
+Seat tilt adjustment
+ x
+Cushion tilt adjustment
+ x
+Seat recline
+ x
+Cushion
+length adjustment
+ x
+Lumbar
+adjustment
+ x
+Bolster shape
+or adjustment
+Seat content
+(e.g.,
+lumbar adjuster)
+for
+an
+automaker
+'s
+seat models do not have to identically
+match the physically tested seat.
+It is
+up to
+the automakers discretion
+how to build their model to
+best match the physical test outcomes.
+IIHS will purchase or acquire seats directly from the automaker and/or their suppliers and
+take
+responsibility for shipping costs.
+TEST METHODS
+IIHS p
+hysical test procedure
+1.1
+General test requirements
+1.1.1
+Coordinate system
+The cartesian coordinate reference frame for measurements is as follows: +X forward (i.e.,
+direction of sled motion), +Y right, +Z down
+IIHS will collect the
+left
+-
+front
+seat bolt hole (LFSBH)
+(
+Figure
+)
+as a local reference point for
+the seat
+. This point can be used for conversion
+s
+between
+different coordinate systems.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Figure
+Left front
+-
+seat bolt hole (LFSBH) measurement location
+1.1.2
+Video
+graphy
+1.
+A l
+ateral left view (
+orthogonal to the plane of motion
+)
+that captures the entire event from
+the onset of acceleration to 100 ms past the end of head contact time.
+2.
+A lateral right view (
+orthogonal to the plane of motion
+)
+that captures the entire event
+from the onset of acceleration to 100 ms past the end of head contact time.
+3.
+A lateral
+right view following the sled reference frame (
+orthogonal to the plane of
+motion
+)
+that captures the entire event from the onset of acceleration to 100 ms past the
+end of head contact time.
+Note: Timestamps provided by IIHS on video files align
+with the RAW (unshifted) data
+.
+1.2
+Sled and vehicle environment
+Test
+s
+are run with production seats in a simulated vehicle environment on a dynamic test sled
+.
+1.2.1
+Acceleration sled
+The dynamic test is intended to simulate a typical rear crash in which the struck vehicle is
+initially stationary or moving forward very slowly.
+Consequently, an acceleration sled is
+required
+for these tests.
+To accommodate different sled types and different relationships between sled
+motion and the recording of test data, test time will be indexed using the sled acceleration
+as
+described in Section
+1.4
+:
+Crash pulse
+.
+1.2.2
+Laboratory environment
+The temperature in the test laboratory should be 22.5 ± 3 degrees Celsius (67
+
+78 degrees
+Fahrenheit) with a relative humidity of 10
+%
+
+%
+.
+The BioRID
+-
+II
+test dummy and seat being
+tested shall be maintained at this temperature at least 3 hours prior to the test.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+1.2.3
+Attachment of seat/head restraint to sled
+The seat, including all of
+the
+adjustment mechanisms and hardware that normally connect it to
+the vehicle floor (e.g., longitudinal adjustment rails), should be securely fastened to the test sled
+platform.
+The attachment should be made so that the seats orientation relative to horizontal is
+the same as it would be in its intended vehicle.
+The actual height of the seat from the sled
+platform may be different from its height above the vehicle floor.
+A simulated floor and toepan,
+consisting of a horizontal section sufficiently
+large
+to rest the dummys feet and connected to a
+section oriented 45 degrees from horizontal and at least 30 cm long,
+are
+attached to the sled
+platform.
+Both surfaces should be covered with short
+-
+piled carpet.
+The horizontal floor portion
+should be mounted at the same height relative to the seat bolts/rails as the heel rest point (
+S
+ection
+1.2.4
+).
+The fore/aft position of the toepan should be adjustable
+.
+Figure
+shows
+an example seat
+both in the vehicle and mounted on the sled platform.
+Figure
+Attachment of seat to test sled compared with vehicle installation
+1.2.4
+Determine heel rest point location
+The heel rest point is defined in the vehicle (with removable floor mats removed) by using the
+accelerator pedal as follows.
+Find the geometric center point of the accelerator pedal contact surface (laterally and vertically).
+Place a straight edge between the accelerator pedal and the f
+i
+xed carpeting on the vehicle floor so
+that the straight edge is tangential to the accelerator pedal surface at the center point.
+The heel
+rest point location is then the contact point of the straight edge on the vehicle
+floor (
+Figure
+).
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Figure
+Heel rest point location
+1.2.5
+Restraints
+1.2.5.1
+Seat belts
+A
+generic
+three
+-
+point lap/shoulder
+belt
+should be used during the test. If possible, any belt
+hardware integrated with the seat should be utilized (e.g., buckle or integrated shoulder belt).
+If the automaker believes that a vehicle
+-
+specific belt will affect test outcomes, this should be
+indicated in the
+template
+IIHS Rear Impact Seat Information.xlsx
+and
+a
+vehicle
+-
+specific belt and
+anchor locations
+will be used
+for the test.
+The belt should be placed across the dummys torso, clavicle
+,
+and pelvis and be routed above the
+pelvis angle gauge (if equipped).
+1.2.5.2
+Activation for active elements
+For each seat, the automaker should provide information on the presence of active elements (e.g.,
+head restraints, seat belts) that would be expected to activate in a real crash of the same severity
+and would affect test outcomes. For each element that req
+uires a trigger, time
+-
+to
+-
+fire (TTF)
+should be specified by the vehicle manufacturer. Supporting data will be requested.
+1.2.6
+Set seat adjustments
+The seat adjustments should be set according to the following instructions.
+Prior to setting seat adjustments, the seat shall be bolted to the sled in its position for testing, and
+the sled brakes should be engaged if available.
+Otherwise, the sled should have its movement
+restrained for the duration of
+setting up the
+seat, installing the H
+-
+point manikin, installing the
+dummy, and collecting all necessary measurements.
+Because the settings of some adjustments
+may affect the ranges of other adjustments, the seat should be set according to the order of the
+procedural steps outlined here.
+An initial seatback angle will be set in
+Step
+1.2.6.8
+based on
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+target values from
+the
+automaker
+; the final setting will be established in
+S
+ection
+1.3.2
+.
+Head
+restraint position
+(manually, electrically or
+automatically adjusting
+)
+should be set according to
+the instructions in
+Step
+1.2.6.9
+.
+1.2.6.1
+Initial seat adjustments
+All seat adjustments should be set initially as follows.
+Appendix A provides more detailed
+descriptions and illustrations of these adjustments.
+ x
+Seat track
+should be in its
+rearmost
+position.
+ x
+Seat height
+should be set to its lowest position.
+ x
+Seat tilt
+should be set to the extreme of its range that puts the cushion angle closest to
+zero (horizontal).
+Step
+1.2.6.2
+describes the method for measuring the cushion angle.
+ x
+Cushion height
+should be set to its lowest position.
+ x
+Cushion tilt
+should be set to the extreme of its range that puts the cushion angle closest
+to zero (horizontal).
+Step
+1.2.6.2
+describes the method for measuring the cushion angle.
+ x
+Lumbar support
+should be set to its
+rearmost
+or least prominent position.
+ x
+Upper seatback
+, if separately adjustable from the lower portion, should be rotated fully
+rearward.
+ x
+Cushion extension
+should be set to its
+rearmost
+or least extended position.
+ x
+Side bolsters
+should be set to the widest position.
+1.2.6.2
+Measure seat cushion angle
+Locate and mark a point on the forward edge of the top surface of the seat cushion and midway
+between the right and left edges of the cushion. Locate, mark, and record a second point that is
+400 mm rearward along a line parallel to the direction of the sle
+d movement (
+Figure
+)
+with
+a
+coordinate measurement machine (CMM)
+.
+T
+he sine of the cushion angle is the difference in the
+Z
+-
+coordinates (in mm) of these two points (first minus the second) divided by 400 mm.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Figure
+Seat
+cushion a
+ngle (400 mm measurement)
+1.2.6.3
+Set seat track adjustment to midrange
+Mark a hard point on the seat and record its location with a CMM.
+Move the seat to its most
+forward adjustment position and record the position of the
+marked
+hard point.
+Move the seat
+rearward until the marked hard point is midway between the two previously recorded hard point
+locations.
+The final position will depend on whether the seat track adjusts continuously or
+incrementally.
+Continuously adjusting seat track
+
+The mark on the seat support structure should align (± 2
+mm) with the midtrack mark.
+Alternatively, the hard point should have an X
+-
+coordinate that is
+midway (± 2 mm) between the X
+-
+coordinates of the most forward and most rearward adjustment
+positions.
+Incrementally adjusting seat track
+
+If the midrange adjustment does not correspond to an
+indexed adjustment position (± 2 mm), then the seat should be set to the first indexed position
+rearward of the calculated midpoint.
+1.2.6.4
+Set seat height adjustment to midrange
+Mark two hard points on the side of the seat
+on components that
+are attached to and move with
+the cushion frame
+
+one near the front of the cushion and one near the rear.
+Record the
+locations of both points with a CMM or measure the vertical heights of the points relative to a
+fixed reference with a measuring tape.
+Use the seat height adjustment control(s) to move the seat
+to its highest position.
+If
+the
+front and rear seat heights are adjusted separately (dual control),
+then make sure that both the front and rear of the seat are raised to their highest positions.
+Record
+the locations of the two hard points with the CMM or measure the vertical heights of the points
+relative to a fixed reference with a measuring tape.
+Then lower the seat until both hard points are
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+midway between their highest and lowest positions.
+The final position will depend on the type of
+control used to adjust the
+seat height.
+Single
+-
+control seat height adjustment
+
+The final position of the seat will depend on whether seat
+height adjusts continuously or incrementally.
+Continuously adjusting seat height
+
+The rear hard point should be ± 2 mm of the
+calculated midpoint.
+Incrementally adjusting seat height
+
+If the midrange adjustment does not correspond to
+an indexed adjustment position (± 2 mm), then the seat height should be set to the first
+indexed position below the calculated midpoint.
+Dual
+-
+control seat height adjustment
+
+If
+the
+front and rear seat heights are adjusted separately,
+then lower the front hard point using the front adjustment control and lower the rear hard point
+using the rear adjustment control.
+The final position will depend on whether
+the
+seat height
+adjusts continuously or incrementally.
+Note that the front and rear seat height adjustments may
+need to be iterated to achieve the calculated midpoints.
+Continuously adjusting seat height
+
+Both
+the
+front and rear hard points should be
+within
+± 2 mm of the calculated midpoints.
+If this is not possible, then the rear hard point should
+be
+within
+± 2 mm of the calculated midpoint and the front hard point as close as possible
+to the calculated midpoint.
+Incrementally adjusting seat height
+
+If either the front or rear midrange adjustment does
+not correspond to an indexed adjustment position (± 2 mm), then the seat height should
+be set to the first indexed position below the calculated midpoint for the corresponding
+seat hard point.
+1.2.6.5
+Set seat cushion height adjustment
+The cushion height adjustment uses the points marked on the top surface of the cushion in
+S
+tep
+1.2.6.2
+.
+Once the
+seat track and height are set to midrange
+,
+the points on the top surface of the
+cushion should be
+collected before
+adjusting the seat cushion
+height.
+Single
+-
+control seat cushion height adjustment
+
+Raise the cushion to its highest position and
+record the location of the rear cushion point (400 mm behind the front edge point).
+Lower the
+seat cushion to its midrange position.
+The final position of the seat will depend on whether
+the
+seat cushion height adjusts continuously or incrementally.
+Continuously adjusting seat cushion height
+
+The rear cushion point should have a Z
+-
+coordinate midway (± 2 mm) between the lowest (initial) and highest positions.
+Incrementally adjusting seat cushion height
+
+If the midrange adjustment does not
+correspond to an indexed adjustment position (± 2 mm), then the seat cushion height
+should be set to the first indexed position below the calculated midpoint.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Dual
+-
+control seat cushion height adjustment
+
+Raise the rear of the cushion to its highest
+position using the rear adjustment control and record the location of the rear cushion point (400
+mm behind the front edge point).
+Lower the rear of the cushion using the rear adjustment control
+so that the rear cushion point is midway between the lowest (initial) and highest positions.
+Raise
+the front of the cushion using the front adjustment control until the cushion angle matches the
+angle recorded
+in
+S
+tep
+1.2.6.2
+.
+The final position will depend on whether seat cushion height
+adjusts continuously or incrementally.
+Continuously adjusting seat cushion height
+
+The rear cushion point Z
+-
+coordinate should
+be ± 2 mm of the calculated midpoint, and the cushion angle should match (± 0.5
+degrees) the angle recorded
+in
+S
+tep
+1.2.6.2
+.
+Incrementally adjusting seat cushion height
+
+If the rear midrange adjustment does not
+correspond to an indexed adjustment position, then the rear cushion height should be set
+to the first indexed position below the calculated midpoint.
+Likewise, if the cushion angle
+in
+S
+tep
+1.2.6.2
+cannot be matched (± 0.5 degrees) with the front midrange adjustment at
+an ind
+exed position, then the front cushion height should be set to the next lowest
+indexed position.
+1.2.6.6
+Adjust upper seatback angle
+If the head restraint moves with the adjustment o
+f the upper seatback, then the upper seatback
+should be positioned as follows: otherwise, it should be left in the rotated fully
+rearward position
+designated in
+1.2.6.1
+.
+Measure the angle relative to vertical of the head restraint support post or
+some flat part of the seatback frame. Without changing the adjustment of the lower seatback,
+move the upper seatback to its most forward position and measure the angle at the same
+location
+as the initial measurement.
+Adjust the upper seatback rearward until the angle is midway (± 0.5
+degrees) between the most rearward and most forward angles.
+1.2.6.7
+Other seat adjustments
+Any seat adjustments not specified
+in
+S
+teps
+1.2.6.2
+through
+1.2.6.6
+should remain in their initial
+adjustment positions as described in
+S
+tep
+1.2.6.1
+.
+If
+the seat is equipped with a movable armrest,
+it
+should
+be raised or placed in its stored position; adjustable lumbar supports
+should
+be fully
+retracted, adjustable cushion extension
+should
+be fully retracted, and adjustable lateral thigh
+supports and seatback supports (bolsters)
+should
+be set open or as wide as possible.
+1.2.6.8
+Set initial seatback angle
+Once all other seat adjustments have been made, use the values supplied by
+the automaker
+for
+the position of
+the
+center of the head restraint post (CHRP
+)
+relative to
+the center of the recliner
+pivot (CoRP)
+of the seat
+(
+Figure
+) to set the initial seatback angle of the unweighted seat.
+This
+initial seatback angle will be maintained as long as the manikin torso angle is within 25
+±
+degrees after following steps
+in
+S
+ection
+1.3.3.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Figure
+Center of recliner pivot and center of head restraint post
+:
+measurement examples
+(A)
+Cen
+t
+er of recliner pivot (CoRP)
+(B)
+Center of head restraint
+post (CHRP)
+1.2.6.9
+Head restraint test position
+The head restraint, if equipped with locking vertical and horizontal positions, should be set in a
+position closest to the midrange vertically and midrange horizontally.
+Thus, the test position for
+the restraint depends on whether it is fixed or adjustable and, if adjustable, whether the
+adjustments lock.
+Automatically adjusting head restraints are tested as if they are fixed restraints,
+and the seat adjustments are set
+according to
+S
+ection
+1.2.6
+.
+Fixed head restraint
+No adjustment of the restraint is possible.
+Nonlocking adjustable head restraint
+The r
+estraint is adjusted to its lowest vertical adjustment position and/or most rearward
+horizontal adjustment position.
+Locking adjustable head restraint
+The r
+estraint is adjusted to the midrange of its vertical and/or horizontal adjustment positions.
+Only locking adjustments are set to the midrange positions.
+For example, a restraint with locking
+height adjustment and nonlocking horizontal adjustment would be set to its midrange vertical
+position and most rearward horizontal position.
+Midrange height position is determined by calculating the geometric
+midpoint
+between the
+lowest (locking or nonlocking) and highest locking vertical adjustments, considering only the
+vertical component of measurement.
+Similarly, midrange tilt position is determined by
+calculating the geometric
+midpoint
+between the
+rearmost and forwardmost
+locking horizontal
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+adjustments, considering only the horizontal component of
+measurement. (
+Figure
+).
+The test
+position will then be selected based on the following conditions:
+ x
+Place the head restraint at the geometric midpoint if a locking position exists there
+(
+Figure
+, Example
+A).
+ x
+If there is no locking position at the geometric
+midpoint
+, raise the head restraint by up to
+10 mm (
+Figure
+, Example
+B). If a locking position exists within this 10
+mm of travel,
+that position will be the test position.
+ x
+If there is no locking position within 10 mm above the geometric
+midpoint
+, lower the
+head restraint to the next lowest locking position (
+Figure
+, Example
+C),
+that position will
+be the test position.
+Once the vertical test position has been determined, the procedure should be repeated for locking
+horizontal adjustments moving the restraint forward instead of upward and rearward instead of
+downward.
+Figure
+Examples of
+adjustment positions for head restraints with locking h
+eight (locking
+positions indicated in orange)
+Example A
+(Locking position at geometric
+midpoint
+)
+Example B
+(Locking position up to 10 mm
+above geometric
+midpoint
+)
+Example C
+(Locking position more than
+10 mm above geometric
+midpoint
+)
+Seating
+a
+djustments: Seats with
+automatically adjusting head r
+estraints
+The BioRID
+-
+II
+used in these dynamic tests represents an average
+-
+size
+d
+adult male driver or
+vehicle occupant.
+Consequently, seats equipped with head restraints that automatically adjust
+depending on other seat adjustments (e.g., seat track or height) should be set to a position that
+most likely would accommodate a seat occupant of the same size.
+The procedure
+described in
+Guidelines for Using the UMTRI ATD Positioning Procedure for ATD and Seat Positioning
+(Version V
+I
+)
+(
+IIHS
+,
+) should be followed for seat positioning only.
+Th
+e UMTRI ATD
+positioning procedure must be conducted with the seat installed in a vehicle
+.
+T
+hen
+the seat
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+adjustments recorded are transferred to the test seat on the sled.
+The automaker can provide the
+CoRP and CHRP for this position (Figure
+), if applicable. If it is not possible to employ the
+UMTRI procedure to determine the appropriate seat position for an average
+-
+size
+d
+male seat
+occupant, then the seat should be set to the middle of its fore/aft adjustment range (see
+S
+tep
+1.2.6.3
+).
+Regardless of which method is used to determine the head restraint test position, the
+seat should be moved rearward from the most forward position to the test position because the
+starting position can affect the final position of the head restraint.
+1.3
+Dummy
+and seating procedure
+s
+The dummy is
+positioned
+using target
+s
+determined
+in
+S
+tep 2 of the
+W
+orkflow
+section
+of the
+Overview
+.
+S
+ection
+1.2
+is used
+to
+define the position of the seat
+.
+A
+utomaker
+-
+provided
+CoRP
+and
+CHRP
+points
+are used
+to set the seatback
+for a
+n H
+-
+point
+manikin torso angle of 25
+°
+.
+S
+ection
+1.3.2
+is used
+to
+seat the
+H
+-
+point
+manikin and collect the H
+-
+point and to
+r
+so angle
+.
+S
+ection
+1.3.3
+is
+used
+to calculate the
+head location and backset targets
+.
+1.3.1
+BioRID
+These tests should be conducted with a BioRID
+-
+IIg or later revision dummy.
+The dummy should
+comply with both spine stature and dynamic response specifications before the test.
+1.3.1.1
+Spine
+curvature ch
+eck
+With the pelvis adapter plate placed on a level surface with the occipital condyle (OC) angle at
+29.5 ± 0.5 degrees, the T2 angle at 37
+±
+0.5 degrees, and the neck plate laterally level ± 0.5
+degrees, the distance (X) between the H
+-
+point and OC pin should be 156 ±
+mm, and the
+distance (Z) between the H
+-
+point and OC pin should be 609 ±
+mm (
+Table
+and
+Figure
+).
+Table
+BioRID
+-
+II
+spine curvature sp
+ecifications
+Measurement
+Specification
+Angle of occipital interface plate relative to horizontal
+29.5 ± 0.5 degrees
+Angle of T2 vertebra relative to horizontal
+37.0 ± 0.5 degrees
+Angle of neck plate (lateral)
+0 ± 0.5 degrees
+H
+-
+point indicator to occipital condyle pin (horizontal)
+156 ±
+mm
+H
+-
+point indicator to occipital condyle pin (vertical)
+609 ±
+mm
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Figure
+BioRID
+-
+II
+spine curvature c
+heck
+1.3.1.2
+Certification
+The
+BioRID
+dummy should comply with the
+BioRID
+dummy
+jacket validation test, lower torso
+validation test
+,
+and dummy certification test outlined
+the
+United Nations Mutual Resolution No.
+-
+Addendum 1
+-
+Specifications for the Construction, Preparation and Certification of the 50th
+Percentile M
+ale Biofidelic Rear Impact (BioRID
+-
+II UN)
+Anthropomorphic Test D
+evice
+(Economic Commission for Europe. 2022)
+.
+1.3.1.3
+Clothing
+The dummy should be dressed
+in
+two pairs of close
+-
+fitting, knee
+-
+length, spandex (e.g.,
+L
+ycra)
+pants and two close
+-
+fitting, short
+-
+sleeved spandex shirts.
+The under layer of clothes should be
+worn with the shiny/smooth side of the fabric facing out and the
+outer layer
+should be worn
+with
+the shiny/smooth side against the underclothes (i.e., dull side facing out).
+The dumm
+y
+s feet
+should be shod with size 11 (45 European or 27.9 cm) Oxford
+-
+style, hard
+-
+soled work shoes (e.g.,
+MIL
+-
+S
+-
+13192P).
+1.3.1.4
+Dummy joints
+The
+BioRID
+'s
+ankle, kne
+e
+,
+elbow
+,
+and femur ball
+joints should be torqued
+such that their
+frictional resistance is
+approximately
+g
+(i.e., they will sustain their own weight
+without moving
+when
+no
+external force
+is present
+, but
+they
+will
+begin to move
+when minimal force is applied).
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+1.3.2
+H
+-
+point manikin installation
+Using an H
+-
+point manikin that has been calibrated
+according to SAE J826
+(
+SAE
+International
+,
+2021)
+, follow the
+se steps:
+1.3.2.1
+A
+djust the to
+r
+que of the
+manikin
+H
+-
+point locking nuts
+to set
+the
+frictional resistance
+so
+that approximately 1 g is
+required to move the back pan relative to the seat pan
+.
+The
+back pan should
+retain its position
+relative to the seat pan
+without assistance at
+°
+but
+move with only the force of gravity
+at all other positions. For the manikin IIHS uses for
+rear impacts,
+this
+tor
+que value is 18
+inch
+-
+pounds
+.
+1.3.2.2
+The seat shall be covered with a cotton cloth large enough to cover both cushions and
+seatback.
+1.3.2.3
+The cloth shall be tucked into the seat joint by an amount sufficient to prevent
+hammocking of the material.
+1.3.2.4
+The manikin seat pan and back pan shall be installed in the seat.
+1.3.2.5
+The lower legs shall be adjusted to the 50th percentile leg length setting, and the upper
+legs shall be adjusted to the 10th percentile leg length setting; these are the manikin
+settings closest to the FMVSS 208 requirement.
+1.3.2.6
+The legs shall be attached to the manikin and set to the 5th position (no.5) on the knee
+joint T
+-
+bar, which places the knees 25 cm apart.
+1.3.2.7
+With the legs attached and the back pan tilted forward, the manikin shall be positioned
+in the seat such that its central sagittal plane coincides with the longitudinal centerline
+of the seat.
+1.3.2.8
+The back pan shall be straightened to conform to the vehicle
+seatback
+.
+1.3.2.9
+The feet shall be placed as far forward as possible, with the heels on the floor and the
+soles
+not
+in contact with the simulated toepan.
+1.3.2.10
+The lower leg and thigh weights shall be attached to the manikin and the machine shall
+be levelled.
+1.3.2.11
+The back pan shall be tilted forward and the manikin assembly pushed rearward until
+the seat pan contacts the vehicle
+seatback
+. While tilting the back pan forward, a
+horizontal rearward load of 100
+N shall be applied using the plunger if present or using
+a force gauge pressed against the hip angle quadrant structure.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+1.3.2.12
+The load application shall be repeated and, while keeping the pressure applied, the back
+pan shall be returned to the vehicle seatback and the pressure then released.
+Once the
+back pan has been returned to the vehicle seatback, one hand should be kept on the T
+-
+bar with light pressure for the duration of the following installation to make sure the
+manikin does not move.
+1.3.2.13
+A check shall be made to determine that the manikin is level, facing directly forward,
+and located in the centerline of the seat.
+1.3.2.14
+After checking the position of the manikin in the seat at the
+seatback
+position
+established in
+Step
+1.2.6.8
+, the right and left buttock weights shall be installed. The
+eight chest weights shall be installed by alternating left to right.
+1.3.2.15
+Tilting the back pan forward to a vertical position, the assembly shall be rocked from
+side to side over a 10
+-
+degree arc
+
+5 degrees in each direction. This rocking shall be
+repeated for a total of three complete cycles while preventing any horizontal tran
+slation
+of the manikin seat pan.
+1.3.2.16
+The back pan shall be returned to the vehicle
+seatback
+, and the manikin shall be levelled
+again as in
+1.3.2.10
+. To ensure the back pan is stable in the seat, apply and release a
+horizontal rearward load (
+    
+N
+) to the back pan approximately at the center of the
+torso weights.
+Ensure no exterior downward or lateral loads are applied to the manikin
+at this time.
+1.3.2.17
+The feet shall be positioned as follows: each foot shall be alternately lifted off the floor
+via the instep, until no additional forward foot movement is available.
+1.3.2.18
+When each foot is placed back in the down position, the heel
+and
+,
+in most cases
+,
+the
+sole
+shall be in contact with the floor. The sole should
+not
+be in contact with the
+simulated toepan.
+1.3.2.19
+If the manikin seat pan is not level after the feet have been repositioned, a sufficient
+load shall be applied to the top of the
+back
+pan
+to level it on the vehicle seat.
+1.3.2.20
+If the measured torso angle is not 25
+±
+1 degrees as measured on the flat portion of the
+left (calibrated)
+torso weight hanger bar that is welded to the back pan, record the values
+for the position of the CoRP and CHRP when weighted by the manikin
+and readjust the
+seatback to match
+the reference values provided by
+the automaker
+for the weighted
+CoRP and CHRP.
+After adjusting the seat to match the weighted CoRP and CHRP
+points,
+remove
+the
+weigh
+t
+s from
+the chest and buttocks and
+repeat
+the steps to position
+the manikin, beginning with tilting the back pan forward and pushing the manikin
+rearward as i
+n
+Step
+1.3.2.11
+.
+1.3.2.21
+If the measured torso angle is still not 25
+±
+1 degrees after the described readjustment of
+the seatback
+in
+Step
+1.3.2.20
+, then further readjustment must be made to achieve a
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+measured torso angle in this range.
+Once further readjustment has been completed,
+remove
+the chest and buttocks weights and
+repeat
+the steps to position the manikin
+again.
+If more than three drops of the manikin are necessary to achieve a measured torso
+angle in range, the manikin should be fully removed from the seat after the third drop
+for 15 minutes to allow the seat to recover.
+1.3.2.22
+For seats with indexed manual seatback adjustment, if there is no adjustment position
+that places the measured torso angle between 24 and 26 degrees,
+place
+the seatback in
+the most reclined position that supports a torso angle less than 24 degrees for testing.
+1.3.2.23
+The torso angle
+, H
+-
+points
+(left/right)
+, and
+seat setup
+points
+shall be recorded when
+the
+torso angle
+falls within the allowed range
+of
+±
+1 degrees
+.
+1.3.2.24
+Ensure the left and right H
+-
+point values
+are within 10 mm of each other before
+proceeding to
+1.3.3
+.
+1.3.3
+Calculation of BioRID targets from manikin position
+The BioRID test position is based on reference measurements made with the H
+-
+point manikin
+and calculated values for the back of the head position
+o
+f the HRMD. In these steps, the HRMD
+is not installed on the manikin, rather, the location of the HRMD backset probe is simulated
+using calculations based on the rigid geometry of the manikin and the H
+-
+point and torso angle for
+a given manikin measurement.
+This method yields the same results for backset as the
+measurements from the physical HRMD. The determination of these calculated values will be
+described in
+this
+section.
+1.3.3.1
+Record the vertical and horizontal location of
+the
+H
+-
+point manikins H
+-
+point marker on
+both the left and right sides using a CMM.
+1.3.3.2
+Average the collected position values for the right and left side H
+-
+point markers.
+1.3.3.3
+Calculate the location of the horizontal and vertical position of the point on the back of
+the head of the HRMD (this is a virtual point that corresponds to the screw on the center
+of the rear surface of the HRMD backset probe) relative to the H
+-
+point.
+Calculate the
+horizontal position
+of the back of the head usin
+g
+Equation
+, where
+à
+is the measured
+torso angle.
+Calculate the
+vertical position
+of the back of the head using
+Equation
+,
+where
+à
+is the measured torso angle
+. To locate these points in the global coordinate
+system, add them to the H
+-
+point marker average point from
+1.3.3.2
+.
+*KNEVKJP=H
+D
+A
+=
+@
+L
+KEJP
+(
+T
+)
+=
+.
+Û
+sin
+(
+à
+F
+.
+6°
+)
++
+Equation
+*KNEVKJP=H
+D
+A
+=
+@
+L
+KEJP
+(
+V
+)
+=
+.
+Û
+cos
+(
+à
+F
+.
+6°
+)
++
+Equation
+1.3.3.4
+Calculate the vertical position of the top of the head using
+Equation
+.
+8
+ANPE
+?
+=H
+D
+A
+=
+@
+L
+KEJP
+(
+V
+)
+=
+*KNEVKJP=H
+D
+A
+=
+@
+L
+KEJP
+(
+V
+)
++
+(
+F
+)
+Equation
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Figure
+Calculated HRMD
+back
+-
+of
+-
+head m
+easurements
+(A)
+H
+-
+point
+fro
+m
+Step
+1.3.3.2
+(B)
+With
+the HRMD installed, the
+"
+torso link
+"
+linear distance from the H
+-
+point marker to
+the neck link pivot is 504.5 mm.
+(C)
+With the head of the HRMD leveled, the vertical neck link distance from center of
+the pivot to the point where the back of the head is measured is 203 mm.
+(D)
+The horizontal distance from the head pivot point to the back of the head is 71 mm.
+(E)
+The backset is
+the
+horizontal distance between the Horizontal head
+po
+int
+(Step
+1.3.3.3
+) and
+H
+ead
+R
+estraint
+P
+oint
+(HRP)
+@
+T
+est
+P
+osi
+tion
+(Step
+1.3.3.6
+)
+.
+(F)
+The
+torso reference line represents the plane where the torso angle is measured
+1.3.3.5
+Set the head restraint to the test position described in
+Step
+1.2.6.9
+.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+1.3.3.6
+Mark and record an identifiable point (
+HRP
+@
+Test P
+osition) on
+vertical centerline of
+the head restraint that corresponds to the Horizontal head point (z)
+found in
+1.3.3.3
+.
+1.3.3.7
+Measure and record the reference backset (E) as shown in
+Figure
+.
+This is the
+horizontal distance between
+the
+Horizontal head point
+(x) f
+rom
+Step
+1.
+3.4
+.3 and the
+HRP
+@
+Test Po
+sition (
+x
+) from
+1.3.3.6
+.
+The
+reference backset value
+(E)
+cannot be
+smaller than 0 mm
+; any calcu
+lated value
+les
+s
+than
+0 mm should be set to 0 mm.
+1.3.4
+BioRID Positioning
+1.3.4.1
+Allow the seat to recover for 15
+minutes
+with nothing in it before installing the BioRID.
+1.3.4.2
+Align the BioRIDs midsagittal plane
+la
+terally
+with the centerline of the seat.
+1.3.4.3
+Adjust the BioRIDs midsagittal plane to be vertical; the instrumentation platform in the
+head should be laterally level.
+1.3.4.4
+Adjust the BioRIDs pelvis angle to 26.5 ± 2.5 degrees from horizontal.
+1.3.4.5
+Position
+both left and right
+dummy
+H
+-
+p
+oint
+s
+20 ± 10 mm forward of the location
+recorded in
+S
+tep
+1.3.3.2
+.
+Position
+both left and right
+H
+-
+p
+oint
+s
+± 10 mm
+vertically of
+the
+location recorded in
+S
+tep
+1.3.3.2
+, while keeping the pelvis angle at 26.5 ± 2.5 degrees.
+N
+ote
+: It is recommended that the dummy be positioned as close as possible to the
+nominal target values; the tolerance window should be used only if there is difficulty
+achieving the required H
+-
+point target or backset value.
+The left and right H
+-
+point values
+should be within
+10 mm
+of each
+other both
+horizontally
+and vertically.
+1.3.4.6
+Adjust the spacing of the BioRIDs legs so that the centerlines of the knees and ankles
+are 200 ± 10 mm apart.
+1.3.4.7
+Adjust the BioRIDs feet and/or the adjustable toeboard so that the heels of the
+dummys shoes are resting on the simulated vehicle floor and the tips of the shoes are
+resting on the toeboard 23
+
+27 cm from the intersection of the heel surface and toe
+board, as measured along the surface of the toe board (
+Figure
+).
+Note
+:
+I
+f
+it is not possible to achieve the toe position as specified above, the feet should
+be positioned with the heels of the dummys shoes resting on the simulated vehicle floor
+and the tips of the shoes resting on the toeboard
+,
+keeping the following in mind.
+The
+foot position should be set so that no joint of the BioRID leg or foot is at its endstop, the
+heel of the BioRID is not positioned in the intersection of the heel surface and toe
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+board, and the pelvis location found in
+S
+tep
+1.3.4.5
+is not altered by the position of the
+leg and foot.
+Figure
+Proper BioRID
+feet p
+ositioning
+1.3.4.8
+Position the BioRIDs arms so that the upper arms contact the seatback and the elbows
+are bent so that the small fingers of both hands contact the top of the vehicle seat
+cushion with the palms facing the dummys thighs.
+1.3.4.9
+Level the instrumentation plane of the head (front/rear and left/right directions) to
+within ± 0.5 degrees.
+1.3.4.10
+Measure the BioRIDs backset (distance between the front of the head restraint and the
+back of the dummys head) as follows:
+A)
+Record the most rearward point on the centerline of the dummys skullcap.
+(N
+ote
+: If using a measuring tape that contours to the shape of the skullcap, then
+this point is 9.5 cm from the top edge of the skullcap along the midsagittal
+plane of the skull.)
+B)
+The BioRID backset is the horizontal distance between the rearmost point
+on the dummys head and the
+HRP
+@
+Test P
+osition marked in
+S
+tep
+1.3.3.6
+(
+Figure
+).
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Figure
+Measuring BioRID
+b
+ackset
+1.3.4.11
+If the BioRID backset is different from the reference backset (
+S
+tep
+1.3.3.7
+) plus 15 ± 5
+mm, then do the following:
+A)
+Tip the head fore/aft no more than ± 0.5 degrees from level to meet the backset
+requirement.
+B)
+If the BioRID backset still cannot be brought closer to the reference backset plus
+15 mm, adjust the pelvis angle and H
+-
+point position within their respective
+tolerance bands, then begin with
+S
+tep
+1.3.4.4
+and adjust the BioRID position
+accordingly.
+C)
+If the above iterations still do not allow the backset to come within the specified
+tolerance for backset target and the H
+-
+point position is as far forward as the
+tolerance allows, then move the H
+-
+point forward of the allowed position the
+smallest distance
+that allows the backset requirement to be met.
+1.3.5
+Instrumentation, data acquisition
+,
+and processing
+The instrumentation required to conduct an
+IIHS rear
+-
+impact
+evaluation is listed in
+Table
+.
+BioRID
+-
+II includes a loadcell (or structural replacement) at the T1 vertebra; output of this sensor
+may be recorded at the testers discretion.
+It is not recommended that sensors or a sensor
+mounting block be attached to the C4 vertebrae because of the potential for unintended
+interaction with the head skin that could affect the spine response. The measurement data shall
+be recorded according to S
+AE J211
+-
+(SAE International,
+2022)
+.
+For each channel, s
+ignal bias
+is
+removed
+by subtracting the a
+verage of the first 100 samples
+of the quiescent data
+channel signal
+from every test measurement.
+Measurement data shall be
+processed at least until
+the end of head
+contact time plus 10 ms
+.
+Peak values
+f
+or evaluation
+will only be considered
+prior to
+the end of
+head conta
+c
+t
+time
+or
+until
+300 ms after T = 0, whichever occurs first.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Table
+BioRID and sled instrumentation
+Measurement
+l
+ocation
+Measurement
+Sensor
+t
+ype
+Back of head
+Time of head contact with
+head restraint
+Switch to indicate contact with
+head restraint
+Upper neck
+A
+-
+P and L
+-
+M shear force
+and axial force
+Loadcell (R.A. Denton model
+4985J)
+Upper neck
+A
+-
+P moment
+Loadcell (R.A. Denton model
+4985J)
+Head
+center of gravity
+Triaxial linear acceleration
+Endevco 7264B
+-
+500 or similar
+T1 vertebra
+
+left side
+Biaxial linear acceleration
+(A
+-
+P and I
+-
+S)
+Endevco 7264B
+-
+500 or similar
+T1 vertebra
+
+right side
+Uniaxial linear acceleration
+(A
+-
+P)
+Endevco 7264B
+-
+500 or similar
+L1 vertebra
+
+left side
+Biaxial linear acceleration
+(A
+-
+P and I
+-
+S)
+Endevco 7264B
+-
+500 or similar
+Pelvis
+Triaxial linear acceleration
+Endevco 7264B
+-
+500 or similar
+Sled acceleration
+Uniaxial linear acceleration
+(longitudinal)
+Endevco 7264B
+-
+or similar
+1.4
+Crash pulse
+The target sled acceleration and pulse specifications are given for the 16
+-
+km/h delta V pulse in
+Figure
+and
+Table
+, respectively.
+The target sled acceleration and pulse specifications are
+given for the 24
+-
+km/h delta V pulse in
+Figure
+and
+Table
+, respectively.
+Sled accelerations should be measured by an appropriate accelerometer attached to the sled
+platform and recorded according to
+SAE
+International's
+Standard J211
+-
+(
+)
+.
+Prior to
+establishing conformance with the acceleration pulse specification, any quiescent signal bias
+should be removed from the acceleration measurement. Conformance with pulse duration, peak
+acceleration
+,
+and timing are done with the signal filtered to channel frequency class (CFC) 60.
+Velocity change (delta V) is judged using velocity calculated from a CFC 180 signal.
+For delta V
+calculation, integrate the sled acceleration data from the last time the acceleration passes through
+zero
+before the peak
+until the first time the acceleration passes through zero
+after the peak
+.
+Figure
+C
+-
+1 shows the typical variation in accelerations for the 16
+-
+km/h delta V pulse from tests
+conducted on
+the IIHS
+sled, and Figure
+C
+-
+shows the typical variation in accelerations for the
+-
+km/h delta V pulse from tests conducted on
+the IIHS
+sled.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+1.4.1
+Test time indexing (16 km/h)
+To normalize the time index among sled laboratory protocols with different T = 0 trigger levels,
+the time of the occurrence of the maximum acceleration is used as the reference for indexing
+time.
+The procedure is described as follows:
+1.4.1.1
+Record the X
+-
+acceleration of the sled in accordance with SAE J211
+-
+(SAE
+International
+, 2022)
+.
+1.4.1.2
+Ensure that the
+DC bias
+has been removed according to
+S
+ection
+1.3.5
+.
+1.4.1.3
+Filter the sled acceleration to CFC 60 as
+defined by SAE J211
+-
+.
+1.4.1.4
+Find the measurement that corresponds to the maximum sled acceleration and note the
+time it occurs.
+1.4.1.5
+Subtract 27 ms from the time noted in
+S
+tep
+1.4.1.4
+and use the resulting difference to
+re
+-
+index the time.
+If the difference is positive (>
+0), then measurements recorded at the
+original T = 0 will now occur before T = 0.
+If the difference is negative (<
+0), then
+measurements recorded at the original T = 0 will now occur after T = 0.
+The peak sled
+acceleration (filtered data) should occur at exactly 27 ms.
+Figure
+-
+km/h
+d
+elta V
+
+Target sled acceleration and specification corridors
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Table
+-
+km/h
+d
+elta V
+
+Sled
+acceleration pulse sp
+ecifications
+Acceleration
+pulse c
+haracteristic
+Minimum
+Maximum
+Acceleration at time = 0 ms
+ í
+0.25 g
+0.50 g
+Acceleration at time = 27 ms
+9.5 g
+10.5 g
+Time that sled acceleration returns to 0 g
+88 ms
+94 ms
+Velocity change (delta V)
+14.8 km/h
+16.2 km/h
+1.4.2
+Test time indexing (24 km/h)
+To normalize the time index among sled laboratory protocols with different T = 0 trigger levels,
+the time of the occurrence of
+-
+g
+acceleration is used as the reference for indexing time.
+The
+procedure is described as follows:
+1.4.2.1
+Record the X
+-
+acceleration of the sled in accordance
+with SAE J211
+-
+(SAE
+, 2022)
+.
+1.4.2.2
+Ensure that the
+DC bias
+has been removed according to
+S
+ection
+1.3.5
+.
+1.4.2.3
+Filter the sled acceleration to CFC 60 as defined by
+SAE J211
+-
+.
+1.4.2.4
+Find and note the time that corresponds to the 1
+-
+g sled acceleration.
+1.4.2.5
+Subtract 3.7 ms from the time noted in
+S
+tep
+1.4.2.4
+and use the resulting difference to
+re
+-
+index the time.
+If the difference is positive (>
+0), then measurements recorded at the
+original T = 0 will now occur before T = 0.
+If the difference is negative (<
+0), then
+measurements recorded at the original T = 0 will now occur after T = 0.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Figure
+-
+km/h
+d
+elta V
+
+Target sled acceleration and specification corridors
+Table
+-
+km/h
+d
+elta V
+
+Sled acceleration pulse specifications
+Parameter
+Target
+Minimum
+Maximum
+Velocity
+c
+hange
+24.45 km/h
+23.25 km/h
+25.65 km/h
+Mean
+a
+cceleration
+6.44 g
+5.94 g
+6.94 g
+Maximum
+a
+cceleration
+7.50 g
+6.75 g
+8.25 g
+Time (ms)
+Acceleration (g)
+Time (ms)
+Acceleration (g)
+A
+0.25
+M
+9.50
+B
+ í
+0.25
+N
+9.50
+C
+1.8
+1.0714
+O
+6.25
+D
+6.0880
+P
+6.75
+E
+5.8
+1.0714
+Q
+6.75
+F
+6.0880
+R
+6.25
+G
+9.50
+S
+104.7
+0.00
+H
+9.50
+T
+110.7
+0.00
+I
+8.75
+U
+1.00
+J
+8.25
+V
+1.00
+K
+8.25
+W
+ í
+1.00
+L
+8.75
+X
+ í
+1.00
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Physical test
+proc
+edure for v
+erification
+data submission
+Physical tests conducted for submission to IIHS as verification data should comply with
+S
+ection
+(
+IIHS
+p
+hysical test procedure
+section
+)
+with targets provided by
+IIHS as described in the
+following steps.
+2.1
+General
+test
+requirements
+General test requirements
+should comply with
+S
+ection
+1.1.1
+of the
+IIHS
+p
+hysical test
+procedure
+section
+.
+2.2
+Sled and vehicle environment
+ x
+The sled and vehicle environment should comply with
+S
+ection
+s
+1.2.1
+
+1.2.5
+of the IIHS
+physical test procedure
+section
+.
+ x
+The seat adjustments should be set according to
+S
+ection
+1.2.6
+,
+ensuring that the
+CoRP
+point
+(X and Z)
+relative to the
+left front
+-
+seat bolt attachment hole
+(LF
+SBH)
+of the
+unweighted
+seat
+aligns
+(±
+mm)
+of the point
+located by
+IIHS
+in
+S
+tep 2 of
+the
+W
+orkflow
+section
+.
+The
+vertical distance
+between the heel point and
+LFSBH
+should be within ±
+mm of the target
+used by IIHS
+in
+S
+tep 2 of the
+W
+orkflow.
+ x
+The seatback angle
+should be set
+using the CHRP
+relative to
+CoRP
+(
+Figure
+)
+horizontal
+and vertical
+d
+istances
+(± 5 mm)
+for an
+unwe
+ighted
+seat
+provided
+by IIHS after the
+completion of
+S
+tep 2 of the
+W
+orkflow
+section
+.
+L
+arger tolerances may be accepted
+for
+manually adjustable seatbacks
+.
+ x
+The head restraint should be set
+to match the position provided by IIHS after the
+completion of
+S
+tep 2 of the
+W
+orkflow
+section
+.
+Af
+ter the head restraint is positioned, the
+unweighted
+HRP
+@ Test Position
+should be located on the front surface of the head
+restraint at centerline
+within ± 5 mm
+of the
+vertical distance
+relative to the CoRP
+provided by IIHS after the completion of
+S
+tep 2.
+2.3
+Dummy and seating procedure
+The dummy
+and seating procedure should comply with
+S
+ection
+1.3
+of the IIHS physical test
+procedure
+section
+, except that targets for H
+-
+point and backset should
+be those provided by IIHS
+after the completion of
+S
+tep 2 of the
+W
+orkflow
+section
+.
+The BioRID
+H
+-
+point should be
+20 ± 10
+mm forward
+and
+± 10 mm
+vertical
+of the
+manikin
+location
+provided by IIHS. BioRIDs backset
+to the
+HRP @ Test Position
+should be
+the manikin backset
+provided by IIHS
+plus 15 ± 5 mm
+.
+2.4
+Crash pulse
+The crash pulse
+used
+should comply with
+S
+ection
+1.4
+of the
+IIHS physical test proc
+edure
+section
+.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Simulation procedure
+for verification data submission
+3.1
+General simulation requirements
+The simulation should replicate the occupant positions
+and
+the
+initial
+boundary conditions
+defined in
+the physical test protocol and meet the requirements described in this
+section
+.
+3.1.1
+Solver requirements
+Simulation result submissions must have originated from (or been successfully traced back to) a
+Finite Element Model Explicit Solver (e.g., LS
+-
+DYNA
+, VPS
+). The solver software and version
+will be reported to IIHS using
+the
+IIHS Rear Impact SIMULATION Data Submission
+Template.
+xlsx
+template.
+3.1.2
+Simulation setup
+Automakers are free to use any occupant positioning, settling, initialization, or state
+-
+transfer
+procedure. The specific simulation workflow is at the discretion of the automaker, provided that
+the occupant, seat, restraint system, and sled conditions comp
+ly with the requirements of this
+protocol at
+T0
+.
+T
+offset
+is defined as
+an
+y time
+-
+history prior
+to
+T
+.
+The simulation
+should
+include a minimum
+T
+offset
+of
+15 ms
+to provide
+a
+pre
+-
+pulse equilibrium period immediately preceding
+T0
+.
+The required 15
+-
+ms pre
+-
+pulse equilibrium period is necessary to support consistent signal filtering, baseline
+correction, accelerometer debiasing, and neck load
+-
+cell zeroing performed by IIHS.
+Prior to the 15
+-
+ms pre
+-
+pulse equilibrium period
+, a
+ll occupant positioning, settling, stabilization,
+and initialization procedures
+must be complete
+.
+During the 15
+-
+ms pre
+-
+pulse equilibrium period:
+ x
+no sled acceleration shall be applied
+;
+ x
+the occupant, seat, and restraint system shall remain in quasi
+-
+static equilibrium
+;
+and
+ x
+all required output signals shall be available for post
+-
+processing.
+The
+average of the
+final
+ms
+of
+T
+offset
+,
+immediately preceding pulse onset
+(T0)
+,
+will be used by
+IIHS as the baseline window for:
+ x
+neck load
+-
+cell zeroing,
+and
+ x
+accelerometer debiasing where required.
+The duration of
+T
+offset
+,
+including
+the 15
+-
+ms pre
+-
+pulse equilibrium period
+and
+settling time
+(if
+applicable)
+and
+initialization procedures
+(if applicable)
+,
+should be reported in the
+template
+IIHS
+Rear Impact SIMULATION Data Submission Template.xlsx.
+If occupant positioning and
+settling are performed in a separate simulation prior to the pulse simulation, the submitted pulse
+simulation is only required to include the minimum 15
+-
+ms pre
+-
+pulse equilibrium period
+immediately prior to pulse onset.
+3.1.3
+Dummy sensor coordinate systems
+The results of each channel must be reported in the coordinate systems in accordance
+with SAE
+J211
+(SAE
+International
+, 2022)
+.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+3.1.4
+Reporting
+Automakers will report on all fields indicated in the
+template
+IIHS Rear Impact SIMULATION
+Data Submission Template.
+xlsx
+and the
+D
+ata submission section o
+f this protocol
+.
+All
+necessary
+instrumentation needed for simulation can be found in the template.
+Th
+e template requests
+information
+about
+the following
+:
+ x
+Solver version
+ x
+Model units
+ x
+Orientation of the global coordinate system
+ x
+Mesh quality
+ x
+ATD m
+odel mass
+, with and without
+initial
+mass scaling included
+ x
+Time step
+ x
+Dummy model
+ x
+Seat model
+ x
+Seating procedure
+ x
+T
+offset
+(time between the beginning of the
+submitted simulation data and
+T0
+)
+ x
+RAW t
+ime
+-
+history outputs
+
+IIHS will process
+the data internally
+3.1.5
+Hourglass energy
+Automakers will self
+-
+report to verify that the hourglass energy for the sum of the components in
+each of the systems listed
+below
+remains below 5% of its internal energy at all times.
+ x
+Dummy model
+ x
+Seat model
+ x
+All remaining model components as one system
+IIHS will
+require the submission of the
+global
+(i.e, whole model)
+hourglass and internal energy
+time
+-
+histories to verify the hourglass energy rate is
+acceptable
+for the model as a whole.
+3.1.6
+Added mass
+Automakers will self
+-
+report to verify that the added mass
+for the sum of the components in each
+of the systems listed
+below
+remains below 5% of the
+ir
+physical mass at all times.
+ x
+Dummy model
+ x
+Seat model
+ x
+All remaining model components as one system
+IIHS will
+require the submission of global (i.e., whole model)
+added mass time
+-
+history and the
+reported physical mass of the model to verify the added mass ratio is
+acceptable
+for the model as
+a whole.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+3.2
+Dummy model
+3.2.1
+Qualification
+Only simulation
+s
+conducted using
+pre
+-
+approved
+dummy models will be accepted for assessment.
+IIHS
+will
+determine whether to accept simulations
+after evaluating the evidence regarding model
+validity.
+Appendix
+D
+includes
+a list of all pre
+-
+approved dummy models for use in the
+assessment.
+A
+utomakers using a
+dditional commercially available dummy models or modified
+versions thereof must seek IIHS approval before submitting results for virtual assessment.
+A qualification procedure for rear
+-
+impact
+human surrogates
+is under consideration for future
+revisions to the protocol.
+3.2.2
+Seating procedure
+Automakers are free to choose the most convenient seating procedure (e.g., settling by gravity,
+forcing position, etc.)
+,
+provided that the
+final position in the
+simulation
+aligns
+with the position
+that would be achieved
+with the physical dummy
+following
+Section
+1.3.4. T
+he following
+should
+be
+met at
+T
+ime
+=
+0 ms
+(with time zero defined based on the pulse shift described in
+S
+ection 1.4
+):
+ x
+The dummys midsagittal plane must
+be
+within ±
+2 degrees of the vertical direction.
+ x
+The head
+must
+be
+level laterally and longitudinally
+(relative to ground)
+within ±
+degrees.
+ x
+The
+absolute
+H
+-
+point position
+(not relative to recline
+r)
+must
+be
+±
+10 mm forward
+and
+±
+10 mm
+vertical
+of the
+H
+-
+point manikin
+settling location provided by IIHS
+.
+ x
+The pelvis angle must
+be
+at 26.5
+±
+2.5 degrees from horizontal.
+ x
+The centerlines of the dummy knees and ankles must
+be
+±
+10 mm apart.
+ x
+The backset must
+be
+±
+5 mm forward of the H
+-
+point manikin
+calculated
+backset
+(
+horizontal distance between Horizontal head point (x) from
+Step
+1.
+3.4
+.3 and the
+HRP
+@
+Test Pos
+ition (x) from
+Step
+1.3.3.6
+)
+provided by IIHS.
+3.3
+Sled and vehicle environment
+3.3.1
+Model details and modifications
+The automaker is responsible for modeling the vehicle environment (e.g., seat
+, restraints
+) with
+sufficient detail to accurately predict the response observed in the physical test.
+Different vehicle environment models (e.g., material characteristics) may be used for the
+different load cases if it leads to improvements in the prediction of the physical test, except
+otherwise noted in this
+protocol
+.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+3.3.2
+Seat
+belt model
+If the automaker believes that seat
+belt is relevant to the outcomes of these rear
+-
+impact tests
+,
+they
+should ensure the
+seat
+belt retractor mechanisms
+represent their physical counterparts as
+utilized
+in the physical tests
+(vehicle
+-
+specific or generic)
+.
+3.3.3
+Seat and seat
+belt position
+ x
+The seat CoRP point (X and Z) relative to the left front
+-
+seat bolt attachment hole
+(LFSBH) of the weighted seat aligns (±
+mm) of the
+weighted
+point located by IIHS in
+S
+tep 2 of the
+Workflow
+section
+. The vertical distance between the heel point and LFSBH
+should be within ±
+mm of the target used by IIHS in
+S
+tep 2 of the
+Workflow
+.
+ x
+The seatback angle should be set using the CHRP relative to CoRP
+(
+Figure
+)
+horizontal
+and vertical distances (± 5 mm) for
+a
+weighted
+seat provided by IIHS after the
+completion of
+S
+tep 2 of the
+Workflow
+section
+.
+ x
+The head restraint should be set to match the position provided by IIHS after the
+completion of
+S
+tep 2 of the
+W
+orkflow
+section
+.
+T
+he HRP @ Test Position should be
+located on the front surface of the head restraint at centerline within ± 5 mm of the
+vertical distance relative to the CoRP
+for the
+weighted
+seat
+provided by IIHS after the
+completion of
+S
+tep 2
+. The
+highest p
+oint on the head restraint
+for a
+weighted
+seat
+should
+be within
+±
+mm
+of the point
+provided by IIHS
+for a
+weighted
+seat
+after the completion
+of
+S
+tep 2 of the
+W
+orkflow
+.
+The geometric location of the physical seat
+belt anchors, buckle, and D
+-
+rings relative to the
+physical seat shall be preserved in the simulation model.
+3.3.4
+Sled model
+The seat and seat
+belt model (when applicable) must be attached to the sled (either rigidly or
+using a realistic bolt representation) at their corresponding attachment points.
+The sled must be represented as a rigid body (even if limited to four nodes at the attachment
+points) and driven using prescribed motion.
+The use of gravitational fields (i.e., body loads) to represent the pulse is not permitted.
+3.4
+Crash pulse
+IIHS will provide automakers with:
+1.
+A
+s
+tandard
+pulse for each load case
+.
+2.
+Two
+additional pulses
+, including one
+with delta V above
+the standard and one with
+delta V
+below the standard.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Automakers will be asked to:
+1.
+Use the
+s
+tandard
+pulse provided by IIHS for their simulation submissions.
+2.
+O
+ptionally
+s
+ubmit simulation results using any or all of the
+additional
+pulses
+provided by IIHS. These data will be
+checked
+in the audit process
+if the results
+from
+the standard test fail the audit
+.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+DATA SUBMISSION
+General data submission
+Data submission formats and methods
+are under review and still in development. The methods
+and formats for data exchange
+described in this
+protocol
+will be used until
+formats can be
+finalized and submission tools
+are
+developed.
+Physical t
+est
+-
+specific data submission
+5.1
+Test
+data
+Seat and dummy
+setup
+information and
+test outputs should be reported using the
+IIHS Rear
+Impact PHYSICAL TEST Data Submission Template.xl
+sx
+.
+All fields
+must be completed unless
+specified.
+T
+ime
+-
+history
+data
+should
+be in
+unprocessed format,
+have
+a minimum frequency of
+10,000 Hz and at least 100 ms of data before sled trigger.
+5.2
+Video
+1.
+A lateral left view
+(either stationary
+following the sled reference frame
+,
+or
+orthogonal to
+the plane of motion
+)
+that captures the entire event from the onset of acceleration to 100
+ms past the end of head contact time.
+2.
+A lateral right view (
+orthogonal to the plane of motion
+)
+that captures the entire event
+from the onset of acceleration to 100 ms past the end of head contact time.
+Timestamp
+
+Video must be timestamped in milliseconds aligned with RAW data
+Format
+
+.mp4 or .avi
+Codec
+
+H.264
+Collection frame rate minimum
+
+500 fps
+Replay frame rate
+
+10 fps
+Simulation
+-
+specific data submission
+6.1
+General data
+All information described in
+Section
+:
+Simulation procedure for verification data submission
+should
+be provided in binary format or reported using the
+IIHS Rear Impact SIMULATION Data
+Submission Template.xlsx
+provided by IIHS unless otherwise noted as optional.
+Submitted time
+-
+history data
+should
+:
+ x
+i
+nclude
+the complete
+T
+offset
+period as defined in Section 3.1.2,
+ x
+i
+nclude
+at least 10 ms beyond the end of head contact time with the head restraint
+,
+ x
+b
+e
+in
+a
+raw and unprocessed
+format
+,
+ x
+i
+nclude all required output channels
+in the
+IIHS Rear Impact SIMULATION Data
+Submission Template.xlsx
+,
+and
+ x
+have a
+min
+imum
+sampling frequency of 10,000 Hz.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+All official signal processing, including filtering, accelerometer debiasing, neck load
+-
+cell
+zeroing, and metric calculations, will be performed by IIHS.
+6.2
+Video
+T
+he following videos
+should be provided
+from simulations
+:
+1.
+A lateral left view of the animation
+(filename:
+"
+Year_
+Make_Model
+_
+16 or
+left
+"
+)
+2.
+A lateral left view of the animation following on the sled reference frame
+(filename:
+"
+Year_Make_Model_
+"
+)
+3.
+A lateral right view of the animation
+(filename:
+"
+Year_Make_Model_
+16 or
+"
+)
+4.
+A lateral right view of the animation following on the sled reference frame
+(filename:
+"
+Year_Make_Model_
+"
+)
+5.
+A frontal view of the animation
+(filename:
+"
+Year_Make_Model_
+16 or
+"
+)
+6.
+A rear view of the animation
+(filename:
+"
+Year_Make_Model_
+"
+)
+7.
+A top
+-
+down view of the animation
+(filename:
+"
+Year_Make_Model_
+16 or
+"
+)
+8.
+A
+bottom
+-
+up
+view of the animation
+(filename:
+"
+Year_Make_Model_
+16 or
+"
+)
+All videos must
+:
+ x
+Originate from a simulation output
+(e.g., d3plot)
+with a frequency
+of at least 1
+step/
+ms
+.
+ x
+B
+e framed and adjusted so that the view is maximized while ensuring that the entire
+model is visible from beginning to end.
+ x
+Be taken from time zero to at least end of head contact time with the head
+rest
+raint
+plus
+10 ms.
+ x
+Meet the following specifications:
+Timestamp
+
+Video must be timestamped in milliseconds aligned with RAW data
+Format
+
+.mp4 or .avi
+Codec
+
+H.264
+Replay frame rate
+
+10 fps
+File size
+
+-
+10 MB
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+AUDITING METHODS
+Load case au
+dit
+After receiving the corresponding
+physical
+test
+s
+or simulation
+s
+for verification,
+IIHS will select
+one of the two load cases
+at random
+(i.e., either the 16
+-
+km/h
+or the 24
+-
+km/h
+case) to audit the
+submitted data. IIHS will then conduct a physical test for the selected audit load case and
+determine whether the submitted data for that case successfully represents the physical test,
+based on the criteria described in Section
+.
+If the audited
+data meets
+said criteria
+,
+the submitted
+results for both load cases will be accepted for assessment.
+In the near term, if the audited data fails to meet the requirements of the audit, IIHS will
+conduct
+an in
+-
+house physical test of the unaudited load case to complete the assessment
+and
+allow the
+vehicle to be eligible for the IIHS TSP award.
+The automaker will be responsible for providing
+the additional seat.
+IIHS will only conduct a physical test on the unaudited load case i
+f the
+automaker has made a
+good faith
+effort to complete the verification data submission in
+accordance with
+this
+protocol.
+Data processing at IIHS
+8.1
+Process overview
+ x
+All
+physical
+test data will be debiased according to
+Step
+1.3.5
+.
+ x
+Simulation
+data will be debiased
+according to
+S
+ection
+3.1.2
+.
+ x
+All test and simulation data
+will be filtered
+using the CFC filters defined in
+Table
+.
+ x
+To align sled accelerations and occupant sensors
+, t
+he time vector
+for physical tests
+will be
+indexed
+using the methods described in
+S
+ection
+s
+1.4.1.4
+
+1.4.1.5
+(16 km/h
+) or Sections
+1.4.2.4
+
+1.4.2.5
+(24 km/
+h)
+.
+The time vector for the simulation pulses
+provided by
+IIHS
+has
+already been indexed to align with
+Sections
+1.4.1.4
+
+1.4.1.5
+(16 km/h) or Sections
+1.4.2.4
+
+1.4.2.5
+(24 km/h)
+.
+ x
+Conformance with pulse duration, peak acceleration
+,
+and timing are done with the
+sled
+acceleration
+signal filtered to CFC 60.
+Velocity change (delta V) is judged using velocity
+calculated from a CFC 180 signal.
+o
+For physical tests, the
+delta V calculation
+will be calculated by
+integrat
+ing
+the sled
+acceleration data from the last time the acceleration passes through zero
+before
+the peak
+to
+the first time the acceleration passes through zero
+after the peak
+.
+o
+For simulation, the
+delta V calculation
+will be calculated by
+integrat
+ing
+the sled
+acceleration data from
+T
+=
+until the first time the acceleration passes through
+zero
+after the peak
+.
+ x
+All peak values will be assessed only between T0 and the end of head contact time
+.
+ x
+The i
+ndividual components of head
+(x, y, z)
+, L1
+(x, z)
+, and pelvis accelerations
+(x, y, z)
+will be used to calculate the resultant accelerations of the corresponding bodies.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+ x
+The
+i
+ndividual components of left T1 accelerations
+(x,z)
+will be used to calculate
+the T1
+resultant acceleration.
+ x
+The p
+elvis displacement metric will be calculated
+with the
+sled
+x
+direction
+pointing
+forward
+using
+Equation
+.
+ x
+T
+he sagittal velocity components of the head and pelvis will be calculated by integrating
+the corresponding accelerations using
+Equation
+and
+Equation
+.
+T
+he resultant velocity in
+the sagittal plane will be calculated using
+Equation
+.
+ x
+The head
+-
+to
+-
+pelvis relative velocity metric will be calculated using
+Equation
+.
+ x
+N
+km
+wil
+l
+be calculated using
+Equation
+and
+Equation
+,
+where
+M
+int
+is 47.5 Nm
+for
+extension and 88.1 Nm for flexion
+,
+and
+F
+int
+is
+845 N for both positive and negative shear
+force.
+ x
+T
+1 x acceleration
+maximum
+is calculated from the
+average of the
+left and right T1 x
+accelerometers
+using
+Equation 11
+.
+ x
+The simulation head contact time will be defined as the first time of non
+-
+zero contact
+force between the head and the head restraint.
+Non
+-
+zero contact force must have a
+duration of 40 ms to be considered
+the head contact time.
+ x
+The simulation end of head contact time will be defined as the step after the
+first
+zero
+contact force
+between the head and the head restraint
+after the beginning of head contact
+time
+.
+8.2
+Process details
+8.2.1
+Variable head contact adjustment (16 km/h and 24 km/h)
+Head contact time is the
+first
+time after the onset of sled acceleration (T0) that the dummys head
+contacts the head restraint and maintains contact for at least 40 ms. End of head contact time is
+defined as the first time after the beginning of head contact time that the head loses co
+ntact with
+the head restraint.
+Note:
+Minor breaks in time to head restraint contact (up to 1 ms) are permissible if it can be
+proven that these are due to poor electrical contacts, however these must be investigated with
+reference to the
+video
+to ascertain whether the breaks in contact are not due to biomechanical
+phenomena such as ATD ramping, head restraint
+,
+or seatback collapse, or
+"
+bounce
+"
+of the head
+during nonstructural contact with the head restraint.
+Sled accelerations meeting the specified corridors may have different timing that can lead to
+differences in head contact times recorded on identical seats tested at different labs.
+To eliminate
+variation in head restraint contact times between labs, the recorded head contact time must be
+adjusted to reflect the contact time that would be expected if the exact target pulse was achieved.
+The procedure for adjusting recorded head contact time is described as follows:
+Note: All data referred to in this section must already be time
+-
+indexed as described in
+S
+ection
+1.4.1
+or
+1.4.2
+.
+See Appendix B for an example of how to adjust the head contact time.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+8.2.1.1
+Using the sled filtered acceleration (CFC 180),
+c
+onvert to
+meters per second
+.
+I
+ntegrate
+the data from the last time the acceleration passes through zero
+before the peak
+(or at T0
+for simulation
+)
+until the first time the acceleration passes through zero
+after the
+p
+eak
+.
+8.2.1.2
+(For 16
+-
+km/h pulse) Find the time in milliseconds at which the recorded sled velocity
+change reaches
+4.0
+m/s
+and
+round up to
+the next highest
+whole
+number.
+For example
+,
+both
+61.3 ms and 61.8 ms should
+be converted to
+62 ms.
+If the exact value is a whole
+number
+(
+e.g.
+,
+60.0 ms)
+,
+no adjustment is necessary
+.
+8.2.1.3
+(For 24
+-
+km/h pulse) Find the time in milliseconds at which the recorded sled velocity
+change reaches
+4.62 m/s
+and
+round up
+to the next highest number.
+For example
+,
+both
+61.3 ms and 61.8 ms should
+be converted to
+62 ms.
+If the exact value is a whole number
+(
+e.g.
+,
+60.0 ms)
+no adjustment is necessary
+.
+8.2.1.4
+Subtract the time recorded in
+S
+tep
+8.2.1.2
+or
+8.2.1.3
+from 70 ms.
+Add the difference to
+the time indexed head contact time from
+S
+tep
+1.4.1.5
+(16 km/h) or
+Step
+1.4.2.5
+(24
+km/h)
+.
+The resulting value will be the official head contact time used for evaluation.
+8.2.2
+Equations and filters
+Table
+Table of equations for calculated metrics
+Test type
+Calculation
+Equation
+number
+Physical
+test and
+simulation
+Pelvis displacement
+=
+min
+L
+µ
+=
+ãØßéÜæ
+ã
+@P@P
+LGX
+clb
+>
+54
+F
+µ
+=
+æßØ
+×
+ã
+@P@P
+LGX
+clb
+>
+54
+M
+Equation
+R
+å
+Ø
+Ú
+Ü
+â
+á
+ã
+=
+±
+=
+å
+Ø
+Ú
+Ü
+â
+á
+ã
+@P
+LGX
+clb
+>
+54
+Equation
+R
+å
+Ø
+Ú
+Ü
+â
+á
+å
+=
+±
+=
+å
+Ø
+Ú
+Ü
+â
+á
+å
+@P
+LGX
+clb
+>
+54
+Equation
+R
+å
+Ø
+Ú
+Ü
+â
+á
+=
+§
+R
+å
+Ø
+Ú
+Ü
+â
+á
+ã
++
+R
+å
+Ø
+Ú
+Ü
+â
+á
+å
+Equation
+Head
+-
+to
+-
+pelvis relative velocity
+=
+min
+(
+R
+y
+Ø
+Ô
+×
+F
+R
+ãØßéÜæ
+)
+Equation
+/
+K?
+U
+=
+7
+LLAN
+U
+I
+K
+I
+AJP
+F
+7
+LLAN
+T
+B
+KN?A
+Û
+.
+01778
+Equation
+0-
+/
+=
+¿ë
+(
+ç
+)
+¿
+Üáç
++
+Æ
+â
+Öì
+(
+ç
+)
+Æ
+Üáç
+Equation
+6
+ë
+Ì
+Î
+Î
+Ð
+×
+Ð
+Ý
+Ì
+ß
+Ô
+Ú
+Ù
+=
+max
+(
+=R
+C
+(
+6
+ë
+Ì
+Î
+Î
+(
+×
+Ð
+Ñ
+ß
+)
+,
+6
+ë
+Ì
+Î
+Î
+(
+Ý
+Ô
+Ò
+Ó
+ß
+)
+)
+)
+Equation
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Table
+Filters for
+time
+-
+history data, calculating ISO scores
+,
+and
+peak absolute error
+Time
+-
+history data
+Channel frequency
+class (CFC) filter
+Head acceleration (
+x,y
+,
+z
+)
+CFC
+T1 left acceleration (
+x,
+z
+)
+CFC 60
+T1 right acceleration (x)
+CFC 60
+L1 acceleration (
+x,z
+)
+CFC 60
+Pelvis acceleration (
+x,y,z
+)
+CFC 60
+Upper neck force X
+CFC
+Upper neck force Z
+CFC
+Upper neck moment Y
+CFC
+Head
+-
+to
+-
+headrest contact
+N/A
+Sled
+acceleration
+CFC 60 (CFC 180 for
+integration
+for delta
+V
+)
+Pulse
+selection
+For simulation,
+IIHS
+will provide
+three pulses for each load case that fall within the
+corridors
+for
+pulse
+acceptance but
+span the range of variability observed
+in the IIHS sled
+. Appendix
+C
+and the
+IIHS
+Rear impact pulse summary
+.xlsx
+spreadsheet contain the pulses that will be accepted
+.
+IIHS suggests that automakers submit a simulation for each
+(
+three
+for 16 km/h
+,
+and
+three
+for 24
+km/h) to improve
+their likelihood of
+pass
+ing
+the audit
+.
+If the
+manufacturer
+-
+submitted data fail the
+audit with the standard pulse
+,
+results from
+either the upper or lower pulse
+will be checked
+.
+The
+pulse
+selected for the second audit check will depend on the
+delta V of the
+IIHS sled pulse
+and
+will be selected according to
+Appendix
+Tables C
+-
+1 and C
+-
+.
+The unaudited test will use the
+standard pulse
+.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+Test
+and simulation acceptance
+IIHS will
+consider the submitted test or simulation accepted for assessment if:
+1.
+A
+ll the points in
+S
+ection
+s
+or
+have been followed
+for both load cases
+.
+2.
+The
+data
+corresponding to the
+audited
+load case
+meets the criteria
+outlined
+in
+S
+ection
+10.1
+.
+10.1
+Acceptance criteria
+ x
+IIHS will
+audit time
+-
+history and peak metric data to
+determine
+data acceptance
+.
+ x
+For
+the
+submitted
+data to pass the
+audit
+,
+both the time
+-
+history and peak metric criteria
+as
+described in Sections
+10.1.1
+and
+10.1.2
+must be met.
+10.1.1
+Time
+-
+history data
+ x
+The ISO score
+for the
+h
+ead
+(x,y,z)
+, T1
+(x,z)
+,
+L1
+(x,z)
+,
+and pelvis
+(x
+,y,
+z)
+resultant
+acceleration
+s
+will be calculated
+using
+the submitted data
+with
+the results
+of the audit test
+after processing according to
+S
+ection
+.
+ x
+The window for the
+ISO score will
+span
+from time zero
+(after shift)
+to end of head
+contact time plus 10 ms in the reference test
+(the
+IIHS physical audit test
+)
+.
+ x
+The ISO score will be calculated
+according to
+Objective Rating Metric ISO 18571
+published
+in Openvt.edu repository
+(
+https://openvt.eu/validation
+-
+metrics/ISO18571
+)
+using
+the
+filters in
+Table
+and the
+parameters
+in
+Table
+.
+ x
+The submitted data will be considered to have met the time
+-
+history acceptance criterion if
+the ISO score is greater or equal to 0.7 for the time
+-
+histories indicated in the first point.
+Table
+ISO scoring parameter values
+Parameter
+Value
+Exponent factor for calculating the corridor score between the inner and outer
+corridors (k
+Z
+)
+2.0
+Relative half width of the inner corridor (a
+)
+0.05
+Relative half width of the outer corridor (b
+)
+0.5
+Exponent factor for calculating the phase score (k
+P
+)
+ 0 D [ L P X P  D O O R Z D E O H  S H U F H Q W D J H  R I  W L P H  V K L I W  0
+*
+P
+)
+0.2
+Exponent factor for calculating the magnitude score (k
+M
+)
+ 0 D [ L P X P  D O O R Z D E O H  P D J Q L W X G H  H U U R U  0
+*
+M
+)
+0.5
+ 0 D [ L P X P  D O O R Z D E O H  V O R S H  H U U R U  0
+*
+S
+)
+2.0
+Weighting factor of the corridor score (w
+Z
+)
+0.4
+Weighting factor of the phase score (w
+P
+)
+0.2
+Weighting factor of the magnitude score (w
+M
+)
+0.2
+Weighting factor of the magnitude score (w
+S
+)
+0.2
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+10.1.2
+Peak metric data
+ x
+The peak values of all metrics are only considered from T0 to the end of head contact
+time (after
+time indexing
+in accordance with Sections
+1.4.1
+or
+1.4.2
+).
+ x
+The absolute
+error
+between the submitted data and the audit test
+results
+will be calculated
+for
+the
+metrics
+used for rating
+and
+normalized using the
+corresponding
+normalization
+factors
+(
+Equation
+)
+.
+ x
+The submitted data will be considered to have met the peak metric acceptance criterion if
+the
+normalized
+abs
+olute error
+is lower
+than
+1 for all peak metrics.
+0
+KNI=HEVA@
+=
+>O
+KH
+Q
+PA
+A
+NNKN
+=
++
+4
+AOQHP
+Ô
+è
+×Üç
+ç
+Øæ
+ç
+F
+4
+AOQHP
+éØåÜ
+Ù
+ÜÖÔçÜâá
++
+0
+KNI=HEV=PEKJ
+B
+=?PKN
+Equation
+Note:
+A
+ll
+peak
+metrics used for rating will be subject to
+the
+peak metric
+acceptance criterion
+.
+Normalization factors for these metrics
+are published in
+the
+IIHS Whiplash Prevention
+Evaluation
+R
+ating
+G
+uidelines
+(IIHS, 202
+)
+.
+©
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August
+
+REFERENCES
+Economic
+Commission
+for Europe
+.
+(2022)
+.
+Inland transport committee
+.
+World forum for
+harmonization of vehicle regulations
+.
+Mutual resolution No
+.
+1 (M.R.1) of the 1958 and
+1998 Agreements
+.
+Concerning the
+description
+and performance of test tools and devices
+necessary for the assessment of compliance of
+wheeled
+vehicles
+, equipment and
+parts
+according to the technical
+prescriptions
+specified
+in Regulations and global technical
+regulation
+(
+Amendment 3.
+Addendum 1.
+ECE/TRANS/WP.29/1101/Amend.3
+)
+.
+https://unece.org/sites/default/files/2023
+-
+06/ECE
+-
+TRANS
+-
+WP.29
+-
+-
+Amend.3e.pdf
+Gane, J. (1999).
+Measurement of vehicle head restraint geometry
+(
+SAE Technical Pape
+r
+No.
+-
+-
+0639). SAE
+International
+.
+https://doi.org/10.4271/1999
+-
+-
+Insurance Institute for Highway Safety. (
+).
+Vehicle
+seat/head restraint evaluation p
+rotocol,
+Dynamic
+c
+riteria
+(Version V
+I
+)
+.
+Insurance Institute for Highway Safety. (2022).
+Guidelines for using the UMTRI ATD
+positioning procedure for ATD and seat positioning (Version VI)
+.
+Insurance Institute for Highway Safety. (202
+).
+Whiplash
+prevention evaluation rating
+guidel
+ines
+(Version I
+I
+)
+.
+International Organization for Standardization
+(ISO)
+. (2024).
+Road vehicles
+
+Objective rating
+metric for non
+-
+ambiguous signals
+(
+ISO/TS 18571:2024
+).
+SAE International
+. (2015).
+Surface vehicle recommended practice J1727; Calculation guidelines
+for impact testing
+.
+https://doi.org/10.4271/J1727_201502
+SAE International
+. (2018).
+Surface vehicle information report J1733; Sign convention for vehicle
+crash testing
+.
+https://doi.org/10.4271/J1733_201811
+SAE International
+. (
+).
+Standard J826; Devices for use in defining and measuring vehicle
+seating accommodation
+.
+https://doi.org/10.4271/J826_199507
+SAE International
+. (
+).
+Surface vehicle recommended practice J211/1; Instrumentation for
+impact test, Part 1: Electronic instrumentation
+.
+https://doi.org/10.4271/J211/1_202208
+© 202
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I
+)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August 2026
+
+Appendix A
+:
+Seat adjustment
+d
+efinitions
+Definition
+Image
+Additional Images
+Seat Track
+
+An adjustment that moves the entire seat
+(seat cushion and seatback) in the fore and aft
+directions.
+Seatback
+
+An adjustment that rotates the entire
+seatback, independently of the seat cushion,
+from
+a
+pivot at the seatback/seat cushion joint, therefore,
+changing the angle of the seatback relative to the seat
+cushion.
+Seat Height
+
+An adjustment that moves the entire
+seat vertically (seat cushion and seatback in unison).
+This adjustment must keep the angle of the seat
+cushion the nearly the same relative to the ground.
+This can be one control (two
+-
+way) that moves the
+whole seat in un
+ison or a combination of controls (four
+-
+way
+
+a toggle or multiple knobs) that, when used
+together, keep the angle of the seat cushion nearly the
+same relative to the ground.
+Two
+-
+way
+(one control)
++
+=
+Four
+-
+way (toggle or multiple knobs)
+NOTE: It is not possible to have four
+-
+way
+seat height AND seat tilt
+Seat Tilt
+
+An adjustment that rotates the entire seat
+(seat cushion and seatback in unison). This adjustment
+rotates a seat in such a way to significantly change the
+angle of the seat cushion, relative to
+the
+ground, from
+its full
+-
+down position. This adjustment can move either
+the front or rear of the seat to change the angle.
+OR
+© 202
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+II)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August 2026
+
+Definition
+Image
+Additional Images
+Seat Cushion Height
+
+An adjustment that moves the
+seat cushion vertically, independent of the seatback,
+while keeping angle of the seat cushion nearly the
+same relative to the ground. This can be one control
+(two
+-
+way) that moves the whole seat cushion in unison
+or a combination of controls (four
+-
+way
+
+a toggle or
+multiple knobs) that, when used together, keep the
+angle of the seat cushion nearly the same relative to
+the ground.
+Two
+-
+way
+(one control)
++=
+Four
+-
+way (toggle or multiple knobs)
+NOTE: It is not possible to have four
+-
+way
+seat cushion height AND seat cushion tilt
+Seat Cushion Tilt
+
+An adjustment that moves the
+seat cushion, independent of the seatback, in such a
+way to significantly change the angle of the seat
+cushion, relative to ground, from its full
+-
+down position.
+This adjustment can move either the front or rear of the
+seat cushion to change the angle.
+OR
+Lumbar Support
+
+An adjustment that causes the
+lower center portion of the seatback to protrude to
+provide support to the lumbar section of an occupants
+spine.
+Upper Seatback
+
+An adjustment that rotates only the
+upper portion of the seatback about a pivot point in the
+seatback. This adjustment will change the angle of the
+upper seatback relative to the lower portion of the
+seatback.
+© 202
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+II)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August 2026
+
+Definition
+Image
+Additional Images
+Cushion Extension
+
+An adjustment that moves or
+extends a portion of the seat cushion forward so that
+the overall length of the cushion can be increased.
+Side Bolsters
+
+An adjustment the moves the sides of
+the seatback or seat cushion so that the contour of the
+seat can be changed.
+Head Restraint Height
+
+An adjustment that moves
+the head restraint vertically.
+Head Restraint Tilt
+
+An adjustment that moves the
+head restraint horizontally.
+OR
+OR
+© 202
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+II)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August 2026
+
+Appendix B
+: Example head contact adjustment (16 km/h)
+Step 1.
+Record sled acceleration.
+Step 2. Remove signal bias.
+Step 3.
+Filter sled acceleration to CFC 60 to determine time shift and time shift all data
+(including head contact time).
+-0.0500.050.10.150.20.250.30.35
+-0.0500.050.10.150.20.250.30.35
+Peak acceleration
+10.0 g at 27 ms
+© 202
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+II)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August 2026
+
+Step 4.
+Filter sled acceleration data to CFC 180.
+Step 5. Convert
+the acceleration
+to
+meters per second
+squared
+(
+m/s
+).
+Step 6. Integrate from the last time the acceleration passes through zero at the beginning of the
+trace until the first time the acceleration passes through zero at the end of the trace.
+Step
+7.
+Find the time at which the velocity change reaches 4 m/s and
+use the next highest whole
+number.
+For example,
+for both 61.3 ms and 61.8 ms
+a value of
+62 ms should be used.
+An exact
+value recorded (e.g., 60.0 ms) does not need to be adjusted.
+-0.0500.050.10.150.20.250.30.35
+Integrate data between
+vertical lines only
+-0.008
+0.012
+0.032
+0.052
+0.072
+4 m/s
+67.6 ms
+© 202
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+II)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August 2026
+
+Step
+8.
+Subtract the time recorded in
+S
+tep
+7 from 70 ms. Add the difference to the time indexed
+head contact time from
+Step 3.
+The resulting value will be the official head contact time (HCT)
+used for evaluation.
+-2.5
+-2.0
+-1.5
+-1.0
+-0.5
+0.0
+0.5
+1.0
+-0.0500.050.10.150.20.250.30.35
+60 ms + 2 ms
+HCT = 62 ms
+© 202
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I
+)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August 2026
+
+Appendix
+C
+:
+Crash
+p
+ulses
+Figure
+C
+-
+-
+km/h
+d
+elta V
+
+IIHS sample
+sled acceleration
+s
+and specification corridors
+Figure
+C
+-
+-
+km/h
+d
+elta V
+
+IIHS sample
+sled acceleration
+s
+and specification corridors
+© 202
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+II)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August 2026
+
+Figure C
+-
+km/h
+delta
+V c
+rash pulses for simulation
+Table C
+Parameters of the standard
+km/h pulse for simulation (
+T0
+-z
+ero cross)
+Acceleration
+p
+ulse
+c
+haracteristic
+Target
+m
+inimum
+Target
+maximum
+Lower
+km/h curve
+Standard
+km/h curve
+Upper
+km/h curve
+Velocity range
+for audit
+(km/h)
+14.815.5
+14.816.2
+15.616.2
+Acceleration at time = 0 ms
+(g)
+ í      J
+0.50 g
+0.00
+0.01
+0.03
+Peak acceleration
+(g)
+9.5 g
+10.5 g
+9.8
+9.9
+10.1
+Time that sled acceleration returns
+to 0 g
+(ms)
+88 ms
+94 ms
+88.2
+88.8
+89.3
+Velocity change (delta V)
+14.8 km/h
+16.2 km/h
+15.0
+15.5
+16.0
+© 202
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I
+)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August 2026
+
+Figure
+C
+-
+-
+km/h
+d
+elta V
+c
+rash pulses for simulation
+Table
+C
+-
+Parameters of the st
+andard 24
+-
+km/h pulse for simulation
+(T0
+-
+z
+er
+o cross)
+Acceleration
+p
+ulse
+c
+haracteristic
+Target
+m
+inimum
+Target
+m
+aximum
+Lower
+-
+km/h curve
+Standard
+-
+km/h curve
+Upper
+-
+km/h curve
+Velocity range
+for audit
+(km/h)
+23.25
+
+24.45
+23.25
+
+25.65
+24.46
+
+25.65
+Acceleration at 3.7 ms
+(g)
+1.0
+1.0
+1.02
+1.02
+1.03
+Velocity change (delta V)
+(km/h)
+23.25
+25.65
+23.57
+24.28
+25.2
+Mean acceleration
+(g)
+5.94
+6.94
+6.20
+6.31
+6.50
+Maximum acceleration
+(g)
+6.75
+8.25
+7.4
+7.6
+8.0
+© 202
+Insurance Institute for Highway Safety
+Whiplash Prevention Evaluation
+Test Protocol (Version
+I
+I
+)
+988 Dairy Rd, Ruckersville, VA 22968. All rights reserved.
+August 2026
+
+Appendix
+D
+:
+List of approved dumm
+y models
+ x
+DYNAmore GmbH LS
+-
+DYNA BioRID
+-
+II
+-
+Version 3.9 or newer
+ x
+PAM
+-
+SAFE BioRID FE model
+
+Version
+.
+or newer
+.
+Appendix
+E
+:
+List of templates and their use
+IIHS Rear Impact Seat Information.xlsx
+is used by IIHS to receive seat
+setup
+information and
+manikin targets from automakers
+.
+{testId} Dummy Seating Form.xlsm
+is used by IIHS
+to collect measurement
+s
+from the seat,
+manikin
+,
+and BioRID during the workflow and testing procedure. This
+sheet (incomplete) will be
+provided in
+S
+tep
+3 of the
+W
+orkflow
+section
+and then again (complete with dummy
+setup
+information)
+after the completion of the
+physical audit test in
+S
+tep 6 of the
+W
+orkflow
+section
+.
+IIHS Rear Impact PHYSICAL TEST Data Submission Template.xlsx
+is used by automakers to
+provide verification test data
+from physical tests to IIHS
+.
+IIHS Rear Impact SIMULATION Data Submission Template.xlsx
+is
+used by automakers to
+provide verification simulation data to IIHS
+.
+Rear impact pulse summary.xlsx
+provides time
+-
+history information for the accepted pulses for
+the 16
+-
+km/h and 24
+-
+km/h
+load cases.
+T
+est results must be provided using the
+s
+tandard pulse from
+each load case.
+Results from the
+l
+ower and
+u
+pper pulses are encouraged but not required.

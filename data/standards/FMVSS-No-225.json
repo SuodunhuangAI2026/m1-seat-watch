@@ -34,12 +34,6 @@
       "version": null,
       "label": null
     },
-    "571.225@current": {
-      "published": "2026-11-05",
-      "form": "html",
-      "url": "https://www.ecfr.gov/current/title-49/section-571.225",
-      "version": null,
-      "label": null
-    }
+    "571.225@current": {}
   }
 }
