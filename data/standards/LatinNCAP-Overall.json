@@ -1,0 +1,32 @@
+{
+  "id": "LatinNCAP-Overall",
+  "no": "（无编号）Latin NCAP Overall Rating 2025 V2.0.1",
+  "title_cn": "Latin NCAP Overall Rating 2025 V2.0.1",
+  "site": "latin",
+  "tier": "T1",
+  "category": "related",
+  "org": "行业标准",
+  "library_editions": [
+    "2.0.1"
+  ],
+  "current_edition": "（无编号）Latin NCAP Overall Rating 2025 V2.0.1@2025-04-29-36838",
+  "entries": [
+    {
+      "no": "（无编号）Latin NCAP Overall Rating 2025 V2.0.1",
+      "name": "Latin NCAP Overall Rating 2025 V2.0.1",
+      "ver": "2.0.1"
+    }
+  ],
+  "locator": {
+    "match": "Overall Rating"
+  },
+  "editions": [
+    "（无编号）Latin NCAP Overall Rating 2025 V2.0.1@2025-04-29-36838"
+  ],
+  "edition_meta": {
+    "（无编号）Latin NCAP Overall Rating 2025 V2.0.1@2025-04-29-36838": {
+      "form": "pdf",
+      "url": "https://www.latinncap.com/data/protocolos/25-04-2025-update/Latin%20NCAP%20Overall%20Rating%202025%20V2.0.1.pdf"
+    }
+  }
+}
