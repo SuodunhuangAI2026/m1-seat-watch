@@ -31,6 +31,19 @@ def esc(v) -> str:
 def load() -> tuple[list[dict], list[dict]]:
     sites = json.loads((DATA / "sites.json").read_text(encoding="utf-8-sig"))["sites"]
     fams = json.loads((DATA / "standards.json").read_text(encoding="utf-8-sig"))["families"]
+    # standards.json 是注册表（静态清单）；抓取后的当前版本在每族的
+    # data/standards/<id>.json 里。这里合并进来，否则页面永远显示"当前版本 —"。
+    for fam in fams:
+        per = DATA / "standards" / f"{fam['id']}.json"
+        if per.exists():
+            try:
+                detail = json.loads(per.read_text(encoding="utf-8-sig"))
+            except (ValueError, OSError):
+                continue
+            if detail.get("current_edition"):
+                fam["current_edition"] = detail["current_edition"]
+            if detail.get("library_editions"):
+                fam["library_editions"] = detail["library_editions"]
     return sites, fams
 
 

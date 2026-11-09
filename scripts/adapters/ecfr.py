@@ -55,13 +55,17 @@ class ECFR:
         body = http.get(url)
         if b"<html" not in body[:2000].lower() and b"<div" not in body[:4000].lower():
             raise AdapterError(f"{family['id']}: eCFR 返回的不是 HTML")
+        # eCFR 是"持续修订"型法典，没有离散版本号；up_to_date_as_of 是每日抓取
+        # 快照日期，把它拼进番号会让每天的出现一个假版本（第一次运行就发生过）。
+        # 改用稳定番号 {section}@current，真实日期放 meta.as_of 记录系数。
         return [
             Document(
                 standard_id=family["id"],
-                edition=f"{section}@{cutoff}",
+                edition=f"{section}@current",
                 url=url,
                 published=cutoff,
-                meta={"section": section, "content_sha256": digest(body), "format": "html"},
+                meta={"section": section, "as_of": cutoff,
+                      "content_sha256": digest(body), "format": "html"},
             )
         ]
 

@@ -11,6 +11,11 @@ MIN_CHARS = 400          # 少于此长度基本不可能是正文
 MIN_PRINTABLE = 0.75     # 可打印字符占比低于此值判为乱码
 
 PAGE_NO = re.compile(r"^\s*(?:[-–—]\s*)?(?:\d{1,4}|page\s+\d+\s*(?:of\s*\d+)?)(?:\s*[-–—])?\s*$", re.I)
+# eCFR 页面顶部的抓取快照横幅（逐日变化）— 不看内容就没法区分真实修订
+ECFR_BANNER = re.compile(
+    r"^\s*Displaying title \d+,? up[- ]to[- ]date as of \d{2}/\d{2}/\d{4}",
+    re.I,
+)
 MULTISPACE = re.compile(r"[ \t\u00a0]{2,}")
 
 
@@ -42,7 +47,16 @@ def clean(text: str) -> str:
     pages = [[ln for ln in p.split("\n") if ln] for p in re.split(r"\n\s*\n", "\n".join(lines))]
     pages = [p for p in pages if p]
 
-    # 页眉页脚识别只在页数足够时做，否则会把正常的重复小标题误删
+    # eCFR 顶部横幅「Displaying title 49, up to date as of 11/05/2026.」逐日变化；
+    # 不过滤的话每天都会被比较成「修改」。逐页过滤，页面若因此变空则丢弃该页。
+    pages_before = len(pages)
+    pages = [[ln for ln in p if not ECFR_BANNER.match(ln)] for p in pages]
+    pages = [p for p in pages if p]
+    if not pages:
+        raise UnusableDocument("整页都是快照横幅（eCFR as-of 日期页）")
+    pages_after = len(pages)
+
+    # 页眉页脚识别只在页数足够时做，只对装满内容的页面做，免得单页被过度识别，否则会把正常的重复小标题误删
     if len(pages) >= 3:
         from collections import Counter
 
