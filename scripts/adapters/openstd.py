@@ -14,9 +14,11 @@ from lxml import html as lxml_html
 from scripts import http
 from scripts.adapters.base import AdapterError, Document
 
+# 关键字搜索：p.p2=<标准号片段>。p.p1=1 强制性国家标准，p.p1=2 推荐性（GB/T）。
+# 直接抓首页（每页 10 条、共 620 页）永远找不到具体标准，必须用关键字过滤。
 LIST_URL = (
-    "https://openstd.samr.gov.cn/bzgk/gb/std_list_type"
-    "?p.p1=1&p.p90=circulation_date&p.p91=desc"
+    "https://openstd.samr.gov.cn/bzgk/std/std_list_type"
+    "?p.p1={p1}&p.p2={kw}&p.p90=circulation_date&p.p91=desc"
 )
 
 # GB 15083-2019 / GB/T 30512-2014
@@ -71,17 +73,21 @@ class OpenStd:
     id = "openstd"
 
     def probe(self, family: dict) -> list[Document]:
+        from urllib.parse import quote
+
         prefix = family_prefix(family)
-        items = parse_list(http.get(LIST_URL, cache=True))
+        # GB/T 走推荐性标准（p1=2），纯 GB 走强制性（p1=1）
+        p1 = 2 if "/T" in prefix else 1
+        url = LIST_URL.format(p1=p1, kw=quote(prefix))
+        items = parse_list(http.get(url, cache=False))
         hits = [i for i in items if i["no"].startswith(prefix + "-") or i["no"] == prefix]
         if not hits:
-            # 强制国标列表只在第一页时，翻页由 P3 再补；这里明确报「未命中」
-            raise AdapterError(f"{family['id']}: 列表页首页没有找到 {prefix}，可能需要翻页")
+            raise AdapterError(f"{family['id']}: 关键字搜索没有找到 {prefix}（p1={p1}）")
         return [
             Document(
                 standard_id=family["id"],
                 edition=i["no"],
-                url=LIST_URL,
+                url=url,
                 published=i["published"],
                 meta={"title": i["name"], "format": "unknown", "tier": "T1/T2"},
             )

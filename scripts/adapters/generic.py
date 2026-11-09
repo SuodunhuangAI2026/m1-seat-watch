@@ -54,10 +54,16 @@ def extract_links(html_text: str, pattern: str) -> list[dict]:
 
 
 def absolute(href: str, base: str) -> str:
-    """相对地址 → 绝对地址。用 urljoin 而不是拼字符串，免得 /a/b.pdf 拼成 /x/a/b.pdf。"""
+    """相对地址 → 绝对地址。用 urljoin 而不是拼字符串，免得 /a/b.pdf 拼成 /x/a/b.pdf。
+
+    另外把空格等控制字符做百分号编码——LatinNCAP 的 PDF 文件名带空格，
+    直接当 URL 会抛 InvalidURL（实测）。
+    """
     if href.startswith("//"):
-        return "https:" + href
-    return urljoin(base, href)
+        href = "https:" + href
+        return href.replace(" ", "%20")
+    out = urljoin(base, href)
+    return out.replace(" ", "%20")
 
 
 def claim(links: list[dict], rule: str) -> list[dict]:

@@ -41,6 +41,8 @@ jobs:
       # 退出码 124 = 被 timeout 杀掉，属于预期，不算失败，继续往下建站。
       - name: 探测
         id: probe
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             timeout --signal=KILL 1600 python run.py --now --probe-only || {

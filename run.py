@@ -163,6 +163,10 @@ def _family_job(family_id: str) -> dict:
     except normalize.UnusableDocument as e:
         return {"id": family_id, "stage": "needs_manual", "edition": latest.edition,
                 "error": str(e)}
+    except AdapterError as e:
+        # 适配器明确拒抓（如 openstd 正文是扫描件）→ 元数据拿到了，正文转人工
+        return {"id": family_id, "stage": "needs_manual", "edition": latest.edition,
+                "error": str(e)}
     except Exception as e:  # noqa: BLE001
         err = f"{type(e).__name__}: {e}"
         return {"id": family_id, "stage": "fetch_failed", "edition": latest.edition,
@@ -249,13 +253,15 @@ def run_probe(only: list[str] | None = None) -> dict:
             out_path.unlink()
         except OSError:
             pass
+        site_cfg = sites.get(site) or {}
+        fam_timeout = float(site_cfg.get("timeout_seconds") or per_family_s)
         proc = subprocess.Popen(
             [sys.executable, str(ROOT / "run.py"), "--one", sid, "--out", str(out_path)],
             cwd=ROOT,
         )
         timed_out = False
         try:
-            proc.wait(timeout=per_family_s)
+            proc.wait(timeout=fam_timeout)
         except subprocess.TimeoutExpired:
             timed_out = True
             proc.kill()
@@ -266,9 +272,9 @@ def run_probe(only: list[str] | None = None) -> dict:
 
         if timed_out:
             health[sid] = {"ok": False, "status": "timeout",
-                           "error": f"超过 {int(per_family_s)}s 未返回，已强杀子进程"}
-            down[site] = f"超过 {int(per_family_s)}s 未返回"
-            print(f"  [超时] {sid}: 超过 {int(per_family_s)}s 未返回（已强杀）", flush=True)
+                           "error": f"超过 {int(fam_timeout)}s 未返回，已强杀子进程"}
+            down[site] = f"超过 {int(fam_timeout)}s 未返回"
+            print(f"  [超时] {sid}: 超过 {int(fam_timeout)}s 未返回（已强杀）", flush=True)
             continue
 
         if not out_path.exists():

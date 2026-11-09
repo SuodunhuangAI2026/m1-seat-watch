@@ -74,7 +74,8 @@
       "link_pattern": "\\.pdf$",
       "probe_mode": "head",
       "doc_format": "pdf",
-      "adapter": "generic"
+      "adapter": "generic",
+      "timeout_seconds": 120
     },
     {
       "id": "adr",
@@ -115,7 +116,8 @@
       "link_pattern": "\\.pdf$",
       "probe_mode": "head",
       "doc_format": "pdf",
-      "adapter": "generic"
+      "adapter": "generic",
+      "timeout_seconds": 120
     },
     {
       "id": "jncap",
@@ -127,7 +129,8 @@
       "link_pattern": "\\.pdf$",
       "probe_mode": "head",
       "doc_format": "pdf",
-      "adapter": "generic"
+      "adapter": "generic",
+      "timeout_seconds": 120
     },
     {
       "id": "ancap",
@@ -165,7 +168,8 @@
       "link_pattern": "\\.(pdf|docx?)$",
       "probe_mode": "head",
       "doc_format": "pdf",
-      "adapter": "generic"
+      "adapter": "generic",
+      "timeout_seconds": 120
     },
     {
       "id": "eurlex",
