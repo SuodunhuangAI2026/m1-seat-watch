@@ -7,7 +7,7 @@
   "category": "core",
   "org": "行业标准",
   "library_editions": [],
-  "current_edition": "（无编号）Whiplash prevention evaluation test protocol Dec2025@2026-08-31-03298",
+  "current_edition": "（无编号）Whiplash prevention evaluation test protocol Dec2025@2026-08-31-65584",
   "entries": [
     {
       "no": "（无编号）Whiplash prevention evaluation test protocol Dec2025",
@@ -20,7 +20,8 @@
   },
   "editions": [
     "（无编号）Whiplash prevention evaluation test protocol Dec2025@2026-08-31-03674",
-    "（无编号）Whiplash prevention evaluation test protocol Dec2025@2026-08-31-03298"
+    "（无编号）Whiplash prevention evaluation test protocol Dec2025@2026-08-31-03298",
+    "（无编号）Whiplash prevention evaluation test protocol Dec2025@2026-08-31-65584"
   ],
   "edition_meta": {
     "（无编号）Whiplash prevention evaluation test protocol Dec2025@2026-08-31-03674": {
@@ -28,6 +29,10 @@
       "url": "https://www.iihs.org/media/78db7ffe-2fac-41a7-b27c-c536cd4a3724/TZqZng/Ratings/Protocols/current/Whiplash_prevention_test_protocol_Aug2026.pdf"
     },
     "（无编号）Whiplash prevention evaluation test protocol Dec2025@2026-08-31-03298": {
+      "form": "pdf",
+      "url": "https://www.iihs.org/media/78db7ffe-2fac-41a7-b27c-c536cd4a3724/TZqZng/Ratings/Protocols/current/Whiplash_prevention_test_protocol_Aug2026.pdf"
+    },
+    "（无编号）Whiplash prevention evaluation test protocol Dec2025@2026-08-31-65584": {
       "form": "pdf",
       "url": "https://www.iihs.org/media/78db7ffe-2fac-41a7-b27c-c536cd4a3724/TZqZng/Ratings/Protocols/current/Whiplash_prevention_test_protocol_Aug2026.pdf"
     }

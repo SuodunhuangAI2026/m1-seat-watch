@@ -1,0 +1,30 @@
+{
+  "id": "IIHS-Whiplash-Rating",
+  "no": "（无编号）Whiplash prevention rating guidelines Dec2025",
+  "title_cn": "Whiplash prevention rating guidelines Dec2025",
+  "site": "iihs",
+  "tier": "T1",
+  "category": "core",
+  "org": "行业标准",
+  "library_editions": [],
+  "current_edition": "（无编号）Whiplash prevention rating guidelines Dec2025@2026-08-31-48227",
+  "entries": [
+    {
+      "no": "（无编号）Whiplash prevention rating guidelines Dec2025",
+      "name": "Whiplash prevention rating guidelines Dec2025",
+      "ver": "—"
+    }
+  ],
+  "locator": {
+    "match": "Whiplash prevention evaluation rating guidelines|Whiplash_prevention_rating_guidelines"
+  },
+  "editions": [
+    "（无编号）Whiplash prevention rating guidelines Dec2025@2026-08-31-48227"
+  ],
+  "edition_meta": {
+    "（无编号）Whiplash prevention rating guidelines Dec2025@2026-08-31-48227": {
+      "form": "pdf",
+      "url": "https://www.iihs.org/media/bac2f0b0-2cf1-4930-8153-e08aff358e1e/beCZrA/Ratings/Protocols/current/Whiplash_prevention_rating_guidelines_Aug2026.pdf"
+    }
+  }
+}
