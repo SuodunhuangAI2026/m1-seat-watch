@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-11-25-CMVSS-202",
+    "no": "CMVSS 202",
+    "title": "头枕（Head Restraints）",
+    "from": "C.R.C._c._1038@2026-10-19",
+    "to": "C.R.C._c._1038@2026-10-29",
+    "summary": "疑似与原判断不符：该变更为 CMVSS 202 头枕法规的版本更新，涉及前言及第21、22条（已废止条款）的编辑性修改；头枕属于座椅总成部件，与座椅直接相关。",
+    "date": "2026-11-25",
+    "type": "AMENDMENT"
+  },
+  {
     "id": "2026-11-09-ANCAP-Rear-Impact",
     "no": "（无编号）Crash Protection - Rear Impact",
     "title": "Crash Protection - Rear Impact",

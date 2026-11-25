@@ -9,7 +9,7 @@
   "library_editions": [
     "Rev.1"
   ],
-  "current_edition": "C.R.C._c._1038@2026-10-19",
+  "current_edition": "C.R.C._c._1038@2026-10-29",
   "entries": [
     {
       "no": "CMVSS 202",
@@ -21,9 +21,17 @@
     "match": "202"
   },
   "editions": [
-    "C.R.C._c._1038@2026-10-19"
+    "C.R.C._c._1038@2026-10-19",
+    "C.R.C._c._1038@2026-10-29"
   ],
   "edition_meta": {
-    "C.R.C._c._1038@2026-10-19": {}
+    "C.R.C._c._1038@2026-10-19": {},
+    "C.R.C._c._1038@2026-10-29": {
+      "published": "2026-10-29",
+      "form": "html",
+      "url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._1038/FULLText.html",
+      "version": null,
+      "label": null
+    }
   }
 }

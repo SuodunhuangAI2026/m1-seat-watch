@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-11T08:56:19+08:00",
+  "checked_at": "2026-11-25T08:34:46+08:00",
   "checked": 72,
-  "fetched": 4,
+  "fetched": 2,
   "families": {
     "ADR-3-04": {
       "ok": false,
@@ -80,18 +80,15 @@
     "IIHS-Whiplash-Protocol": {
       "ok": true,
       "status": "unchanged_content",
-      "edition": "（无编号）Whiplash prevention evaluation test protocol Dec2025@2026-08-31-65584",
+      "edition": "（无编号）Whiplash prevention evaluation test protocol Dec2025@2026-08-31-42692",
       "form": "pdf",
       "chars": 107976,
       "versions": 1
     },
     "IIHS-Whiplash-Rating": {
-      "ok": true,
-      "status": "new",
-      "edition": "（无编号）Whiplash prevention rating guidelines Dec2025@2026-08-31-48227",
-      "form": "pdf",
-      "chars": 16912,
-      "versions": 2
+      "ok": false,
+      "status": "timeout",
+      "error": "超过 120s 未返回，已强杀子进程"
     },
     "KNCAP-TP-CS-7": {
       "ok": false,
@@ -136,14 +133,18 @@
     },
     "CMVSS-202": {
       "ok": true,
-      "status": "unchanged",
-      "edition": "C.R.C._c._1038@2026-10-19",
-      "versions": 1
+      "status": "changed",
+      "edition": "C.R.C._c._1038@2026-10-29",
+      "form": "html",
+      "chars": 455251,
+      "versions": 1,
+      "diff_total": 2,
+      "analyzed": true
     },
     "CMVSS-207": {
       "ok": true,
       "status": "unchanged",
-      "edition": "C.R.C._c._1038@2026-10-19",
+      "edition": "C.R.C._c._1038@2026-10-29",
       "versions": 1
     },
     "T-CAAMTB-284-2025": {
@@ -188,20 +189,14 @@
       "error": "同站点已失败，本次跳过：FetchError: 网络异常: The read operation timed out https://www.infrastructure.gov.au/infrastructure-transport-vehicles/vehicles/vehicle-design-regulation"
     },
     "ANCAP-Overall": {
-      "ok": true,
-      "status": "unchanged_content",
-      "edition": "（无编号）Overall Assessment@2026-07-03-85076",
-      "form": "pdf",
-      "chars": 6928,
-      "versions": 4
+      "ok": false,
+      "status": "timeout",
+      "error": "超过 45s 未返回，已强杀子进程"
     },
     "ANCAP-Rear-Impact": {
-      "ok": true,
-      "status": "unchanged_content",
-      "edition": "（无编号）Crash Protection - Rear Impact@2026-08-12-38135",
-      "form": "pdf",
-      "chars": 86722,
-      "versions": 5
+      "ok": false,
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：超过 45s 未返回"
     },
     "ASEAN-AOP-3.0": {
       "ok": false,
@@ -291,14 +286,13 @@
     },
     "IIHS-LATCH-Protocol": {
       "ok": false,
-      "status": "needs_manual",
-      "edition": "（无编号）LATCH protocol@2016-08-16-80190",
-      "error": "PDF 文本可读率 52%（多为 CJK 字体未映射），不做 OCR"
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：超过 120s 未返回"
     },
     "IIHS-LATCH-Rating": {
       "ok": false,
-      "status": "timeout",
-      "error": "超过 120s 未返回，已强杀子进程"
+      "status": "site_down",
+      "error": "同站点已失败，本次跳过：超过 120s 未返回"
     },
     "JNCAP-2023-Procedures": {
       "ok": false,
@@ -364,25 +358,25 @@
     "CMVSS-201": {
       "ok": true,
       "status": "unchanged",
-      "edition": "C.R.C._c._1038@2026-10-19",
+      "edition": "C.R.C._c._1038@2026-10-29",
       "versions": 1
     },
     "CMVSS-208": {
       "ok": true,
       "status": "unchanged",
-      "edition": "C.R.C._c._1038@2026-10-19",
+      "edition": "C.R.C._c._1038@2026-10-29",
       "versions": 1
     },
     "CMVSS-210": {
       "ok": true,
       "status": "unchanged",
-      "edition": "C.R.C._c._1038@2026-10-19",
+      "edition": "C.R.C._c._1038@2026-10-29",
       "versions": 1
     },
     "CMVSS-302": {
       "ok": true,
       "status": "unchanged",
-      "edition": "C.R.C._c._1038@2026-10-19",
+      "edition": "C.R.C._c._1038@2026-10-29",
       "versions": 1
     },
     "UN-R118": {

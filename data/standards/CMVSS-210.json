@@ -7,7 +7,7 @@
   "category": "related",
   "org": "CMVSS",
   "library_editions": [],
-  "current_edition": "C.R.C._c._1038@2026-10-19",
+  "current_edition": "C.R.C._c._1038@2026-10-29",
   "entries": [
     {
       "no": "CMVSS 210",
@@ -19,9 +19,11 @@
     "match": "210"
   },
   "editions": [
-    "C.R.C._c._1038@2026-10-19"
+    "C.R.C._c._1038@2026-10-19",
+    "C.R.C._c._1038@2026-10-29"
   ],
   "edition_meta": {
-    "C.R.C._c._1038@2026-10-19": {}
+    "C.R.C._c._1038@2026-10-19": {},
+    "C.R.C._c._1038@2026-10-29": {}
   }
 }
